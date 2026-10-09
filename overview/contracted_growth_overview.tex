@@ -1,0 +1,255 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1.8cm]{geometry}
+\usepackage{booktabs,array,xcolor,microtype,graphicx}
+\usepackage[colorlinks=true,linkcolor=accent,urlcolor=accent]{hyperref}
+
+\definecolor{accent}{HTML}{176B57}
+\definecolor{rule}{HTML}{C9C4B5}
+\definecolor{soft}{HTML}{F3F1EA}
+\definecolor{muted}{HTML}{55605F}
+
+\setlength{\parskip}{0.38em}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.18}
+
+\newcommand{\eyebrow}[1]{%
+  \vspace{0.9em}{\color{accent}\footnotesize\bfseries\MakeUppercase{#1}}\\[-0.35em]
+  {\color{rule}\hrule height 0.9pt}\vspace{0.5em}}
+\newcommand{\lead}[1]{{\large #1}\par}
+
+\begin{document}
+\pagestyle{empty}
+
+{\color{accent}\footnotesize\bfseries TECHNICAL OVERVIEW}
+\hfill{\color{muted}\footnotesize 9 October 2026}
+
+\vspace{0.4em}
+{\Huge\bfseries Contracted Growth}\\[0.35em]
+{\large\color{muted} Classifiers that absorb new classes without changing the
+answers they have already given}
+
+\vspace{0.6em}
+{\color{rule}\hrule height 1.4pt}
+\vspace{0.9em}
+
+\lead{A deployed classifier that must learn new categories today has two
+options. Retrain it, which costs a full training run and requires that all the
+original data still be held; or update its weights on the new data, which is
+cheap but silently rewrites its behaviour on everything it already knew. In both
+cases the amount forgotten can only be \emph{measured}, after the fact, on a
+test set one happens to have kept.}
+
+This system takes a third route. It is assembled from \textbf{frozen modules},
+each publishing a finite, machine-checkable statement of which inputs it is
+willing to answer. New capacity is added only where the current system
+\emph{declines} to answer, and nothing already in place is modified. Retention
+therefore stops being a score and becomes a property that can be checked:
+across twelve benchmarks and three feature substrates, adding capacity changed
+\textbf{no previously given answers}, verified bit for bit, in every run.
+
+\vspace{0.35em}
+{\color{rule}\hrule height 0.9pt}
+\vspace{0.45em}
+\begin{tabular}{@{}p{3.55cm}p{3.55cm}p{3.55cm}p{3.55cm}@{}}
+{\Large\bfseries\color{accent} 0} & {\Large\bfseries\color{accent} 0.0000} &
+{\Large\bfseries\color{accent} 7/7} & {\Large\bfseries\color{accent} none}\\[-0.15em]
+{\footnotesize\color{muted} previously given answers changed by an update ---
+verified bit for bit} &
+{\footnotesize\color{muted} answers issued outside a checkable specification,
+across 45 evaluation runs} &
+{\footnotesize\color{muted} datasets where accuracy exceeds the best published
+adaptive-tuning result} &
+{\footnotesize\color{muted} raw samples, exemplars or generators retained
+between updates}\\
+\end{tabular}
+\vspace{0.3em}
+{\color{rule}\hrule height 0.9pt}
+
+\eyebrow{What the system provides}
+
+\textbf{1. Updates are additive, and provably so.} An update can extend what the
+system answers; it cannot alter an answer already given. This is a structural
+property of the composition, not a regularisation penalty, so it is verified by
+comparison rather than estimated on a benchmark.
+
+\textbf{2. Every answer is covered by a checkable statement, and the system may
+decline.} In all 45 evaluation runs the fraction of answers issued outside a
+satisfied specification was \textbf{0.0000}. Every accuracy figure here counts a
+declined input as an \emph{error}, so none is flattered by abstention.
+
+\textbf{3. Every structural change is gated on held-out data.} Reorganisations
+that would make the system more accurate or more compact are proposed
+automatically, then have to pass an acceptance test before they are adopted, and
+a refusal is recorded with its reason. Over 66 gated decisions on two
+independent blocks of unseen seeds, 24 changes were adopted,
+one of them a regression --- 0.7 accuracy points, below the
+test's own resolution. Of 57 consolidations replayed against real held-out
+data, none showed negative evidence; in a separate audit of 21
+historical decisions the test refuses all 4 known-harmful changes.
+
+\textbf{4. Nothing raw is retained.} No exemplar buffer and no generative replay
+of samples: the published specifications are what the system rehearses against.
+This matters where the training data cannot be kept --- retention periods,
+personal data, licensed corpora.
+
+\newpage
+
+\eyebrow{Accuracy against published state of the art}
+
+The standard exemplar-free class-incremental protocol for pre-trained models: a
+frozen public vision encoder (ViT-B/16, ImageNet-21k), classes revealed in equal
+steps, nothing stored between steps, class order shuffled per seed. Figures are
+last-step accuracy on the full test set after the final step, averaged over
+three evaluation seeds never used during development. Percentages.
+
+\vspace{0.2em}
+\begin{tabular}{@{}llrrr@{\hspace{1.6em}}rr@{}}
+\toprule
+& & \multicolumn{3}{c}{\emph{published}} & \multicolumn{2}{c}{\emph{this system}}\\
+\cmidrule(r){3-5}\cmidrule(l){6-7}
+dataset & protocol & SimpleCIL & APER & RanPAC & accuracy & stable\\
+\midrule
+CIFAR-100 & 100 classes / 10 steps & 81.3 & 87.5 & 92.2 & \textbf{90.6} & 86.7 \\
+ImageNet-R & 200 / 10 & 54.6 & 69.5 & 77.9 & \textbf{76.3} & 69.5 \\
+ImageNet-A & 200 / 10 & 48.9 & 50.0 & 62.4 & \textbf{55.9} & 51.6 \\
+CUB-200 & 200 / 10 & 86.7 & 87.1 & 90.3 & \textbf{89.1} & 85.4 \\
+ObjectNet-200 & 200 / 10 & 53.6 & 58.2 & --- & \textbf{63.9} & 53.6 \\
+OmniBenchmark & 300 / 10 & 73.2 & 74.5 & 79.9 & \textbf{76.6} & 71.1 \\
+VTAB & 50 / 5 & 84.4 & 85.4 & 92.2 & \textbf{93.9} & 88.2 \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.35em}
+{\footnotesize\color{muted}
+\textbf{SimpleCIL} and \textbf{APER} (best per-dataset variant of the two
+reported): Zhou et al., \emph{Revisiting Class-Incremental Learning with
+Pre-Trained Models}, arXiv:2303.07338v1, supplementary tables, ImageNet-21k
+block of the split matching ours; last-step accuracy. \textbf{RanPAC}:
+McDonnell et al., NeurIPS 2023, Table~1; its metric is the final average of
+per-step accuracies and its per-dataset encoder checkpoint is not stated in the
+paper, so that column is close to but not identical in definition to the others.
+ObjectNet is not evaluated in RanPAC. \textbf{accuracy} and \textbf{stable} are
+two configurations of this system, both fully covered by checkable
+specifications; only \emph{stable} carries the bitwise-additive guarantee (see
+overleaf).}
+
+\vspace{0.5em}
+The accuracy configuration is \textbf{above every published APER variant, and
+above SimpleCIL, on all seven datasets}. Against
+RanPAC --- the strongest published exemplar-free result on this protocol --- it
+is ahead on 1 dataset, within 1.6 points on
+3 more, and behind by 3.3 and 6.5 points on the other two. No published
+method in this comparison reports whether its updates change answers it had
+already given. The whole table was then re-run on three further seeds that had
+never been used: no accuracy cell moved by more than 1.4 points, and the
+additive guarantee held on all 21 runs.
+
+On the smaller exemplar-free benchmarks the same picture holds with the
+comparison that is hardest to argue with: on split-MNIST class-incremental the
+stable configuration reaches \textbf{89.3\%} storing nothing, against
+87.1\% for replay trained on exactly the same data while retaining 100 raw
+images per class.
+
+\eyebrow{What it costs, stated plainly}
+
+\textbf{Accuracy and bitwise stability are two configurations, not a slider.}
+The stable configuration is additive by construction. The accuracy
+configuration re-derives one readout when a step completes, which moves
+7 to 105 of every 100 previously given answers over a run. We
+tried the obvious remedy --- freezing that readout the way the modules are
+frozen --- and it does deliver exact stability, at a cost of 21 to
+54 accuracy points, for a reason we can state precisely and which no
+amount of engineering inside that design removes. We report the two
+configurations separately rather than blur them.
+
+\textbf{The encoder is frozen and public.} These results ride on the quality of
+a pre-trained feature extractor; we do not claim gains for training an encoder
+from scratch, and the system inherits the encoder's blind spots. An optional
+one-off adaptation step on the first batch of classes is used above; on one of
+the seven datasets it slightly \emph{lowers} feature quality, and the internal
+gate caught that on all three seeds without being told.
+
+\textbf{The gate needs held-out data, and says how much.} The acceptance test is
+a statistical one: it reports the smallest regression it could have detected,
+rather than failing silently on a small validation split.
+
+\newpage
+
+\eyebrow{Beyond images}
+
+The same system, with no code or setting changed, has run on two
+intent-classification streams over a frozen sentence encoder (77 and 150
+classes in 11 and 10 steps) and on an intrusion-detection stream of raw
+network-flow records where attack categories appear a pair at a time. The
+guarantees carried over unchanged, and on all three the accuracy configuration
+matched or exceeded replay trained on the same data (93.9 / 96.5 vs.\
+91.8 / 95.6 on text, 95.1 vs.\ 95.1 on the tabular stream). Where the
+simplest configuration was weak on the tabular records, the system's own gate
+refused every reorganisation built on it --- correctly.
+
+\eyebrow{The axis the published work does not occupy}
+
+{\small
+\begin{tabular}{@{}p{6.5cm}p{5.4cm}p{4.9cm}@{}}
+\toprule
+property & this system & published continual learning\\
+\midrule
+answers changed by an update & \textbf{0}, verified bit for bit, every run &
+measured after the fact, never guaranteed\\
+answers outside a checkable specification & \textbf{0.0000} over 45 evaluation
+runs & not reported\\
+structural changes gated on held-out data & yes; refusals logged with reasons &
+no gate\\
+raw data retained & \textbf{none} & buffer or generator\\
+a module rebuilt from its published specification alone & agrees with the
+original on 92\% of its region & not applicable\\
+the system's own forecast of its future drift & published before each change and
+met in 49 of 54 events against a 25\% budget & not applicable\\
+\bottomrule
+\end{tabular}}
+
+\eyebrow{How these numbers were produced}
+
+This is a research programme run to an evaluation discipline that anyone can
+audit from the repository:
+
+$\bullet$~Development seeds and evaluation seeds are disjoint. Every threshold
+and configuration was frozen before an evaluation seed was run; the acceptance
+test, the one component tuned later, is confirmed a second time on a further
+untouched block of seeds.
+
+$\bullet$~No number is typed by hand. Every figure in this document, including
+each one above, is regenerated by a single program from per-seed raw records;
+the 629 result files behind it are content-hashed.
+
+$\bullet$~Published comparisons come from the source PDFs, with table, metric,
+encoder and protocol recorded per cell --- an audit that has already corrected
+one of our own anchor rows and retired three of our own claims. Refusals and
+negative results are reported as results.
+
+\eyebrow{Where the details are}
+
+How a specification is represented and solved, how declining is induced in an
+already-frozen module, how the acceptance test is calibrated, and the parameter
+budgets are in the repository that produced this overview and reproduces every
+row of it: \texttt{APPROACH.md}, \texttt{TECHNICAL.md}, and \texttt{REPORT.md}
+with every negative result.
+
+\eyebrow{Where it fits}
+
+The value is not a point on a leaderboard --- it is an update you can defend:
+regulated classification, clinical and industrial inspection, financial-crime
+typologies that grow monthly, edge deployments that cannot phone home to
+retrain.
+
+\vspace{0.9em}
+{\color{rule}\hrule height 0.9pt}
+\vspace{0.5em}
+{\footnotesize\color{muted}Charles Grellois, University of Sheffield ---
+\href{mailto:c.grellois@sheffield.ac.uk}{c.grellois@sheffield.ac.uk}.
+Generated 9 October 2026 by \texttt{gen\_overview.py} from
+\texttt{results/claims.json}.}
+
+\end{document}

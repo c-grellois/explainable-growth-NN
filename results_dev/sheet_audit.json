@@ -1,0 +1,386 @@
+{
+ "sweeps": [
+  {
+   "seed": 0,
+   "union": [
+    {
+     "organ": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 0.9925775978407557,
+     "acc_before": 0.9925775978407557,
+     "acc_after": 1.0
+    }
+   ],
+   "refit": [
+    {
+     "organ": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 0.9925775978407557,
+     "acc_before": 0.9925775978407557,
+     "acc_after": 1.0
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "union": [
+    {
+     "organ": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 0.9386909693454847,
+     "acc_before": 0.9378624689312345,
+     "acc_after": 0.9993311036789297
+    }
+   ],
+   "refit": [
+    {
+     "organ": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 0.9395194697597349,
+     "acc_before": 0.9378624689312345,
+     "acc_after": 0.998661311914324
+    }
+   ]
+  }
+ ],
+ "shapes": [
+  {
+   "seed": 0,
+   "union": [
+    {
+     "organ": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    }
+   ],
+   "refit": [
+    {
+     "organ": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "union": [
+    {
+     "organ": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 0.999315537303217,
+     "acc_before": 0.999315537303217,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    }
+   ],
+   "refit": [
+    {
+     "organ": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 0.999315537303217,
+     "acc_before": 0.999315537303217,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    },
+    {
+     "organ": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "coverage_kept": 1.0,
+     "agreement": 1.0,
+     "acc_before": 1.0,
+     "acc_after": 1.0
+    }
+   ]
+  }
+ ]
+}

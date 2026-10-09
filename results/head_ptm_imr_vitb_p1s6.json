@@ -1,0 +1,146 @@
+[
+ {
+  "seed": 6,
+  "cache": "ptm_imr_vitb_p1s6",
+  "M": 2000,
+  "n_classes": 200,
+  "inc": 20,
+  "lambda": 10.0,
+  "forced": 0.7488333333333334,
+  "strict": 0.7445,
+  "coverage": 0.9833333333333333,
+  "precision": 0.7571186440677966,
+  "tau": 1.0907119966485634e-05,
+  "rho_in": 2.048191296659605,
+  "strict_margin_only": 0.7488333333333334,
+  "answer_flips_under_growth": 1629,
+  "n_test": 6000,
+  "head_params": 1936000,
+  "gram_floats": 4000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 10.0,
+    "forced_seen": 0.9235537190082644
+   },
+   {
+    "task": 1,
+    "lambda": 10.0,
+    "forced_seen": 0.8714759535655058
+   },
+   {
+    "task": 2,
+    "lambda": 10.0,
+    "forced_seen": 0.8418577307466196
+   },
+   {
+    "task": 3,
+    "lambda": 1.0,
+    "forced_seen": 0.8127147766323024
+   },
+   {
+    "task": 4,
+    "lambda": 10.0,
+    "forced_seen": 0.7981969486823856
+   },
+   {
+    "task": 5,
+    "lambda": 1.0,
+    "forced_seen": 0.7854101617939256
+   },
+   {
+    "task": 6,
+    "lambda": 0.1,
+    "forced_seen": 0.7740686985970004
+   },
+   {
+    "task": 7,
+    "lambda": 0.1,
+    "forced_seen": 0.7641884816753927
+   },
+   {
+    "task": 8,
+    "lambda": 1.0,
+    "forced_seen": 0.7573115349682107
+   },
+   {
+    "task": 9,
+    "lambda": 10.0,
+    "forced_seen": 0.7488333333333334
+   }
+  ],
+  "elapsed_s": 35.832077741622925
+ },
+ {
+  "seed": 6,
+  "cache": "ptm_imr_vitb_p1s6",
+  "M": 10000,
+  "n_classes": 200,
+  "inc": 20,
+  "lambda": 10.0,
+  "forced": 0.7705,
+  "strict": 0.7655,
+  "coverage": 0.9878333333333333,
+  "precision": 0.7749282942466678,
+  "tau": 2.9040257865903252e-05,
+  "rho_in": 2.1067589523767087,
+  "strict_margin_only": 0.7705,
+  "answer_flips_under_growth": 1983,
+  "n_test": 6000,
+  "head_params": 9680000,
+  "gram_floats": 100000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 1.0,
+    "forced_seen": 0.9173553719008265
+   },
+   {
+    "task": 1,
+    "lambda": 1.0,
+    "forced_seen": 0.857379767827529
+   },
+   {
+    "task": 2,
+    "lambda": 1.0,
+    "forced_seen": 0.8336272780717225
+   },
+   {
+    "task": 3,
+    "lambda": 1.0,
+    "forced_seen": 0.8015463917525774
+   },
+   {
+    "task": 4,
+    "lambda": 1.0,
+    "forced_seen": 0.7947295423023578
+   },
+   {
+    "task": 5,
+    "lambda": 1.0,
+    "forced_seen": 0.7805847289242123
+   },
+   {
+    "task": 6,
+    "lambda": 1.0,
+    "forced_seen": 0.779874213836478
+   },
+   {
+    "task": 7,
+    "lambda": 1.0,
+    "forced_seen": 0.7740314136125654
+   },
+   {
+    "task": 8,
+    "lambda": 1.0,
+    "forced_seen": 0.7689373297002725
+   },
+   {
+    "task": 9,
+    "lambda": 10.0,
+    "forced_seen": 0.7705
+   }
+  ],
+  "elapsed_s": 349.934002161026
+ }
+]

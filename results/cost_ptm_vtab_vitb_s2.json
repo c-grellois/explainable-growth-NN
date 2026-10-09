@@ -1,0 +1,62 @@
+{
+ "cache": "ptm_vtab_vitb",
+ "seed": 2,
+ "d": 768,
+ "n_classes": 50,
+ "inc": 10,
+ "n_train": 1617,
+ "encoder": {
+  "name": "vitb",
+  "params": 86000000,
+  "gmac_per_image": 17.6,
+  "d": 768
+ },
+ "rows": {
+  "protos": {
+   "state_floats": 961302,
+   "learning_state_floats": 0,
+   "inference_mac": 76032,
+   "update_s_one_task": 0.4571218490600586,
+   "answers_change_under_growth": false
+  },
+  "head_M2000": {
+   "state_floats": 2597300,
+   "learning_state_floats": 4100000,
+   "inference_mac": 1673632,
+   "update_s_one_task": 2.225743532180786,
+   "update_s_one_task_with_lambda_grid": 14.244758605957031,
+   "answers_change_under_growth": true
+  },
+  "head_M10000": {
+   "state_floats": 9141300,
+   "learning_state_floats": 100500000,
+   "inference_mac": 8217632,
+   "update_s_one_task": 82.80989408493042,
+   "update_s_one_task_with_lambda_grid": 529.9833221435547,
+   "answers_change_under_growth": true
+  },
+  "ranpac_M10000_published": {
+   "state_floats": 8180000,
+   "learning_state_floats": 100500000,
+   "inference_mac": 8180000,
+   "update_s_one_task": null,
+   "answers_change_under_growth": true,
+   "note": "arithmetic from the published configuration; not run"
+  },
+  "cascade": {
+   "state_floats": 1824164,
+   "learning_state_floats": 0,
+   "inference_mac": 2519236,
+   "n_organs": 5,
+   "n_vetoes": 15,
+   "update_s_one_task": 86.08297991752625,
+   "answers_change_under_growth": false,
+   "growth_total_s": 430.4148995876312
+  },
+  "replay_buffer_20_per_class": {
+   "raw_bytes": 150528000,
+   "feature_floats": 768000,
+   "note": "storage only; the classifier it trains is a 2-layer MLP (see baselines)"
+  }
+ }
+}

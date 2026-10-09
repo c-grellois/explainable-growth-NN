@@ -1,0 +1,158 @@
+{
+ "mnist:no_veto": [
+  {
+   "growth": 0.3662285714285714,
+   "adol": 0.4975428571428571,
+   "adol_ok": true,
+   "pfc_ok": true,
+   "final": 0.7392571428571428,
+   "seed": 2
+  },
+  {
+   "growth": 0.35137142857142856,
+   "adol": 0.5161142857142857,
+   "adol_ok": true,
+   "pfc_ok": true,
+   "final": 0.7133142857142857,
+   "seed": 3
+  },
+  {
+   "growth": 0.34937142857142856,
+   "adol": 0.5298285714285714,
+   "adol_ok": true,
+   "pfc_ok": true,
+   "final": 0.7250285714285715,
+   "seed": 4
+  }
+ ],
+ "cifar_vitb:no_veto": [
+  {
+   "growth": 0.1051,
+   "adol": 0.2134,
+   "adol_ok": true,
+   "pfc_ok": 0.0,
+   "final": 0.2134,
+   "seed": 2
+  },
+  {
+   "growth": 0.1329,
+   "adol": 0.3151,
+   "adol_ok": true,
+   "pfc_ok": 0.0,
+   "final": 0.3151,
+   "seed": 3
+  },
+  {
+   "growth": 0.1316,
+   "adol": 0.4899,
+   "adol_ok": true,
+   "pfc_ok": 0.0,
+   "final": 0.4899,
+   "seed": 4
+  }
+ ],
+ "mnist:no_cap": [
+  {
+   "growth": 0.8925714285714286,
+   "adol": 0.8925714285714286,
+   "adol_ok": false,
+   "pfc_ok": 0.0,
+   "final": 0.8925714285714286,
+   "seed": 2
+  },
+  {
+   "growth": 0.892,
+   "adol": 0.892,
+   "adol_ok": false,
+   "pfc_ok": 0.0,
+   "final": 0.892,
+   "seed": 3
+  },
+  {
+   "growth": 0.8899428571428571,
+   "adol": 0.8899428571428571,
+   "adol_ok": false,
+   "pfc_ok": 0.0,
+   "final": 0.8899428571428571,
+   "seed": 4
+  }
+ ],
+ "cifar_vitb:no_cap": [
+  {
+   "growth": 0.6298,
+   "adol": 0.7586,
+   "adol_ok": true,
+   "pfc_ok": 0.0,
+   "final": 0.7586,
+   "seed": 2
+  },
+  {
+   "growth": 0.6437,
+   "adol": 0.7617,
+   "adol_ok": true,
+   "pfc_ok": 0.0,
+   "final": 0.7617,
+   "seed": 3
+  },
+  {
+   "growth": 0.6437,
+   "adol": 0.7627,
+   "adol_ok": true,
+   "pfc_ok": 0.0,
+   "final": 0.7627,
+   "seed": 4
+  }
+ ],
+ "mnist:no_adol": [
+  {
+   "growth": 0.8933142857142857,
+   "adol": 0.8933142857142857,
+   "adol_ok": false,
+   "pfc_ok": true,
+   "final": 0.9164,
+   "seed": 2
+  },
+  {
+   "growth": 0.8948,
+   "adol": 0.8948,
+   "adol_ok": false,
+   "pfc_ok": true,
+   "final": 0.9163428571428571,
+   "seed": 3
+  },
+  {
+   "growth": 0.8876571428571428,
+   "adol": 0.8876571428571428,
+   "adol_ok": false,
+   "pfc_ok": true,
+   "final": 0.9119428571428572,
+   "seed": 4
+  }
+ ],
+ "cifar_vitb:no_adol": [
+  {
+   "growth": 0.654,
+   "adol": 0.654,
+   "adol_ok": false,
+   "pfc_ok": true,
+   "final": 0.7418,
+   "seed": 2
+  },
+  {
+   "growth": 0.6794,
+   "adol": 0.6794,
+   "adol_ok": false,
+   "pfc_ok": true,
+   "final": 0.7478,
+   "seed": 3
+  },
+  {
+   "growth": 0.6681,
+   "adol": 0.6681,
+   "adol_ok": false,
+   "pfc_ok": true,
+   "final": 0.7393,
+   "seed": 4
+  }
+ ]
+}

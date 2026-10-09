@@ -1,0 +1,1285 @@
+[
+ {
+  "seed": 3,
+  "containers": "taxonomy",
+  "child": "proto-two-step",
+  "within_vetoes_total": 44,
+  "within_growth_flips_total": 0,
+  "container_members": {
+   "0": [
+    4,
+    30,
+    55,
+    72,
+    95
+   ],
+   "1": [
+    1,
+    32,
+    67,
+    73,
+    91
+   ],
+   "2": [
+    54,
+    62,
+    70,
+    82,
+    92
+   ],
+   "3": [
+    9,
+    10,
+    16,
+    28,
+    61
+   ],
+   "4": [
+    0,
+    51,
+    53,
+    57,
+    83
+   ],
+   "5": [
+    22,
+    39,
+    40,
+    86,
+    87
+   ],
+   "6": [
+    5,
+    20,
+    25,
+    84,
+    94
+   ],
+   "7": [
+    6,
+    7,
+    14,
+    18,
+    24
+   ],
+   "8": [
+    3,
+    42,
+    43,
+    88,
+    97
+   ],
+   "9": [
+    12,
+    17,
+    37,
+    68,
+    76
+   ],
+   "10": [
+    23,
+    33,
+    49,
+    60,
+    71
+   ],
+   "11": [
+    15,
+    19,
+    21,
+    31,
+    38
+   ],
+   "12": [
+    34,
+    63,
+    64,
+    66,
+    75
+   ],
+   "13": [
+    26,
+    45,
+    77,
+    79,
+    99
+   ],
+   "14": [
+    2,
+    11,
+    35,
+    46,
+    98
+   ],
+   "15": [
+    27,
+    29,
+    44,
+    78,
+    93
+   ],
+   "16": [
+    36,
+    50,
+    65,
+    74,
+    80
+   ],
+   "17": [
+    47,
+    52,
+    56,
+    59,
+    96
+   ],
+   "18": [
+    8,
+    13,
+    48,
+    58,
+    90
+   ],
+   "19": [
+    41,
+    69,
+    81,
+    85,
+    89
+   ]
+  },
+  "stageA": {
+   "tasks": [
+    [
+     6,
+     7,
+     11,
+     18,
+     19
+    ],
+    [
+     1,
+     2,
+     8,
+     12,
+     16
+    ],
+    [
+     0,
+     5,
+     9,
+     13,
+     17
+    ],
+    [
+     3,
+     4,
+     10,
+     14,
+     15
+    ]
+   ],
+   "growth_flips": 0,
+   "vetoes_total": 31,
+   "n_params": 854528,
+   "coarse_strict": 0.7931,
+   "coarse_forced": 0.7943,
+   "coarse_coverage": 0.9821,
+   "coarse_precision": 0.8075552387740556,
+   "coarse_mean_radius": 0.017415286726967585
+  },
+  "children": [
+   {
+    "superclass": 7,
+    "fine_classes": [
+     6,
+     7,
+     14,
+     18,
+     24
+    ],
+    "n_train_routed": 934,
+    "n_val_routed": 92,
+    "container_recall_train": 0.8214599824098505,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      6,
+      7,
+      14
+     ],
+     [
+      18,
+      24
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 2,
+    "within_tighten_abstentions": 44,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.4350282485875706,
+      0.096045197740113
+     ]
+    ],
+    "n_params": 3840,
+    "name": "insects"
+   },
+   {
+    "superclass": 19,
+    "fine_classes": [
+     41,
+     69,
+     81,
+     85,
+     89
+    ],
+    "n_train_routed": 917,
+    "n_val_routed": 103,
+    "container_recall_train": 0.8172905525846702,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      41,
+      69,
+      81
+     ],
+     [
+      85,
+      89
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 4,
+    "within_tighten_abstentions": 191,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.7632241813602015,
+      0.0327455919395466
+     ]
+    ],
+    "n_params": 3840,
+    "name": "vehicles 2"
+   },
+   {
+    "superclass": 11,
+    "fine_classes": [
+     15,
+     19,
+     21,
+     31,
+     38
+    ],
+    "n_train_routed": 995,
+    "n_val_routed": 101,
+    "container_recall_train": 0.8728070175438597,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      15,
+      19,
+      21
+     ],
+     [
+      31,
+      38
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 2,
+    "within_tighten_abstentions": 81,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.36318407960199006,
+      0.03980099502487562
+     ]
+    ],
+    "n_params": 3840,
+    "name": "large omnivores and herbivores"
+   },
+   {
+    "superclass": 18,
+    "fine_classes": [
+     8,
+     13,
+     48,
+     58,
+     90
+    ],
+    "n_train_routed": 909,
+    "n_val_routed": 98,
+    "container_recall_train": 0.8087188612099644,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      8,
+      13,
+      48
+     ],
+     [
+      58,
+      90
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 2,
+    "within_tighten_abstentions": 123,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.8173652694610778,
+      0.05089820359281437
+     ]
+    ],
+    "n_params": 3840,
+    "name": "vehicles 1"
+   },
+   {
+    "superclass": 6,
+    "fine_classes": [
+     5,
+     20,
+     25,
+     84,
+     94
+    ],
+    "n_train_routed": 946,
+    "n_val_routed": 107,
+    "container_recall_train": 0.8416370106761566,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      5,
+      20,
+      25
+     ],
+     [
+      84,
+      94
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 4,
+    "within_tighten_abstentions": 64,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.38873239436619716,
+      0.08169014084507042
+     ]
+    ],
+    "n_params": 3840,
+    "name": "household furniture"
+   },
+   {
+    "superclass": 12,
+    "fine_classes": [
+     34,
+     63,
+     64,
+     66,
+     75
+    ],
+    "n_train_routed": 896,
+    "n_val_routed": 100,
+    "container_recall_train": 0.8028673835125448,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      34,
+      63,
+      64
+     ],
+     [
+      66,
+      75
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 1,
+    "within_tighten_abstentions": 52,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.24242424242424243,
+      0.005509641873278237
+     ]
+    ],
+    "n_params": 3840,
+    "name": "medium mammals"
+   },
+   {
+    "superclass": 8,
+    "fine_classes": [
+     3,
+     42,
+     43,
+     88,
+     97
+    ],
+    "n_train_routed": 932,
+    "n_val_routed": 87,
+    "container_recall_train": 0.8204225352112676,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      3,
+      42,
+      43
+     ],
+     [
+      88,
+      97
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 2,
+    "within_tighten_abstentions": 170,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.8938271604938272,
+      0.056790123456790124
+     ]
+    ],
+    "n_params": 3840,
+    "name": "large carnivores"
+   },
+   {
+    "superclass": 16,
+    "fine_classes": [
+     36,
+     50,
+     65,
+     74,
+     80
+    ],
+    "n_train_routed": 894,
+    "n_val_routed": 105,
+    "container_recall_train": 0.7953736654804271,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      36,
+      50,
+      65
+     ],
+     [
+      74,
+      80
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 2,
+    "within_tighten_abstentions": 90,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.5737179487179487,
+      0.07371794871794872
+     ]
+    ],
+    "n_params": 3840,
+    "name": "small mammals"
+   },
+   {
+    "superclass": 1,
+    "fine_classes": [
+     1,
+     32,
+     67,
+     73,
+     91
+    ],
+    "n_train_routed": 940,
+    "n_val_routed": 118,
+    "container_recall_train": 0.8468468468468469,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      1,
+      32,
+      67
+     ],
+     [
+      73,
+      91
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 2,
+    "within_tighten_abstentions": 76,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.4575342465753425,
+      0.10410958904109589
+     ]
+    ],
+    "n_params": 3840,
+    "name": "fish"
+   },
+   {
+    "superclass": 2,
+    "fine_classes": [
+     54,
+     62,
+     70,
+     82,
+     92
+    ],
+    "n_train_routed": 991,
+    "n_val_routed": 139,
+    "container_recall_train": 0.9025500910746812,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      54,
+      62,
+      70
+     ],
+     [
+      82,
+      92
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 3,
+    "within_tighten_abstentions": 74,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.5338345864661654,
+      0.10025062656641603
+     ]
+    ],
+    "n_params": 3840,
+    "name": "flowers"
+   },
+   {
+    "superclass": 5,
+    "fine_classes": [
+     22,
+     39,
+     40,
+     86,
+     87
+    ],
+    "n_train_routed": 931,
+    "n_val_routed": 93,
+    "container_recall_train": 0.8188214599824098,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      22,
+      39,
+      40
+     ],
+     [
+      86,
+      87
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 2,
+    "within_tighten_abstentions": 104,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.4651741293532338,
+      0.024875621890547265
+     ]
+    ],
+    "n_params": 3840,
+    "name": "household electrical devices"
+   },
+   {
+    "superclass": 9,
+    "fine_classes": [
+     12,
+     17,
+     37,
+     68,
+     76
+    ],
+    "n_train_routed": 849,
+    "n_val_routed": 92,
+    "container_recall_train": 0.7519929140832595,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      12,
+      17,
+      37
+     ],
+     [
+      68,
+      76
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 2,
+    "within_tighten_abstentions": 94,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.4623955431754875,
+      0.019498607242339833
+     ]
+    ],
+    "n_params": 3840,
+    "name": "large man-made outdoor things"
+   },
+   {
+    "superclass": 0,
+    "fine_classes": [
+     4,
+     30,
+     55,
+     72,
+     95
+    ],
+    "n_train_routed": 747,
+    "n_val_routed": 83,
+    "container_recall_train": 0.6634103019538188,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      4,
+      30,
+      55
+     ],
+     [
+      72,
+      95
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 3,
+    "within_tighten_abstentions": 91,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.890728476821192,
+      0.2052980132450331
+     ]
+    ],
+    "n_params": 3840,
+    "name": "aquatic mammals"
+   },
+   {
+    "superclass": 17,
+    "fine_classes": [
+     47,
+     52,
+     56,
+     59,
+     96
+    ],
+    "n_train_routed": 840,
+    "n_val_routed": 81,
+    "container_recall_train": 0.7381370826010545,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      47,
+      52,
+      56
+     ],
+     [
+      59,
+      96
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 3,
+    "within_tighten_abstentions": 12,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.21978021978021978,
+      0.08058608058608059
+     ]
+    ],
+    "n_params": 3840,
+    "name": "trees"
+   },
+   {
+    "superclass": 13,
+    "fine_classes": [
+     26,
+     45,
+     77,
+     79,
+     99
+    ],
+    "n_train_routed": 862,
+    "n_val_routed": 89,
+    "container_recall_train": 0.7669039145907474,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      26,
+      45,
+      77
+     ],
+     [
+      79,
+      99
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 1,
+    "within_tighten_abstentions": 66,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.4310850439882698,
+      0.04105571847507331
+     ]
+    ],
+    "n_params": 3840,
+    "name": "non-insect invertebrates"
+   },
+   {
+    "superclass": 3,
+    "fine_classes": [
+     9,
+     10,
+     16,
+     28,
+     61
+    ],
+    "n_train_routed": 1028,
+    "n_val_routed": 129,
+    "container_recall_train": 0.927797833935018,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      9,
+      10,
+      16
+     ],
+     [
+      28,
+      61
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 1,
+    "within_tighten_abstentions": 145,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.9666666666666667,
+      0.25
+     ]
+    ],
+    "n_params": 3840,
+    "name": "food containers"
+   },
+   {
+    "superclass": 15,
+    "fine_classes": [
+     27,
+     29,
+     44,
+     78,
+     93
+    ],
+    "n_train_routed": 788,
+    "n_val_routed": 72,
+    "container_recall_train": 0.6918349429323969,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      27,
+      29,
+      44
+     ],
+     [
+      78,
+      93
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 2,
+    "within_tighten_abstentions": 46,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.3013698630136986,
+      0.13013698630136986
+     ]
+    ],
+    "n_params": 3840,
+    "name": "reptiles"
+   },
+   {
+    "superclass": 14,
+    "fine_classes": [
+     2,
+     11,
+     35,
+     46,
+     98
+    ],
+    "n_train_routed": 1020,
+    "n_val_routed": 99,
+    "container_recall_train": 0.8994708994708994,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      2,
+      11,
+      35
+     ],
+     [
+      46,
+      98
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 2,
+    "within_tighten_abstentions": 26,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.2740740740740741,
+      0.12345679012345678
+     ]
+    ],
+    "n_params": 3840,
+    "name": "people"
+   },
+   {
+    "superclass": 10,
+    "fine_classes": [
+     23,
+     33,
+     49,
+     60,
+     71
+    ],
+    "n_train_routed": 975,
+    "n_val_routed": 104,
+    "container_recall_train": 0.8728737690241719,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      23,
+      33,
+      49
+     ],
+     [
+      60,
+      71
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 3,
+    "within_tighten_abstentions": 194,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.84251968503937,
+      0.15223097112860892
+     ]
+    ],
+    "n_params": 3840,
+    "name": "large natural outdoor scenes"
+   },
+   {
+    "superclass": 4,
+    "fine_classes": [
+     0,
+     51,
+     53,
+     57,
+     83
+    ],
+    "n_train_routed": 977,
+    "n_val_routed": 115,
+    "container_recall_train": 0.8746642793196061,
+    "child": "proto-two-step",
+    "grew": true,
+    "n_organs": 2,
+    "steps": [
+     [
+      0,
+      51,
+      53
+     ],
+     [
+      57,
+      83
+     ]
+    ],
+    "within_growth_flips": 0,
+    "within_vetoes": 1,
+    "within_tighten_abstentions": 6,
+    "within_tighten_answer_changes": 0,
+    "within_fa_before_after": [
+     [
+      0.05970149253731343,
+      0.03731343283582089
+     ]
+    ],
+    "n_params": 3840,
+    "name": "fruit and vegetables"
+   }
+  ],
+  "n_children": 20,
+  "children_params": 76800,
+  "fine_flips": 0,
+  "curve": [
+   {
+    "coarse_strict": 0.7931,
+    "coarse_forced": 0.7943,
+    "coarse_coverage": 0.9821,
+    "fine_strict": 0.0724,
+    "fine_forced": 0.0749,
+    "answered_fine": 0.0859,
+    "answered_coarse_only": 0.8962,
+    "abstained": 0.0179,
+    "fine_precision": 0.8428405122235157,
+    "coarse_only_coarse_acc": 0.7991519750055791,
+    "fine_strict_on_refined": 0.724,
+    "fine_forced_on_refined": 0.749,
+    "refined": [
+     7,
+     19
+    ]
+   },
+   {
+    "coarse_strict": 0.7931,
+    "coarse_forced": 0.7943,
+    "coarse_coverage": 0.9821,
+    "fine_strict": 0.1482,
+    "fine_forced": 0.1539,
+    "answered_fine": 0.1698,
+    "answered_coarse_only": 0.8123,
+    "abstained": 0.0179,
+    "fine_precision": 0.872791519434629,
+    "coarse_only_coarse_acc": 0.7833312815462268,
+    "fine_strict_on_refined": 0.741,
+    "fine_forced_on_refined": 0.7695,
+    "refined": [
+     7,
+     19,
+     11,
+     18
+    ]
+   },
+   {
+    "coarse_strict": 0.7931,
+    "coarse_forced": 0.7943,
+    "coarse_coverage": 0.9821,
+    "fine_strict": 0.2164,
+    "fine_forced": 0.2262,
+    "answered_fine": 0.2519,
+    "answered_coarse_only": 0.7302,
+    "abstained": 0.0179,
+    "fine_precision": 0.8590710599444223,
+    "coarse_only_coarse_acc": 0.7703368940016434,
+    "fine_strict_on_refined": 0.7213333333333334,
+    "fine_forced_on_refined": 0.754,
+    "refined": [
+     7,
+     19,
+     11,
+     18,
+     6,
+     12
+    ]
+   },
+   {
+    "coarse_strict": 0.7931,
+    "coarse_forced": 0.7943,
+    "coarse_coverage": 0.9821,
+    "fine_strict": 0.2895,
+    "fine_forced": 0.3009,
+    "answered_fine": 0.3381,
+    "answered_coarse_only": 0.644,
+    "abstained": 0.0179,
+    "fine_precision": 0.8562555456965395,
+    "coarse_only_coarse_acc": 0.7524844720496895,
+    "fine_strict_on_refined": 0.72375,
+    "fine_forced_on_refined": 0.75225,
+    "refined": [
+     7,
+     19,
+     11,
+     18,
+     6,
+     12,
+     8,
+     16
+    ]
+   },
+   {
+    "coarse_strict": 0.7931,
+    "coarse_forced": 0.7943,
+    "coarse_coverage": 0.9821,
+    "fine_strict": 0.3653,
+    "fine_forced": 0.3798,
+    "answered_fine": 0.425,
+    "answered_coarse_only": 0.5571,
+    "abstained": 0.0179,
+    "fine_precision": 0.8595294117647059,
+    "coarse_only_coarse_acc": 0.7221324717285945,
+    "fine_strict_on_refined": 0.7306,
+    "fine_forced_on_refined": 0.7596,
+    "refined": [
+     7,
+     19,
+     11,
+     18,
+     6,
+     12,
+     8,
+     16,
+     1,
+     2
+    ]
+   },
+   {
+    "coarse_strict": 0.7931,
+    "coarse_forced": 0.7943,
+    "coarse_coverage": 0.9821,
+    "fine_strict": 0.4351,
+    "fine_forced": 0.4522,
+    "answered_fine": 0.5059,
+    "answered_coarse_only": 0.4762,
+    "abstained": 0.0179,
+    "fine_precision": 0.8600513935560388,
+    "coarse_only_coarse_acc": 0.6904661906761865,
+    "fine_strict_on_refined": 0.7251666666666666,
+    "fine_forced_on_refined": 0.7536666666666667,
+    "refined": [
+     7,
+     19,
+     11,
+     18,
+     6,
+     12,
+     8,
+     16,
+     1,
+     2,
+     5,
+     9
+    ]
+   },
+   {
+    "coarse_strict": 0.7931,
+    "coarse_forced": 0.7943,
+    "coarse_coverage": 0.9821,
+    "fine_strict": 0.4852,
+    "fine_forced": 0.5038,
+    "answered_fine": 0.5797,
+    "answered_coarse_only": 0.4024,
+    "abstained": 0.0179,
+    "fine_precision": 0.8369846472313266,
+    "coarse_only_coarse_acc": 0.6535785288270378,
+    "fine_strict_on_refined": 0.6931428571428572,
+    "fine_forced_on_refined": 0.7197142857142858,
+    "refined": [
+     7,
+     19,
+     11,
+     18,
+     6,
+     12,
+     8,
+     16,
+     1,
+     2,
+     5,
+     9,
+     0,
+     17
+    ]
+   },
+   {
+    "coarse_strict": 0.7931,
+    "coarse_forced": 0.7943,
+    "coarse_coverage": 0.9821,
+    "fine_strict": 0.5497,
+    "fine_forced": 0.5707,
+    "answered_fine": 0.6694,
+    "answered_coarse_only": 0.3127,
+    "abstained": 0.0179,
+    "fine_precision": 0.8211831490887361,
+    "coarse_only_coarse_acc": 0.5999360409338024,
+    "fine_strict_on_refined": 0.687125,
+    "fine_forced_on_refined": 0.713375,
+    "refined": [
+     7,
+     19,
+     11,
+     18,
+     6,
+     12,
+     8,
+     16,
+     1,
+     2,
+     5,
+     9,
+     0,
+     17,
+     13,
+     3
+    ]
+   },
+   {
+    "coarse_strict": 0.7931,
+    "coarse_forced": 0.7943,
+    "coarse_coverage": 0.9821,
+    "fine_strict": 0.5971,
+    "fine_forced": 0.6242,
+    "answered_fine": 0.7504,
+    "answered_coarse_only": 0.2317,
+    "abstained": 0.0179,
+    "fine_precision": 0.7957089552238806,
+    "coarse_only_coarse_acc": 0.5390591281829953,
+    "fine_strict_on_refined": 0.6634444444444444,
+    "fine_forced_on_refined": 0.6935555555555556,
+    "refined": [
+     7,
+     19,
+     11,
+     18,
+     6,
+     12,
+     8,
+     16,
+     1,
+     2,
+     5,
+     9,
+     0,
+     17,
+     13,
+     3,
+     15,
+     14
+    ]
+   },
+   {
+    "coarse_strict": 0.7931,
+    "coarse_forced": 0.7943,
+    "coarse_coverage": 0.9821,
+    "fine_strict": 0.6678,
+    "fine_forced": 0.699,
+    "answered_fine": 0.8469,
+    "answered_coarse_only": 0.1352,
+    "abstained": 0.0179,
+    "fine_precision": 0.7885228480340064,
+    "coarse_only_coarse_acc": 0.3624260355029586,
+    "fine_strict_on_refined": 0.6678,
+    "fine_forced_on_refined": 0.699,
+    "refined": [
+     7,
+     19,
+     11,
+     18,
+     6,
+     12,
+     8,
+     16,
+     1,
+     2,
+     5,
+     9,
+     0,
+     17,
+     13,
+     3,
+     15,
+     14,
+     10,
+     4
+    ]
+   }
+  ],
+  "final": {
+   "coarse_strict": 0.7931,
+   "coarse_forced": 0.7943,
+   "coarse_coverage": 0.9821,
+   "fine_strict": 0.6678,
+   "fine_forced": 0.699,
+   "answered_fine": 0.8469,
+   "answered_coarse_only": 0.1352,
+   "abstained": 0.0179,
+   "fine_precision": 0.7885228480340064,
+   "coarse_only_coarse_acc": 0.3624260355029586,
+   "fine_strict_on_refined": 0.6678,
+   "fine_forced_on_refined": 0.699,
+   "refined": [
+    7,
+    19,
+    11,
+    18,
+    6,
+    12,
+    8,
+    16,
+    1,
+    2,
+    5,
+    9,
+    0,
+    17,
+    13,
+    3,
+    15,
+    14,
+    10,
+    4
+   ]
+  },
+  "elapsed_s": 346.8366255760193
+ }
+]

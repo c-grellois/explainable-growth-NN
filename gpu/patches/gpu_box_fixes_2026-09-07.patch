@@ -1,0 +1,214 @@
+--- gpu/patches/organ.py.orig	2026-09-07 07:22:50.397329300 +0100
++++ cgrow/organ.py	2026-09-07 07:23:35.091454900 +0100
+@@ -161,13 +161,14 @@
+         if (not self.vetoes or self.prox is None
+                 or self.prox.name not in ("pca", "mix")):
+             return vetoed, veto_r
+-        P, ci = self._proj_nearest(X)
++        projs, ci = self._proj_nearest(X)
+         for class_idx, net, theta, L_in in self.vetoes:
+             sel = ci == class_idx
+             if not sel.any():
+                 continue
+             with torch.no_grad():
+-                p = torch.sigmoid(net(torch.as_tensor(P[sel], dtype=DTYPE))
++                p = torch.sigmoid(net(torch.as_tensor(projs[class_idx][sel],
++                                                      dtype=DTYPE))
+                                   ).numpy().ravel()
+             vetoed[sel] |= p > theta
+             veto_r[sel] = np.minimum(veto_r[sel],
+@@ -175,8 +176,18 @@
+         return vetoed, veto_r
+ 
+     def _proj_nearest(self, X: np.ndarray):
+-        """Whitened PCA coordinates of each sample in its nearest class
+-        territory (PCAProx only)."""
++        """Whitened PCA coordinates of every sample in EVERY class territory
++        (PCAProx only), plus the index of each sample's nearest territory.
++
++        Returns (projs, ci): projs[j] has shape (n, q_j) and ci[i] is the
++        territory whose coordinates judge sample i, so a consumer wanting the
++        nearest-territory coordinates of the samples routed to territory j
++        takes projs[j][ci == j]. Territories may have different widths q_j
++        (PCAProx.fit caps q at n_c - 1 for a class with few samples), so the
++        rows must NOT be stacked into one (n, q) array. 2026-09-07 GPU-box
++        fix: the previous np.stack over mixed widths raised ValueError on the
++        PTM suite (see PTM_RESULTS.md §3); for equal widths the per-territory
++        arrays hold exactly the values the stack used to hold."""
+         pr = self.prox
+         best = np.full(len(X), np.inf)
+         ci = np.zeros(len(X), dtype=int)
+@@ -194,8 +205,7 @@
+             take = s < best
+             best[take] = s[take]; ci[take] = j
+             projs.append(pw)
+-        P = np.stack([projs[ci[i]][i] for i in range(len(X))])
+-        return P, ci
++        return projs, ci
+ 
+     def add_veto(self, X_fa: np.ndarray, theta_q: float = 0.97,
+                  min_neg: int = 10, seed: int = 0,
+@@ -210,14 +220,14 @@
+         if (self.prox is None or self.prox.name not in ("pca", "mix")
+                 or len(X_fa) < min_neg):
+             return 0
+-        P, ci = self._proj_nearest(X_fa)
+-        P_self = ci_self = None
++        projs, ci = self._proj_nearest(X_fa)
++        projs_self = ci_self = None
+         if X_self is not None and len(X_self):
+-            P_self, ci_self = self._proj_nearest(X_self)
++            projs_self, ci_self = self._proj_nearest(X_self)
+         rng = np.random.default_rng(seed)
+         added = 0
+         for j in range(len(self.prox.classes)):
+-            neg = P[ci == j]
++            neg = projs[j][ci == j]
+             if len(neg) < min_neg:
+                 continue
+             q = neg.shape[1]
+@@ -241,12 +251,12 @@
+             # conformal w.r.t. the spec's model: a fresh exact-spec sample
+             # passes this veto with probability >= theta_q
+             theta = conformal_quantile(p_syn, 1.0 - theta_q)
+-            if P_self is not None:
++            if projs_self is not None:
+                 sel = ci_self == j
+                 if sel.any():
+                     with torch.no_grad():
+                         p_real = torch.sigmoid(net(torch.as_tensor(
+-                            P_self[sel], dtype=DTYPE))).numpy().ravel()
++                            projs_self[j][sel], dtype=DTYPE))).numpy().ravel()
+                     if (p_real > theta).mean() > max_self_loss:
+                         continue        # verified too costly on real own data
+             # input -> whitened coords is linear with spectral norm 1/sqrt(lam_min);
+--- gpu/patches/adolescence.py.orig	2026-09-07 07:22:50.426330500 +0100
++++ cgrow/adolescence.py	2026-09-07 07:24:03.570733300 +0100
+@@ -104,8 +104,22 @@
+ 
+ 
+ def _strict_per_class(pred, accepted, y, classes):
++    """Strict per-class accuracy; NaN for a class absent from y (no evidence).
++    Callers aggregate with the nan-aware helpers below so that an unobserved
++    class neither counts as 0 nor poisons min/mean (2026-09-07 GPU-box fix:
++    with plain min/mean a single NaN made every gate comparison False, i.e.
++    silently accepted, on datasets where a class has too few samples to
++    appear in the synthetic holdout)."""
+     return np.array([float((accepted & (pred == c))[y == c].mean())
+-                     for c in classes])
++                     if (y == c).any() else np.nan for c in classes])
++
++
++def _agg(pc):
++    """(min, mean, n_observed) over the classes that have holdout evidence."""
++    obs = pc[~np.isnan(pc)]
++    if len(obs) == 0:
++        return float("nan"), float("nan"), 0
++    return float(obs.min()), float(obs.mean()), int(len(obs))
+ 
+ 
+ def _inherit_territory(org: Organism):
+@@ -136,20 +150,27 @@
+         rep["why"] = f"vacuous: holdout coverage {rep['syn_holdout_coverage']:.3f}"
+         return False, rep
+     pc_C = _strict_per_class(pred, acc_mask, y_ho, classes)
+-    rep["class_floor"] = float(pc_C.min())
+-    rep["class_mean"] = float(pc_C.mean())
++    c_min, c_mean, n_obs = _agg(pc_C)
++    rep["class_floor"] = c_min
++    rep["class_mean"] = c_mean
++    rep["classes_observed_in_holdout"] = n_obs
++    rep["classes_total"] = len(classes)
++    if n_obs == 0:
++        rep["why"] = "no class of C appears in the synthetic holdout"
++        return False, rep
+     if ref_org is not None:
+         r = ref_org.predict(X_ho)
+         pc_ref = _strict_per_class(r["pred"], r["pred"] != ABSTAIN, y_ho, classes)
+-        rep["ref_class_floor"] = float(pc_ref.min())
+-        rep["ref_class_mean"] = float(pc_ref.mean())
+-        if pc_C.mean() < pc_ref.mean() - cfg.get("adol_mean_slack", 0.02):
+-            rep["why"] = (f"mean regressed: {pc_C.mean():.3f} vs "
+-                          f"ref {pc_ref.mean():.3f}")
++        r_min, r_mean, _ = _agg(pc_ref)
++        rep["ref_class_floor"] = r_min
++        rep["ref_class_mean"] = r_mean
++        if c_mean < r_mean - cfg.get("adol_mean_slack", 0.02):
++            rep["why"] = (f"mean regressed: {c_mean:.3f} vs "
++                          f"ref {r_mean:.3f}")
+             return False, rep
+-        if pc_C.min() < pc_ref.min() - cfg.get("adol_floor_slack", 0.05):
+-            rep["why"] = (f"worst class regressed: {pc_C.min():.3f} vs "
+-                          f"ref {pc_ref.min():.3f}")
++        if c_min < r_min - cfg.get("adol_floor_slack", 0.05):
++            rep["why"] = (f"worst class regressed: {c_min:.3f} vs "
++                          f"ref {r_min:.3f}")
+             return False, rep
+         return True, rep
+     if rep["class_floor"] < cfg.get("adol_class_floor", 0.75):
+@@ -216,8 +237,30 @@
+     ho, tr = perm[:n_hold], perm[n_hold:]
+     classes = sorted(set(int(c) for o in org.organs for c in o.class_ids))
+ 
+-    Xn = X_syn[tr] / (np.linalg.norm(X_syn[tr], axis=1, keepdims=True) + 1e-9)
+-    anchors = np.stack([Xn[y_syn[tr] == c].mean(axis=0) for c in classes])
++    # 2026-09-07 GPU-box fix. A class can have NO synthetic sample: either the
++    # 80/20 split left none in `tr` (rare classes), or no organ's territory
++    # covers it at all (PCAProx.fit skips classes with < 3 samples, so
++    # prox.sample never emits them; ImageNet-A has classes with 2 train
++    # images). The old code took the mean of an empty slice (NaN anchor,
++    # RuntimeWarning) and carried the NaN into the organ. Now: fall back to
++    # the class's samples in the whole pool; if it has none anywhere, C does
++    # not represent that class (the cascade below C still answers it) and the
++    # report says so.
++    Xn_all = X_syn / (np.linalg.norm(X_syn, axis=1, keepdims=True) + 1e-9)
++    in_tr = np.zeros(len(X_syn), bool); in_tr[tr] = True
++    kept, dropped, from_pool, anchors = [], [], [], []
++    for c in classes:
++        m_tr = in_tr & (y_syn == c)
++        m_all = y_syn == c
++        if m_tr.any():
++            anchors.append(Xn_all[m_tr].mean(axis=0)); kept.append(c)
++        elif m_all.any():
++            anchors.append(Xn_all[m_all].mean(axis=0)); kept.append(c)
++            from_pool.append(c)
++        else:
++            dropped.append(c)
++    classes = kept
++    anchors = np.stack(anchors)
+     anchors /= (np.linalg.norm(anchors, axis=1, keepdims=True) + 1e-9)
+     C = ProtoOrgan(in_dim, classes, anchors,
+                    min_norm=float(np.linalg.norm(X_syn[tr], axis=1).min()),
+@@ -227,7 +270,9 @@
+     solved = C.solve_thresholds(X_syn[ho], y_syn[ho],
+                                 p_target=cfg.get("p_target", 0.9), require=True)
+     report = {"accepted": False, "classes": classes, "mode": "protos",
+-              "params_C": C.n_params()}
++              "params_C": C.n_params(),
++              "classes_dropped_no_pool": dropped,
++              "classes_anchored_from_holdout": from_pool}
+     if solved is None:
+         report["why"] = "no threshold meets target on synthetic holdout"
+         return org, report
+--- gpu/patches/exp_lifecycle.py.orig	2026-09-07 07:26:46.395379900 +0100
++++ exp_lifecycle.py	2026-09-07 07:26:03.697255500 +0100
+@@ -152,9 +152,17 @@
+     val_ref = org2.scores(Xva_last, yva_last)["strict"]
+     # the arbiter must strictly IMPROVE, not merely match: a routing module that
+     # only matches carries synthetic-real risk with no upside (robot taught this)
+-    accepted = (pc_new.mean() >= pc_ref.mean() + 0.01
+-                and pc_new.min() >= pc_ref.min() - 0.05
++    # 2026-09-07 GPU-box fix: _strict_per_class is NaN for a class with no
++    # sample in the synthetic holdout (possible on datasets with rare
++    # classes, e.g. ImageNet-A; never on CIFAR). Plain mean/min would then be
++    # NaN and every comparison False -> a refusal by arithmetic, not by
++    # evidence. Aggregate over the observed classes instead; the rule itself
++    # (strict improvement of the mean, floor within 0.05, no val regression)
++    # is unchanged.
++    accepted = (np.nanmean(pc_new) >= np.nanmean(pc_ref) + 0.01
++                and np.nanmin(pc_new) >= np.nanmin(pc_ref) - 0.05
+                 and val_new >= val_ref)
++    out["arbiter_classes_unobserved_in_holdout"] = int(np.isnan(pc_new).sum())
+     out["pfc_accepted_old"] = bool(accepted)
+ 
+     # --- the REPAIRED gate: territory (data-free) + escrow (McNemar on a

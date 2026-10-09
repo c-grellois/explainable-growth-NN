@@ -1,0 +1,944 @@
+{
+ "digits": [
+  {
+   "seed": 0,
+   "strict_A": 0.8285077951002228,
+   "strict_B": 0.8730512249443207,
+   "strict_merged": 0.9086859688195991,
+   "strict_after": 0.8953229398663697,
+   "organs_before": 10,
+   "deaths": 4,
+   "death_frac": 0.4,
+   "verdict": "PASS",
+   "params_before": 73248,
+   "params_after": 31392,
+   "total_flips": 8,
+   "refusal_causes": {},
+   "worst_class_drop_refused": 0.0,
+   "log": [
+    {
+     "classes": [
+      4,
+      5
+     ],
+     "cov_kept": 0.9877363311190598,
+     "acc_with": 0.966,
+     "acc_without": 0.9535,
+     "global_acc": 0.9566666666666667,
+     "global_anchor": 0.96,
+     "val_without": 0.7894736842105263,
+     "val_anchor": 0.7894736842105263,
+     "worst_class": 4,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 0,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      6,
+      7
+     ],
+     "cov_kept": 0.9934409687184662,
+     "acc_with": 0.97,
+     "acc_without": 0.9625,
+     "global_acc": 0.9533333333333334,
+     "global_anchor": 0.96,
+     "val_without": 0.7894736842105263,
+     "val_anchor": 0.7894736842105263,
+     "worst_class": 4,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 2,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      8,
+      9
+     ],
+     "cov_kept": 0.9964556962025316,
+     "acc_with": 0.8955,
+     "acc_without": 0.8865,
+     "global_acc": 0.95,
+     "global_anchor": 0.96,
+     "val_without": 0.7894736842105263,
+     "val_anchor": 0.7894736842105263,
+     "worst_class": 4,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 1,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      0,
+      1
+     ],
+     "cov_kept": 0.9984909456740443,
+     "acc_with": 0.9925,
+     "acc_without": 0.9825,
+     "global_acc": 0.9483333333333334,
+     "global_anchor": 0.96,
+     "val_without": 0.7894736842105263,
+     "val_anchor": 0.7894736842105263,
+     "worst_class": 4,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 5,
+     "params_freed": 5232
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "strict_A": 0.8752783964365256,
+   "strict_B": 0.8841870824053452,
+   "strict_merged": 0.8953229398663697,
+   "strict_after": 0.8953229398663697,
+   "organs_before": 10,
+   "deaths": 1,
+   "death_frac": 0.1,
+   "verdict": "PARTIAL",
+   "params_before": 57552,
+   "params_after": 47088,
+   "total_flips": 0,
+   "refusal_causes": {},
+   "worst_class_drop_refused": 0.0,
+   "log": [
+    {
+     "classes": [
+      6,
+      7
+     ],
+     "cov_kept": 0.9919597989949749,
+     "acc_with": 0.9245,
+     "acc_without": 0.9165,
+     "global_acc": 0.9216666666666666,
+     "global_anchor": 0.9233333333333333,
+     "val_without": 0.9117647058823529,
+     "val_anchor": 0.9117647058823529,
+     "worst_class": 7,
+     "worst_class_drop": 0.01666666666666672,
+     "fails": [],
+     "real_test_flips": 0,
+     "params_freed": 5232
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "strict_A": 0.8997772828507795,
+   "strict_B": 0.8485523385300668,
+   "strict_merged": 0.9086859688195991,
+   "strict_after": 0.8997772828507795,
+   "organs_before": 10,
+   "deaths": 5,
+   "death_frac": 0.5,
+   "verdict": "PASS",
+   "params_before": 78480,
+   "params_after": 26160,
+   "total_flips": 5,
+   "refusal_causes": {},
+   "worst_class_drop_refused": 0.0,
+   "log": [
+    {
+     "classes": [
+      0,
+      1
+     ],
+     "cov_kept": 0.998997995991984,
+     "acc_with": 0.967,
+     "acc_without": 0.966,
+     "global_acc": 0.9383333333333334,
+     "global_anchor": 0.9416666666666667,
+     "val_without": 0.8285714285714286,
+     "val_anchor": 0.8285714285714286,
+     "worst_class": 1,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 0,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      4,
+      5
+     ],
+     "cov_kept": 0.9964824120603015,
+     "acc_with": 0.9435,
+     "acc_without": 0.94,
+     "global_acc": 0.9383333333333334,
+     "global_anchor": 0.9416666666666667,
+     "val_without": 0.8285714285714286,
+     "val_anchor": 0.8285714285714286,
+     "worst_class": 1,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 1,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      8,
+      9
+     ],
+     "cov_kept": 0.9908998988877654,
+     "acc_with": 0.867,
+     "acc_without": 0.858,
+     "global_acc": 0.935,
+     "global_anchor": 0.9416666666666667,
+     "val_without": 0.8285714285714286,
+     "val_anchor": 0.8285714285714286,
+     "worst_class": 1,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 0,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      6,
+      7
+     ],
+     "cov_kept": 0.9864729458917836,
+     "acc_with": 0.9115,
+     "acc_without": 0.898,
+     "global_acc": 0.925,
+     "global_anchor": 0.9416666666666667,
+     "val_without": 0.8285714285714286,
+     "val_anchor": 0.8285714285714286,
+     "worst_class": 7,
+     "worst_class_drop": 0.04999999999999993,
+     "fails": [],
+     "real_test_flips": 1,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      2,
+      3
+     ],
+     "cov_kept": 0.9853164556962025,
+     "acc_with": 0.94,
+     "acc_without": 0.9255,
+     "global_acc": 0.925,
+     "global_anchor": 0.9416666666666667,
+     "val_without": 0.8285714285714286,
+     "val_anchor": 0.8285714285714286,
+     "worst_class": 7,
+     "worst_class_drop": 0.04999999999999993,
+     "fails": [],
+     "real_test_flips": 3,
+     "params_freed": 5232
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "strict_A": 0.8374164810690423,
+   "strict_B": 0.8730512249443207,
+   "strict_merged": 0.8752783964365256,
+   "strict_after": 0.8507795100222717,
+   "organs_before": 10,
+   "deaths": 3,
+   "death_frac": 0.3,
+   "verdict": "PARTIAL",
+   "params_before": 68016,
+   "params_after": 36624,
+   "total_flips": 16,
+   "refusal_causes": {
+    "class": 1
+   },
+   "worst_class_drop_refused": 0.050000000000000044,
+   "log": [
+    {
+     "classes": [
+      0,
+      1
+     ],
+     "cov_kept": 0.9909729187562688,
+     "acc_with": 0.993,
+     "acc_without": 0.9835,
+     "global_acc": 0.9066666666666666,
+     "global_anchor": 0.9083333333333333,
+     "val_without": 0.7857142857142857,
+     "val_anchor": 0.7857142857142857,
+     "worst_class": 1,
+     "worst_class_drop": 0.016666666666666607,
+     "fails": [],
+     "real_test_flips": 4,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      8,
+      9
+     ],
+     "cov_kept": 0.9873289406994424,
+     "acc_with": 0.836,
+     "acc_without": 0.8235,
+     "global_acc": 0.905,
+     "global_anchor": 0.9083333333333333,
+     "val_without": 0.7857142857142857,
+     "val_anchor": 0.7857142857142857,
+     "worst_class": 1,
+     "worst_class_drop": 0.016666666666666607,
+     "fails": [],
+     "real_test_flips": 11,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      4,
+      5
+     ],
+     "cov_kept": 0.9898425596749619,
+     "acc_with": 0.934,
+     "acc_without": 0.9235,
+     "global_acc": 0.9016666666666666,
+     "global_anchor": 0.9083333333333333,
+     "val_without": 0.7857142857142857,
+     "val_anchor": 0.7857142857142857,
+     "worst_class": 5,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 1,
+     "params_freed": 5232
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "strict_A": 0.8930957683741648,
+   "strict_B": 0.9042316258351893,
+   "strict_merged": 0.9020044543429844,
+   "strict_after": 0.8997772828507795,
+   "organs_before": 10,
+   "deaths": 4,
+   "death_frac": 0.4,
+   "verdict": "PASS",
+   "params_before": 73248,
+   "params_after": 31392,
+   "total_flips": 1,
+   "refusal_causes": {},
+   "worst_class_drop_refused": 0.0,
+   "log": [
+    {
+     "classes": [
+      0,
+      1
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 1.0,
+     "acc_without": 1.0,
+     "global_acc": 0.9416666666666667,
+     "global_anchor": 0.9416666666666667,
+     "val_without": 0.8857142857142857,
+     "val_anchor": 0.8857142857142857,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 0,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      4,
+      5
+     ],
+     "cov_kept": 0.9994972347913524,
+     "acc_with": 0.9475,
+     "acc_without": 0.9465,
+     "global_acc": 0.9383333333333334,
+     "global_anchor": 0.9416666666666667,
+     "val_without": 0.8857142857142857,
+     "val_anchor": 0.8857142857142857,
+     "worst_class": 5,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 0,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      2,
+      3
+     ],
+     "cov_kept": 0.9959798994974874,
+     "acc_with": 0.909,
+     "acc_without": 0.9055,
+     "global_acc": 0.935,
+     "global_anchor": 0.9416666666666667,
+     "val_without": 0.8857142857142857,
+     "val_anchor": 0.8857142857142857,
+     "worst_class": 3,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 1,
+     "params_freed": 5232
+    },
+    {
+     "classes": [
+      8,
+      9
+     ],
+     "cov_kept": 0.9818822345244087,
+     "acc_with": 0.845,
+     "acc_without": 0.828,
+     "global_acc": 0.935,
+     "global_anchor": 0.9416666666666667,
+     "val_without": 0.8857142857142857,
+     "val_anchor": 0.8857142857142857,
+     "worst_class": 3,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 0,
+     "params_freed": 5232
+    }
+   ]
+  }
+ ],
+ "kmnist": [
+  {
+   "seed": 0,
+   "strict_A": 0.8075428571428571,
+   "strict_B": 0.8083428571428571,
+   "strict_merged": 0.8099428571428572,
+   "strict_after": 0.8075428571428571,
+   "organs_before": 10,
+   "deaths": 5,
+   "death_frac": 0.5,
+   "verdict": "PASS",
+   "params_before": 3138720,
+   "params_after": 1046240,
+   "total_flips": 88,
+   "refusal_causes": {},
+   "worst_class_drop_refused": 0.0,
+   "log": [
+    {
+     "classes": [
+      4,
+      5
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.756,
+     "acc_without": 0.756,
+     "global_acc": 0.82,
+     "global_anchor": 0.82,
+     "val_without": 0.8073878627968337,
+     "val_anchor": 0.8073878627968337,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 17,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      2,
+      3
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.7175,
+     "acc_without": 0.717,
+     "global_acc": 0.8183333333333334,
+     "global_anchor": 0.82,
+     "val_without": 0.8073878627968337,
+     "val_anchor": 0.8073878627968337,
+     "worst_class": 2,
+     "worst_class_drop": 0.016666666666666607,
+     "fails": [],
+     "real_test_flips": 9,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      6,
+      7
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.841,
+     "acc_without": 0.84,
+     "global_acc": 0.815,
+     "global_anchor": 0.82,
+     "val_without": 0.8073878627968337,
+     "val_anchor": 0.8073878627968337,
+     "worst_class": 7,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 26,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      0,
+      1
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.9125,
+     "acc_without": 0.9125,
+     "global_acc": 0.815,
+     "global_anchor": 0.82,
+     "val_without": 0.8073878627968337,
+     "val_anchor": 0.8073878627968337,
+     "worst_class": 7,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 2,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      8,
+      9
+     ],
+     "cov_kept": 0.991495747873937,
+     "acc_with": 0.7885,
+     "acc_without": 0.7855,
+     "global_acc": 0.815,
+     "global_anchor": 0.82,
+     "val_without": 0.8060686015831134,
+     "val_anchor": 0.8073878627968337,
+     "worst_class": 7,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 34,
+     "params_freed": 209248
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "strict_A": 0.8086285714285715,
+   "strict_B": 0.8076571428571429,
+   "strict_merged": 0.8126857142857142,
+   "strict_after": 0.8086285714285715,
+   "organs_before": 10,
+   "deaths": 5,
+   "death_frac": 0.5,
+   "verdict": "PASS",
+   "params_before": 3138720,
+   "params_after": 1046240,
+   "total_flips": 163,
+   "refusal_causes": {},
+   "worst_class_drop_refused": 0.0,
+   "log": [
+    {
+     "classes": [
+      2,
+      3
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.838,
+     "acc_without": 0.835,
+     "global_acc": 0.8183333333333334,
+     "global_anchor": 0.8166666666666667,
+     "val_without": 0.8322663252240717,
+     "val_anchor": 0.8322663252240717,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 39,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      0,
+      1
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.8685,
+     "acc_without": 0.868,
+     "global_acc": 0.8183333333333334,
+     "global_anchor": 0.8166666666666667,
+     "val_without": 0.8322663252240717,
+     "val_anchor": 0.8322663252240717,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 8,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      4,
+      5
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.7515,
+     "acc_without": 0.7495,
+     "global_acc": 0.8166666666666667,
+     "global_anchor": 0.8166666666666667,
+     "val_without": 0.8322663252240717,
+     "val_anchor": 0.8322663252240717,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 23,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      6,
+      7
+     ],
+     "cov_kept": 0.9995,
+     "acc_with": 0.835,
+     "acc_without": 0.834,
+     "global_acc": 0.8166666666666667,
+     "global_anchor": 0.8166666666666667,
+     "val_without": 0.8322663252240717,
+     "val_anchor": 0.8322663252240717,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 58,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      8,
+      9
+     ],
+     "cov_kept": 0.9825,
+     "acc_with": 0.76,
+     "acc_without": 0.7545,
+     "global_acc": 0.8166666666666667,
+     "global_anchor": 0.8166666666666667,
+     "val_without": 0.8309859154929577,
+     "val_anchor": 0.8322663252240717,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 35,
+     "params_freed": 209248
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "strict_A": 0.8094857142857143,
+   "strict_B": 0.8068571428571428,
+   "strict_merged": 0.8138285714285715,
+   "strict_after": 0.8094857142857143,
+   "organs_before": 10,
+   "deaths": 5,
+   "death_frac": 0.5,
+   "verdict": "PASS",
+   "params_before": 3138720,
+   "params_after": 1046240,
+   "total_flips": 119,
+   "refusal_causes": {},
+   "worst_class_drop_refused": 0.0,
+   "log": [
+    {
+     "classes": [
+      2,
+      3
+     ],
+     "cov_kept": 0.9995,
+     "acc_with": 0.819,
+     "acc_without": 0.8185,
+     "global_acc": 0.8533333333333334,
+     "global_anchor": 0.8566666666666667,
+     "val_without": 0.8429802955665024,
+     "val_anchor": 0.8429802955665024,
+     "worst_class": 3,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 14,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      4,
+      5
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.7875,
+     "acc_without": 0.7875,
+     "global_acc": 0.8533333333333334,
+     "global_anchor": 0.8566666666666667,
+     "val_without": 0.8429802955665024,
+     "val_anchor": 0.8429802955665024,
+     "worst_class": 3,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 19,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      6,
+      7
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.8035,
+     "acc_without": 0.8035,
+     "global_acc": 0.8516666666666667,
+     "global_anchor": 0.8566666666666667,
+     "val_without": 0.8429802955665024,
+     "val_anchor": 0.8429802955665024,
+     "worst_class": 3,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 49,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      0,
+      1
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.878,
+     "acc_without": 0.878,
+     "global_acc": 0.85,
+     "global_anchor": 0.8566666666666667,
+     "val_without": 0.8429802955665024,
+     "val_anchor": 0.8429802955665024,
+     "worst_class": 3,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 10,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      8,
+      9
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.756,
+     "acc_without": 0.756,
+     "global_acc": 0.85,
+     "global_anchor": 0.8566666666666667,
+     "val_without": 0.8411330049261084,
+     "val_anchor": 0.8429802955665024,
+     "worst_class": 3,
+     "worst_class_drop": 0.033333333333333326,
+     "fails": [],
+     "real_test_flips": 27,
+     "params_freed": 209248
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "strict_A": 0.7994285714285714,
+   "strict_B": 0.8016,
+   "strict_merged": 0.8027428571428571,
+   "strict_after": 0.7994285714285714,
+   "organs_before": 10,
+   "deaths": 5,
+   "death_frac": 0.5,
+   "verdict": "PASS",
+   "params_before": 3138720,
+   "params_after": 1046240,
+   "total_flips": 79,
+   "refusal_causes": {},
+   "worst_class_drop_refused": 0.0,
+   "log": [
+    {
+     "classes": [
+      2,
+      3
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.731,
+     "acc_without": 0.7305,
+     "global_acc": 0.8266666666666667,
+     "global_anchor": 0.8266666666666667,
+     "val_without": 0.8234165067178503,
+     "val_anchor": 0.8234165067178503,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 7,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      4,
+      5
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.7875,
+     "acc_without": 0.7875,
+     "global_acc": 0.825,
+     "global_anchor": 0.8266666666666667,
+     "val_without": 0.8240563019833653,
+     "val_anchor": 0.8234165067178503,
+     "worst_class": 5,
+     "worst_class_drop": 0.01666666666666672,
+     "fails": [],
+     "real_test_flips": 23,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      6,
+      7
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.813,
+     "acc_without": 0.813,
+     "global_acc": 0.8233333333333334,
+     "global_anchor": 0.8266666666666667,
+     "val_without": 0.8240563019833653,
+     "val_anchor": 0.8234165067178503,
+     "worst_class": 5,
+     "worst_class_drop": 0.01666666666666672,
+     "fails": [],
+     "real_test_flips": 14,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      0,
+      1
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.8635,
+     "acc_without": 0.863,
+     "global_acc": 0.8233333333333334,
+     "global_anchor": 0.8266666666666667,
+     "val_without": 0.8240563019833653,
+     "val_anchor": 0.8234165067178503,
+     "worst_class": 5,
+     "worst_class_drop": 0.01666666666666672,
+     "fails": [],
+     "real_test_flips": 2,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      8,
+      9
+     ],
+     "cov_kept": 0.9935,
+     "acc_with": 0.754,
+     "acc_without": 0.754,
+     "global_acc": 0.8233333333333334,
+     "global_anchor": 0.8266666666666667,
+     "val_without": 0.8202175303902751,
+     "val_anchor": 0.8234165067178503,
+     "worst_class": 5,
+     "worst_class_drop": 0.01666666666666672,
+     "fails": [],
+     "real_test_flips": 33,
+     "params_freed": 209248
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "strict_A": 0.8072571428571429,
+   "strict_B": 0.8086857142857143,
+   "strict_merged": 0.8088,
+   "strict_after": 0.8072571428571429,
+   "organs_before": 10,
+   "deaths": 5,
+   "death_frac": 0.5,
+   "verdict": "PASS",
+   "params_before": 3138720,
+   "params_after": 1046240,
+   "total_flips": 48,
+   "refusal_causes": {},
+   "worst_class_drop_refused": 0.0,
+   "log": [
+    {
+     "classes": [
+      2,
+      3
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.8225,
+     "acc_without": 0.8225,
+     "global_acc": 0.8166666666666667,
+     "global_anchor": 0.8166666666666667,
+     "val_without": 0.8153067678684377,
+     "val_anchor": 0.8153067678684377,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 8,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      4,
+      5
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.697,
+     "acc_without": 0.697,
+     "global_acc": 0.8166666666666667,
+     "global_anchor": 0.8166666666666667,
+     "val_without": 0.8153067678684377,
+     "val_anchor": 0.8153067678684377,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 9,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      6,
+      7
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.8115,
+     "acc_without": 0.8115,
+     "global_acc": 0.8166666666666667,
+     "global_anchor": 0.8166666666666667,
+     "val_without": 0.8153067678684377,
+     "val_anchor": 0.8153067678684377,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 20,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      8,
+      9
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.7835,
+     "acc_without": 0.7835,
+     "global_acc": 0.8166666666666667,
+     "global_anchor": 0.8166666666666667,
+     "val_without": 0.8108791903858318,
+     "val_anchor": 0.8153067678684377,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 8,
+     "params_freed": 209248
+    },
+    {
+     "classes": [
+      0,
+      1
+     ],
+     "cov_kept": 1.0,
+     "acc_with": 0.8955,
+     "acc_without": 0.8955,
+     "global_acc": 0.8166666666666667,
+     "global_anchor": 0.8166666666666667,
+     "val_without": 0.8108791903858318,
+     "val_anchor": 0.8153067678684377,
+     "worst_class": null,
+     "worst_class_drop": 0.0,
+     "fails": [],
+     "real_test_flips": 3,
+     "params_freed": 209248
+    }
+   ]
+  }
+ ]
+}

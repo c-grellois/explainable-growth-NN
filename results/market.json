@@ -1,0 +1,263 @@
+{
+ "digits": [
+  {
+   "seed": 2,
+   "cascade": 0.8997772828507795,
+   "raw": {
+    "market_strict": 0.44320712694877507,
+    "market_forced": 0.44320712694877507,
+    "market_coverage": 1.0,
+    "reserve": 0.2,
+    "pool_brier": 0.516,
+    "win_share": [
+     310,
+     80,
+     15,
+     20,
+     24
+    ],
+    "arbiter_strict": 0.955456570155902
+   },
+   "consolidated": null,
+   "C_accepted": false
+  },
+  {
+   "seed": 3,
+   "cascade": 0.8374164810690423,
+   "raw": {
+    "market_strict": 0.1870824053452116,
+    "market_forced": 0.1870824053452116,
+    "market_coverage": 1.0,
+    "reserve": 0.2,
+    "pool_brier": 0.804,
+    "win_share": [
+     449,
+     0,
+     0,
+     0,
+     0
+    ],
+    "arbiter_strict": 0.9576837416481069
+   },
+   "consolidated": null,
+   "C_accepted": false
+  },
+  {
+   "seed": 4,
+   "cascade": 0.8930957683741648,
+   "raw": {
+    "market_strict": 0.2071269487750557,
+    "market_forced": 0.2071269487750557,
+    "market_coverage": 1.0,
+    "reserve": 0.2,
+    "pool_brier": 0.7995,
+    "win_share": [
+     449,
+     0,
+     0,
+     0,
+     0
+    ],
+    "arbiter_strict": 0.9621380846325167
+   },
+   "consolidated": {
+    "market_strict": 0.2071269487750557,
+    "market_forced": 0.2071269487750557,
+    "market_coverage": 1.0,
+    "reserve": 0.2,
+    "pool_brier": 0.80875,
+    "win_share": [
+     0,
+     449,
+     0,
+     0,
+     0,
+     0
+    ],
+    "arbiter_strict": 0.9688195991091314
+   },
+   "C_accepted": true
+  }
+ ],
+ "cifar_vitb": [
+  {
+   "seed": 2,
+   "cascade": 0.654,
+   "raw": {
+    "market_strict": 0.4957,
+    "market_forced": 0.4957,
+    "market_coverage": 0.9985,
+    "reserve": 0.2,
+    "pool_brier": 0.4458737809416426,
+    "win_share": [
+     949,
+     477,
+     453,
+     324,
+     116,
+     119,
+     405,
+     835,
+     1585,
+     4737
+    ],
+    "arbiter_strict": 0.7232
+   },
+   "consolidated": {
+    "market_strict": 0.5071,
+    "market_forced": 0.5071,
+    "market_coverage": 1.0,
+    "reserve": 0.2,
+    "pool_brier": 0.4351410928033179,
+    "win_share": [
+     186,
+     933,
+     471,
+     451,
+     315,
+     109,
+     118,
+     392,
+     819,
+     1585,
+     4621
+    ],
+    "arbiter_strict": 0.8298
+   },
+   "C_accepted": true
+  },
+  {
+   "seed": 3,
+   "cascade": 0.6794,
+   "raw": {
+    "market_strict": 0.5232,
+    "market_forced": 0.5232,
+    "market_coverage": 0.9997,
+    "reserve": 0.2,
+    "pool_brier": 0.3738695246810905,
+    "win_share": [
+     1078,
+     460,
+     0,
+     582,
+     457,
+     1155,
+     1458,
+     245,
+     526,
+     4039
+    ],
+    "arbiter_strict": 0.7354
+   },
+   "consolidated": {
+    "market_strict": 0.5592,
+    "market_forced": 0.5592,
+    "market_coverage": 1.0,
+    "reserve": 0.2,
+    "pool_brier": 0.3747297898047356,
+    "win_share": [
+     589,
+     1060,
+     441,
+     0,
+     559,
+     434,
+     1134,
+     1383,
+     232,
+     516,
+     3652
+    ],
+    "arbiter_strict": 0.8367
+   },
+   "C_accepted": true
+  },
+  {
+   "seed": 4,
+   "cascade": 0.6681,
+   "raw": {
+    "market_strict": 0.2445,
+    "market_forced": 0.2445,
+    "market_coverage": 0.9992,
+    "reserve": 0.2,
+    "pool_brier": 0.7362687858744822,
+    "win_share": [
+     121,
+     169,
+     253,
+     149,
+     63,
+     22,
+     1525,
+     3,
+     43,
+     7652
+    ],
+    "arbiter_strict": 0.7277
+   },
+   "consolidated": {
+    "market_strict": 0.2454,
+    "market_forced": 0.2454,
+    "market_coverage": 1.0,
+    "reserve": 0.2,
+    "pool_brier": 0.720766930428869,
+    "win_share": [
+     66,
+     112,
+     168,
+     253,
+     149,
+     8,
+     21,
+     1525,
+     3,
+     43,
+     7652
+    ],
+    "arbiter_strict": 0.8372
+   },
+   "C_accepted": true
+  }
+ ],
+ "kmnist": [
+  {
+   "seed": 2,
+   "cascade": 0.809,
+   "raw": {
+    "market_strict": 0.752,
+    "market_forced": 0.752,
+    "pool_brier": 0.268,
+    "arbiter_strict": 0.824
+   },
+   "consolidated": null,
+   "C_accepted": false,
+   "note": "reconstructed from run log (json write raced)"
+  },
+  {
+   "seed": 3,
+   "cascade": 0.799,
+   "raw": {
+    "market_strict": 0.678,
+    "market_forced": 0.678,
+    "pool_brier": 0.422,
+    "arbiter_strict": 0.785
+   },
+   "consolidated": null,
+   "C_accepted": false,
+   "note": "reconstructed from run log"
+  },
+  {
+   "seed": 4,
+   "cascade": 0.807,
+   "raw": {
+    "market_strict": 0.738,
+    "market_forced": 0.738,
+    "pool_brier": 0.233,
+    "arbiter_strict": 0.811
+   },
+   "consolidated": null,
+   "C_accepted": false,
+   "note": "reconstructed from run log"
+  }
+ ]
+}

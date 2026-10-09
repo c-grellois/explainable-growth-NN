@@ -1,0 +1,767 @@
+{
+ "digits": [
+  {
+   "seed": 2,
+   "curve": [
+    {
+     "task": 0,
+     "day": 1.0,
+     "night": 1.0
+    },
+    {
+     "task": 1,
+     "day": 0.9623655913978495,
+     "night": 0.9623655913978495
+    },
+    {
+     "task": 2,
+     "day": 0.942652329749104,
+     "night": 0.978494623655914
+    },
+    {
+     "task": 3,
+     "day": 0.9281767955801105,
+     "night": 0.9281767955801105
+    },
+    {
+     "task": 4,
+     "day": 0.9175946547884187,
+     "night": 0.9376391982182628
+    }
+   ],
+   "nights": [
+    {
+     "task": 0,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 0
+    },
+    {
+     "task": 1,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 2
+    },
+    {
+     "task": 2,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 3
+    },
+    {
+     "task": 3,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 2
+    },
+    {
+     "task": 4,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    }
+   ],
+   "final": 0.9376391982182628,
+   "sleep_accepted": 4,
+   "dream_accepted": 2,
+   "total_flips": 7
+  },
+  {
+   "seed": 3,
+   "curve": [
+    {
+     "task": 0,
+     "day": 0.8571428571428571,
+     "night": 0.9166666666666666
+    },
+    {
+     "task": 1,
+     "day": 0.867816091954023,
+     "night": 0.9885057471264368
+    },
+    {
+     "task": 2,
+     "day": 0.9053030303030303,
+     "night": 0.9166666666666666
+    },
+    {
+     "task": 3,
+     "day": 0.90625,
+     "night": 0.9204545454545454
+    },
+    {
+     "task": 4,
+     "day": 0.8864142538975501,
+     "night": 0.9621380846325167
+    }
+   ],
+   "nights": [
+    {
+     "task": 0,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 0
+    },
+    {
+     "task": 1,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 6
+    },
+    {
+     "task": 2,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 4
+    },
+    {
+     "task": 3,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 5
+    },
+    {
+     "task": 4,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    }
+   ],
+   "final": 0.9621380846325167,
+   "sleep_accepted": 4,
+   "dream_accepted": 2,
+   "total_flips": 15
+  },
+  {
+   "seed": 4,
+   "curve": [
+    {
+     "task": 0,
+     "day": 0.967741935483871,
+     "night": 0.967741935483871
+    },
+    {
+     "task": 1,
+     "day": 0.9417989417989417,
+     "night": 1.0
+    },
+    {
+     "task": 2,
+     "day": 0.9507575757575758,
+     "night": 0.9696969696969697
+    },
+    {
+     "task": 3,
+     "day": 0.9299719887955182,
+     "night": 0.9523809523809523
+    },
+    {
+     "task": 4,
+     "day": 0.9242761692650334,
+     "night": 0.9487750556792873
+    }
+   ],
+   "nights": [
+    {
+     "task": 0,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 0
+    },
+    {
+     "task": 1,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 5
+    },
+    {
+     "task": 2,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 4
+    },
+    {
+     "task": 3,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 4
+    },
+    {
+     "task": 4,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    }
+   ],
+   "final": 0.9487750556792873,
+   "sleep_accepted": 4,
+   "dream_accepted": 2,
+   "total_flips": 13
+  }
+ ],
+ "kmnist": [
+  {
+   "seed": 2,
+   "curve": [
+    {
+     "task": 0,
+     "day": 0.9845139088041296,
+     "night": 0.9873817034700315
+    },
+    {
+     "task": 1,
+     "day": 0.9297793063915162,
+     "night": 0.8756090570364001
+    },
+    {
+     "task": 2,
+     "day": 0.8825261158594492,
+     "night": 0.8625830959164292
+    },
+    {
+     "task": 3,
+     "day": 0.8360901183516327,
+     "night": 0.8301012405532582
+    },
+    {
+     "task": 4,
+     "day": 0.8097714285714286,
+     "night": 0.8055428571428571
+    }
+   ],
+   "nights": [
+    {
+     "task": 0,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 0
+    },
+    {
+     "task": 1,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    },
+    {
+     "task": 2,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    },
+    {
+     "task": 3,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    },
+    {
+     "task": 4,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    }
+   ],
+   "final": 0.8055428571428571,
+   "sleep_accepted": 1,
+   "dream_accepted": 4,
+   "total_flips": 0
+  },
+  {
+   "seed": 3,
+   "curve": [
+    {
+     "task": 0,
+     "day": 0.9859073914293932,
+     "night": 0.9859073914293932
+    },
+    {
+     "task": 1,
+     "day": 0.9250108995785497,
+     "night": 0.9359104781281791
+    },
+    {
+     "task": 2,
+     "day": 0.8775314329590171,
+     "night": 0.8775314329590171
+    },
+    {
+     "task": 3,
+     "day": 0.8251738226650419,
+     "night": 0.8251738226650419
+    },
+    {
+     "task": 4,
+     "day": 0.7994285714285714,
+     "night": 0.7994285714285714
+    }
+   ],
+   "nights": [
+    {
+     "task": 0,
+     "sleep_accepted": false,
+     "dream_accepted": false,
+     "flips": 0
+    },
+    {
+     "task": 1,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    },
+    {
+     "task": 2,
+     "sleep_accepted": false,
+     "dream_accepted": false,
+     "flips": 0
+    },
+    {
+     "task": 3,
+     "sleep_accepted": false,
+     "dream_accepted": false,
+     "flips": 0
+    },
+    {
+     "task": 4,
+     "sleep_accepted": false,
+     "dream_accepted": false,
+     "flips": 0
+    }
+   ],
+   "final": 0.7994285714285714,
+   "sleep_accepted": 0,
+   "dream_accepted": 1,
+   "total_flips": 0
+  },
+  {
+   "seed": 4,
+   "curve": [
+    {
+     "task": 0,
+     "day": 0.9806805074971164,
+     "night": 0.9806805074971164
+    },
+    {
+     "task": 1,
+     "day": 0.9135066041755433,
+     "night": 0.9072574918335464
+    },
+    {
+     "task": 2,
+     "day": 0.8774279973208305,
+     "night": 0.8774279973208305
+    },
+    {
+     "task": 3,
+     "day": 0.837593984962406,
+     "night": 0.830719656283566
+    },
+    {
+     "task": 4,
+     "day": 0.8072571428571429,
+     "night": 0.8122285714285714
+    }
+   ],
+   "nights": [
+    {
+     "task": 0,
+     "sleep_accepted": false,
+     "dream_accepted": false,
+     "flips": 0
+    },
+    {
+     "task": 1,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    },
+    {
+     "task": 2,
+     "sleep_accepted": false,
+     "dream_accepted": false,
+     "flips": 0
+    },
+    {
+     "task": 3,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    },
+    {
+     "task": 4,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    }
+   ],
+   "final": 0.8122285714285714,
+   "sleep_accepted": 0,
+   "dream_accepted": 3,
+   "total_flips": 0
+  }
+ ],
+ "cifar_vitb": [
+  {
+   "seed": 2,
+   "curve": [
+    {
+     "task": 0,
+     "day": 0.965,
+     "night": 0.962
+    },
+    {
+     "task": 1,
+     "day": 0.854,
+     "night": 0.906
+    },
+    {
+     "task": 2,
+     "day": 0.793,
+     "night": 0.9016666666666666
+    },
+    {
+     "task": 3,
+     "day": 0.79075,
+     "night": 0.87175
+    },
+    {
+     "task": 4,
+     "day": 0.7604,
+     "night": 0.85
+    },
+    {
+     "task": 5,
+     "day": 0.7638333333333334,
+     "night": 0.847
+    },
+    {
+     "task": 6,
+     "day": 0.7484285714285714,
+     "night": 0.8422857142857143
+    },
+    {
+     "task": 7,
+     "day": 0.742125,
+     "night": 0.831875
+    },
+    {
+     "task": 8,
+     "day": 0.7418888888888889,
+     "night": 0.834
+    },
+    {
+     "task": 9,
+     "day": 0.746,
+     "night": 0.8325
+    }
+   ],
+   "nights": [
+    {
+     "task": 0,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 422
+    },
+    {
+     "task": 1,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 832
+    },
+    {
+     "task": 2,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 875
+    },
+    {
+     "task": 3,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 913
+    },
+    {
+     "task": 4,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 1185
+    },
+    {
+     "task": 5,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 986
+    },
+    {
+     "task": 6,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 978
+    },
+    {
+     "task": 7,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 848
+    },
+    {
+     "task": 8,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 806
+    },
+    {
+     "task": 9,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 805
+    }
+   ],
+   "final": 0.8325,
+   "sleep_accepted": 10,
+   "dream_accepted": 8,
+   "total_flips": 8650
+  },
+  {
+   "seed": 3,
+   "curve": [
+    {
+     "task": 0,
+     "day": 0.967,
+     "night": 0.967
+    },
+    {
+     "task": 1,
+     "day": 0.8905,
+     "night": 0.917
+    },
+    {
+     "task": 2,
+     "day": 0.857,
+     "night": 0.8876666666666667
+    },
+    {
+     "task": 3,
+     "day": 0.85375,
+     "night": 0.88125
+    },
+    {
+     "task": 4,
+     "day": 0.8036,
+     "night": 0.8456
+    },
+    {
+     "task": 5,
+     "day": 0.8141666666666667,
+     "night": 0.8438333333333333
+    },
+    {
+     "task": 6,
+     "day": 0.7987142857142857,
+     "night": 0.8254285714285714
+    },
+    {
+     "task": 7,
+     "day": 0.772125,
+     "night": 0.845875
+    },
+    {
+     "task": 8,
+     "day": 0.7575555555555555,
+     "night": 0.7812222222222223
+    },
+    {
+     "task": 9,
+     "day": 0.7429,
+     "night": 0.7734
+    }
+   ],
+   "nights": [
+    {
+     "task": 0,
+     "sleep_accepted": false,
+     "dream_accepted": false,
+     "flips": 0
+    },
+    {
+     "task": 1,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 934
+    },
+    {
+     "task": 2,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 989
+    },
+    {
+     "task": 3,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 1138
+    },
+    {
+     "task": 4,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 984
+    },
+    {
+     "task": 5,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 1172
+    },
+    {
+     "task": 6,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 1170
+    },
+    {
+     "task": 7,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 1069
+    },
+    {
+     "task": 8,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 815
+    },
+    {
+     "task": 9,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 820
+    }
+   ],
+   "final": 0.7734,
+   "sleep_accepted": 9,
+   "dream_accepted": 1,
+   "total_flips": 9091
+  },
+  {
+   "seed": 4,
+   "curve": [
+    {
+     "task": 0,
+     "day": 0.942,
+     "night": 0.947
+    },
+    {
+     "task": 1,
+     "day": 0.8905,
+     "night": 0.914
+    },
+    {
+     "task": 2,
+     "day": 0.85,
+     "night": 0.891
+    },
+    {
+     "task": 3,
+     "day": 0.84925,
+     "night": 0.89
+    },
+    {
+     "task": 4,
+     "day": 0.8018,
+     "night": 0.8914
+    },
+    {
+     "task": 5,
+     "day": 0.7933333333333333,
+     "night": 0.857
+    },
+    {
+     "task": 6,
+     "day": 0.788,
+     "night": 0.8252857142857143
+    },
+    {
+     "task": 7,
+     "day": 0.764375,
+     "night": 0.84725
+    },
+    {
+     "task": 8,
+     "day": 0.7606666666666667,
+     "night": 0.8413333333333334
+    },
+    {
+     "task": 9,
+     "day": 0.7513,
+     "night": 0.8332
+    }
+   ],
+   "nights": [
+    {
+     "task": 0,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 409
+    },
+    {
+     "task": 1,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 1298
+    },
+    {
+     "task": 2,
+     "sleep_accepted": true,
+     "dream_accepted": false,
+     "flips": 975
+    },
+    {
+     "task": 3,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    },
+    {
+     "task": 4,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 1520
+    },
+    {
+     "task": 5,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 1262
+    },
+    {
+     "task": 6,
+     "sleep_accepted": false,
+     "dream_accepted": true,
+     "flips": 0
+    },
+    {
+     "task": 7,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 1116
+    },
+    {
+     "task": 8,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 894
+    },
+    {
+     "task": 9,
+     "sleep_accepted": true,
+     "dream_accepted": true,
+     "flips": 823
+    }
+   ],
+   "final": 0.8332,
+   "sleep_accepted": 8,
+   "dream_accepted": 7,
+   "total_flips": 8297
+  }
+ ]
+}

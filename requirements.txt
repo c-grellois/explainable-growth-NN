@@ -1,0 +1,17 @@
+# The analysis pipeline: the cgrow library, every exp_*.py, claims.py.
+#
+# Every number in results/ was produced with Python 3.12.7, numpy 2.5.1,
+# scipy 1.18.0, scikit-learn 1.9.0, torch 2.13.0 (CPU build), matplotlib 3.11.1.
+# Closed-form configurations reproduce to the digit on other machines; trained
+# ones agree within about a point (REPORT.md, B-ptm-confirm).
+numpy>=2.0
+scipy
+scikit-learn
+torch            # the CPU build is enough
+matplotlib       # make_figures.py and exp_toy.py only
+
+# Feature extraction is a separate environment, set up by gpu/setup_env.ps1
+# (CUDA torch, torchvision, timm; gpu/setup_env_text.ps1 adds transformers,
+# datasets and pandas). The two local CPU extractors, extract_cifar_feats.py and
+# extract_cifar_vit.py, need torchvision (and timm for the ViT) on top of this
+# file; the analysis environment above used torchvision 0.28.0 and timm 1.0.28.

@@ -1,0 +1,338 @@
+{
+ "cifar_vitb": [
+  {
+   "seed": 3,
+   "cascade": 0.7794,
+   "cascade_coverage": 0.99,
+   "arms": {
+    "market@0.1": {
+     "arm": "market",
+     "self_loss": 0.1,
+     "strict": 0.7796,
+     "coverage": 0.9891,
+     "precision": 0.7881912850065717,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.9258355601337316,
+      "ref_mean": 0.9260872220520602,
+      "new_floor": 0.6666666666666666,
+      "ref_floor": 0.6666666666666666,
+      "val_new": 0.6721311475409836,
+      "val_ref": 0.6762295081967213
+     },
+     "delta": 0.00019999999999997797,
+     "ceded_total": 674,
+     "vetoes_added": 15,
+     "moved": 29,
+     "moved_to_right": 10,
+     "moved_to_wrong": 8,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 336,
+       "vetoes": 10
+      },
+      {
+       "organ": 1,
+       "ceded": 38,
+       "vetoes": 1
+      },
+      {
+       "organ": 2,
+       "ceded": 33,
+       "vetoes": 0
+      },
+      {
+       "organ": 3,
+       "ceded": 34,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 46,
+       "vetoes": 0
+      },
+      {
+       "organ": 5,
+       "ceded": 41,
+       "vetoes": 1
+      },
+      {
+       "organ": 6,
+       "ceded": 37,
+       "vetoes": 1
+      },
+      {
+       "organ": 7,
+       "ceded": 43,
+       "vetoes": 2
+      },
+      {
+       "organ": 8,
+       "ceded": 32,
+       "vetoes": 0
+      },
+      {
+       "organ": 9,
+       "ceded": 8,
+       "vetoes": 0
+      },
+      {
+       "organ": 10,
+       "ceded": 26,
+       "vetoes": 0
+      }
+     ]
+    },
+    "oracle@0.1": {
+     "arm": "oracle",
+     "self_loss": 0.1,
+     "strict": 0.7733,
+     "coverage": 0.9884,
+     "precision": 0.7823755564548766,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.9277651128095564,
+      "ref_mean": 0.9260872220520602,
+      "new_floor": 0.6666666666666666,
+      "ref_floor": 0.6666666666666666,
+      "val_new": 0.6721311475409836,
+      "val_ref": 0.6762295081967213
+     },
+     "delta": -0.006099999999999994,
+     "ceded_total": 1772,
+     "vetoes_added": 60,
+     "moved": 204,
+     "moved_to_right": 25,
+     "moved_to_wrong": 86,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 1745,
+       "vetoes": 60
+      },
+      {
+       "organ": 1,
+       "ceded": 1,
+       "vetoes": 0
+      },
+      {
+       "organ": 2,
+       "ceded": 2,
+       "vetoes": 0
+      },
+      {
+       "organ": 3,
+       "ceded": 1,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 8,
+       "vetoes": 0
+      },
+      {
+       "organ": 5,
+       "ceded": 0,
+       "vetoes": 0
+      },
+      {
+       "organ": 6,
+       "ceded": 4,
+       "vetoes": 0
+      },
+      {
+       "organ": 7,
+       "ceded": 1,
+       "vetoes": 0
+      },
+      {
+       "organ": 8,
+       "ceded": 6,
+       "vetoes": 0
+      },
+      {
+       "organ": 9,
+       "ceded": 0,
+       "vetoes": 0
+      },
+      {
+       "organ": 10,
+       "ceded": 4,
+       "vetoes": 0
+      }
+     ]
+    }
+   },
+   "free_arbiter": 0.8373,
+   "gated_arbiter": 0.799
+  },
+  {
+   "seed": 4,
+   "cascade": 0.7772,
+   "cascade_coverage": 0.9861,
+   "arms": {
+    "market@0.1": {
+     "arm": "market",
+     "self_loss": 0.1,
+     "strict": 0.7768,
+     "coverage": 0.9861,
+     "precision": 0.7877497211236183,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.9343992388742328,
+      "ref_mean": 0.9343992388742328,
+      "new_floor": 0.7464788732394366,
+      "ref_floor": 0.7464788732394366,
+      "val_new": 0.7732793522267206,
+      "val_ref": 0.7773279352226721
+     },
+     "delta": -0.00039999999999995595,
+     "ceded_total": 468,
+     "vetoes_added": 9,
+     "moved": 9,
+     "moved_to_right": 1,
+     "moved_to_wrong": 5,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 180,
+       "vetoes": 6
+      },
+      {
+       "organ": 1,
+       "ceded": 46,
+       "vetoes": 2
+      },
+      {
+       "organ": 2,
+       "ceded": 34,
+       "vetoes": 0
+      },
+      {
+       "organ": 3,
+       "ceded": 28,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 31,
+       "vetoes": 0
+      },
+      {
+       "organ": 5,
+       "ceded": 44,
+       "vetoes": 1
+      },
+      {
+       "organ": 6,
+       "ceded": 24,
+       "vetoes": 0
+      },
+      {
+       "organ": 7,
+       "ceded": 15,
+       "vetoes": 0
+      },
+      {
+       "organ": 8,
+       "ceded": 23,
+       "vetoes": 0
+      },
+      {
+       "organ": 9,
+       "ceded": 19,
+       "vetoes": 0
+      },
+      {
+       "organ": 10,
+       "ceded": 24,
+       "vetoes": 0
+      }
+     ]
+    },
+    "oracle@0.1": {
+     "arm": "oracle",
+     "self_loss": 0.1,
+     "strict": 0.7745,
+     "coverage": 0.9854,
+     "precision": 0.7859752384818348,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.935878681270299,
+      "ref_mean": 0.9343992388742328,
+      "new_floor": 0.7464788732394366,
+      "ref_floor": 0.7464788732394366,
+      "val_new": 0.7651821862348178,
+      "val_ref": 0.7773279352226721
+     },
+     "delta": -0.0027000000000000357,
+     "ceded_total": 1753,
+     "vetoes_added": 62,
+     "moved": 124,
+     "moved_to_right": 25,
+     "moved_to_wrong": 52,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 1735,
+       "vetoes": 62
+      },
+      {
+       "organ": 1,
+       "ceded": 3,
+       "vetoes": 0
+      },
+      {
+       "organ": 2,
+       "ceded": 0,
+       "vetoes": 0
+      },
+      {
+       "organ": 3,
+       "ceded": 3,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 0,
+       "vetoes": 0
+      },
+      {
+       "organ": 5,
+       "ceded": 6,
+       "vetoes": 0
+      },
+      {
+       "organ": 6,
+       "ceded": 2,
+       "vetoes": 0
+      },
+      {
+       "organ": 7,
+       "ceded": 0,
+       "vetoes": 0
+      },
+      {
+       "organ": 8,
+       "ceded": 3,
+       "vetoes": 0
+      },
+      {
+       "organ": 9,
+       "ceded": 0,
+       "vetoes": 0
+      },
+      {
+       "organ": 10,
+       "ceded": 1,
+       "vetoes": 0
+      }
+     ]
+    }
+   },
+   "free_arbiter": 0.8382,
+   "gated_arbiter": 0.8005
+  }
+ ]
+}

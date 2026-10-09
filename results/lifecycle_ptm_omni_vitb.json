@@ -1,0 +1,94 @@
+{
+ "ptm_omni_vitb": [
+  {
+   "seed": 2,
+   "growth": 0.6162071846282373,
+   "adol_accepted": true,
+   "adolescence": 0.689891395154553,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -0.9864308501372135,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.7071010860484545,
+   "gate": {
+    "syn_mean": 0.8827490791284796,
+    "syn_mean_ref": 0.8571666741502216,
+    "syn_floor": 0.0,
+    "syn_floor_ref": 0.0,
+    "val_new": 0.6728665207877462,
+    "val_ref": 0.7024070021881839,
+    "fidelity_auroc": 0.508507365507651,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.6895572263993317,
+   "pfc": 0.689891395154553
+  },
+  {
+   "seed": 3,
+   "growth": 0.6033416875522138,
+   "adol_accepted": true,
+   "adolescence": 0.6908939014202172,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -1.0349959503354023,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.714452798663325,
+   "gate": {
+    "syn_mean": 0.8732207013300719,
+    "syn_mean_ref": 0.8544092352221416,
+    "syn_floor": 0.07692307692307693,
+    "syn_floor_ref": 0.06666666666666667,
+    "val_new": 0.6678700361010831,
+    "val_ref": 0.681107099879663,
+    "fidelity_auroc": 0.5149884030420234,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.6897243107769424,
+   "pfc": 0.6908939014202172
+  },
+  {
+   "seed": 4,
+   "growth": 0.6252297410192147,
+   "adol_accepted": false,
+   "adolescence": 0.6252297410192147,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": 7.130572937887615,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.6482873851294904,
+   "gate": {
+    "syn_mean": 0.8564361491840695,
+    "syn_mean_ref": 0.826617501984587,
+    "syn_floor": 0.0,
+    "syn_floor_ref": 0.0,
+    "val_new": 0.641169853768279,
+    "val_ref": 0.5973003374578177,
+    "fidelity_auroc": 0.5424892393137588,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.6446115288220552,
+   "pfc": 0.6252297410192147
+  }
+ ]
+}

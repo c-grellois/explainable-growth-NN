@@ -1,0 +1,146 @@
+[
+ {
+  "seed": 3,
+  "cache": "ptm_cub_vitb_p1s3",
+  "M": 2000,
+  "n_classes": 200,
+  "inc": 20,
+  "lambda": 10.0,
+  "forced": 0.8761662425784563,
+  "strict": 0.8651399491094147,
+  "coverage": 0.9851569126378287,
+  "precision": 0.878174773999139,
+  "tau": 3.624003406810239e-07,
+  "rho_in": 3.131692133826802,
+  "strict_margin_only": 0.8761662425784563,
+  "answer_flips_under_growth": 233,
+  "n_test": 2358,
+  "head_params": 1936000,
+  "gram_floats": 4000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 1.0,
+    "forced_seen": 0.9786324786324786
+   },
+   {
+    "task": 1,
+    "lambda": 100.0,
+    "forced_seen": 0.9556541019955654
+   },
+   {
+    "task": 2,
+    "lambda": 10.0,
+    "forced_seen": 0.9241486068111455
+   },
+   {
+    "task": 3,
+    "lambda": 10.0,
+    "forced_seen": 0.9272727272727272
+   },
+   {
+    "task": 4,
+    "lambda": 10.0,
+    "forced_seen": 0.9221014492753623
+   },
+   {
+    "task": 5,
+    "lambda": 1.0,
+    "forced_seen": 0.9189985272459499
+   },
+   {
+    "task": 6,
+    "lambda": 1.0,
+    "forced_seen": 0.9084065244667503
+   },
+   {
+    "task": 7,
+    "lambda": 10.0,
+    "forced_seen": 0.9018003273322422
+   },
+   {
+    "task": 8,
+    "lambda": 10.0,
+    "forced_seen": 0.8931480594154289
+   },
+   {
+    "task": 9,
+    "lambda": 10.0,
+    "forced_seen": 0.8761662425784563
+   }
+  ],
+  "elapsed_s": 120.48471665382385
+ },
+ {
+  "seed": 3,
+  "cache": "ptm_cub_vitb_p1s3",
+  "M": 10000,
+  "n_classes": 200,
+  "inc": 20,
+  "lambda": 1.0,
+  "forced": 0.8986429177268872,
+  "strict": 0.8850720949957591,
+  "coverage": 0.9800678541136556,
+  "precision": 0.9030722630895716,
+  "tau": 0.000762983572304754,
+  "rho_in": 3.077519583451203,
+  "strict_margin_only": 0.8982188295165394,
+  "answer_flips_under_growth": 241,
+  "n_test": 2358,
+  "head_params": 9680000,
+  "gram_floats": 100000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 1.0,
+    "forced_seen": 0.9786324786324786
+   },
+   {
+    "task": 1,
+    "lambda": 1.0,
+    "forced_seen": 0.9600886917960089
+   },
+   {
+    "task": 2,
+    "lambda": 1.0,
+    "forced_seen": 0.9365325077399381
+   },
+   {
+    "task": 3,
+    "lambda": 1.0,
+    "forced_seen": 0.9386363636363636
+   },
+   {
+    "task": 4,
+    "lambda": 1.0,
+    "forced_seen": 0.9311594202898551
+   },
+   {
+    "task": 5,
+    "lambda": 1.0,
+    "forced_seen": 0.9226804123711341
+   },
+   {
+    "task": 6,
+    "lambda": 1.0,
+    "forced_seen": 0.9159347553324969
+   },
+   {
+    "task": 7,
+    "lambda": 1.0,
+    "forced_seen": 0.9105291871249318
+   },
+   {
+    "task": 8,
+    "lambda": 1.0,
+    "forced_seen": 0.9027311931001437
+   },
+   {
+    "task": 9,
+    "lambda": 1.0,
+    "forced_seen": 0.8986429177268872
+   }
+  ],
+  "elapsed_s": 737.2437753677368
+ }
+]

@@ -1,0 +1,58 @@
+{
+ "none": [
+  {
+   "strict": 0.39731428571428573,
+   "coverage": 0.9971428571428571,
+   "precision": 0.3984527220630372,
+   "growth_flips": 0
+  },
+  {
+   "strict": 0.4188,
+   "coverage": 0.9952,
+   "precision": 0.4208199356913183,
+   "growth_flips": 0
+  }
+ ],
+ "scalar_only": [
+  {
+   "strict": 0.7453142857142857,
+   "coverage": 0.9508,
+   "precision": 0.7838812428631529,
+   "growth_flips": 0
+  },
+  {
+   "strict": 0.7393714285714286,
+   "coverage": 0.9425714285714286,
+   "precision": 0.78441952106699,
+   "growth_flips": 0
+  }
+ ],
+ "veto_only": [
+  {
+   "strict": 0.9018857142857143,
+   "coverage": 0.9889142857142857,
+   "precision": 0.9119958395932046,
+   "growth_flips": 0
+  },
+  {
+   "strict": 0.8913714285714286,
+   "coverage": 0.9799428571428571,
+   "precision": 0.9096157210332964,
+   "growth_flips": 0
+  }
+ ],
+ "both": [
+  {
+   "strict": 0.8262857142857143,
+   "coverage": 0.9485142857142858,
+   "precision": 0.8711368154708115,
+   "growth_flips": 0
+  },
+  {
+   "strict": 0.8119428571428572,
+   "coverage": 0.9325142857142857,
+   "precision": 0.8707028616949568,
+   "growth_flips": 0
+  }
+ ]
+}

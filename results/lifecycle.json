@@ -1,0 +1,674 @@
+{
+ "digits": [
+  {
+   "seed": 2,
+   "growth": 0.8997772828507795,
+   "adol_accepted": false,
+   "adolescence": 0.8997772828507795,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.9973109028328683,
+    "syn_mean_ref": 0.9146269002895249,
+    "syn_floor": 0.9891696750902527,
+    "syn_floor_ref": 0.8653061224489796,
+    "val_new": 0.9428571428571428,
+    "val_ref": 0.8285714285714286,
+    "fidelity_auroc": 0.9764417360285375,
+    "at_risk": false
+   },
+   "pfc": 0.9576837416481069
+  },
+  {
+   "seed": 3,
+   "growth": 0.8374164810690423,
+   "adol_accepted": false,
+   "adolescence": 0.8374164810690423,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.999211118875689,
+    "syn_mean_ref": 0.9247396247803821,
+    "syn_floor": 0.9958847736625515,
+    "syn_floor_ref": 0.7818930041152263,
+    "val_new": 0.9047619047619048,
+    "val_ref": 0.7857142857142857,
+    "fidelity_auroc": 0.9455694011768778,
+    "at_risk": false
+   },
+   "pfc": 0.9599109131403119
+  },
+  {
+   "seed": 4,
+   "growth": 0.8930957683741648,
+   "adol_accepted": true,
+   "adolescence": 0.9265033407572383,
+   "pfc_accepted": false,
+   "gate": {
+    "syn_mean": 0.9948799370247101,
+    "syn_mean_ref": 0.9754344717294245,
+    "syn_floor": 0.984375,
+    "syn_floor_ref": 0.9038461538461539,
+    "val_new": 0.8857142857142857,
+    "val_ref": 0.9142857142857143,
+    "fidelity_auroc": 0.9436422915696321,
+    "at_risk": true
+   },
+   "pfc": 0.9265033407572383
+  }
+ ],
+ "mnist": [
+  {
+   "seed": 2,
+   "growth": 0.8933142857142857,
+   "adol_accepted": false,
+   "adolescence": 0.8933142857142857,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.9449420905822159,
+    "syn_mean_ref": 0.9009349096965715,
+    "syn_floor": 0.8468085106382979,
+    "syn_floor_ref": 0.7914893617021277,
+    "val_new": 0.8835800807537012,
+    "val_ref": 0.879542395693136,
+    "fidelity_auroc": 1.0,
+    "at_risk": true
+   },
+   "pfc": 0.9164
+  },
+  {
+   "seed": 3,
+   "growth": 0.8948,
+   "adol_accepted": false,
+   "adolescence": 0.8948,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.94191370397605,
+    "syn_mean_ref": 0.8982168976010725,
+    "syn_floor": 0.8706896551724138,
+    "syn_floor_ref": 0.8246268656716418,
+    "val_new": 0.9118037135278515,
+    "val_ref": 0.8952254641909815,
+    "fidelity_auroc": 1.0,
+    "at_risk": false
+   },
+   "pfc": 0.9163428571428571
+  },
+  {
+   "seed": 4,
+   "growth": 0.8876571428571428,
+   "adol_accepted": false,
+   "adolescence": 0.8876571428571428,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.9517404684563229,
+    "syn_mean_ref": 0.8975610115213432,
+    "syn_floor": 0.8744939271255061,
+    "syn_floor_ref": 0.8259109311740891,
+    "val_new": 0.8984423676012461,
+    "val_ref": 0.8803738317757009,
+    "fidelity_auroc": 1.0,
+    "at_risk": false
+   },
+   "pfc": 0.9119428571428572
+  }
+ ],
+ "kmnist": [
+  {
+   "seed": 2,
+   "growth": 0.8094857142857143,
+   "adol_accepted": false,
+   "adolescence": 0.8094857142857143,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.8674097285162917,
+    "syn_mean_ref": 0.807007441168118,
+    "syn_floor": 0.7290836653386454,
+    "syn_floor_ref": 0.6828358208955224,
+    "val_new": 0.8694581280788177,
+    "val_ref": 0.8411330049261084,
+    "fidelity_auroc": 0.9994035252731496,
+    "at_risk": false
+   },
+   "pfc": 0.8238857142857143
+  },
+  {
+   "seed": 3,
+   "growth": 0.7994285714285714,
+   "adol_accepted": false,
+   "adolescence": 0.7994285714285714,
+   "pfc_accepted": false,
+   "gate": {
+    "syn_mean": 0.8241648995802672,
+    "syn_mean_ref": 0.7754131694311636,
+    "syn_floor": 0.5726495726495726,
+    "syn_floor_ref": 0.5256410256410257,
+    "val_new": 0.8170185540627,
+    "val_ref": 0.8202175303902751,
+    "fidelity_auroc": 0.9990145391676881,
+    "at_risk": true
+   },
+   "pfc": 0.7994285714285714
+  },
+  {
+   "seed": 4,
+   "growth": 0.8072571428571429,
+   "adol_accepted": false,
+   "adolescence": 0.8072571428571429,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.8603427277438982,
+    "syn_mean_ref": 0.8118846784094247,
+    "syn_floor": 0.5126353790613718,
+    "syn_floor_ref": 0.5018050541516246,
+    "val_new": 0.9089184060721063,
+    "val_ref": 0.8108791903858318,
+    "fidelity_auroc": 0.9991318897162913,
+    "at_risk": false
+   },
+   "pfc": 0.8136571428571429
+  }
+ ],
+ "fashion": [
+  {
+   "seed": 2,
+   "growth": 0.7974285714285714,
+   "adol_accepted": false,
+   "adolescence": 0.7974285714285714,
+   "pfc_accepted": false,
+   "gate": {
+    "syn_mean": 0.8895415439511952,
+    "syn_mean_ref": 0.8529176888765347,
+    "syn_floor": 0.5572519083969466,
+    "syn_floor_ref": 0.541501976284585,
+    "val_new": 0.9400651465798046,
+    "val_ref": 0.9504885993485342,
+    "fidelity_auroc": 0.9994155391231223,
+    "at_risk": true
+   },
+   "pfc": 0.7974285714285714
+  },
+  {
+   "seed": 3,
+   "growth": 0.7981142857142857,
+   "adol_accepted": false,
+   "adolescence": 0.7981142857142857,
+   "pfc_accepted": false,
+   "gate": {
+    "syn_mean": 0.8427902707130718,
+    "syn_mean_ref": 0.8207668794473092,
+    "syn_floor": 0.5148148148148148,
+    "syn_floor_ref": 0.5074074074074074,
+    "val_new": 0.9498094027954257,
+    "val_ref": 0.9536213468869124,
+    "fidelity_auroc": 0.9992331039323805,
+    "at_risk": true
+   },
+   "pfc": 0.7981142857142857
+  },
+  {
+   "seed": 4,
+   "growth": 0.8005142857142857,
+   "adol_accepted": false,
+   "adolescence": 0.8005142857142857,
+   "pfc_accepted": false,
+   "gate": {
+    "syn_mean": 0.8927889370091989,
+    "syn_mean_ref": 0.8617246827073501,
+    "syn_floor": 0.5581395348837209,
+    "syn_floor_ref": 0.5581395348837209,
+    "val_new": 0.9269628727936701,
+    "val_ref": 0.9567863664029215,
+    "fidelity_auroc": 0.9999418132267537,
+    "at_risk": true
+   },
+   "pfc": 0.8005142857142857
+  }
+ ],
+ "letter": [
+  {
+   "seed": 2,
+   "growth": 0.7882,
+   "adol_accepted": false,
+   "adolescence": 0.7882,
+   "pfc_accepted": false,
+   "gate": {
+    "syn_mean": 0.9095407197393292,
+    "syn_mean_ref": 0.6869521883472598,
+    "syn_floor": 0.7364620938628159,
+    "syn_floor_ref": 0.4346153846153846,
+    "val_new": 0.7724550898203593,
+    "val_ref": 0.7904191616766467,
+    "fidelity_auroc": 0.7910130005374899,
+    "at_risk": false
+   },
+   "pfc": 0.7882
+  },
+  {
+   "seed": 3,
+   "growth": 0.7706,
+   "adol_accepted": false,
+   "adolescence": 0.7706,
+   "pfc_accepted": false,
+   "gate": {
+    "syn_mean": 0.9075682029692408,
+    "syn_mean_ref": 0.7035101635243836,
+    "syn_floor": 0.6492537313432836,
+    "syn_floor_ref": 0.47580645161290325,
+    "val_new": 0.7888888888888889,
+    "val_ref": 0.8111111111111111,
+    "fidelity_auroc": 0.7315287282060748,
+    "at_risk": false
+   },
+   "pfc": 0.7706
+  },
+  {
+   "seed": 4,
+   "growth": 0.788,
+   "adol_accepted": false,
+   "adolescence": 0.788,
+   "pfc_accepted": false,
+   "gate": {
+    "syn_mean": 0.9139096151366901,
+    "syn_mean_ref": 0.7061711802795685,
+    "syn_floor": 0.7841409691629956,
+    "syn_floor_ref": 0.4790874524714829,
+    "val_new": 0.7650273224043715,
+    "val_ref": 0.8087431693989071,
+    "fidelity_auroc": 0.6955061436339242,
+    "at_risk": false
+   },
+   "pfc": 0.788
+  }
+ ],
+ "satimage": [
+  {
+   "seed": 2,
+   "growth": 0.836341008089608,
+   "adol_accepted": false,
+   "adolescence": 0.836341008089608,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.8913259587444656,
+    "syn_mean_ref": 0.8350819376837855,
+    "syn_floor": 0.7760617760617761,
+    "syn_floor_ref": 0.6558704453441295,
+    "val_new": 0.7914893617021277,
+    "val_ref": 0.7404255319148936,
+    "fidelity_auroc": 0.6372333548804137,
+    "at_risk": false
+   },
+   "pfc": 0.866210329807094
+  },
+  {
+   "seed": 3,
+   "growth": 0.8388301182327318,
+   "adol_accepted": false,
+   "adolescence": 0.8388301182327318,
+   "pfc_accepted": false,
+   "gate": {
+    "syn_mean": 0.88536850708751,
+    "syn_mean_ref": 0.8273081648044208,
+    "syn_floor": 0.684931506849315,
+    "syn_floor_ref": 0.6325757575757576,
+    "val_new": 0.7782426778242678,
+    "val_ref": 0.7949790794979079,
+    "fidelity_auroc": 0.6021455128283959,
+    "at_risk": false
+   },
+   "pfc": 0.8388301182327318
+  },
+  {
+   "seed": 4,
+   "growth": 0.820784069695084,
+   "adol_accepted": false,
+   "adolescence": 0.820784069695084,
+   "pfc_accepted": false,
+   "gate": {
+    "syn_mean": 0.883541097966532,
+    "syn_mean_ref": 0.8274565670726856,
+    "syn_floor": 0.7136929460580913,
+    "syn_floor_ref": 0.6489795918367347,
+    "val_new": 0.7884615384615384,
+    "val_ref": 0.7961538461538461,
+    "fidelity_auroc": 0.60156749175603,
+    "at_risk": false
+   },
+   "pfc": 0.820784069695084
+  }
+ ],
+ "robot": [
+  {
+   "seed": 2,
+   "growth": 0.7646627565982405,
+   "adol_accepted": false,
+   "adolescence": 0.7646627565982405,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.8465418965582512,
+    "syn_mean_ref": 0.6957098982021322,
+    "syn_floor": 0.5168067226890757,
+    "syn_floor_ref": 0.5252100840336135,
+    "val_new": 0.9183673469387755,
+    "val_ref": 0.7891156462585034,
+    "fidelity_auroc": 0.8035149781725124,
+    "at_risk": false
+   },
+   "pfc": 0.6605571847507331
+  },
+  {
+   "seed": 3,
+   "growth": 0.8137829912023461,
+   "adol_accepted": false,
+   "adolescence": 0.8137829912023461,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.8377296869828679,
+    "syn_mean_ref": 0.6865567135251812,
+    "syn_floor": 0.5598455598455598,
+    "syn_floor_ref": 0.555984555984556,
+    "val_new": 0.8985507246376812,
+    "val_ref": 0.782608695652174,
+    "fidelity_auroc": 0.8051134940691665,
+    "at_risk": false
+   },
+   "pfc": 0.6854838709677419
+  },
+  {
+   "seed": 4,
+   "growth": 0.8211143695014663,
+   "adol_accepted": false,
+   "adolescence": 0.8211143695014663,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.8385861222184157,
+    "syn_mean_ref": 0.6418666025072725,
+    "syn_floor": 0.5301204819277109,
+    "syn_floor_ref": 0.44,
+    "val_new": 0.8263888888888888,
+    "val_ref": 0.75,
+    "fidelity_auroc": 0.8201944058718508,
+    "at_risk": false
+   },
+   "pfc": 0.7104105571847508
+  }
+ ],
+ "cifar_r18": [
+  {
+   "seed": 2,
+   "growth": 0.3886,
+   "adol_accepted": false,
+   "adolescence": 0.3886,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.9023180787740301,
+    "syn_mean_ref": 0.708977208654441,
+    "syn_floor": 0.5370370370370371,
+    "syn_floor_ref": 0.19148936170212766,
+    "val_new": 0.4367816091954023,
+    "val_ref": 0.2950191570881226,
+    "fidelity_auroc": 0.9557343618875347,
+    "at_risk": false
+   },
+   "pfc": 0.4839
+  },
+  {
+   "seed": 3,
+   "growth": 0.4029,
+   "adol_accepted": false,
+   "adolescence": 0.4029,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.8876368661955912,
+    "syn_mean_ref": 0.7337677373966625,
+    "syn_floor": 0.46808510638297873,
+    "syn_floor_ref": 0.3333333333333333,
+    "val_new": 0.3869653767820774,
+    "val_ref": 0.24236252545824846,
+    "fidelity_auroc": 0.953978440889515,
+    "at_risk": false
+   },
+   "pfc": 0.4972
+  },
+  {
+   "seed": 4,
+   "growth": 0.3934,
+   "adol_accepted": false,
+   "adolescence": 0.3934,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.8935365318361302,
+    "syn_mean_ref": 0.7308219609987587,
+    "syn_floor": 0.4782608695652174,
+    "syn_floor_ref": 0.37735849056603776,
+    "val_new": 0.2787193973634652,
+    "val_ref": 0.1902071563088512,
+    "fidelity_auroc": 0.9495564781824117,
+    "at_risk": false
+   },
+   "pfc": 0.4676
+  }
+ ],
+ "cifar_vitb": [
+  {
+   "seed": 2,
+   "growth": 0.654,
+   "adol_accepted": true,
+   "adolescence": 0.7715,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.9595671816113176,
+    "syn_mean_ref": 0.9392605229078488,
+    "syn_floor": 0.7884615384615384,
+    "syn_floor_ref": 0.7727272727272727,
+    "val_new": 0.86328125,
+    "val_ref": 0.80859375,
+    "fidelity_auroc": 0.5040400862986582,
+    "at_risk": false
+   },
+   "pfc": 0.831
+  },
+  {
+   "seed": 3,
+   "growth": 0.6794,
+   "adol_accepted": true,
+   "adolescence": 0.7794,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.9474739725601488,
+    "syn_mean_ref": 0.9318514629439426,
+    "syn_floor": 0.6590909090909091,
+    "syn_floor_ref": 0.6818181818181818,
+    "val_new": 0.7827868852459017,
+    "val_ref": 0.6762295081967213,
+    "fidelity_auroc": 0.49277576580654897,
+    "at_risk": false
+   },
+   "pfc": 0.8364
+  },
+  {
+   "seed": 4,
+   "growth": 0.6681,
+   "adol_accepted": true,
+   "adolescence": 0.7772,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.9567973740444637,
+    "syn_mean_ref": 0.9306336082916725,
+    "syn_floor": 0.6666666666666666,
+    "syn_floor_ref": 0.675,
+    "val_new": 0.8380566801619433,
+    "val_ref": 0.7773279352226721,
+    "fidelity_auroc": 0.47671871281526745,
+    "at_risk": false
+   },
+   "pfc": 0.8376
+  }
+ ],
+ "sweeps": [
+  {
+   "seed": 2,
+   "growth": 0.976,
+   "adol_accepted": true,
+   "adolescence": 0.9908,
+   "pfc_accepted": 0.0,
+   "gate": {
+    "syn_mean": 1.0,
+    "syn_mean_ref": 0.9960403027011151,
+    "syn_floor": 1.0,
+    "syn_floor_ref": 0.98828125,
+    "val_new": 1.0,
+    "val_ref": 0.9896907216494846,
+    "fidelity_auroc": 0.996020229723768,
+    "at_risk": false
+   },
+   "pfc": 0.9908
+  },
+  {
+   "seed": 3,
+   "growth": 0.9884,
+   "adol_accepted": true,
+   "adolescence": 0.9924,
+   "pfc_accepted": 0.0,
+   "gate": {
+    "syn_mean": 1.0,
+    "syn_mean_ref": 0.9981137283768863,
+    "syn_floor": 1.0,
+    "syn_floor_ref": 0.9919028340080972,
+    "val_new": 1.0,
+    "val_ref": 0.9946091644204852,
+    "fidelity_auroc": 0.995593530147284,
+    "at_risk": false
+   },
+   "pfc": 0.9924
+  },
+  {
+   "seed": 4,
+   "growth": 0.9736,
+   "adol_accepted": true,
+   "adolescence": 0.9844,
+   "pfc_accepted": 0.0,
+   "gate": {
+    "syn_mean": 1.0,
+    "syn_mean_ref": 0.9975970581122489,
+    "syn_floor": 1.0,
+    "syn_floor_ref": 0.9926470588235294,
+    "val_new": 1.0,
+    "val_ref": 0.9917808219178083,
+    "fidelity_auroc": 0.9961404081632653,
+    "at_risk": false
+   },
+   "pfc": 0.9844
+  }
+ ],
+ "shapes": [
+  {
+   "seed": 2,
+   "growth": 0.978,
+   "adol_accepted": false,
+   "adolescence": 0.978,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 1.0,
+    "syn_mean_ref": 0.9585733207262015,
+    "syn_floor": 1.0,
+    "syn_floor_ref": 0.8214285714285714,
+    "val_new": 1.0,
+    "val_ref": 0.9922680412371134,
+    "fidelity_auroc": 0.9999760815141996,
+    "at_risk": true
+   },
+   "pfc": 1.0
+  },
+  {
+   "seed": 3,
+   "growth": 0.984,
+   "adol_accepted": false,
+   "adolescence": 0.984,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 1.0,
+    "syn_mean_ref": 0.9729231512136958,
+    "syn_floor": 1.0,
+    "syn_floor_ref": 0.9169811320754717,
+    "val_new": 1.0,
+    "val_ref": 0.9919137466307277,
+    "fidelity_auroc": 0.9999937229774177,
+    "at_risk": true
+   },
+   "pfc": 1.0
+  },
+  {
+   "seed": 4,
+   "growth": 0.9936,
+   "adol_accepted": false,
+   "adolescence": 0.9936,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 1.0,
+    "syn_mean_ref": 0.9754262859346327,
+    "syn_floor": 1.0,
+    "syn_floor_ref": 0.8984962406015038,
+    "val_new": 1.0,
+    "val_ref": 0.9917808219178083,
+    "fidelity_auroc": 0.9998850612244898,
+    "at_risk": false
+   },
+   "pfc": 1.0
+  }
+ ],
+ "fsdd": [
+  {
+   "seed": 2,
+   "growth": 0.81,
+   "adol_accepted": false,
+   "adolescence": 0.81,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.939021873215156,
+    "syn_mean_ref": 0.8387489729400281,
+    "syn_floor": 0.7089552238805971,
+    "syn_floor_ref": 0.5746268656716418,
+    "val_new": 0.9156626506024096,
+    "val_ref": 0.8554216867469879,
+    "fidelity_auroc": 0.7745312750387265,
+    "at_risk": false
+   },
+   "pfc": 0.8866666666666667
+  },
+  {
+   "seed": 3,
+   "growth": 0.7283333333333334,
+   "adol_accepted": false,
+   "adolescence": 0.7283333333333334,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.8839447234233611,
+    "syn_mean_ref": 0.7304325727359107,
+    "syn_floor": 0.3237704918032787,
+    "syn_floor_ref": 0.04918032786885246,
+    "val_new": 0.9404761904761905,
+    "val_ref": 0.8571428571428571,
+    "fidelity_auroc": 0.5889458181728175,
+    "at_risk": false
+   },
+   "pfc": 0.8483333333333334
+  },
+  {
+   "seed": 4,
+   "growth": 0.7783333333333333,
+   "adol_accepted": false,
+   "adolescence": 0.7783333333333333,
+   "pfc_accepted": true,
+   "gate": {
+    "syn_mean": 0.9276702300509267,
+    "syn_mean_ref": 0.7666871280285753,
+    "syn_floor": 0.6353383458646616,
+    "syn_floor_ref": 0.30451127819548873,
+    "val_new": 0.9375,
+    "val_ref": 0.875,
+    "fidelity_auroc": 0.7672447112783117,
+    "at_risk": false
+   },
+   "pfc": 0.8816666666666667
+  }
+ ]
+}

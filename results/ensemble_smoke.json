@@ -1,0 +1,79 @@
+{
+ "digits": [
+  {
+   "seed": 0,
+   "per_k": [
+    {
+     "k": 1,
+     "strict": 0.8285077951002228,
+     "forced": 0.8329621380846325,
+     "coverage": 0.8641425389755011,
+     "precision": 0.9587628865979382,
+     "organs": 5,
+     "params": 26160,
+     "flips_vs_prefix": 0,
+     "newly_answered": 0,
+     "acc_on_newly_answered": null,
+     "vote_forced": 0.8329621380846325,
+     "vote_accepting": 0.8285077951002228,
+     "arbiter": null,
+     "market_maker": null
+    },
+    {
+     "k": 2,
+     "strict": 0.9086859688195991,
+     "forced": 0.9131403118040089,
+     "coverage": 0.9487750556792873,
+     "precision": 0.9577464788732394,
+     "organs": 10,
+     "params": 52320,
+     "flips_vs_prefix": 0,
+     "newly_answered": 38,
+     "acc_on_newly_answered": 0.9473684210526315,
+     "vote_forced": 0.8329621380846325,
+     "vote_accepting": 0.9086859688195991,
+     "arbiter": 0.9643652561247216,
+     "market_maker": 0.8396436525612472
+    },
+    {
+     "k": 3,
+     "strict": 0.9131403118040089,
+     "forced": 0.9175946547884187,
+     "coverage": 0.9532293986636972,
+     "precision": 0.9579439252336449,
+     "organs": 15,
+     "params": 78480,
+     "flips_vs_prefix": 0,
+     "newly_answered": 2,
+     "acc_on_newly_answered": 1.0,
+     "vote_forced": 0.8752783964365256,
+     "vote_accepting": 0.9153674832962138,
+     "arbiter": 0.9665924276169265,
+     "market_maker": 0.8485523385300668
+    },
+    {
+     "k": 4,
+     "strict": 0.9153674832962138,
+     "forced": 0.9198218262806236,
+     "coverage": 0.955456570155902,
+     "precision": 0.958041958041958,
+     "organs": 20,
+     "params": 104640,
+     "flips_vs_prefix": 0,
+     "newly_answered": 1,
+     "acc_on_newly_answered": 1.0,
+     "vote_forced": 0.8864142538975501,
+     "vote_accepting": 0.9153674832962138,
+     "arbiter": 0.9643652561247216,
+     "market_maker": 0.8552338530066815
+    }
+   ],
+   "wide": {
+    "strict": 0.8240534521158129,
+    "coverage": 0.8619153674832962,
+    "precision": 0.9560723514211886,
+    "params": 166080
+   }
+  }
+ ]
+}

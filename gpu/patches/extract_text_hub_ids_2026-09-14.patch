@@ -1,0 +1,34 @@
+--- patches/extract_text.py.orig	2026-09-14 11:00:43.381787200 +0100
++++ extract_text.py	2026-09-14 11:03:31.058330700 +0100
+@@ -38,13 +38,26 @@
+ def load_dataset_split(name):
+     from datasets import load_dataset
+     if name == "banking77":
+-        ds = load_dataset("banking77")
+-        names = ds["train"].features["label"].names
+-        tr = (ds["train"]["text"], np.asarray(ds["train"]["label"]))
+-        te = (ds["test"]["text"], np.asarray(ds["test"]["label"]))
++        # 2026-09-14 GPU-box fix: datasets >= 3 refuses script-based Hub repos
++        # ("Dataset scripts are no longer supported") and PolyAI/banking77 has no
++        # parquet conversion. Read the two CSVs that banking77.py itself downloads
++        # and map categories with the script's ClassLabel names (dataset_infos.json),
++        # so texts, splits and integer labels are exactly what load_dataset gave.
++        import json
++        import pandas as pd
++        from huggingface_hub import hf_hub_download
++        base = "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/"
++        info = json.load(open(hf_hub_download("PolyAI/banking77", "dataset_infos.json",
++                                              repo_type="dataset"), encoding="utf-8"))
++        names = list(info.values())[0]["features"]["label"]["names"]
++        idx = {n: i for i, n in enumerate(names)}
++        tr_df = pd.read_csv(base + "train.csv")
++        te_df = pd.read_csv(base + "test.csv")
++        tr = (tr_df["text"].tolist(), np.asarray([idx[c] for c in tr_df["category"]]))
++        te = (te_df["text"].tolist(), np.asarray([idx[c] for c in te_df["category"]]))
+         return tr, te, names, None, 7
+     if name == "clinc150":
+-        ds = load_dataset("clinc_oos", "plus")
++        ds = load_dataset("clinc/clinc_oos", "plus")
+         names = ds["train"].features["intent"].names
+         oos = names.index("oos")
+         keep = [n for n in names if n != "oos"]

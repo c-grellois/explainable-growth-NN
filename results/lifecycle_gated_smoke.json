@@ -1,0 +1,62 @@
+{
+ "digits": [
+  {
+   "seed": 2,
+   "growth": 0.8997772828507795,
+   "adol_accepted": false,
+   "adolescence": 0.8997772828507795,
+   "arbiter_kind": "gated",
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 1.1338934190276817,
+   "repaired_failed": [],
+   "pfc_accepted": true,
+   "pfc_free_test": 0.9576837416481069,
+   "gate": {
+    "syn_mean": 0.9553244333263397,
+    "syn_mean_ref": 0.9146269002895249,
+    "syn_floor": 0.9186991869918699,
+    "syn_floor_ref": 0.8653061224489796,
+    "val_new": 0.9142857142857143,
+    "val_ref": 0.8285714285714286,
+    "fidelity_auroc": 0.9764417360285375,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.9220489977728286,
+   "pfc": 0.9220489977728286
+  }
+ ],
+ "robot": [
+  {
+   "seed": 2,
+   "growth": 0.7646627565982405,
+   "adol_accepted": false,
+   "adolescence": 0.7646627565982405,
+   "arbiter_kind": "gated",
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -1.8083888603589302,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.6605571847507331,
+   "gate": {
+    "syn_mean": 0.8372610237152867,
+    "syn_mean_ref": 0.6957098982021322,
+    "syn_floor": 0.5126050420168067,
+    "syn_floor_ref": 0.5252100840336135,
+    "val_new": 0.9183673469387755,
+    "val_ref": 0.7891156462585034,
+    "fidelity_auroc": 0.8035149781725124,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.6458944281524927,
+   "pfc": 0.7646627565982405
+  }
+ ]
+}

@@ -1,0 +1,434 @@
+[
+ {
+  "seed": 2,
+  "cache": "ptm_omni_vitb1k",
+  "M": 2000,
+  "n_classes": 300,
+  "inc": 30,
+  "lambda": 1.0,
+  "forced": 0.7451963241436925,
+  "strict": 0.73734335839599,
+  "coverage": 0.9672514619883041,
+  "precision": 0.7623078251856971,
+  "tau": 4.4336837535241536e-06,
+  "rho_in": 1.340847795431463,
+  "strict_margin_only": 0.7451963241436925,
+  "answer_flips_under_growth": 1348,
+  "n_test": 5985,
+  "head_params": 2136000,
+  "gram_floats": 4000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 0.001,
+    "forced_seen": 0.9533333333333334
+   },
+   {
+    "task": 1,
+    "lambda": 0.001,
+    "forced_seen": 0.9157631359466222
+   },
+   {
+    "task": 2,
+    "lambda": 1.0,
+    "forced_seen": 0.8674832962138085
+   },
+   {
+    "task": 3,
+    "lambda": 10.0,
+    "forced_seen": 0.835421888053467
+   },
+   {
+    "task": 4,
+    "lambda": 10.0,
+    "forced_seen": 0.8329435349148012
+   },
+   {
+    "task": 5,
+    "lambda": 0.01,
+    "forced_seen": 0.7996103534650709
+   },
+   {
+    "task": 6,
+    "lambda": 0.1,
+    "forced_seen": 0.7863961813842482
+   },
+   {
+    "task": 7,
+    "lambda": 10.0,
+    "forced_seen": 0.7677041988719449
+   },
+   {
+    "task": 8,
+    "lambda": 1.0,
+    "forced_seen": 0.7499535919806942
+   },
+   {
+    "task": 9,
+    "lambda": 1.0,
+    "forced_seen": 0.7451963241436925
+   }
+  ],
+  "elapsed_s": 43.82418179512024
+ },
+ {
+  "seed": 3,
+  "cache": "ptm_omni_vitb1k",
+  "M": 2000,
+  "n_classes": 300,
+  "inc": 30,
+  "lambda": 10.0,
+  "forced": 0.7398496240601504,
+  "strict": 0.7321637426900585,
+  "coverage": 0.9657477025898078,
+  "precision": 0.7581314878892733,
+  "tau": 1.123947760921229e-05,
+  "rho_in": 1.3324212351710316,
+  "strict_margin_only": 0.7398496240601504,
+  "answer_flips_under_growth": 1325,
+  "n_test": 5985,
+  "head_params": 2136000,
+  "gram_floats": 4000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 0.1,
+    "forced_seen": 0.9566666666666667
+   },
+   {
+    "task": 1,
+    "lambda": 10.0,
+    "forced_seen": 0.9299416180150125
+   },
+   {
+    "task": 2,
+    "lambda": 0.1,
+    "forced_seen": 0.8759042849193099
+   },
+   {
+    "task": 3,
+    "lambda": 0.01,
+    "forced_seen": 0.8751565762004175
+   },
+   {
+    "task": 4,
+    "lambda": 1.0,
+    "forced_seen": 0.8523714094856379
+   },
+   {
+    "task": 5,
+    "lambda": 1.0,
+    "forced_seen": 0.8276726057906458
+   },
+   {
+    "task": 6,
+    "lambda": 10.0,
+    "forced_seen": 0.8076372315035799
+   },
+   {
+    "task": 7,
+    "lambda": 10.0,
+    "forced_seen": 0.7784043441938179
+   },
+   {
+    "task": 8,
+    "lambda": 10.0,
+    "forced_seen": 0.7434564692778912
+   },
+   {
+    "task": 9,
+    "lambda": 10.0,
+    "forced_seen": 0.7398496240601504
+   }
+  ],
+  "elapsed_s": 40.58799076080322
+ },
+ {
+  "seed": 4,
+  "cache": "ptm_omni_vitb1k",
+  "M": 2000,
+  "n_classes": 300,
+  "inc": 30,
+  "lambda": 1.0,
+  "forced": 0.7441938178780284,
+  "strict": 0.7375104427736007,
+  "coverage": 0.9687552213868004,
+  "precision": 0.7612969989651605,
+  "tau": 2.3299423484723913e-06,
+  "rho_in": 1.3393183676809453,
+  "strict_margin_only": 0.7441938178780284,
+  "answer_flips_under_growth": 1375,
+  "n_test": 5985,
+  "head_params": 2136000,
+  "gram_floats": 4000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 10.0,
+    "forced_seen": 0.9081803005008348
+   },
+   {
+    "task": 1,
+    "lambda": 0.01,
+    "forced_seen": 0.8771929824561403
+   },
+   {
+    "task": 2,
+    "lambda": 10.0,
+    "forced_seen": 0.8545961002785515
+   },
+   {
+    "task": 3,
+    "lambda": 0.1,
+    "forced_seen": 0.8173076923076923
+   },
+   {
+    "task": 4,
+    "lambda": 1.0,
+    "forced_seen": 0.7926421404682275
+   },
+   {
+    "task": 5,
+    "lambda": 10.0,
+    "forced_seen": 0.7840022296544036
+   },
+   {
+    "task": 6,
+    "lambda": 0.01,
+    "forced_seen": 0.7812798471824259
+   },
+   {
+    "task": 7,
+    "lambda": 1.0,
+    "forced_seen": 0.7670775015667433
+   },
+   {
+    "task": 8,
+    "lambda": 0.1,
+    "forced_seen": 0.7558484961010026
+   },
+   {
+    "task": 9,
+    "lambda": 1.0,
+    "forced_seen": 0.7441938178780284
+   }
+  ],
+  "elapsed_s": 43.68879532814026
+ },
+ {
+  "seed": 2,
+  "cache": "ptm_omni_vitb1k",
+  "M": 10000,
+  "n_classes": 300,
+  "inc": 30,
+  "lambda": 0.1,
+  "forced": 0.7684210526315789,
+  "strict": 0.7614035087719299,
+  "coverage": 0.9774436090225563,
+  "precision": 0.778974358974359,
+  "tau": 5.772340724435887e-07,
+  "rho_in": 1.340847795431463,
+  "strict_margin_only": 0.7684210526315789,
+  "answer_flips_under_growth": 1160,
+  "n_test": 5985,
+  "head_params": 10680000,
+  "gram_floats": 100000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 1.0,
+    "forced_seen": 0.9633333333333334
+   },
+   {
+    "task": 1,
+    "lambda": 1.0,
+    "forced_seen": 0.9332777314428691
+   },
+   {
+    "task": 2,
+    "lambda": 1.0,
+    "forced_seen": 0.8847438752783965
+   },
+   {
+    "task": 3,
+    "lambda": 1.0,
+    "forced_seen": 0.8558897243107769
+   },
+   {
+    "task": 4,
+    "lambda": 1.0,
+    "forced_seen": 0.8469762779819578
+   },
+   {
+    "task": 5,
+    "lambda": 1.0,
+    "forced_seen": 0.82577233509602
+   },
+   {
+    "task": 6,
+    "lambda": 1.0,
+    "forced_seen": 0.8093078758949881
+   },
+   {
+    "task": 7,
+    "lambda": 1.0,
+    "forced_seen": 0.7952788803008147
+   },
+   {
+    "task": 8,
+    "lambda": 1.0,
+    "forced_seen": 0.7733432337107852
+   },
+   {
+    "task": 9,
+    "lambda": 0.1,
+    "forced_seen": 0.7684210526315789
+   }
+  ],
+  "elapsed_s": 315.666885137558
+ },
+ {
+  "seed": 3,
+  "cache": "ptm_omni_vitb1k",
+  "M": 10000,
+  "n_classes": 300,
+  "inc": 30,
+  "lambda": 1.0,
+  "forced": 0.772765246449457,
+  "strict": 0.7644110275689223,
+  "coverage": 0.9752715121136174,
+  "precision": 0.783793044372109,
+  "tau": 1.453942970300326e-05,
+  "rho_in": 1.3337578240205883,
+  "strict_margin_only": 0.772765246449457,
+  "answer_flips_under_growth": 1129,
+  "n_test": 5985,
+  "head_params": 10680000,
+  "gram_floats": 100000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 1.0,
+    "forced_seen": 0.9533333333333334
+   },
+   {
+    "task": 1,
+    "lambda": 1.0,
+    "forced_seen": 0.9432860717264387
+   },
+   {
+    "task": 2,
+    "lambda": 1.0,
+    "forced_seen": 0.900946021146355
+   },
+   {
+    "task": 3,
+    "lambda": 1.0,
+    "forced_seen": 0.8968684759916493
+   },
+   {
+    "task": 4,
+    "lambda": 1.0,
+    "forced_seen": 0.8770875083500334
+   },
+   {
+    "task": 5,
+    "lambda": 1.0,
+    "forced_seen": 0.8549554565701559
+   },
+   {
+    "task": 6,
+    "lambda": 1.0,
+    "forced_seen": 0.8322195704057279
+   },
+   {
+    "task": 7,
+    "lambda": 1.0,
+    "forced_seen": 0.8049289891395155
+   },
+   {
+    "task": 8,
+    "lambda": 1.0,
+    "forced_seen": 0.777612771486913
+   },
+   {
+    "task": 9,
+    "lambda": 1.0,
+    "forced_seen": 0.772765246449457
+   }
+  ],
+  "elapsed_s": 320.74266815185547
+ },
+ {
+  "seed": 4,
+  "cache": "ptm_omni_vitb1k",
+  "M": 10000,
+  "n_classes": 300,
+  "inc": 30,
+  "lambda": 1.0,
+  "forced": 0.7670843776106934,
+  "strict": 0.7605680868838763,
+  "coverage": 0.9777777777777777,
+  "precision": 0.7778537252221462,
+  "tau": 1.557901127807737e-05,
+  "rho_in": 1.341794421357644,
+  "strict_margin_only": 0.7670843776106934,
+  "answer_flips_under_growth": 1069,
+  "n_test": 5985,
+  "head_params": 10680000,
+  "gram_floats": 100000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 1.0,
+    "forced_seen": 0.8948247078464107
+   },
+   {
+    "task": 1,
+    "lambda": 1.0,
+    "forced_seen": 0.8872180451127819
+   },
+   {
+    "task": 2,
+    "lambda": 1.0,
+    "forced_seen": 0.8746518105849582
+   },
+   {
+    "task": 3,
+    "lambda": 1.0,
+    "forced_seen": 0.8386287625418061
+   },
+   {
+    "task": 4,
+    "lambda": 1.0,
+    "forced_seen": 0.8173913043478261
+   },
+   {
+    "task": 5,
+    "lambda": 1.0,
+    "forced_seen": 0.8107580824972129
+   },
+   {
+    "task": 6,
+    "lambda": 1.0,
+    "forced_seen": 0.8044412607449857
+   },
+   {
+    "task": 7,
+    "lambda": 1.0,
+    "forced_seen": 0.7952788803008147
+   },
+   {
+    "task": 8,
+    "lambda": 1.0,
+    "forced_seen": 0.7816561455625696
+   },
+   {
+    "task": 9,
+    "lambda": 1.0,
+    "forced_seen": 0.7670843776106934
+   }
+  ],
+  "elapsed_s": 319.3763723373413
+ }
+]

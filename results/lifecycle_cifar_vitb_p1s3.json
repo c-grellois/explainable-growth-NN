@@ -1,0 +1,158 @@
+{
+ "cifar_vitb_p1s3": [
+  {
+   "seed": 3,
+   "growth": 0.8049,
+   "order_policy": "random",
+   "tasks": [
+    [
+     14,
+     43,
+     60,
+     68,
+     72,
+     76,
+     83,
+     90,
+     92,
+     94
+    ],
+    [
+     12,
+     13,
+     19,
+     28,
+     34,
+     54,
+     66,
+     81,
+     91,
+     99
+    ],
+    [
+     1,
+     40,
+     47,
+     50,
+     51,
+     52,
+     73,
+     77,
+     85,
+     97
+    ],
+    [
+     6,
+     20,
+     21,
+     26,
+     32,
+     36,
+     56,
+     63,
+     78,
+     79
+    ],
+    [
+     3,
+     7,
+     22,
+     30,
+     38,
+     44,
+     64,
+     70,
+     71,
+     74
+    ],
+    [
+     35,
+     37,
+     39,
+     45,
+     46,
+     69,
+     82,
+     87,
+     88,
+     95
+    ],
+    [
+     9,
+     10,
+     23,
+     24,
+     31,
+     53,
+     58,
+     61,
+     80,
+     96
+    ],
+    [
+     0,
+     8,
+     11,
+     17,
+     25,
+     33,
+     55,
+     62,
+     65,
+     98
+    ],
+    [
+     2,
+     16,
+     18,
+     27,
+     41,
+     49,
+     57,
+     75,
+     84,
+     86
+    ],
+    [
+     4,
+     5,
+     15,
+     29,
+     42,
+     48,
+     59,
+     67,
+     89,
+     93
+    ]
+   ],
+   "growth_coverage": 0.9794,
+   "n_organs": 10,
+   "vetoes_total": 250,
+   "adol_accepted": true,
+   "adolescence": 0.8437,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 2.0409199716570616,
+   "repaired_failed": [],
+   "pfc_accepted": true,
+   "pfc_free_test": 0.8708,
+   "gate": {
+    "syn_mean": 0.96762686337081,
+    "syn_mean_ref": 0.9529661185620405,
+    "syn_floor": 0.7272727272727273,
+    "syn_floor_ref": 0.7090909090909091,
+    "val_new": 0.8411405295315683,
+    "val_ref": 0.8411405295315683,
+    "fidelity_auroc": 0.48920706622569976,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.851,
+   "pfc": 0.851
+  }
+ ]
+}

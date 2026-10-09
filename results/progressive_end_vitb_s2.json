@@ -1,0 +1,140 @@
+[
+ {
+  "seed": 2,
+  "schedule": "end",
+  "when": [
+   10
+  ],
+  "final": {
+   "strict": 0.7715,
+   "forced": 0.7729,
+   "coverage": 0.9772,
+   "precision": 0.7895006139991814,
+   "mean_radius": 0.07563822581820176
+  },
+  "growth_flips": 0,
+  "vetoes_total": 0,
+  "consolidations": [
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.654,
+    "strict_after": 0.7715,
+    "params_C": 76800,
+    "organs_after": 11
+   }
+  ],
+  "n_accepted": 1,
+  "share_C": 0.7607,
+  "n_organs": 11,
+  "n_params": 2216320,
+  "curve": [
+   {
+    "task": 1,
+    "strict_seen": 0.965,
+    "coverage_seen": 0.991,
+    "organs": 1,
+    "fa": null
+   },
+   {
+    "task": 2,
+    "strict_seen": 0.873,
+    "coverage_seen": 0.9665,
+    "organs": 2,
+    "fa": [
+     0.9298794104510942,
+     0.09557838320678874
+    ]
+   },
+   {
+    "task": 3,
+    "strict_seen": 0.776,
+    "coverage_seen": 0.9836666666666667,
+    "organs": 3,
+    "fa": [
+     0.8049977688531905,
+     0.2708612226684516
+    ]
+   },
+   {
+    "task": 4,
+    "strict_seen": 0.74275,
+    "coverage_seen": 0.98525,
+    "organs": 4,
+    "fa": [
+     0.8753315649867374,
+     0.1812555260831123
+    ]
+   },
+   {
+    "task": 5,
+    "strict_seen": 0.7132,
+    "coverage_seen": 0.992,
+    "organs": 5,
+    "fa": [
+     0.8961845607808341,
+     0.23425022182786157
+    ]
+   },
+   {
+    "task": 6,
+    "strict_seen": 0.6935,
+    "coverage_seen": 0.9923333333333333,
+    "organs": 6,
+    "fa": [
+     0.9340124003542959,
+     0.22852081488042517
+    ]
+   },
+   {
+    "task": 7,
+    "strict_seen": 0.6804285714285714,
+    "coverage_seen": 0.994,
+    "organs": 7,
+    "fa": [
+     0.9352137505509035,
+     0.19479947113265755
+    ]
+   },
+   {
+    "task": 8,
+    "strict_seen": 0.661875,
+    "coverage_seen": 0.98275,
+    "organs": 8,
+    "fa": [
+     0.9799375835934017,
+     0.2501114578689255
+    ]
+   },
+   {
+    "task": 9,
+    "strict_seen": 0.6573333333333333,
+    "coverage_seen": 0.9737777777777777,
+    "organs": 9,
+    "fa": [
+     0.9273618538324421,
+     0.23039215686274508
+    ]
+   },
+   {
+    "task": 10,
+    "strict_seen": 0.654,
+    "coverage_seen": 0.9684,
+    "organs": 10,
+    "fa": [
+     0.7887700534759359,
+     0.2232620320855615
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.654,
+     "strict_after": 0.7715,
+     "params_C": 76800,
+     "organs_after": 11
+    }
+   }
+  ],
+  "elapsed_s": 3263.0102512836456
+ }
+]

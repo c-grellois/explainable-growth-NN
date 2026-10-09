@@ -1,0 +1,438 @@
+{
+ "fsdd_spk": [
+  {
+   "seed": 2,
+   "ours": {
+    "final": {
+     "strict": 0.244,
+     "forced": 0.25,
+     "coverage": 0.804,
+     "precision": 0.3034825870646766,
+     "mean_radius": 0.0038201518516836185
+    },
+    "growth_flips": 0,
+    "false_accepts": [
+     {
+      "task": 0,
+      "fa_before": 0.0,
+      "fa_after": 0.0
+     },
+     {
+      "task": 1,
+      "fa_before": 0.9675,
+      "fa_after": 0.0125
+     },
+     {
+      "task": 2,
+      "fa_before": 0.925,
+      "fa_after": 0.015
+     },
+     {
+      "task": 3,
+      "fa_before": 0.69,
+      "fa_after": 0.0125
+     },
+     {
+      "task": 4,
+      "fa_before": 0.9975,
+      "fa_after": 0.035
+     }
+    ],
+    "n_params": 27800
+   },
+   "ours_nolisten": {
+    "final": {
+     "strict": 0.208,
+     "forced": 0.254,
+     "coverage": 0.646,
+     "precision": 0.3219814241486068,
+     "mean_radius": 0.0026525093041324713
+    },
+    "growth_flips": 0,
+    "false_accepts": [
+     {
+      "task": 0,
+      "fa_before": 0.0,
+      "fa_after": 0.0
+     },
+     {
+      "task": 1,
+      "fa_before": 0.9675,
+      "fa_after": 0.0125
+     },
+     {
+      "task": 2,
+      "fa_before": 0.9275,
+      "fa_after": 0.045
+     },
+     {
+      "task": 3,
+      "fa_before": 0.6925,
+      "fa_after": 0.025
+     },
+     {
+      "task": 4,
+      "fa_before": 0.9675,
+      "fa_after": 0.0275
+     }
+    ],
+    "n_params": 11800
+   },
+   "anatomy": {
+    "Q": 0.34931681638017603,
+    "within_frac": 0.549316816380176,
+    "q_null": 0.2,
+    "mean_edge_len": 0.2328442484140396,
+    "random_pair_len": 0.5066791772842407
+   },
+   "lesion": {
+    "base": [
+     0.56,
+     0.0,
+     0.09,
+     0.49,
+     0.08
+    ],
+    "lesioned": [
+     [
+      0.0,
+      0.0,
+      0.14,
+      0.92,
+      0.08
+     ],
+     [
+      0.56,
+      0.0,
+      0.1,
+      0.61,
+      0.08
+     ],
+     [
+      0.56,
+      0.0,
+      0.0,
+      0.48,
+      0.08
+     ],
+     [
+      0.56,
+      0.0,
+      0.09,
+      0.0,
+      0.15
+     ],
+     [
+      0.56,
+      0.0,
+      0.09,
+      0.49,
+      0.0
+     ]
+    ]
+   },
+   "baselines": {
+    "finetune": {
+     "final_acc": 0.2,
+     "n_params": 45410
+    },
+    "ewc": {
+     "final_acc": 0.124,
+     "n_params": 45410
+    },
+    "replay": {
+     "final_acc": 0.436,
+     "n_params": 45410
+    }
+   },
+   "joint": 0.57
+  },
+  {
+   "seed": 3,
+   "ours": {
+    "final": {
+     "strict": 0.35,
+     "forced": 0.352,
+     "coverage": 0.846,
+     "precision": 0.41371158392434987,
+     "mean_radius": 0.0043053581702037925
+    },
+    "growth_flips": 0,
+    "false_accepts": [
+     {
+      "task": 0,
+      "fa_before": 0.0,
+      "fa_after": 0.0
+     },
+     {
+      "task": 1,
+      "fa_before": 0.885,
+      "fa_after": 0.0025
+     },
+     {
+      "task": 2,
+      "fa_before": 0.9375,
+      "fa_after": 0.015
+     },
+     {
+      "task": 3,
+      "fa_before": 0.835,
+      "fa_after": 0.02
+     },
+     {
+      "task": 4,
+      "fa_before": 0.845,
+      "fa_after": 0.06
+     }
+    ],
+    "n_params": 27800
+   },
+   "ours_nolisten": {
+    "final": {
+     "strict": 0.318,
+     "forced": 0.318,
+     "coverage": 0.96,
+     "precision": 0.33125,
+     "mean_radius": 0.0038511696945551397
+    },
+    "growth_flips": 0,
+    "false_accepts": [
+     {
+      "task": 0,
+      "fa_before": 0.0,
+      "fa_after": 0.0
+     },
+     {
+      "task": 1,
+      "fa_before": 0.885,
+      "fa_after": 0.0025
+     },
+     {
+      "task": 2,
+      "fa_before": 0.915,
+      "fa_after": 0.015
+     },
+     {
+      "task": 3,
+      "fa_before": 0.735,
+      "fa_after": 0.0475
+     },
+     {
+      "task": 4,
+      "fa_before": 0.8825,
+      "fa_after": 0.045
+     }
+    ],
+    "n_params": 11800
+   },
+   "anatomy": {
+    "Q": 0.3677899980748938,
+    "within_frac": 0.5677899980748938,
+    "q_null": 0.2,
+    "mean_edge_len": 0.2282496690750122,
+    "random_pair_len": 0.49913379549980164
+   },
+   "lesion": {
+    "base": [
+     0.79,
+     0.18,
+     0.27,
+     0.41,
+     0.1
+    ],
+    "lesioned": [
+     [
+      0.0,
+      0.33,
+      0.38,
+      0.26,
+      0.42
+     ],
+     [
+      0.79,
+      0.0,
+      0.28,
+      0.13,
+      0.1
+     ],
+     [
+      0.79,
+      0.18,
+      0.0,
+      0.13,
+      0.22
+     ],
+     [
+      0.79,
+      0.18,
+      0.27,
+      0.0,
+      0.41
+     ],
+     [
+      0.79,
+      0.18,
+      0.27,
+      0.41,
+      0.0
+     ]
+    ]
+   },
+   "baselines": {
+    "finetune": {
+     "final_acc": 0.178,
+     "n_params": 45410
+    },
+    "ewc": {
+     "final_acc": 0.218,
+     "n_params": 45410
+    },
+    "replay": {
+     "final_acc": 0.386,
+     "n_params": 45410
+    }
+   },
+   "joint": 0.422
+  },
+  {
+   "seed": 4,
+   "ours": {
+    "final": {
+     "strict": 0.452,
+     "forced": 0.452,
+     "coverage": 0.964,
+     "precision": 0.46887966804979253,
+     "mean_radius": 0.05830478971810391
+    },
+    "growth_flips": 0,
+    "false_accepts": [
+     {
+      "task": 0,
+      "fa_before": 0.0,
+      "fa_after": 0.0
+     },
+     {
+      "task": 1,
+      "fa_before": 0.8675,
+      "fa_after": 0.0075
+     },
+     {
+      "task": 2,
+      "fa_before": 0.8225,
+      "fa_after": 0.01
+     },
+     {
+      "task": 3,
+      "fa_before": 0.8225,
+      "fa_after": 0.0125
+     },
+     {
+      "task": 4,
+      "fa_before": 1.0,
+      "fa_after": 0.0625
+     }
+    ],
+    "n_params": 19040
+   },
+   "ours_nolisten": {
+    "final": {
+     "strict": 0.448,
+     "forced": 0.454,
+     "coverage": 0.958,
+     "precision": 0.46764091858037576,
+     "mean_radius": 0.008283106089736906
+    },
+    "growth_flips": 0,
+    "false_accepts": [
+     {
+      "task": 0,
+      "fa_before": 0.0,
+      "fa_after": 0.0
+     },
+     {
+      "task": 1,
+      "fa_before": 0.8675,
+      "fa_after": 0.0075
+     },
+     {
+      "task": 2,
+      "fa_before": 0.8225,
+      "fa_after": 0.01
+     },
+     {
+      "task": 3,
+      "fa_before": 0.8325,
+      "fa_after": 0.015
+     },
+     {
+      "task": 4,
+      "fa_before": 1.0,
+      "fa_after": 0.0775
+     }
+    ],
+    "n_params": 9440
+   },
+   "anatomy": {
+    "Q": 0.4391274296065686,
+    "within_frac": 0.6891274296065686,
+    "q_null": 0.25,
+    "mean_edge_len": 0.17821583151817322,
+    "random_pair_len": 0.4466089606285095
+   },
+   "lesion": {
+    "base": [
+     0.79,
+     0.0,
+     0.51,
+     0.47,
+     0.49
+    ],
+    "lesioned": [
+     [
+      0.0,
+      0.0,
+      0.69,
+      0.47,
+      0.49
+     ],
+     [
+      0.79,
+      0.0,
+      0.0,
+      0.5,
+      0.5
+     ],
+     [
+      0.79,
+      0.0,
+      0.51,
+      0.0,
+      0.0
+     ],
+     [
+      0.79,
+      0.0,
+      0.51,
+      0.47,
+      0.0
+     ]
+    ]
+   },
+   "baselines": {
+    "finetune": {
+     "final_acc": 0.108,
+     "n_params": 45410
+    },
+    "ewc": {
+     "final_acc": 0.166,
+     "n_params": 45410
+    },
+    "replay": {
+     "final_acc": 0.53,
+     "n_params": 45410
+    }
+   },
+   "joint": 0.562
+  }
+ ]
+}

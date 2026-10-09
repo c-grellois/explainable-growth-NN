@@ -1,0 +1,62 @@
+{
+ "digits": [
+  {
+   "seed": 2,
+   "growth": 0.8485523385300668,
+   "adol_accepted": false,
+   "adolescence": 0.8485523385300668,
+   "arbiter_kind": "gated",
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 2.23606797749979,
+   "repaired_failed": [],
+   "pfc_accepted": true,
+   "pfc_free_test": 0.9532293986636972,
+   "gate": {
+    "syn_mean": 0.9466089514865029,
+    "syn_mean_ref": 0.909318065180045,
+    "syn_floor": 0.8597285067873304,
+    "syn_floor_ref": 0.8578199052132701,
+    "val_new": 1.0,
+    "val_ref": 0.8636363636363636,
+    "fidelity_auroc": 0.9373760488176964,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.8930957683741648,
+   "pfc": 0.8930957683741648
+  }
+ ],
+ "fsdd_spk": [
+  {
+   "seed": 2,
+   "growth": 0.244,
+   "adol_accepted": true,
+   "adolescence": 0.244,
+   "arbiter_kind": "gated",
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -1.0,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.462,
+   "gate": {
+    "syn_mean": 0.9360104315602816,
+    "syn_mean_ref": 0.8290968480778295,
+    "syn_floor": 0.7985074626865671,
+    "syn_floor_ref": 0.7854077253218884,
+    "val_new": 0.48,
+    "val_ref": 0.34,
+    "fidelity_auroc": 0.2421,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.09,
+   "pfc": 0.244
+  }
+ ]
+}

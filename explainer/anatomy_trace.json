@@ -1,0 +1,1996 @@
+{
+ "seed": 2,
+ "benches": {
+  "digits": {
+   "bench": "digits",
+   "seed": 2,
+   "n_tasks": 5,
+   "n_classes": 10,
+   "backbone": "64 raw pixels",
+   "organs": [
+    {
+     "id": 0,
+     "born_at": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "class_names": [
+      "0",
+      "1"
+     ],
+     "need": 43,
+     "cov_on_need": 0.9772727272727273,
+     "prec_on_need": 1.0,
+     "rho": 4.06300687789917,
+     "tau": 0.5089022517204285,
+     "birth_vetoes": 0,
+     "size": null,
+     "own_task_strict_over_time": [
+      1.0,
+      0.9887640449438202,
+      0.9887640449438202,
+      0.9887640449438202,
+      0.9887640449438202
+     ]
+    },
+    {
+     "id": 1,
+     "born_at": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "class_names": [
+      "2",
+      "3"
+     ],
+     "need": 39,
+     "cov_on_need": 0.975,
+     "prec_on_need": 1.0,
+     "rho": 3.018847703933716,
+     "tau": 0.25004035234451294,
+     "birth_vetoes": 1,
+     "size": null,
+     "own_task_strict_over_time": [
+      null,
+      0.9175257731958762,
+      0.9072164948453608,
+      0.9072164948453608,
+      0.9072164948453608
+     ]
+    },
+    {
+     "id": 2,
+     "born_at": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "class_names": [
+      "4",
+      "5"
+     ],
+     "need": 37,
+     "cov_on_need": 0.9736842105263158,
+     "prec_on_need": 1.0,
+     "rho": 3.8655643463134766,
+     "tau": 0.23640894889831543,
+     "birth_vetoes": 0,
+     "size": null,
+     "own_task_strict_over_time": [
+      null,
+      null,
+      0.9139784946236559,
+      0.8924731182795699,
+      0.8817204301075269
+     ]
+    },
+    {
+     "id": 3,
+     "born_at": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "class_names": [
+      "6",
+      "7"
+     ],
+     "need": 39,
+     "cov_on_need": 0.975,
+     "prec_on_need": 1.0,
+     "rho": 4.809237480163574,
+     "tau": 0.5927900075912476,
+     "birth_vetoes": 1,
+     "size": null,
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      0.8674698795180723,
+      0.8674698795180723
+     ]
+    },
+    {
+     "id": 4,
+     "born_at": 4,
+     "classes": [
+      8,
+      9
+     ],
+     "class_names": [
+      "8",
+      "9"
+     ],
+     "need": 30,
+     "cov_on_need": 0.967741935483871,
+     "prec_on_need": 1.0,
+     "rho": 2.9511990547180176,
+     "tau": 0.06392151117324829,
+     "birth_vetoes": 1,
+     "size": null,
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      null,
+      0.8505747126436781
+     ]
+    }
+   ],
+   "arrivals": [
+    {
+     "task": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "class_names": [
+      "0",
+      "1"
+     ],
+     "fa_before": 0.0,
+     "fa_after": 0.0,
+     "tighten": [],
+     "vetoes_added_total": 0,
+     "strict_after": 1.0,
+     "coverage_after": 1.0
+    },
+    {
+     "task": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "class_names": [
+      "2",
+      "3"
+     ],
+     "fa_before": 0.0990990990990991,
+     "fa_after": 0.0,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 1
+      }
+     ],
+     "vetoes_added_total": 1,
+     "strict_after": 0.9531449090698483,
+     "coverage_after": 0.9793814432989691
+    },
+    {
+     "task": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "class_names": [
+      "4",
+      "5"
+     ],
+     "fa_before": 0.4155844155844156,
+     "fa_after": 0.047619047619047616,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 0
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 1
+      }
+     ],
+     "vetoes_added_total": 1,
+     "strict_after": 0.9366530114709457,
+     "coverage_after": 0.9755016073606031
+    },
+    {
+     "task": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "class_names": [
+      "6",
+      "7"
+     ],
+     "fa_before": 0.20512820512820512,
+     "fa_after": 0.021367521367521368,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 0
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 1
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 1
+      }
+     ],
+     "vetoes_added_total": 2,
+     "strict_after": 0.9139808843967059,
+     "coverage_after": 0.9551655240850332
+    },
+    {
+     "task": 4,
+     "classes": [
+      8,
+      9
+     ],
+     "class_names": [
+      "8",
+      "9"
+     ],
+     "fa_before": 0.7672413793103449,
+     "fa_after": 0.05172413793103448,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 1
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 1
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 1
+      },
+      {
+       "organ": 3,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 0
+      }
+     ],
+     "vetoes_added_total": 3,
+     "strict_after": 0.8991491124116917,
+     "coverage_after": 0.9641835762715323
+    }
+   ],
+   "retention": [
+    [
+     1.0
+    ],
+    [
+     0.9888,
+     0.9175
+    ],
+    [
+     0.9888,
+     0.9072,
+     0.914
+    ],
+    [
+     0.9888,
+     0.9072,
+     0.8925,
+     0.8675
+    ],
+    [
+     0.9888,
+     0.9072,
+     0.8817,
+     0.8675,
+     0.8506
+    ]
+   ],
+   "growth_flips": 0,
+   "tighten_flips": {
+    "n": 4,
+    "to_right": 1,
+    "to_wrong": 0
+   },
+   "n_params": 26160,
+   "final": {
+    "strict": 0.8997772828507795,
+    "forced": 0.9042316258351893,
+    "coverage": 0.9643652561247216,
+    "precision": 0.9330254041570438,
+    "mean_radius": 0.02382591124297821
+   },
+   "lifecycle": {
+    "growth": 0.8997772828507795,
+    "adolescence": 0.8997772828507795,
+    "adol_accepted": false,
+    "certified": 0.9220489977728286,
+    "arbiter_accepted": true,
+    "arbiter_candidate": 0.9220489977728286,
+    "free_arbiter": 0.9576837416481069,
+    "escrow_z": 1.1338934190276817,
+    "territory_passed": true,
+    "escrow_passed": true,
+    "uncertified_fraction": 0.0,
+    "syn_mean": 0.9553244333263397,
+    "syn_mean_ref": 0.9146269002895249,
+    "val_new": 0.9142857142857143,
+    "val_ref": 0.8285714285714286
+   },
+   "adolescence": {
+    "share_C": 0.5924276169265034,
+    "flips_right": 4,
+    "flips_wrong": 1,
+    "gained": 21,
+    "lost": 0,
+    "params_C": 5360,
+    "before": 0.8240534521158129,
+    "after": 0.8775055679287305,
+    "c_alone": 0.5902004454342984,
+    "seed_used": 0
+   }
+  },
+  "mnist": {
+   "bench": "mnist",
+   "seed": 2,
+   "n_tasks": 5,
+   "n_classes": 10,
+   "backbone": "784 raw pixels",
+   "organs": [
+    {
+     "id": 0,
+     "born_at": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "class_names": [
+      "0",
+      "1"
+     ],
+     "need": 1652,
+     "cov_on_need": 0.9868891537544696,
+     "prec_on_need": 0.998792270531401,
+     "rho": 11.617213249206543,
+     "tau": 0.011837244033813477,
+     "birth_vetoes": 0,
+     "size": null,
+     "own_task_strict_over_time": [
+      0.9832463608898654,
+      0.9596264762427904,
+      0.9552320790991485,
+      0.932710793737984,
+      0.9176050535567152
+     ]
+    },
+    {
+     "id": 1,
+     "born_at": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "class_names": [
+      "2",
+      "3"
+     ],
+     "need": 1522,
+     "cov_on_need": 0.9860759493670886,
+     "prec_on_need": 0.9884467265725289,
+     "rho": 4.2889885902404785,
+     "tau": 0.0017058849334716797,
+     "birth_vetoes": 1,
+     "size": null,
+     "own_task_strict_over_time": [
+      null,
+      0.9591434206818822,
+      0.9225133840518456,
+      0.8932093547478163,
+      0.8678500986193294
+     ]
+    },
+    {
+     "id": 2,
+     "born_at": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "class_names": [
+      "4",
+      "5"
+     ],
+     "need": 1422,
+     "cov_on_need": 0.9854671280276817,
+     "prec_on_need": 0.9992977528089888,
+     "rho": 7.16182804107666,
+     "tau": 0.04534006118774414,
+     "birth_vetoes": 2,
+     "size": null,
+     "own_task_strict_over_time": [
+      null,
+      null,
+      0.9138191714544904,
+      0.8917447837919564,
+      0.8775325068037496
+     ]
+    },
+    {
+     "id": 3,
+     "born_at": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "class_names": [
+      "6",
+      "7"
+     ],
+     "need": 1527,
+     "cov_on_need": 0.9864341085271318,
+     "prec_on_need": 1.0,
+     "rho": 6.268726825714111,
+     "tau": 0.08528494834899902,
+     "birth_vetoes": 0,
+     "size": null,
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      0.9589192169837331,
+      0.9236283429831816
+     ]
+    },
+    {
+     "id": 4,
+     "born_at": 4,
+     "classes": [
+      8,
+      9
+     ],
+     "class_names": [
+      "8",
+      "9"
+     ],
+     "need": 1313,
+     "cov_on_need": 0.9873323397913562,
+     "prec_on_need": 0.9954716981132076,
+     "rho": 4.025902271270752,
+     "tau": 0.006479144096374512,
+     "birth_vetoes": 1,
+     "size": null,
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      null,
+      0.8767772511848341
+     ]
+    }
+   ],
+   "arrivals": [
+    {
+     "task": 0,
+     "classes": [
+      0,
+      1
+     ],
+     "class_names": [
+      "0",
+      "1"
+     ],
+     "fa_before": 0.0,
+     "fa_after": 0.0,
+     "tighten": [],
+     "vetoes_added_total": 0,
+     "strict_after": 0.9832463608898654,
+     "coverage_after": 0.983521010711343
+    },
+    {
+     "task": 1,
+     "classes": [
+      2,
+      3
+     ],
+     "class_names": [
+      "2",
+      "3"
+     ],
+     "fa_before": 0.5008902737591809,
+     "fa_after": 0.006343200534164256,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 1
+      }
+     ],
+     "vetoes_added_total": 1,
+     "strict_after": 0.9593849484623362,
+     "coverage_after": 0.982556718206265
+    },
+    {
+     "task": 2,
+     "classes": [
+      4,
+      5
+     ],
+     "class_names": [
+      "4",
+      "5"
+     ],
+     "fa_before": 0.6841535314643243,
+     "fa_after": 0.036698351582240406,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 1
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 2
+      }
+     ],
+     "vetoes_added_total": 3,
+     "strict_after": 0.9305215448684948,
+     "coverage_after": 0.9708911376128873
+    },
+    {
+     "task": 3,
+     "classes": [
+      6,
+      7
+     ],
+     "class_names": [
+      "6",
+      "7"
+     ],
+     "fa_before": 0.6579476861167002,
+     "fa_after": 0.019561815336463225,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 2
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 2
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 2
+      }
+     ],
+     "vetoes_added_total": 6,
+     "strict_after": 0.9191460373153725,
+     "coverage_after": 0.9760529953018885
+    },
+    {
+     "task": 4,
+     "classes": [
+      8,
+      9
+     ],
+     "class_names": [
+      "8",
+      "9"
+     ],
+     "fa_before": 0.8662705974666517,
+     "fa_after": 0.08395919739939468,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 2
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 2
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 2
+      },
+      {
+       "organ": 3,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 2
+      }
+     ],
+     "vetoes_added_total": 8,
+     "strict_after": 0.8926786506295621,
+     "coverage_after": 0.9851002418542398
+    }
+   ],
+   "retention": [
+    [
+     0.9832
+    ],
+    [
+     0.9596,
+     0.9591
+    ],
+    [
+     0.9552,
+     0.9225,
+     0.9138
+    ],
+    [
+     0.9327,
+     0.8932,
+     0.8917,
+     0.9589
+    ],
+    [
+     0.9176,
+     0.8679,
+     0.8775,
+     0.9236,
+     0.8768
+    ]
+   ],
+   "growth_flips": 0,
+   "tighten_flips": {
+    "n": 221,
+    "to_right": 26,
+    "to_wrong": 50
+   },
+   "n_params": 1046240,
+   "final": {
+    "strict": 0.8933142857142857,
+    "forced": 0.8940571428571429,
+    "coverage": 0.9851428571428571,
+    "precision": 0.9067865429234339,
+    "mean_radius": 0.04391309343294964
+   },
+   "lifecycle": {
+    "growth": 0.8933142857142857,
+    "adolescence": 0.8933142857142857,
+    "adol_accepted": false,
+    "certified": 0.8933142857142857,
+    "arbiter_accepted": false,
+    "arbiter_candidate": 0.8928571428571429,
+    "free_arbiter": 0.9164,
+    "escrow_z": 1.4924050144892729,
+    "territory_passed": true,
+    "escrow_passed": true,
+    "uncertified_fraction": 0.0,
+    "syn_mean": 0.9072603154893294,
+    "syn_mean_ref": 0.9009349096965715,
+    "val_new": 0.8728129205921938,
+    "val_ref": 0.879542395693136
+   },
+   "adolescence": {
+    "share_C": null,
+    "flips_right": null,
+    "flips_wrong": null,
+    "gained": null,
+    "lost": null,
+    "params_C": 209504,
+    "before": 0.9018857142857143,
+    "after": null,
+    "c_alone": null,
+    "seed_used": 0
+   }
+  },
+  "cifar_vitb": {
+   "bench": "cifar_vitb",
+   "seed": 2,
+   "n_tasks": 10,
+   "n_classes": 100,
+   "backbone": "ViT-B/16-in21k, frozen (768-d features)",
+   "organs": [
+    {
+     "id": 0,
+     "born_at": 0,
+     "classes": [
+      9,
+      12,
+      36,
+      44,
+      49,
+      53,
+      55,
+      62,
+      69,
+      94
+     ],
+     "class_names": [
+      "bottle",
+      "bridge",
+      "hamster",
+      "lizard",
+      "mountain",
+      "orange",
+      "otter",
+      "poppy",
+      "rocket",
+      "wardrobe"
+     ],
+     "need": 246,
+     "cov_on_need": 0.9921259842519685,
+     "prec_on_need": 0.9880952380952381,
+     "rho": 9.200126647949219,
+     "tau": 0.0002694129943847656,
+     "birth_vetoes": 0,
+     "size": {
+      "trunk": 213312,
+      "contract": 192900,
+      "veto_floats": 156463,
+      "n_vetoes": 47,
+      "pca_rank": 24
+     },
+     "own_task_strict_over_time": [
+      0.965,
+      0.918,
+      0.899,
+      0.879,
+      0.874,
+      0.864,
+      0.854,
+      0.842,
+      0.837,
+      0.832
+     ]
+    },
+    {
+     "id": 1,
+     "born_at": 1,
+     "classes": [
+      3,
+      17,
+      32,
+      34,
+      35,
+      38,
+      52,
+      63,
+      81,
+      87
+     ],
+     "class_names": [
+      "bear",
+      "castle",
+      "flatfish",
+      "fox",
+      "girl",
+      "kangaroo",
+      "oak tree",
+      "porcupine",
+      "streetcar",
+      "television"
+     ],
+     "need": 208,
+     "cov_on_need": 0.990990990990991,
+     "prec_on_need": 0.9727272727272728,
+     "rho": 9.352895736694336,
+     "tau": 0.0014810562133789062,
+     "birth_vetoes": 1,
+     "size": {
+      "trunk": 213312,
+      "contract": 192900,
+      "veto_floats": 166450,
+      "n_vetoes": 50,
+      "pca_rank": 24
+     },
+     "own_task_strict_over_time": [
+      null,
+      0.828,
+      0.796,
+      0.777,
+      0.768,
+      0.763,
+      0.756,
+      0.746,
+      0.737,
+      0.732
+     ]
+    },
+    {
+     "id": 2,
+     "born_at": 2,
+     "classes": [
+      2,
+      4,
+      21,
+      46,
+      72,
+      76,
+      80,
+      83,
+      84,
+      85
+     ],
+     "class_names": [
+      "baby",
+      "beaver",
+      "chimpanzee",
+      "man",
+      "seal",
+      "skyscraper",
+      "squirrel",
+      "sweet pepper",
+      "table",
+      "tank"
+     ],
+     "need": 151,
+     "cov_on_need": 0.99375,
+     "prec_on_need": 0.9748427672955975,
+     "rho": 7.4283246994018555,
+     "tau": 0.0014069080352783203,
+     "birth_vetoes": 1,
+     "size": {
+      "trunk": 213312,
+      "contract": 192900,
+      "veto_floats": 136489,
+      "n_vetoes": 41,
+      "pca_rank": 24
+     },
+     "own_task_strict_over_time": [
+      null,
+      null,
+      0.633,
+      0.605,
+      0.596,
+      0.589,
+      0.591,
+      0.594,
+      0.588,
+      0.583
+     ]
+    },
+    {
+     "id": 3,
+     "born_at": 3,
+     "classes": [
+      11,
+      13,
+      16,
+      22,
+      43,
+      59,
+      71,
+      73,
+      86,
+      91
+     ],
+     "class_names": [
+      "boy",
+      "bus",
+      "can",
+      "clock",
+      "lion",
+      "pine tree",
+      "sea",
+      "shark",
+      "telephone",
+      "trout"
+     ],
+     "need": 184,
+     "cov_on_need": 0.9948717948717949,
+     "prec_on_need": 0.9742268041237113,
+     "rho": 8.491501808166504,
+     "tau": 0.0004792213439941406,
+     "birth_vetoes": 2,
+     "size": {
+      "trunk": 213312,
+      "contract": 192900,
+      "veto_floats": 103199,
+      "n_vetoes": 31,
+      "pca_rank": 24
+     },
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      0.71,
+      0.676,
+      0.67,
+      0.661,
+      0.646,
+      0.644,
+      0.641
+     ]
+    },
+    {
+     "id": 4,
+     "born_at": 4,
+     "classes": [
+      1,
+      19,
+      27,
+      45,
+      47,
+      60,
+      61,
+      66,
+      93,
+      96
+     ],
+     "class_names": [
+      "aquarium fish",
+      "cattle",
+      "crocodile",
+      "lobster",
+      "maple tree",
+      "plain",
+      "plate",
+      "raccoon",
+      "turtle",
+      "willow tree"
+     ],
+     "need": 141,
+     "cov_on_need": 0.9941860465116279,
+     "prec_on_need": 0.9122807017543859,
+     "rho": 8.378297805786133,
+     "tau": 0.00031948089599609375,
+     "birth_vetoes": 1,
+     "size": {
+      "trunk": 213312,
+      "contract": 192900,
+      "veto_floats": 86554,
+      "n_vetoes": 26,
+      "pca_rank": 24
+     },
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      null,
+      0.652,
+      0.608,
+      0.594,
+      0.594,
+      0.589,
+      0.589
+     ]
+    },
+    {
+     "id": 5,
+     "born_at": 5,
+     "classes": [
+      8,
+      10,
+      14,
+      25,
+      28,
+      57,
+      65,
+      67,
+      78,
+      95
+     ],
+     "class_names": [
+      "bicycle",
+      "bowl",
+      "butterfly",
+      "couch",
+      "cup",
+      "pear",
+      "rabbit",
+      "ray",
+      "snake",
+      "whale"
+     ],
+     "need": 168,
+     "cov_on_need": 0.994535519125683,
+     "prec_on_need": 0.9615384615384616,
+     "rho": 8.290969848632812,
+     "tau": 0.0043103694915771484,
+     "birth_vetoes": 0,
+     "size": {
+      "trunk": 213312,
+      "contract": 192900,
+      "veto_floats": 79896,
+      "n_vetoes": 24,
+      "pca_rank": 24
+     },
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.667,
+      0.63,
+      0.619,
+      0.616,
+      0.612
+     ]
+    },
+    {
+     "id": 6,
+     "born_at": 6,
+     "classes": [
+      7,
+      15,
+      31,
+      37,
+      39,
+      42,
+      51,
+      54,
+      74,
+      92
+     ],
+     "class_names": [
+      "beetle",
+      "camel",
+      "elephant",
+      "house",
+      "keyboard",
+      "leopard",
+      "mushroom",
+      "orchid",
+      "shrew",
+      "tulip"
+     ],
+     "need": 159,
+     "cov_on_need": 0.9941176470588236,
+     "prec_on_need": 0.9704142011834319,
+     "rho": 8.978349685668945,
+     "tau": 0.0021233558654785156,
+     "birth_vetoes": 0,
+     "size": {
+      "trunk": 213312,
+      "contract": 192900,
+      "veto_floats": 56593,
+      "n_vetoes": 17,
+      "pca_rank": 24
+     },
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.677,
+      0.654,
+      0.644,
+      0.641
+     ]
+    },
+    {
+     "id": 7,
+     "born_at": 7,
+     "classes": [
+      0,
+      5,
+      6,
+      18,
+      23,
+      26,
+      29,
+      40,
+      90,
+      98
+     ],
+     "class_names": [
+      "apple",
+      "bed",
+      "bee",
+      "caterpillar",
+      "cloud",
+      "crab",
+      "dinosaur",
+      "lamp",
+      "train",
+      "woman"
+     ],
+     "need": 162,
+     "cov_on_need": 0.9940119760479041,
+     "prec_on_need": 0.9879518072289156,
+     "rho": 9.01131534576416,
+     "tau": 0.0051882266998291016,
+     "birth_vetoes": 1,
+     "size": {
+      "trunk": 213312,
+      "contract": 192900,
+      "veto_floats": 39948,
+      "n_vetoes": 12,
+      "pca_rank": 24
+     },
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.6,
+      0.589,
+      0.592
+     ]
+    },
+    {
+     "id": 8,
+     "born_at": 8,
+     "classes": [
+      20,
+      24,
+      30,
+      33,
+      68,
+      70,
+      79,
+      82,
+      88,
+      99
+     ],
+     "class_names": [
+      "chair",
+      "cockroach",
+      "dolphin",
+      "forest",
+      "road",
+      "rose",
+      "spider",
+      "sunflower",
+      "tiger",
+      "worm"
+     ],
+     "need": 172,
+     "cov_on_need": 0.9942857142857143,
+     "prec_on_need": 0.9942528735632183,
+     "rho": 7.371581077575684,
+     "tau": 0.012466907501220703,
+     "birth_vetoes": 2,
+     "size": {
+      "trunk": 213312,
+      "contract": 192900,
+      "veto_floats": 23303,
+      "n_vetoes": 7,
+      "pca_rank": 24
+     },
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.672,
+      0.649
+     ]
+    },
+    {
+     "id": 9,
+     "born_at": 9,
+     "classes": [
+      41,
+      48,
+      50,
+      56,
+      58,
+      64,
+      75,
+      77,
+      89,
+      97
+     ],
+     "class_names": [
+      "lawn mower",
+      "motorcycle",
+      "mouse",
+      "palm tree",
+      "pickup truck",
+      "possum",
+      "skunk",
+      "snail",
+      "tractor",
+      "wolf"
+     ],
+     "need": 177,
+     "cov_on_need": 0.9945652173913043,
+     "prec_on_need": 0.9836065573770492,
+     "rho": 7.951365947723389,
+     "tau": 0.0004870891571044922,
+     "birth_vetoes": 1,
+     "size": {
+      "trunk": 213312,
+      "contract": 192900,
+      "veto_floats": 3329,
+      "n_vetoes": 1,
+      "pca_rank": 24
+     },
+     "own_task_strict_over_time": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.669
+     ]
+    }
+   ],
+   "arrivals": [
+    {
+     "task": 0,
+     "classes": [
+      9,
+      12,
+      36,
+      44,
+      49,
+      53,
+      55,
+      62,
+      69,
+      94
+     ],
+     "class_names": [
+      "bottle",
+      "bridge",
+      "hamster",
+      "lizard",
+      "mountain",
+      "orange",
+      "otter",
+      "poppy",
+      "rocket",
+      "wardrobe"
+     ],
+     "fa_before": 0.0,
+     "fa_after": 0.0,
+     "tighten": [],
+     "vetoes_added_total": 0,
+     "strict_after": 0.965,
+     "coverage_after": 0.991
+    },
+    {
+     "task": 1,
+     "classes": [
+      3,
+      17,
+      32,
+      34,
+      35,
+      38,
+      52,
+      63,
+      81,
+      87
+     ],
+     "class_names": [
+      "bear",
+      "castle",
+      "flatfish",
+      "fox",
+      "girl",
+      "kangaroo",
+      "oak tree",
+      "porcupine",
+      "streetcar",
+      "television"
+     ],
+     "fa_before": 0.9298794104510942,
+     "fa_after": 0.09557838320678874,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      }
+     ],
+     "vetoes_added_total": 6,
+     "strict_after": 0.873,
+     "coverage_after": 0.9664999999999999
+    },
+    {
+     "task": 2,
+     "classes": [
+      2,
+      4,
+      21,
+      46,
+      72,
+      76,
+      80,
+      83,
+      84,
+      85
+     ],
+     "class_names": [
+      "baby",
+      "beaver",
+      "chimpanzee",
+      "man",
+      "seal",
+      "skyscraper",
+      "squirrel",
+      "sweet pepper",
+      "table",
+      "tank"
+     ],
+     "fa_before": 0.8049977688531905,
+     "fa_after": 0.2708612226684516,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 7
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 7
+      }
+     ],
+     "vetoes_added_total": 14,
+     "strict_after": 0.7760000000000001,
+     "coverage_after": 0.9836666666666667
+    },
+    {
+     "task": 3,
+     "classes": [
+      11,
+      13,
+      16,
+      22,
+      43,
+      59,
+      71,
+      73,
+      86,
+      91
+     ],
+     "class_names": [
+      "boy",
+      "bus",
+      "can",
+      "clock",
+      "lion",
+      "pine tree",
+      "sea",
+      "shark",
+      "telephone",
+      "trout"
+     ],
+     "fa_before": 0.8753315649867374,
+     "fa_after": 0.1812555260831123,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 8
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 8
+      }
+     ],
+     "vetoes_added_total": 22,
+     "strict_after": 0.74275,
+     "coverage_after": 0.98525
+    },
+    {
+     "task": 4,
+     "classes": [
+      1,
+      19,
+      27,
+      45,
+      47,
+      60,
+      61,
+      66,
+      93,
+      96
+     ],
+     "class_names": [
+      "aquarium fish",
+      "cattle",
+      "crocodile",
+      "lobster",
+      "maple tree",
+      "plain",
+      "plate",
+      "raccoon",
+      "turtle",
+      "willow tree"
+     ],
+     "fa_before": 0.8961845607808341,
+     "fa_after": 0.23425022182786157,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 4
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 7
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      },
+      {
+       "organ": 3,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      }
+     ],
+     "vetoes_added_total": 23,
+     "strict_after": 0.7132000000000001,
+     "coverage_after": 0.992
+    },
+    {
+     "task": 5,
+     "classes": [
+      8,
+      10,
+      14,
+      25,
+      28,
+      57,
+      65,
+      67,
+      78,
+      95
+     ],
+     "class_names": [
+      "bicycle",
+      "bowl",
+      "butterfly",
+      "couch",
+      "cup",
+      "pear",
+      "rabbit",
+      "ray",
+      "snake",
+      "whale"
+     ],
+     "fa_before": 0.9340124003542959,
+     "fa_after": 0.22852081488042517,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 4
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      },
+      {
+       "organ": 3,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 4
+      },
+      {
+       "organ": 4,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      }
+     ],
+     "vetoes_added_total": 23,
+     "strict_after": 0.6935000000000001,
+     "coverage_after": 0.9923333333333332
+    },
+    {
+     "task": 6,
+     "classes": [
+      7,
+      15,
+      31,
+      37,
+      39,
+      42,
+      51,
+      54,
+      74,
+      92
+     ],
+     "class_names": [
+      "beetle",
+      "camel",
+      "elephant",
+      "house",
+      "keyboard",
+      "leopard",
+      "mushroom",
+      "orchid",
+      "shrew",
+      "tulip"
+     ],
+     "fa_before": 0.9352137505509035,
+     "fa_after": 0.19479947113265755,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 4
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 7
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 8
+      },
+      {
+       "organ": 3,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      },
+      {
+       "organ": 4,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      },
+      {
+       "organ": 5,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      }
+     ],
+     "vetoes_added_total": 37,
+     "strict_after": 0.6804285714285714,
+     "coverage_after": 0.994
+    },
+    {
+     "task": 7,
+     "classes": [
+      0,
+      5,
+      6,
+      18,
+      23,
+      26,
+      29,
+      40,
+      90,
+      98
+     ],
+     "class_names": [
+      "apple",
+      "bed",
+      "bee",
+      "caterpillar",
+      "cloud",
+      "crab",
+      "dinosaur",
+      "lamp",
+      "train",
+      "woman"
+     ],
+     "fa_before": 0.9799375835934017,
+     "fa_after": 0.2501114578689255,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 8
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 4
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      },
+      {
+       "organ": 3,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      },
+      {
+       "organ": 4,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      },
+      {
+       "organ": 5,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 8
+      },
+      {
+       "organ": 6,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      }
+     ],
+     "vetoes_added_total": 42,
+     "strict_after": 0.661875,
+     "coverage_after": 0.98275
+    },
+    {
+     "task": 8,
+     "classes": [
+      20,
+      24,
+      30,
+      33,
+      68,
+      70,
+      79,
+      82,
+      88,
+      99
+     ],
+     "class_names": [
+      "chair",
+      "cockroach",
+      "dolphin",
+      "forest",
+      "road",
+      "rose",
+      "spider",
+      "sunflower",
+      "tiger",
+      "worm"
+     ],
+     "fa_before": 0.9273618538324421,
+     "fa_after": 0.23039215686274508,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 4
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 2
+      },
+      {
+       "organ": 3,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 4
+      },
+      {
+       "organ": 4,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      },
+      {
+       "organ": 5,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      },
+      {
+       "organ": 6,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      },
+      {
+       "organ": 7,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      }
+     ],
+     "vetoes_added_total": 38,
+     "strict_after": 0.6573333333333333,
+     "coverage_after": 0.9737777777777777
+    },
+    {
+     "task": 9,
+     "classes": [
+      41,
+      48,
+      50,
+      56,
+      58,
+      64,
+      75,
+      77,
+      89,
+      97
+     ],
+     "class_names": [
+      "lawn mower",
+      "motorcycle",
+      "mouse",
+      "palm tree",
+      "pickup truck",
+      "possum",
+      "skunk",
+      "snail",
+      "tractor",
+      "wolf"
+     ],
+     "fa_before": 0.7887700534759359,
+     "fa_after": 0.2232620320855615,
+     "tighten": [
+      {
+       "organ": 0,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 4
+      },
+      {
+       "organ": 1,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      },
+      {
+       "organ": 2,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 6
+      },
+      {
+       "organ": 3,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 3
+      },
+      {
+       "organ": 4,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 4
+      },
+      {
+       "organ": 5,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      },
+      {
+       "organ": 6,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      },
+      {
+       "organ": 7,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      },
+      {
+       "organ": 8,
+       "excluded": 0,
+       "self_loss": 0.0,
+       "vetoes_added": 5
+      }
+     ],
+     "vetoes_added_total": 42,
+     "strict_after": 0.6540000000000001,
+     "coverage_after": 0.9683999999999999
+    }
+   ],
+   "retention": [
+    [
+     0.965
+    ],
+    [
+     0.918,
+     0.828
+    ],
+    [
+     0.899,
+     0.796,
+     0.633
+    ],
+    [
+     0.879,
+     0.777,
+     0.605,
+     0.71
+    ],
+    [
+     0.874,
+     0.768,
+     0.596,
+     0.676,
+     0.652
+    ],
+    [
+     0.864,
+     0.763,
+     0.589,
+     0.67,
+     0.608,
+     0.667
+    ],
+    [
+     0.854,
+     0.756,
+     0.591,
+     0.661,
+     0.594,
+     0.63,
+     0.677
+    ],
+    [
+     0.842,
+     0.746,
+     0.594,
+     0.646,
+     0.594,
+     0.619,
+     0.654,
+     0.6
+    ],
+    [
+     0.837,
+     0.737,
+     0.588,
+     0.644,
+     0.589,
+     0.616,
+     0.644,
+     0.589,
+     0.672
+    ],
+    [
+     0.832,
+     0.732,
+     0.583,
+     0.641,
+     0.589,
+     0.612,
+     0.641,
+     0.592,
+     0.649,
+     0.669
+    ]
+   ],
+   "growth_flips": 0,
+   "tighten_flips": {
+    "n": 1024,
+    "to_right": 237,
+    "to_wrong": 80
+   },
+   "n_params": 2139520,
+   "final": {
+    "strict": 0.654,
+    "forced": 0.6558,
+    "coverage": 0.9684,
+    "precision": 0.6753407682775713,
+    "mean_radius": 0.0073833006746675655
+   },
+   "lifecycle": {
+    "growth": 0.654,
+    "adolescence": 0.7715,
+    "adol_accepted": true,
+    "certified": 0.7925,
+    "arbiter_accepted": true,
+    "arbiter_candidate": 0.7925,
+    "free_arbiter": 0.831,
+    "escrow_z": 6.609222207023923,
+    "territory_passed": true,
+    "escrow_passed": true,
+    "uncertified_fraction": 0.0,
+    "syn_mean": 0.9595607192816733,
+    "syn_mean_ref": 0.9392605229078488,
+    "val_new": 0.81640625,
+    "val_ref": 0.80859375
+   },
+   "adolescence": null
+  }
+ },
+ "epilogue": {
+  "apoptosis_grown": 0,
+  "twin_kmnist_organs_before": 10,
+  "twin_kmnist_params_before": 3138720.0,
+  "twin_kmnist_params_after": 1046240.0,
+  "negotiate_digits_vetoes": 15,
+  "negotiate_digits_gain": null,
+  "gate_runs": 102,
+  "gate_harmful_refused": "4/4",
+  "gate_miss": 1,
+  "uncertified_runs": 45
+ }
+}

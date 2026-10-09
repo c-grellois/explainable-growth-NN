@@ -1,0 +1,171 @@
+{
+ "cifar_vitb": [
+  {
+   "seed": 2,
+   "cascade": 0.7715,
+   "cascade_coverage": 0.9772,
+   "arms": {
+    "market@0.1": {
+     "arm": "market",
+     "self_loss": 0.1,
+     "strict": 0.7713,
+     "coverage": 0.9764,
+     "precision": 0.7899426464563704,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.9404706355283418,
+      "ref_mean": 0.9404706355283418,
+      "new_floor": 0.7647058823529411,
+      "ref_floor": 0.7647058823529411,
+      "val_new": 0.8046875,
+      "val_ref": 0.80859375
+     },
+     "delta": -0.00019999999999997797,
+     "ceded_total": 324,
+     "vetoes_added": 4,
+     "moved": 11,
+     "moved_to_right": 2,
+     "moved_to_wrong": 4,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 38,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 19,
+       "vetoes": 0
+      },
+      {
+       "organ": 2,
+       "ceded": 27,
+       "vetoes": 1
+      },
+      {
+       "organ": 3,
+       "ceded": 21,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 44,
+       "vetoes": 1
+      },
+      {
+       "organ": 5,
+       "ceded": 36,
+       "vetoes": 0
+      },
+      {
+       "organ": 6,
+       "ceded": 37,
+       "vetoes": 0
+      },
+      {
+       "organ": 7,
+       "ceded": 18,
+       "vetoes": 0
+      },
+      {
+       "organ": 8,
+       "ceded": 34,
+       "vetoes": 1
+      },
+      {
+       "organ": 9,
+       "ceded": 23,
+       "vetoes": 0
+      },
+      {
+       "organ": 10,
+       "ceded": 27,
+       "vetoes": 1
+      }
+     ]
+    },
+    "oracle@0.1": {
+     "arm": "oracle",
+     "self_loss": 0.1,
+     "strict": 0.7667,
+     "coverage": 0.9768,
+     "precision": 0.7849099099099099,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.9424231790610332,
+      "ref_mean": 0.9404706355283418,
+      "new_floor": 0.788235294117647,
+      "ref_floor": 0.7647058823529411,
+      "val_new": 0.80859375,
+      "val_ref": 0.80859375
+     },
+     "delta": -0.0047999999999999154,
+     "ceded_total": 1586,
+     "vetoes_added": 59,
+     "moved": 177,
+     "moved_to_right": 23,
+     "moved_to_wrong": 71,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 1563,
+       "vetoes": 59
+      },
+      {
+       "organ": 1,
+       "ceded": 4,
+       "vetoes": 0
+      },
+      {
+       "organ": 2,
+       "ceded": 6,
+       "vetoes": 0
+      },
+      {
+       "organ": 3,
+       "ceded": 0,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 1,
+       "vetoes": 0
+      },
+      {
+       "organ": 5,
+       "ceded": 6,
+       "vetoes": 0
+      },
+      {
+       "organ": 6,
+       "ceded": 3,
+       "vetoes": 0
+      },
+      {
+       "organ": 7,
+       "ceded": 1,
+       "vetoes": 0
+      },
+      {
+       "organ": 8,
+       "ceded": 1,
+       "vetoes": 0
+      },
+      {
+       "organ": 9,
+       "ceded": 0,
+       "vetoes": 0
+      },
+      {
+       "organ": 10,
+       "ceded": 1,
+       "vetoes": 0
+      }
+     ]
+    }
+   },
+   "free_arbiter": 0.8343,
+   "gated_arbiter": 0.7956
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+[
+ {
+  "seed": 2,
+  "final": {
+   "strict": 0.7141,
+   "forced": 0.7195,
+   "coverage": 0.9776,
+   "precision": 0.730462356792144,
+   "mean_radius": 0.1801376217591681
+  },
+  "growth_flips": 0,
+  "consolidations": [
+   4,
+   3,
+   3
+  ],
+  "super_replacement_agreement": 0.7598650927487353,
+  "region_size": 2965,
+  "n_params": 2216320
+ }
+]

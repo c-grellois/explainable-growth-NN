@@ -1,0 +1,110 @@
+[
+ {
+  "seed": 2,
+  "cache": "cifar100_vitb",
+  "M": 2000,
+  "mode": "blocks",
+  "tighten": false,
+  "self_budget": 0.02,
+  "tighten_excluded": 0,
+  "tighten_self_loss_max": 0.0,
+  "n_classes": 100,
+  "inc": 10,
+  "n_blocks": 10,
+  "strict": 0.1481,
+  "forced": 0.1484,
+  "coverage": 0.9995,
+  "precision": 0.14817408704352175,
+  "growth_flips": 0,
+  "tighten_to_abstain": 0,
+  "tighten_to_other": 0,
+  "tighten_to_right": 0,
+  "tighten_to_wrong": 0,
+  "n_test": 10000,
+  "head_params": 1736000,
+  "tighten_events": 0,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 10.0,
+    "own_val_acc": 0.9881889763779528,
+    "tau": 0.007387345456327521,
+    "strict_seen": 0.964,
+    "coverage_seen": 0.977
+   },
+   {
+    "task": 1,
+    "lambda": 1.0,
+    "own_val_acc": 0.9693486590038314,
+    "tau": 0.004928328412128591,
+    "strict_seen": 0.6135,
+    "coverage_seen": 0.994
+   },
+   {
+    "task": 2,
+    "lambda": 10.0,
+    "own_val_acc": 0.972972972972973,
+    "tau": 0.003969082126773604,
+    "strict_seen": 0.42866666666666664,
+    "coverage_seen": 0.9953333333333333
+   },
+   {
+    "task": 3,
+    "lambda": 1.0,
+    "own_val_acc": 0.9831932773109243,
+    "tau": 0.014082721354443106,
+    "strict_seen": 0.3355,
+    "coverage_seen": 0.99725
+   },
+   {
+    "task": 4,
+    "lambda": 10.0,
+    "own_val_acc": 0.9634146341463414,
+    "tau": 0.0029356671845953697,
+    "strict_seen": 0.2724,
+    "coverage_seen": 0.9982
+   },
+   {
+    "task": 5,
+    "lambda": 1.0,
+    "own_val_acc": 0.9834710743801653,
+    "tau": 0.0017101878009324611,
+    "strict_seen": 0.23383333333333334,
+    "coverage_seen": 0.9986666666666667
+   },
+   {
+    "task": 6,
+    "lambda": 1.0,
+    "own_val_acc": 0.9826839826839827,
+    "tau": 0.06869095333556208,
+    "strict_seen": 0.20385714285714285,
+    "coverage_seen": 0.9987142857142857
+   },
+   {
+    "task": 7,
+    "lambda": 100.0,
+    "own_val_acc": 0.9883268482490273,
+    "tau": 0.008629087004848768,
+    "strict_seen": 0.179125,
+    "coverage_seen": 0.999125
+   },
+   {
+    "task": 8,
+    "lambda": 1.0,
+    "own_val_acc": 0.9921875,
+    "tau": 0.031118100970981444,
+    "strict_seen": 0.1602222222222222,
+    "coverage_seen": 0.9994444444444445
+   },
+   {
+    "task": 9,
+    "lambda": 10.0,
+    "own_val_acc": 0.98046875,
+    "tau": 0.008087615254632086,
+    "strict_seen": 0.1481,
+    "coverage_seen": 0.9995
+   }
+  ],
+  "elapsed_s": 144.1662323474884
+ }
+]

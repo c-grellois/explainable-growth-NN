@@ -1,0 +1,208 @@
+[
+ {
+  "seed": 3,
+  "schedule": "every2",
+  "when": [
+   2,
+   4,
+   6,
+   8,
+   10
+  ],
+  "final": {
+   "strict": 0.779,
+   "forced": 0.7801,
+   "coverage": 0.9875,
+   "precision": 0.7888607594936708,
+   "mean_radius": 0.07479976789178645
+  },
+  "growth_flips": 0,
+  "vetoes_total": 0,
+  "consolidations": [
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.8905,
+    "strict_after": 0.917,
+    "params_C": 15360,
+    "organs_after": 3
+   },
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.83325,
+    "strict_after": 0.8795,
+    "params_C": 30720,
+    "organs_after": 6
+   },
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.7975,
+    "strict_after": 0.8448333333333333,
+    "params_C": 46080,
+    "organs_after": 9
+   },
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.75075,
+    "strict_after": 0.795875,
+    "params_C": 61440,
+    "organs_after": 12
+   },
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.7363,
+    "strict_after": 0.779,
+    "params_C": 76800,
+    "organs_after": 15
+   }
+  ],
+  "n_accepted": 5,
+  "share_C": 0.7578,
+  "n_organs": 15,
+  "n_params": 2369920,
+  "curve": [
+   {
+    "task": 1,
+    "strict_seen": 0.967,
+    "coverage_seen": 0.992,
+    "organs": 1,
+    "fa": null
+   },
+   {
+    "task": 2,
+    "strict_seen": 0.8905,
+    "coverage_seen": 0.981,
+    "organs": 2,
+    "fa": [
+     0.6967799642218246,
+     0.08586762075134168
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.8905,
+     "strict_after": 0.917,
+     "params_C": 15360,
+     "organs_after": 3
+    }
+   },
+   {
+    "task": 3,
+    "strict_seen": 0.859,
+    "coverage_seen": 0.9913333333333333,
+    "organs": 4,
+    "fa": [
+     0.7926613616268788,
+     0.11273209549071618
+    ]
+   },
+   {
+    "task": 4,
+    "strict_seen": 0.83325,
+    "coverage_seen": 0.99175,
+    "organs": 5,
+    "fa": [
+     0.8387665198237886,
+     0.11674008810572688
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.83325,
+     "strict_after": 0.8795,
+     "params_C": 30720,
+     "organs_after": 6
+    }
+   },
+   {
+    "task": 5,
+    "strict_seen": 0.8226,
+    "coverage_seen": 0.9988,
+    "organs": 7,
+    "fa": [
+     0.9543439716312057,
+     0.21808510638297873
+    ]
+   },
+   {
+    "task": 6,
+    "strict_seen": 0.7975,
+    "coverage_seen": 0.9876666666666667,
+    "organs": 8,
+    "fa": [
+     0.9888938249666814,
+     0.17503331852509996
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.7975,
+     "strict_after": 0.8448333333333333,
+     "params_C": 46080,
+     "organs_after": 9
+    }
+   },
+   {
+    "task": 7,
+    "strict_seen": 0.7981428571428572,
+    "coverage_seen": 0.9935714285714285,
+    "organs": 10,
+    "fa": [
+     0.954565901934323,
+     0.26180836707152494
+    ]
+   },
+   {
+    "task": 8,
+    "strict_seen": 0.75075,
+    "coverage_seen": 0.98775,
+    "organs": 11,
+    "fa": [
+     0.9562669071235347,
+     0.36654643823264205
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.75075,
+     "strict_after": 0.795875,
+     "params_C": 61440,
+     "organs_after": 12
+    }
+   },
+   {
+    "task": 9,
+    "strict_seen": 0.7651111111111111,
+    "coverage_seen": 0.9886666666666667,
+    "organs": 13,
+    "fa": [
+     0.8443166740380362,
+     0.2923485183547103
+    ]
+   },
+   {
+    "task": 10,
+    "strict_seen": 0.7363,
+    "coverage_seen": 0.9835,
+    "organs": 14,
+    "fa": [
+     0.9330673758865248,
+     0.3125
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.7363,
+     "strict_after": 0.779,
+     "params_C": 76800,
+     "organs_after": 15
+    }
+   }
+  ],
+  "elapsed_s": 6001.72176361084
+ }
+]

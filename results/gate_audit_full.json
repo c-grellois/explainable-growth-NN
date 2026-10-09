@@ -1,0 +1,382 @@
+{
+ "robot": [
+  {
+   "seed": 2,
+   "ref_test": 0.7646627565982405,
+   "arbiter_test": 0.6605571847507331,
+   "test_delta": -0.10410557184750735,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.029503105590062112,
+   "escrow_passed": false,
+   "escrow_z": -5.196152422706632,
+   "escrow_n": 613,
+   "new_accept": false,
+   "failed": [
+    "territory",
+    "escrow"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 3,
+   "ref_test": 0.8137829912023461,
+   "arbiter_test": 0.6854838709677419,
+   "test_delta": -0.1282991202346042,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.01639344262295082,
+   "escrow_passed": false,
+   "escrow_z": -6.4835456068700275,
+   "escrow_n": 613,
+   "new_accept": false,
+   "failed": [
+    "territory",
+    "escrow"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 4,
+   "ref_test": 0.8211143695014663,
+   "arbiter_test": 0.7104105571847508,
+   "test_delta": -0.11070381231671556,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.013198757763975156,
+   "escrow_passed": false,
+   "escrow_z": -6.417436110981714,
+   "escrow_n": 613,
+   "new_accept": false,
+   "failed": [
+    "territory",
+    "escrow"
+   ],
+   "adol_accepted": false
+  }
+ ],
+ "letter": [
+  {
+   "seed": 2,
+   "ref_test": 0.7882,
+   "arbiter_test": 0.793,
+   "test_delta": 0.0048000000000000265,
+   "old_accept": false,
+   "territory_passed": false,
+   "uncertified_fraction": 0.039461678832116785,
+   "escrow_passed": true,
+   "escrow_z": -0.8016143407716696,
+   "escrow_n": 2250,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 3,
+   "ref_test": 0.7706,
+   "arbiter_test": 0.783,
+   "test_delta": 0.012400000000000078,
+   "old_accept": false,
+   "territory_passed": false,
+   "uncertified_fraction": 0.05323542909591556,
+   "escrow_passed": true,
+   "escrow_z": 1.4269353798659745,
+   "escrow_n": 2250,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 4,
+   "ref_test": 0.788,
+   "arbiter_test": 0.7884,
+   "test_delta": 0.00039999999999995595,
+   "old_accept": false,
+   "territory_passed": false,
+   "uncertified_fraction": 0.03783416402356139,
+   "escrow_passed": true,
+   "escrow_z": 2.247922629046516,
+   "escrow_n": 2250,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  }
+ ],
+ "satimage": [
+  {
+   "seed": 2,
+   "ref_test": 0.836341008089608,
+   "arbiter_test": 0.866210329807094,
+   "test_delta": 0.02986932171748602,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.050473186119873815,
+   "escrow_passed": true,
+   "escrow_z": 4.431293675255978,
+   "escrow_n": 723,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 3,
+   "ref_test": 0.8388301182327318,
+   "arbiter_test": 0.8674548848786559,
+   "test_delta": 0.02862476664592406,
+   "old_accept": false,
+   "territory_passed": false,
+   "uncertified_fraction": 0.047378395451674035,
+   "escrow_passed": true,
+   "escrow_z": 0.42008402520840293,
+   "escrow_n": 723,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 4,
+   "ref_test": 0.820784069695084,
+   "arbiter_test": 0.85065339141257,
+   "test_delta": 0.02986932171748602,
+   "old_accept": false,
+   "territory_passed": false,
+   "uncertified_fraction": 0.04891994917407878,
+   "escrow_passed": true,
+   "escrow_z": 2.342606428329091,
+   "escrow_n": 723,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  }
+ ],
+ "digits": [
+  {
+   "seed": 2,
+   "ref_test": 0.8997772828507795,
+   "arbiter_test": 0.9576837416481069,
+   "test_delta": 0.057906458797327365,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.047619047619047616,
+   "escrow_passed": true,
+   "escrow_z": 2.4961508830135313,
+   "escrow_n": 202,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 3,
+   "ref_test": 0.8374164810690423,
+   "arbiter_test": 0.9599109131403119,
+   "test_delta": 0.12249443207126953,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.0867579908675799,
+   "escrow_passed": true,
+   "escrow_z": 2.6726124191242437,
+   "escrow_n": 202,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 4,
+   "ref_test": 0.9265033407572383,
+   "arbiter_test": 0.9732739420935412,
+   "test_delta": 0.04677060133630295,
+   "old_accept": false,
+   "territory_passed": false,
+   "uncertified_fraction": 0.0779510022271715,
+   "escrow_passed": true,
+   "escrow_z": 0.30151134457776363,
+   "escrow_n": 202,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": true
+  }
+ ],
+ "mnist": [
+  {
+   "seed": 2,
+   "ref_test": 0.8933142857142857,
+   "arbiter_test": 0.9164,
+   "test_delta": 0.023085714285714265,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.03807267895314576,
+   "escrow_passed": true,
+   "escrow_z": 11.27602095815047,
+   "escrow_n": 7875,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 3,
+   "ref_test": 0.8948,
+   "arbiter_test": 0.9163428571428571,
+   "test_delta": 0.021542857142857086,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.030868129958881104,
+   "escrow_passed": true,
+   "escrow_z": 8.498365855987974,
+   "escrow_n": 7875,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 4,
+   "ref_test": 0.8876571428571428,
+   "arbiter_test": 0.9119428571428572,
+   "test_delta": 0.024285714285714355,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.0327764610671137,
+   "escrow_passed": true,
+   "escrow_z": 8.720983634634086,
+   "escrow_n": 7875,
+   "new_accept": false,
+   "failed": [
+    "territory"
+   ],
+   "adol_accepted": false
+  }
+ ],
+ "kmnist": [
+  {
+   "seed": 2,
+   "ref_test": 0.8094857142857143,
+   "arbiter_test": 0.8238857142857143,
+   "test_delta": 0.01440000000000008,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.048481650838316334,
+   "escrow_passed": false,
+   "escrow_z": 3.2598215873892844,
+   "escrow_n": 7875,
+   "new_accept": false,
+   "failed": [
+    "territory",
+    "escrow"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 3,
+   "ref_test": 0.7994285714285714,
+   "arbiter_test": 0.7778285714285714,
+   "test_delta": -0.021599999999999953,
+   "old_accept": false,
+   "territory_passed": false,
+   "uncertified_fraction": 0.09834799144283338,
+   "escrow_passed": false,
+   "escrow_z": -5.245955186523698,
+   "escrow_n": 7875,
+   "new_accept": false,
+   "failed": [
+    "territory",
+    "escrow"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 4,
+   "ref_test": 0.8072571428571429,
+   "arbiter_test": 0.8136571428571429,
+   "test_delta": 0.006399999999999961,
+   "old_accept": true,
+   "territory_passed": false,
+   "uncertified_fraction": 0.02722888732063044,
+   "escrow_passed": false,
+   "escrow_z": 2.0836450050224915,
+   "escrow_n": 7875,
+   "new_accept": false,
+   "failed": [
+    "territory",
+    "escrow"
+   ],
+   "adol_accepted": false
+  }
+ ],
+ "fashion": [
+  {
+   "seed": 2,
+   "ref_test": 0.7974285714285714,
+   "arbiter_test": 0.7945142857142857,
+   "test_delta": -0.002914285714285647,
+   "old_accept": false,
+   "territory_passed": false,
+   "uncertified_fraction": 0.03390030015890766,
+   "escrow_passed": false,
+   "escrow_z": -2.4513035081133645,
+   "escrow_n": 7875,
+   "new_accept": false,
+   "failed": [
+    "territory",
+    "escrow"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 3,
+   "ref_test": 0.7981142857142857,
+   "arbiter_test": 0.7956571428571428,
+   "test_delta": -0.0024571428571428244,
+   "old_accept": false,
+   "territory_passed": false,
+   "uncertified_fraction": 0.02031378058775319,
+   "escrow_passed": false,
+   "escrow_z": -1.0156667501540164,
+   "escrow_n": 7875,
+   "new_accept": false,
+   "failed": [
+    "territory",
+    "escrow"
+   ],
+   "adol_accepted": false
+  },
+  {
+   "seed": 4,
+   "ref_test": 0.8005142857142857,
+   "arbiter_test": 0.8014285714285714,
+   "test_delta": 0.0009142857142856453,
+   "old_accept": false,
+   "territory_passed": false,
+   "uncertified_fraction": 0.05010487065951993,
+   "escrow_passed": false,
+   "escrow_z": -2.664028230612827,
+   "escrow_n": 7875,
+   "new_accept": false,
+   "failed": [
+    "territory",
+    "escrow"
+   ],
+   "adol_accepted": false
+  }
+ ]
+}

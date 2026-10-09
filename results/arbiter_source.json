@@ -1,0 +1,612 @@
+{
+ "digits": [
+  {
+   "seed": 0,
+   "per_k": [
+    {
+     "cascade_strict": 0.8285077951002228,
+     "arbiter_strict": 0.9621380846325167,
+     "delta": 0.13363028953229394,
+     "cascade_coverage": 0.8641425389755011,
+     "arbiter_coverage": 0.9755011135857461,
+     "theta": 0.3,
+     "picked_organ_did_not_accept": 0.1447661469933185,
+     "gain_from_outside_territory": 0.12026726057906459,
+     "channels": {
+      "same_answer": {
+       "n": 371,
+       "share": 0.8262806236080178,
+       "contribution": 0.0
+      },
+      "reroute": {
+       "n": 14,
+       "share": 0.031180400890868598,
+       "contribution": 0.026726057906458798,
+       "wrong_to_right": 13,
+       "right_to_wrong": 1,
+       "both_wrong": 0,
+       "inside_territory": 0.7142857142857143
+      },
+      "fill": {
+       "n": 53,
+       "share": 0.11804008908685969,
+       "contribution": 0.111358574610245,
+       "arbiter_acc_here": 0.9433962264150944,
+       "inside_territory": 0.0
+      },
+      "drop": {
+       "n": 3,
+       "share": 0.0066815144766146995,
+       "contribution": -0.004454342984409799,
+       "cascade_acc_here": 0.6666666666666666
+      },
+      "both_abstain": {
+       "n": 8,
+       "share": 0.017817371937639197,
+       "contribution": 0.0
+      }
+     },
+     "gated": {
+      "strict": 0.8418708240534521,
+      "coverage": 0.8507795100222717,
+      "theta": 0.3,
+      "delta_vs_cascade": 0.013363028953229383,
+      "delta_vs_free_arbiter": -0.12026726057906456,
+      "answers_outside_territory": 0.0,
+      "reroute_vs_cascade": 10,
+      "reroute_wrong_to_right": 9,
+      "reroute_right_to_wrong": 1
+     },
+     "channel_sum": 0.133630289532294,
+     "k": 1,
+     "organs": 5
+    },
+    {
+     "cascade_strict": 0.9153674832962138,
+     "arbiter_strict": 0.9643652561247216,
+     "delta": 0.04899777282850781,
+     "cascade_coverage": 0.955456570155902,
+     "arbiter_coverage": 0.9732739420935412,
+     "theta": 0.3,
+     "picked_organ_did_not_accept": 0.15367483296213807,
+     "gain_from_outside_territory": 0.035634743875278395,
+     "channels": {
+      "same_answer": {
+       "n": 409,
+       "share": 0.910913140311804,
+       "contribution": 0.0
+      },
+      "reroute": {
+       "n": 15,
+       "share": 0.0334075723830735,
+       "contribution": 0.028953229398663696,
+       "wrong_to_right": 14,
+       "right_to_wrong": 1,
+       "both_wrong": 0,
+       "inside_territory": 0.6666666666666666
+      },
+      "fill": {
+       "n": 13,
+       "share": 0.028953229398663696,
+       "contribution": 0.028953229398663696,
+       "arbiter_acc_here": 1.0,
+       "inside_territory": 0.0
+      },
+      "drop": {
+       "n": 5,
+       "share": 0.011135857461024499,
+       "contribution": -0.008908685968819599,
+       "cascade_acc_here": 0.8
+      },
+      "both_abstain": {
+       "n": 7,
+       "share": 0.015590200445434299,
+       "contribution": 0.0
+      }
+     },
+     "gated": {
+      "strict": 0.933184855233853,
+      "coverage": 0.9420935412026726,
+      "theta": 0.3,
+      "delta_vs_cascade": 0.017817371937639215,
+      "delta_vs_free_arbiter": -0.031180400890868598,
+      "answers_outside_territory": 0.0,
+      "reroute_vs_cascade": 14,
+      "reroute_wrong_to_right": 13,
+      "reroute_right_to_wrong": 1
+     },
+     "channel_sum": 0.04899777282850779,
+     "k": 4,
+     "organs": 20
+    }
+   ],
+   "redundancy_bonus": 0.00222717149220486
+  },
+  {
+   "seed": 1,
+   "per_k": [
+    {
+     "cascade_strict": 0.8752783964365256,
+     "arbiter_strict": 0.9576837416481069,
+     "delta": 0.08240534521158127,
+     "cascade_coverage": 0.9398663697104677,
+     "arbiter_coverage": 0.9732739420935412,
+     "theta": 0.3,
+     "picked_organ_did_not_accept": 0.0779510022271715,
+     "gain_from_outside_territory": 0.0556792873051225,
+     "channels": {
+      "same_answer": {
+       "n": 393,
+       "share": 0.8752783964365256,
+       "contribution": 0.0
+      },
+      "reroute": {
+       "n": 21,
+       "share": 0.0467706013363029,
+       "contribution": 0.042316258351893093,
+       "wrong_to_right": 20,
+       "right_to_wrong": 1,
+       "both_wrong": 0,
+       "inside_territory": 0.7142857142857143
+      },
+      "fill": {
+       "n": 23,
+       "share": 0.051224944320712694,
+       "contribution": 0.0467706013363029,
+       "arbiter_acc_here": 0.9130434782608695,
+       "inside_territory": 0.0
+      },
+      "drop": {
+       "n": 8,
+       "share": 0.017817371937639197,
+       "contribution": -0.0066815144766146995,
+       "cascade_acc_here": 0.375
+      },
+      "both_abstain": {
+       "n": 4,
+       "share": 0.008908685968819599,
+       "contribution": 0.0
+      }
+     },
+     "gated": {
+      "strict": 0.8997772828507795,
+      "coverage": 0.910913140311804,
+      "theta": 0.3,
+      "delta_vs_cascade": 0.024498886414253906,
+      "delta_vs_free_arbiter": -0.057906458797327365,
+      "answers_outside_territory": 0.0,
+      "reroute_vs_cascade": 15,
+      "reroute_wrong_to_right": 15,
+      "reroute_right_to_wrong": 0
+     },
+     "channel_sum": 0.08240534521158129,
+     "k": 1,
+     "organs": 5
+    },
+    {
+     "cascade_strict": 0.9064587973273942,
+     "arbiter_strict": 0.9643652561247216,
+     "delta": 0.057906458797327365,
+     "cascade_coverage": 0.9821826280623608,
+     "arbiter_coverage": 0.9799554565701559,
+     "theta": 0.3,
+     "picked_organ_did_not_accept": 0.08463251670378619,
+     "gain_from_outside_territory": 0.026726057906458798,
+     "channels": {
+      "same_answer": {
+       "n": 409,
+       "share": 0.910913140311804,
+       "contribution": 0.0
+      },
+      "reroute": {
+       "n": 26,
+       "share": 0.05790645879732739,
+       "contribution": 0.053452115812917596,
+       "wrong_to_right": 24,
+       "right_to_wrong": 0,
+       "both_wrong": 2,
+       "inside_territory": 0.6538461538461539
+      },
+      "fill": {
+       "n": 5,
+       "share": 0.011135857461024499,
+       "contribution": 0.011135857461024499,
+       "arbiter_acc_here": 1.0,
+       "inside_territory": 0.0
+      },
+      "drop": {
+       "n": 6,
+       "share": 0.013363028953229399,
+       "contribution": -0.0066815144766146995,
+       "cascade_acc_here": 0.5
+      },
+      "both_abstain": {
+       "n": 3,
+       "share": 0.0066815144766146995,
+       "contribution": 0.0
+      }
+     },
+     "gated": {
+      "strict": 0.9443207126948775,
+      "coverage": 0.9576837416481069,
+      "theta": 0.3,
+      "delta_vs_cascade": 0.03786191536748329,
+      "delta_vs_free_arbiter": -0.020044543429844075,
+      "answers_outside_territory": 0.0,
+      "reroute_vs_cascade": 21,
+      "reroute_wrong_to_right": 20,
+      "reroute_right_to_wrong": 0
+     },
+     "channel_sum": 0.05790645879732739,
+     "k": 4,
+     "organs": 20
+    }
+   ],
+   "redundancy_bonus": 0.006681514476614692
+  },
+  {
+   "seed": 2,
+   "per_k": [
+    {
+     "cascade_strict": 0.8997772828507795,
+     "arbiter_strict": 0.955456570155902,
+     "delta": 0.055679287305122505,
+     "cascade_coverage": 0.9643652561247216,
+     "arbiter_coverage": 0.9799554565701559,
+     "theta": 0.3,
+     "picked_organ_did_not_accept": 0.05790645879732739,
+     "gain_from_outside_territory": 0.031180400890868598,
+     "channels": {
+      "same_answer": {
+       "n": 407,
+       "share": 0.9064587973273942,
+       "contribution": 0.0
+      },
+      "reroute": {
+       "n": 21,
+       "share": 0.0467706013363029,
+       "contribution": 0.0378619153674833,
+       "wrong_to_right": 18,
+       "right_to_wrong": 1,
+       "both_wrong": 2,
+       "inside_territory": 0.6190476190476191
+      },
+      "fill": {
+       "n": 12,
+       "share": 0.026726057906458798,
+       "contribution": 0.0200445434298441,
+       "arbiter_acc_here": 0.75,
+       "inside_territory": 0.0
+      },
+      "drop": {
+       "n": 5,
+       "share": 0.011135857461024499,
+       "contribution": -0.0022271714922048997,
+       "cascade_acc_here": 0.2
+      },
+      "both_abstain": {
+       "n": 4,
+       "share": 0.008908685968819599,
+       "contribution": 0.0
+      }
+     },
+     "gated": {
+      "strict": 0.9220489977728286,
+      "coverage": 0.9354120267260579,
+      "theta": 0.3,
+      "delta_vs_cascade": 0.022271714922049046,
+      "delta_vs_free_arbiter": -0.03340757238307346,
+      "answers_outside_territory": 0.0,
+      "reroute_vs_cascade": 13,
+      "reroute_wrong_to_right": 12,
+      "reroute_right_to_wrong": 0
+     },
+     "channel_sum": 0.0556792873051225,
+     "k": 1,
+     "organs": 5
+    },
+    {
+     "cascade_strict": 0.910913140311804,
+     "arbiter_strict": 0.9688195991091314,
+     "delta": 0.057906458797327365,
+     "cascade_coverage": 0.9821826280623608,
+     "arbiter_coverage": 0.9799554565701559,
+     "theta": 0.3,
+     "picked_organ_did_not_accept": 0.066815144766147,
+     "gain_from_outside_territory": 0.024498886414253896,
+     "channels": {
+      "same_answer": {
+       "n": 407,
+       "share": 0.9064587973273942,
+       "contribution": 0.0
+      },
+      "reroute": {
+       "n": 27,
+       "share": 0.060133630289532294,
+       "contribution": 0.053452115812917596,
+       "wrong_to_right": 25,
+       "right_to_wrong": 1,
+       "both_wrong": 1,
+       "inside_territory": 0.6296296296296297
+      },
+      "fill": {
+       "n": 6,
+       "share": 0.013363028953229399,
+       "contribution": 0.011135857461024499,
+       "arbiter_acc_here": 0.8333333333333334,
+       "inside_territory": 0.0
+      },
+      "drop": {
+       "n": 7,
+       "share": 0.015590200445434299,
+       "contribution": -0.0066815144766146995,
+       "cascade_acc_here": 0.42857142857142855
+      },
+      "both_abstain": {
+       "n": 2,
+       "share": 0.004454342984409799,
+       "contribution": 0.0
+      }
+     },
+     "gated": {
+      "strict": 0.955456570155902,
+      "coverage": 0.9643652561247216,
+      "theta": 0.3,
+      "delta_vs_cascade": 0.04454342984409798,
+      "delta_vs_free_arbiter": -0.013363028953229383,
+      "answers_outside_territory": 0.0,
+      "reroute_vs_cascade": 26,
+      "reroute_wrong_to_right": 24,
+      "reroute_right_to_wrong": 1
+     },
+     "channel_sum": 0.05790645879732739,
+     "k": 4,
+     "organs": 20
+    }
+   ],
+   "redundancy_bonus": 0.013363028953229383
+  },
+  {
+   "seed": 3,
+   "per_k": [
+    {
+     "cascade_strict": 0.8374164810690423,
+     "arbiter_strict": 0.9576837416481069,
+     "delta": 0.12026726057906456,
+     "cascade_coverage": 0.9242761692650334,
+     "arbiter_coverage": 0.9710467706013363,
+     "theta": 0.3,
+     "picked_organ_did_not_accept": 0.10690423162583519,
+     "gain_from_outside_territory": 0.08463251670378619,
+     "channels": {
+      "same_answer": {
+       "n": 379,
+       "share": 0.844097995545657,
+       "contribution": 0.0
+      },
+      "reroute": {
+       "n": 30,
+       "share": 0.066815144766147,
+       "contribution": 0.062360801781737196,
+       "wrong_to_right": 29,
+       "right_to_wrong": 1,
+       "both_wrong": 0,
+       "inside_territory": 0.6333333333333333
+      },
+      "fill": {
+       "n": 27,
+       "share": 0.060133630289532294,
+       "contribution": 0.060133630289532294,
+       "arbiter_acc_here": 1.0,
+       "inside_territory": 0.0
+      },
+      "drop": {
+       "n": 6,
+       "share": 0.013363028953229399,
+       "contribution": -0.0022271714922048997,
+       "cascade_acc_here": 0.16666666666666666
+      },
+      "both_abstain": {
+       "n": 7,
+       "share": 0.015590200445434299,
+       "contribution": 0.0
+      }
+     },
+     "gated": {
+      "strict": 0.8730512249443207,
+      "coverage": 0.89086859688196,
+      "theta": 0.3,
+      "delta_vs_cascade": 0.03563474387527843,
+      "delta_vs_free_arbiter": -0.08463251670378613,
+      "answers_outside_territory": 0.0,
+      "reroute_vs_cascade": 19,
+      "reroute_wrong_to_right": 18,
+      "reroute_right_to_wrong": 1
+     },
+     "channel_sum": 0.12026726057906459,
+     "k": 1,
+     "organs": 5
+    },
+    {
+     "cascade_strict": 0.8864142538975501,
+     "arbiter_strict": 0.9576837416481069,
+     "delta": 0.07126948775055675,
+     "cascade_coverage": 0.9977728285077951,
+     "arbiter_coverage": 0.9688195991091314,
+     "theta": 0.3,
+     "picked_organ_did_not_accept": 0.0779510022271715,
+     "gain_from_outside_territory": 0.0334075723830735,
+     "channels": {
+      "same_answer": {
+       "n": 394,
+       "share": 0.8775055679287305,
+       "contribution": 0.0
+      },
+      "reroute": {
+       "n": 41,
+       "share": 0.09131403118040089,
+       "contribution": 0.08685968819599109,
+       "wrong_to_right": 40,
+       "right_to_wrong": 1,
+       "both_wrong": 0,
+       "inside_territory": 0.6341463414634146
+      },
+      "fill": {
+       "n": 0,
+       "share": 0.0,
+       "contribution": 0.0
+      },
+      "drop": {
+       "n": 13,
+       "share": 0.028953229398663696,
+       "contribution": -0.015590200445434299,
+       "cascade_acc_here": 0.5384615384615384
+      },
+      "both_abstain": {
+       "n": 1,
+       "share": 0.0022271714922048997,
+       "contribution": 0.0
+      }
+     },
+     "gated": {
+      "strict": 0.9487750556792873,
+      "coverage": 0.9599109131403119,
+      "theta": 0.3,
+      "delta_vs_cascade": 0.062360801781737196,
+      "delta_vs_free_arbiter": -0.008908685968819552,
+      "answers_outside_territory": 0.0,
+      "reroute_vs_cascade": 37,
+      "reroute_wrong_to_right": 36,
+      "reroute_right_to_wrong": 1
+     },
+     "channel_sum": 0.07126948775055679,
+     "k": 4,
+     "organs": 20
+    }
+   ],
+   "redundancy_bonus": 0.0
+  },
+  {
+   "seed": 4,
+   "per_k": [
+    {
+     "cascade_strict": 0.8930957683741648,
+     "arbiter_strict": 0.9621380846325167,
+     "delta": 0.06904231625835189,
+     "cascade_coverage": 0.9755011135857461,
+     "arbiter_coverage": 0.9799554565701559,
+     "theta": 0.3,
+     "picked_organ_did_not_accept": 0.04899777282850779,
+     "gain_from_outside_territory": 0.0334075723830735,
+     "channels": {
+      "same_answer": {
+       "n": 402,
+       "share": 0.8953229398663697,
+       "contribution": 0.0
+      },
+      "reroute": {
+       "n": 29,
+       "share": 0.0645879732739421,
+       "contribution": 0.0556792873051225,
+       "wrong_to_right": 26,
+       "right_to_wrong": 1,
+       "both_wrong": 2,
+       "inside_territory": 0.7241379310344828
+      },
+      "fill": {
+       "n": 9,
+       "share": 0.0200445434298441,
+       "contribution": 0.0200445434298441,
+       "arbiter_acc_here": 1.0,
+       "inside_territory": 0.0
+      },
+      "drop": {
+       "n": 7,
+       "share": 0.015590200445434299,
+       "contribution": -0.0066815144766146995,
+       "cascade_acc_here": 0.42857142857142855
+      },
+      "both_abstain": {
+       "n": 2,
+       "share": 0.004454342984409799,
+       "contribution": 0.0
+      }
+     },
+     "gated": {
+      "strict": 0.9242761692650334,
+      "coverage": 0.9443207126948775,
+      "theta": 0.3,
+      "delta_vs_cascade": 0.031180400890868598,
+      "delta_vs_free_arbiter": -0.03786191536748329,
+      "answers_outside_territory": 0.0,
+      "reroute_vs_cascade": 21,
+      "reroute_wrong_to_right": 18,
+      "reroute_right_to_wrong": 1
+     },
+     "channel_sum": 0.0690423162583519,
+     "k": 1,
+     "organs": 5
+    },
+    {
+     "cascade_strict": 0.9042316258351893,
+     "arbiter_strict": 0.9576837416481069,
+     "delta": 0.05345211581291753,
+     "cascade_coverage": 0.9888641425389755,
+     "arbiter_coverage": 0.9643652561247216,
+     "theta": 0.3,
+     "picked_organ_did_not_accept": 0.0467706013363029,
+     "gain_from_outside_territory": 0.008908685968819599,
+     "channels": {
+      "same_answer": {
+       "n": 399,
+       "share": 0.888641425389755,
+       "contribution": 0.0
+      },
+      "reroute": {
+       "n": 32,
+       "share": 0.07126948775055679,
+       "contribution": 0.066815144766147,
+       "wrong_to_right": 31,
+       "right_to_wrong": 1,
+       "both_wrong": 0,
+       "inside_territory": 0.84375
+      },
+      "fill": {
+       "n": 2,
+       "share": 0.004454342984409799,
+       "contribution": 0.004454342984409799,
+       "arbiter_acc_here": 1.0,
+       "inside_territory": 0.0
+      },
+      "drop": {
+       "n": 13,
+       "share": 0.028953229398663696,
+       "contribution": -0.017817371937639197,
+       "cascade_acc_here": 0.6153846153846154
+      },
+      "both_abstain": {
+       "n": 3,
+       "share": 0.0066815144766146995,
+       "contribution": 0.0
+      }
+     },
+     "gated": {
+      "strict": 0.9487750556792873,
+      "coverage": 0.955456570155902,
+      "theta": 0.3,
+      "delta_vs_cascade": 0.04454342984409798,
+      "delta_vs_free_arbiter": -0.008908685968819552,
+      "answers_outside_territory": 0.0,
+      "reroute_vs_cascade": 30,
+      "reroute_wrong_to_right": 29,
+      "reroute_right_to_wrong": 1
+     },
+     "channel_sum": 0.0534521158129176,
+     "k": 4,
+     "organs": 20
+    }
+   ],
+   "redundancy_bonus": -0.0044543429844098315
+  }
+ ]
+}

@@ -1,0 +1,364 @@
+<title>Anatomy of a Contracted Organism</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#ECEFE8; --panel:#F7F8F3; --ink:#1E2A2E; --muted:#66757A; --rule:#C7CDC3; --rule-soft:#DDE1D8;
+  --veto:#B4472A; --veto-soft:#E9CFC5; --consol:#2F6F5E; --consol-soft:#CFE0D8; --gate:#4E5E8E; --gate-soft:#D3D8E8;
+  --abstain:#AEB5AC; --ok:#2F6F5E; --bad:#B4472A;
+  --o0:#C98A3D; --o1:#5B8BA3; --o2:#8E6C9E; --o3:#6E9F62; --o4:#B96F8A; --o5:#4F8F8B; --o6:#A2794D; --o7:#7E8FBF; --o8:#8FA05A; --o9:#B0655A;
+  --display:"Fraunces",Georgia,"Times New Roman",serif; --body:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif; --mono:"IBM Plex Mono",Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --ground:#151B1D; --panel:#1E2628; --ink:#E6E9E2; --muted:#98A5A5; --rule:#36423F; --rule-soft:#2A3432;
+  --veto:#D8775A; --veto-soft:#4A2E27; --consol:#63A892; --consol-soft:#24403A; --gate:#8C9BD0; --gate-soft:#2C3350;
+  --abstain:#5B6663; --ok:#63A892; --bad:#D8775A;
+  --o0:#D9A25A; --o1:#7FA9BE; --o2:#A98BB8; --o3:#8DBA80; --o4:#CF8BA4; --o5:#6FAAA6; --o6:#BC9668; --o7:#9AA9D6; --o8:#A9B876; --o9:#C9857A;
+}}
+:root[data-theme="dark"]{
+  --ground:#151B1D; --panel:#1E2628; --ink:#E6E9E2; --muted:#98A5A5; --rule:#36423F; --rule-soft:#2A3432;
+  --veto:#D8775A; --veto-soft:#4A2E27; --consol:#63A892; --consol-soft:#24403A; --gate:#8C9BD0; --gate-soft:#2C3350;
+  --abstain:#5B6663; --ok:#63A892; --bad:#D8775A;
+  --o0:#D9A25A; --o1:#7FA9BE; --o2:#A98BB8; --o3:#8DBA80; --o4:#CF8BA4; --o5:#6FAAA6; --o6:#BC9668; --o7:#9AA9D6; --o8:#A9B876; --o9:#C9857A;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;margin:0;padding:0 0 64px}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+header{padding:40px 0 20px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end}
+h1{font-family:var(--display);font-weight:600;font-size:40px;line-height:1.05;margin:0 0 10px;text-wrap:balance;font-variation-settings:"opsz" 144}
+.thesis{max-width:64ch;color:var(--muted);margin:0;font-size:16px}
+.kicker{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+.bench{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.bench button,.ctrl button{font:inherit;font-size:13.5px;border:1px solid var(--rule);background:var(--panel);color:var(--ink);padding:7px 12px;border-radius:999px;cursor:pointer}
+.bench button[aria-pressed="true"]{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+.bench button:focus-visible,.ctrl button:focus-visible,input:focus-visible{outline:2px solid var(--gate);outline-offset:2px}
+.stage{background:var(--panel);border:1px solid var(--rule-soft);border-radius:6px;padding:18px 18px 12px;margin-top:8px}
+.ctrl{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;margin:0 0 10px}
+.ctrl .steps{display:flex;gap:6px}
+.ctrl input[type=range]{width:100%;accent-color:var(--ink)}
+.stepname{font-family:var(--display);font-size:22px;font-weight:600;margin:0}
+.stepmeta{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.platewrap{overflow-x:auto}
+svg.plate{display:block;max-width:100%;height:auto;font-family:var(--mono);font-size:11.5px}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-family:var(--mono);font-size:11.5px;color:var(--muted);margin:8px 0 0;padding-top:10px;border-top:1px solid var(--rule-soft)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:18px;height:6px;border-radius:2px;display:inline-block}
+.narr{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);gap:28px;margin-top:22px;align-items:start}
+.narr h2{font-family:var(--display);font-size:20px;font-weight:600;margin:0 0 8px}
+.narr p{max-width:66ch;margin:0 0 10px}
+.facts{background:var(--panel);border:1px solid var(--rule-soft);border-radius:6px;padding:14px 16px}
+.facts dl{display:grid;grid-template-columns:1fr auto;gap:6px 16px;margin:0;font-size:13.5px}
+.facts dt{color:var(--muted)} .facts dd{margin:0;font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right}
+.facts .ok{color:var(--ok)} .facts .bad{color:var(--bad)}
+.facts h3{margin:0 0 8px;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--ground);font-family:var(--mono);font-size:12px;padding:8px 10px;border-radius:4px;max-width:320px;line-height:1.4;z-index:5}
+figure{margin:32px 0 0}
+figcaption{color:var(--muted);font-size:13.5px;max-width:72ch;margin-top:8px}
+svg.ret{display:block;max-width:100%;height:auto;font-family:var(--mono);font-size:11px}
+.foot{margin-top:36px;color:var(--muted);font-size:13px;max-width:78ch;border-top:1px solid var(--rule-soft);padding-top:14px}
+.foot code{font-family:var(--mono);font-size:12.5px}
+@media (max-width:760px){header{grid-template-columns:1fr}.bench{justify-content:flex-start}.narr{grid-template-columns:1fr}h1{font-size:32px}}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <div>
+    <p class="kicker">Contracted growth · evaluation seed 2 · every number regenerated from <code>results/</code></p>
+    <h1>Anatomy of a Contracted Organism</h1>
+    <p class="thesis">A classifier that is never retrained: it grows a new frozen organ where the old ones abstain, teaches old organs to say <em>no</em> to newcomers, and later proposes to recombine itself, with every change passing a gate. Step through one life, left to right.</p>
+  </div>
+  <div class="bench" role="group" aria-label="Choose the organism">
+    <button data-bench="digits" aria-pressed="true">split-digits · 5 tasks</button>
+    <button data-bench="mnist" aria-pressed="false">split-MNIST · 5 tasks</button>
+    <button data-bench="cifar_vitb" aria-pressed="false">CIFAR-100 on ViT-B · 10 tasks</button>
+  </div>
+</header>
+
+<section class="stage" aria-label="Lifecycle plate">
+  <div class="ctrl">
+    <div class="steps">
+      <button id="prev" aria-label="Previous step">←</button>
+      <button id="play" aria-label="Play">Play</button>
+      <button id="next" aria-label="Next step">→</button>
+    </div>
+    <div>
+      <p class="stepname" id="stepname">Task 0 arrives</p>
+      <input type="range" id="scrub" min="0" max="10" value="0" aria-label="Step">
+    </div>
+    <div class="stepmeta" id="stepmeta">step 1 / 11</div>
+  </div>
+  <div class="platewrap"><svg class="plate" id="plate" role="img" aria-label="Lifecycle of the organism: organs as bands over time, vetoes as marks, consolidation and arbitration as the final columns"></svg></div>
+  <div class="legend">
+    <span><i class="sw" style="background:var(--o0)"></i> organ (born at a task, frozen for life)</span>
+    <span><i class="sw" style="background:var(--veto)"></i> veto added (old organ says “not this”)</span>
+    <span><i class="sw" style="background:var(--consol)"></i> consolidation (adolescence)</span>
+    <span><i class="sw" style="background:var(--gate)"></i> arbiter / gate</span>
+    <span><i class="sw" style="background:var(--abstain)"></i> abstention</span>
+  </div>
+</section>
+
+<section class="narr">
+  <div>
+    <h2 id="ntitle"></h2>
+    <div id="ntext"></div>
+  </div>
+  <aside class="facts" aria-live="polite">
+    <h3 id="ftitle">This step</h3>
+    <dl id="facts"></dl>
+  </aside>
+</section>
+
+<figure>
+  <svg class="ret" id="ret" role="img" aria-label="Retention matrix: strict accuracy on each earlier task after every later task"></svg>
+  <figcaption id="retcap"></figcaption>
+</figure>
+
+<p class="foot" id="foot"></p>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script id="trace" type="application/json">__TRACE__</script>
+<script>
+(function(){
+const T = JSON.parse(document.getElementById('trace').textContent);
+const NS = 'http://www.w3.org/2000/svg';
+const $ = id => document.getElementById(id);
+let bench = 'digits', step = 0, timer = null;
+
+const pct = x => (100*x).toFixed(x < 0.0995 ? 1 : 0) + '%';
+const f3 = x => (x==null? '—' : Number(x).toFixed(3));
+const orgColor = i => `var(--o${i%10})`;
+const el = (tag, attrs, parent, text) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text!=null) e.textContent = text; if (parent) parent.appendChild(e); return e; };
+
+// ---- step model: 0 = birth of organ 0; then per task t>=1: arrival(t), growth(t); then adolescence, arbiter, epilogue
+function steps(B){
+  const s = [{kind:'birth', t:0}];
+  for (let t=1;t<B.n_tasks;t++){ s.push({kind:'arrival', t}); s.push({kind:'growth', t}); }
+  s.push({kind:'adolescence'}); s.push({kind:'arbiter'}); s.push({kind:'epilogue'});
+  return s;
+}
+function names(B){ const S = steps(B); return S.map(x => x.kind==='birth' ? 'Task 0 arrives: the first organ' : x.kind==='arrival' ? `Task ${x.t} arrives: inhibition` : x.kind==='growth' ? `Task ${x.t}: growth by need` : x.kind==='adolescence' ? 'Adolescence: consolidate?' : x.kind==='arbiter' ? 'Arbiter: route between organs?' : 'Later life: retire, negotiate, budget'); }
+
+// ---- plate
+function drawPlate(){
+  const B = T.benches[bench], S = steps(B), cur = S[step];
+  const n = B.n_tasks;
+  const visibleTasks = cur.kind==='birth' ? 1 : (cur.kind==='arrival' ? cur.t+1 : cur.kind==='growth' ? cur.t+1 : n);
+  const organsShown = cur.kind==='arrival' ? cur.t : (cur.kind==='growth' ? cur.t+1 : cur.kind==='birth' ? 1 : n);
+  const showAdol = ['adolescence','arbiter','epilogue'].includes(cur.kind);
+  const showArb = ['arbiter','epilogue'].includes(cur.kind);
+  const colW = n > 6 ? 84 : 118, lane = n > 6 ? 30 : 40, left = 150, top = 92, extraCols = 2;
+  const W = left + colW*(n+extraCols) + 40, H = top + lane*n + 96;
+  const svg = $('plate'); svg.innerHTML=''; svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const defs = el('defs', {}, svg);
+  const mk = el('marker', {id:'arr', viewBox:'0 0 10 10', refX:'9', refY:'5', markerWidth:'7', markerHeight:'7', orient:'auto-start-reverse'}, defs);
+  el('path', {d:'M0,0 L10,5 L0,10 z', fill:'var(--veto)'}, mk);
+  const mk2 = el('marker', {id:'arr2', viewBox:'0 0 10 10', refX:'9', refY:'5', markerWidth:'7', markerHeight:'7', orient:'auto-start-reverse'}, defs);
+  el('path', {d:'M0,0 L10,5 L0,10 z', fill:'var(--consol)'}, mk2);
+  const cx = t => left + colW*t + colW/2;
+  const ly = i => top + lane*i + lane/2;
+  const xAdol = cx(n), xArb = cx(n+1);
+
+  // column headers: task arrivals
+  el('text', {x:left-12, y:34, 'text-anchor':'end', fill:'var(--muted)'}, svg, 'arrivals →');
+  for (let t=0;t<n;t++){
+    const active = t < visibleTasks;
+    const a = B.arrivals[t];
+    const g = el('g', {opacity: active ? 1 : 0.18}, svg);
+    el('text', {x:cx(t), y:22, 'text-anchor':'middle', fill:'var(--ink)', 'font-weight':'500'}, g, `task ${t}`);
+    // class names only when the columns are wide enough to hold them (the
+    // 10-task plate puts them in the tooltip and the narration instead)
+    if (n <= 6){
+      const label = a.class_names.length<=2 ? a.class_names.join(' · ') : a.class_names.slice(0,2).join(', ')+' …';
+      el('text', {x:cx(t), y:38, 'text-anchor':'middle', fill:'var(--muted)', 'font-size':'10.5'}, g, label);
+    } else {
+      el('text', {x:cx(t), y:38, 'text-anchor':'middle', fill:'var(--muted)', 'font-size':'10'}, g, '10 new classes');
+    }
+    // false-accept bar: before -> after tightening
+    if (t>0){
+      const bw = colW-28, bx = cx(t)-bw/2, by = 48;
+      el('rect', {x:bx, y:by, width:bw, height:6, rx:1, fill:'var(--rule-soft)'}, g);
+      el('rect', {x:bx, y:by, width:bw*a.fa_before, height:6, rx:1, fill:'var(--veto-soft)'}, g);
+      el('rect', {x:bx, y:by, width:bw*a.fa_after, height:6, rx:1, fill:'var(--veto)'}, g);
+      const fatxt = n <= 6 ? `false accepts ${pct(a.fa_before)} → ${pct(a.fa_after)}` : `${pct(a.fa_before)} → ${pct(a.fa_after)}`;
+      el('text', {x:cx(t), y:66, 'text-anchor':'middle', fill:'var(--muted)', 'font-size': n<=6 ? '10' : '9.5'}, g, fatxt);
+    } else {
+      el('text', {x:cx(t), y:66, 'text-anchor':'middle', fill:'var(--muted)', 'font-size': n<=6 ? '10' : '9.5'}, g, n<=6 ? 'nothing to inhibit yet' : 'no false accepts yet');
+    }
+    if (t===1) el('text', {x:cx(1)-(colW-28)/2, y:46, fill:'var(--muted)', 'font-size':'9'}, g, n<=6 ? '' : 'false accepts, before → after vetoes');
+    // column rule
+    el('line', {x1:cx(t), y1:top-8, x2:cx(t), y2:top+lane*n, stroke:'var(--rule-soft)', 'stroke-dasharray':'2 4'}, g);
+  }
+  // recombination columns
+  const gA = el('g', {opacity: showAdol ? 1 : 0.18}, svg);
+  el('text', {x:xAdol, y:22, 'text-anchor':'middle', fill:'var(--consol)', 'font-weight':'500'}, gA, 'adolescence');
+  el('text', {x:xAdol, y:38, 'text-anchor':'middle', fill:'var(--muted)', 'font-size':'10.5'}, gA, 'consolidate into C');
+  el('line', {x1:xAdol, y1:top-8, x2:xAdol, y2:top+lane*n, stroke:'var(--rule-soft)', 'stroke-dasharray':'2 4'}, gA);
+  const gB = el('g', {opacity: showArb ? 1 : 0.18}, svg);
+  el('text', {x:xArb, y:22, 'text-anchor':'middle', fill:'var(--gate)', 'font-weight':'500'}, gB, 'arbiter');
+  el('text', {x:xArb, y:38, 'text-anchor':'middle', fill:'var(--muted)', 'font-size':'10.5'}, gB, 'route, inside territories');
+  el('line', {x1:xArb, y1:top-8, x2:xArb, y2:top+lane*n, stroke:'var(--rule-soft)', 'stroke-dasharray':'2 4'}, gB);
+
+  // organ lanes
+  const L = B.lifecycle, adolOK = !!L.adol_accepted, arbOK = !!L.arbiter_accepted;
+  const endX = showArb ? xArb : (showAdol ? xAdol : cx(visibleTasks-1));
+  for (let i=0;i<organsShown;i++){
+    const o = B.organs[i], y = ly(i), col = orgColor(i);
+    const g = el('g', {class:'organ', 'data-i':i, style:'cursor:help'}, svg);
+    // lane label
+    el('text', {x:left-12, y:y+4, 'text-anchor':'end', fill:col, 'font-weight':'500'}, g, `organ ${i}`);
+    const lbl = o.class_names.length<=2 ? o.class_names.join(' · ') : `${o.class_names.length} classes`;
+    el('text', {x:left-12, y:y+16, 'text-anchor':'end', fill:'var(--muted)', 'font-size':'10'}, g, lbl);
+    // band: from birth to end (thickness = coverage on its own task at the current time)
+    const rowIdx = Math.min(visibleTasks-1, n-1);
+    const strictNow = o.own_task_strict_over_time[rowIdx];
+    const th = 4 + 10*(strictNow==null?1:strictNow);
+    const xb = cx(o.born_at);
+    const bandEnd = adolOK && showAdol ? xAdol - 14 : endX;
+    el('rect', {x:xb, y:y-th/2, width:Math.max(bandEnd-xb, 6), height:th, rx:2, fill:col, opacity:0.85}, g);
+    // birth node with need
+    el('circle', {cx:xb, cy:y, r:8, fill:'var(--panel)', stroke:col, 'stroke-width':'2.5'}, g);
+    el('text', {x:xb, y:y+3.5, 'text-anchor':'middle', fill:col, 'font-size':'9', 'font-weight':'500'}, g, String(i));
+    if (cur.kind==='growth' && cur.t===i || (cur.kind==='birth' && i===0)){
+      el('text', {x:xb+14, y:y-th/2-6, fill:col, 'font-size':'10.5'}, g, `born from ${o.need} declined samples`);
+      if (o.birth_vetoes>0) el('text', {x:xb+14, y:y+th/2+13, fill:'var(--veto)', 'font-size':'10'}, g, `+${o.birth_vetoes} birth veto${o.birth_vetoes>1?'es':''} vs. older contracts`);
+    }
+    // veto marks at each later arrival
+    for (let t=o.born_at+1; t<visibleTasks; t++){
+      const a = B.arrivals[t]; const tg = a.tighten.find(x=>x.organ===i); if(!tg) continue;
+      const k = tg.vetoes_added; if (!k) continue;
+      const x = cx(t);
+      const isNow = cur.kind==='arrival' && cur.t===t;
+      for (let j=0;j<Math.min(k,6);j++) el('line', {x1:x-8+j*3.2, y1:y-th/2-3, x2:x-8+j*3.2, y2:y+th/2+3, stroke:'var(--veto)', 'stroke-width': isNow?2:1.4, opacity:isNow?1:0.8}, g);
+      if (k>6 || isNow) el('text', {x:x+13, y:y-th/2-4, fill:'var(--veto)', 'font-size':'10'}, g, `+${k}`);
+      if (isNow) el('line', {x1:x, y1:74, x2:x, y2:y-th/2-8, stroke:'var(--veto)', 'stroke-width':'1.2', 'marker-end':'url(#arr)'}, svg);
+    }
+    // consolidation path into C
+    if (showAdol && adolOK){
+      const yC = ly(Math.floor((n-1)/2)) + (n%2===0 ? lane/2 : 0);
+      el('path', {d:`M${xAdol-14},${y} C ${xAdol-4},${y} ${xAdol-8},${yC} ${xAdol},${yC}`, fill:'none', stroke:col, 'stroke-width':'2', opacity:0.7}, svg);
+    }
+    // tooltip
+    g.addEventListener('mousemove', ev => showTip(ev, o, i, rowIdx, B));
+    g.addEventListener('mouseleave', hideTip);
+  }
+  // C organ node
+  if (showAdol){
+    const yC = ly(Math.floor((n-1)/2)) + (n%2===0 ? lane/2 : 0);
+    if (adolOK){
+      el('rect', {x:xAdol-10, y:yC-12, width:showArb?colW-20+colW:colW-20, height:24, rx:3, fill:'var(--consol)'}, svg);
+      el('text', {x:xAdol+ (showArb? (colW-20+colW)/2 -10 : (colW-20)/2 -10), y:yC+4, 'text-anchor':'middle', fill:'var(--ground)', 'font-weight':'500'}, svg, showArb ? 'C  (one organ, all classes)  → arbiter' : 'C  (one organ, all classes)');
+      el('text', {x:xAdol, y:top+lane*n+18, 'text-anchor':'middle', fill:'var(--consol)', 'font-size':'10.5'}, svg, `accepted · ${f3(L.growth)} → ${f3(L.adolescence)}`);
+    } else {
+      el('rect', {x:xAdol-30, y:yC-12, width:60, height:24, rx:3, fill:'none', stroke:'var(--consol)', 'stroke-dasharray':'3 3'}, svg);
+      el('text', {x:xAdol, y:yC+4, 'text-anchor':'middle', fill:'var(--consol)', 'font-weight':'500'}, svg, 'refused');
+      el('text', {x:xAdol, y:top+lane*n+18, 'text-anchor':'middle', fill:'var(--muted)', 'font-size':'10.5'}, svg, `anatomy unchanged · ${f3(L.growth)}`);
+    }
+  }
+  // arbiter gate glyph
+  if (showArb){
+    const yG = top - 2;
+    const gg = el('g', {}, svg);
+    el('rect', {x:xArb-28, y:yG, width:56, height:lane*n+4, rx:4, fill:'var(--gate-soft)', opacity:0.55}, gg);
+    const rows = [['territory', L.territory_passed], ['escrow', L.escrow_passed], ['contract', !!L.arbiter_accepted]];
+    rows.forEach((r,k)=>{ const yy = yG+22+k*22; el('text', {x:xArb-22, y:yy, fill:'var(--ink)', 'font-size':'10'}, gg, r[0]); el('text', {x:xArb+22, y:yy, 'text-anchor':'end', fill: r[1]?'var(--ok)':'var(--bad)', 'font-weight':'600', 'font-size':'11'}, gg, r[1]?'✓':'✗'); });
+    el('text', {x:xArb-22, y:yG+22+3*22, fill:'var(--muted)', 'font-size':'10'}, gg, `z ${L.escrow_z>=0?'+':''}${Number(L.escrow_z).toFixed(2)}`);
+    el('text', {x:xArb, y:top+lane*n+18, 'text-anchor':'middle', fill: arbOK?'var(--gate)':'var(--muted)', 'font-size':'10.5'}, svg, arbOK ? `accepted · certified ${f3(L.certified)}` : `refused · certified ${f3(L.certified)}`);
+  }
+  // bottom axis: organism strict after each task
+  const yA = top + lane*n + 46;
+  el('text', {x:left-12, y:yA+4, 'text-anchor':'end', fill:'var(--muted)'}, svg, 'strict acc. so far');
+  for (let t=0;t<visibleTasks;t++){ el('text', {x:cx(t), y:yA+4, 'text-anchor':'middle', fill:'var(--ink)', 'font-variant-numeric':'tabular-nums'}, svg, f3(B.arrivals[t].strict_after)); }
+  el('text', {x:left-12, y:yA+22, 'text-anchor':'end', fill:'var(--muted)'}, svg, 'growth flips');
+  for (let t=0;t<visibleTasks;t++){ el('text', {x:cx(t), y:yA+22, 'text-anchor':'middle', fill:'var(--ok)'}, svg, '0'); }
+}
+
+function showTip(ev, o, i, rowIdx, B){
+  const tip = $('tip'); tip.hidden = false;
+  const s = o.size ? ` · trunk ${o.size.trunk.toLocaleString()} w · contract ${o.size.contract.toLocaleString()} floats (PCA rank ${o.size.pca_rank}/class) · ${o.size.n_vetoes} vetoes` : '';
+  const own = o.own_task_strict_over_time[rowIdx];
+  tip.textContent = `organ ${i} · born task ${o.born_at} · classes ${o.class_names.join(', ')} · need ${o.need} · ρ ${o.rho.toFixed(2)} τ ${o.tau.toFixed(3)} · strict on its own task now ${own==null?'—':own.toFixed(3)}${s}`;
+  tip.style.left = (ev.pageX + 14) + 'px'; tip.style.top = (ev.pageY + 14) + 'px';
+}
+function hideTip(){ $('tip').hidden = true; }
+
+// ---- narration + facts
+function narrate(){
+  const B = T.benches[bench], S = steps(B), cur = S[step], L = B.lifecycle, E = T.epilogue;
+  const nm = names(B)[step];
+  $('stepname').textContent = nm; $('ntitle').textContent = nm;
+  $('stepmeta').textContent = `step ${step+1} / ${S.length}`;
+  $('scrub').max = S.length-1; $('scrub').value = step;
+  let html = '', facts = [];
+  const o = cur.t!=null ? B.organs[cur.t] : null, a = cur.t!=null ? B.arrivals[cur.t] : null;
+  if (cur.kind==='birth'){
+    html = `<p>The first task brings ${o.class_names.join(' and ')}. There is no organ yet, so every sample is a <em>need</em>. One small network is trained on them and wrapped in a <strong>contract</strong>: a few anchors, a margin τ, a radius ρ and a territory (the PCA span of what it has seen). Inside the territory and within the radius it answers; outside, it abstains.</p><p>Then it is frozen. Nothing that happens later will change a single weight of it, so every answer it gives today it will give for life. That is what makes forgetting a checkable invariant rather than a measurement.</p>`;
+    facts = [['classes', o.class_names.join(', ')], ['training samples (need)', o.need], ['coverage on its task', pct(o.cov_on_need)], ['precision on its task', pct(o.prec_on_need)], ['radius ρ', o.rho.toFixed(2)], ['margin τ', o.tau.toFixed(3)], ['strict accuracy so far', f3(a.strict_after)]];
+  } else if (cur.kind==='arrival'){
+    const k = a.vetoes_added_total, ex = a.tighten.reduce((s,x)=>s+x.excluded,0);
+    html = `<p>Task ${cur.t} brings ${a.class_names.length<=2 ? a.class_names.join(' and ') : a.class_names.length+' new classes ('+a.class_names.slice(0,4).join(', ')+' …)'}. Before anything is learned, the newcomers are shown to every existing organ. <strong>${pct(a.fa_before)}</strong> of them would be accepted, and every one of those is a false accept: the organ has never seen these classes and can only answer wrongly.</p><p>So the old organs learn <strong>vetoes</strong>: directions in their own territory coordinates that say <em>not this</em>. A veto can only turn an answer into an abstention, never into a different answer, so it is monotone: nothing an organ used to get right becomes wrong. ${k} veto${k===1?'':'es'} are added here${ex? `, giving up ${ex} own-class samples in exchange` : ', at no cost to the organs’ own classes'}. After tightening, ${pct(a.fa_after)} of the newcomers are still accepted; those are what the next step will fix.</p>`;
+    facts = [['new classes', a.class_names.slice(0,4).join(', ') + (a.class_names.length>4?' …':'')], ['false accepts before', pct(a.fa_before)], ['false accepts after', pct(a.fa_after)], ['vetoes added', k], ['organs tightened', a.tighten.filter(x=>x.vetoes_added>0).length + ' / ' + a.tighten.length], ['own-class samples given up', ex]];
+  } else if (cur.kind==='growth'){
+    html = `<p>What the tightened organs still decline is the need: <strong>${o.need}</strong> samples of task ${cur.t}. A new organ is trained on those alone and given its own contract. At birth it is also tightened against <em>synthetic</em> negatives drawn from every older organ's contract (the contracts are generators, so no raw data is stored), which closes the new→old direction: ${o.birth_vetoes} birth veto${o.birth_vetoes===1?'':'es'} here.</p><p>The newborn joins the cascade last: a query goes to the first organ whose contract accepts it. Because no old organ changed, the organism's answers on everything it already answered are bitwise identical. Growth flips so far: <strong>0</strong>. Strict accuracy over all ${cur.t+1} tasks seen: ${f3(a.strict_after)}.</p>`;
+    facts = [['need (declined samples)', o.need], ['coverage on need', pct(o.cov_on_need)], ['precision on need', pct(o.prec_on_need)], ['birth vetoes', o.birth_vetoes], ['organs now', cur.t+1], ['growth flips (bitwise)', '0'], ['strict accuracy so far', f3(a.strict_after)], ['coverage so far', pct(a.coverage_after)]];
+    if (o.size) facts.push(['this organ, trunk weights', o.size.trunk.toLocaleString()], ['this organ, contract floats', o.size.contract.toLocaleString()]);
+  } else if (cur.kind==='adolescence'){
+    const A = B.adolescence;
+    html = `<p>With all ${B.n_tasks} tasks in, the organism proposes its first recombination. A single prototype organ <strong>C</strong>, covering every class, is trained on samples <em>generated by the existing contracts</em>; no stored data is used. Its territory is the merger of the organs' territories. If accepted, C is placed first in the cascade and the old organs become its fallback.</p>` +
+      (L.adol_accepted ? `<p>The gate accepted it: strict accuracy moves from ${f3(L.growth)} to <strong>${f3(L.adolescence)}</strong>${A && A.share_C!=null ? `; C now answers ${pct(A.share_C)} of the test set, with ${A.flips_right} answers turned right against ${A.flips_wrong} turned wrong (audit on a development seed)` : ''}. The old organs are not deleted; they are kept behind C, and C can be re-derived from their contracts alone.</p>`
+                       : `<p>The gate <strong>refused</strong> it on this seed: the candidate did not clear the per-class floor on the synthetic hold-out and the real last-task validation together. The anatomy stays exactly as grown, at ${f3(L.growth)}. A refusal is a result, not a failure: the point of the gate is that recombination only happens when it can be shown not to hurt.</p>`);
+    facts = [['proposal', 'consolidate into one organ C'], ['trained on', 'contract samples only'], ['verdict', L.adol_accepted ? 'accepted' : 'refused'], ['strict before', f3(L.growth)], ['strict after', f3(L.adolescence)]];
+    if (A && A.params_C) facts.push(['size of C', A.params_C.toLocaleString() + ' params'], ['anatomy before', B.n_params.toLocaleString() + ' params']);
+  } else if (cur.kind==='arbiter'){
+    const gain = L.arbiter_candidate - L.adolescence, freegain = L.free_arbiter - L.adolescence;
+    html = `<p>Second recombination: a small router, the <strong>arbiter</strong>, is trained on the organs' evidence (distances, margins, in-territory flags) to pick which organ should answer, instead of first-accept. It is <em>territory-respecting</em>: it may only choose an organ whose contract actually accepts the query, so every answer stays certified.</p><p>The gate has three parts. The territory check (data-free) confirms that ${pct(1-(L.uncertified_fraction||0))} of answers sit inside a contract. The escrow check runs a one-sided McNemar test on the whole validation split (z = ${Number(L.escrow_z).toFixed(2)}${L.escrow_passed?', passed':', failed'}). The original contract rule asks the arbiter to strictly improve the synthetic per-class mean (${f3(L.syn_mean)} vs ${f3(L.syn_mean_ref)}) without losing on the last task's real validation (${f3(L.val_new)} vs ${f3(L.val_ref)}).</p>` +
+      (L.arbiter_accepted ? `<p><strong>Accepted.</strong> Certified final ${f3(L.certified)}, a gain of ${gain>=0?'+':''}${gain.toFixed(3)}. An unconstrained arbiter would reach ${f3(L.free_arbiter)}, but the extra ${(freegain-gain).toFixed(3)} comes from answers outside every contract, and the organism does not claim those.</p>`
+                          : `<p><strong>Refused.</strong> The candidate scored ${f3(L.arbiter_candidate)} against ${f3(L.adolescence)} for the cascade, and ${L.val_new < L.val_ref ? 'it lost ground on the last task’s real validation' : 'it did not clear the required improvement'}. The certified organism stays at ${f3(L.certified)}. A free arbiter would show ${f3(L.free_arbiter)}, bought with uncertified answers.</p>`);
+    facts = [['territory check', L.territory_passed?'passed':'failed'], ['uncertified answers', pct(L.uncertified_fraction||0)], ['escrow McNemar z', (L.escrow_z>=0?'+':'')+Number(L.escrow_z).toFixed(2)], ['synthetic mean, new vs ref', `${f3(L.syn_mean)} / ${f3(L.syn_mean_ref)}`], ['last-task val, new vs ref', `${f3(L.val_new)} / ${f3(L.val_ref)}`], ['verdict', L.arbiter_accepted?'accepted':'refused'], ['certified final', f3(L.certified)], ['free arbiter (not claimed)', f3(L.free_arbiter)]];
+  } else {
+    html = `<p>Three more recombinations exist in the organism's later life, each behind the same kind of certificate.</p>
+    <p><strong>Apoptosis.</strong> An organ may be retired only if a per-class certificate shows nothing is lost without it. On grown anatomies this retires nothing (0 deaths), which says the grown anatomy is minimal; on a twin control, where every organ has an exact duplicate, it retires exactly one of every pair (${E.twin_kmnist_organs_before} organs → ${E.twin_kmnist_organs_before/2}, ${Math.round(E.twin_kmnist_params_before/1e3).toLocaleString()}k → ${Math.round(E.twin_kmnist_params_after/1e3).toLocaleString()}k parameters).</p>
+    <p><strong>Negotiation.</strong> Organs can cede parts of their territory to a rival that prices the same queries better, by auction, adding vetoes rather than editing weights (${E.negotiate_digits_vetoes} vetoes on split-digits). The market decides <em>where</em> boundaries move; the gate still decides <em>whether</em> the result is kept.</p>
+    <p><strong>A budget on drift.</strong> A lifetime ledger caps the total accepted drift; every accepted change is charged to it. Across ${E.uncertified_runs} evaluation runs the certified organism has accepted zero regressions, and the gate's record over ${E.gate_runs} judged decisions is ${E.gate_harmful_refused} known-harmful changes refused and ${E.gate_miss} miss.</p>`;
+    facts = [['retirements on grown anatomies', E.apoptosis_grown], ['twin control, organs', `${E.twin_kmnist_organs_before} → ${E.twin_kmnist_organs_before/2}`], ['negotiation vetoes (digits)', E.negotiate_digits_vetoes], ['accepted regressions', `0 / ${E.uncertified_runs} runs`], ['gate record', `${E.gate_harmful_refused} harmful refused, ${E.gate_miss} miss / ${E.gate_runs}`]];
+  }
+  $('ntext').innerHTML = html;
+  const dl = $('facts'); dl.innerHTML = '';
+  facts.forEach(([k,v])=>{ const dt=document.createElement('dt'); dt.textContent=k; const dd=document.createElement('dd'); dd.textContent=v; if (/accepted|passed/.test(String(v))) dd.className='ok'; if (/refused|failed/.test(String(v))) dd.className='bad'; dl.appendChild(dt); dl.appendChild(dd); });
+}
+
+// ---- retention matrix
+function drawRet(){
+  const B = T.benches[bench], n = B.n_tasks, R = B.retention;
+  const cell = n>6 ? 34 : 52, left = 120, top = 28, W = left + cell*n + 20, H = top + cell*n + 30;
+  const svg = $('ret'); svg.innerHTML=''; svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  el('text', {x:left, y:14, fill:'var(--muted)'}, svg, 'after task →');
+  for (let t=0;t<n;t++) el('text', {x:left+cell*t+cell/2, y:top-6, 'text-anchor':'middle', fill:'var(--ink)'}, svg, String(t));
+  for (let i=0;i<n;i++){
+    el('text', {x:left-10, y:top+cell*i+cell/2+4, 'text-anchor':'end', fill:orgColor(i)}, svg, `task ${i} test`);
+    for (let t=i;t<n;t++){
+      const v = R[t][i];
+      el('rect', {x:left+cell*t, y:top+cell*i, width:cell-2, height:cell-2, rx:2, fill:orgColor(i), opacity: 0.15 + 0.75*Math.max(0, (v-0.4)/0.6)}, svg);
+      el('text', {x:left+cell*t+cell/2-1, y:top+cell*i+cell/2+4, 'text-anchor':'middle', fill:'var(--ink)', 'font-size': n>6?'9':'11'}, svg, v.toFixed(2));
+    }
+  }
+  const first = R.map((row,t)=>row[0]);
+  $('retcap').textContent = `Retention view. Each row is one task's test set; each column is the organism after a later task has arrived. Reading along a row, strict accuracy on task 0 goes ${first[0].toFixed(2)} → ${first[n-1].toFixed(2)}: the small drift is entirely abstention added by vetoes (answers turned to “I don't know”), never an answer changed by growth, which is checked to be exactly zero on every step. Organism: ${B.bench.replace('_',' ')}, ${B.backbone}, seed ${B.seed}.`;
+}
+
+function render(){ drawPlate(); narrate(); drawRet();
+  $('foot').textContent = `Every figure on this page is read from the project's result files (results/continual_*.json, results/cifar100_vitb.json, results/lifecycle_gated_full.json, results/adolescence.json, the cached organism, results/claims.json) for evaluation seed ${T.seed}; nothing is illustrative. The plate shows a single run, so it inherits that run's verdicts: on this seed adolescence and the arbiter can each be accepted or refused, and the three organisms were chosen to show all three combinations. Band thickness is the organ's current strict accuracy on its own task; false-accept bars are measured on the incoming task's training data before and after tightening.`; }
+
+// ---- controls
+function go(s){ const S = steps(T.benches[bench]); step = Math.max(0, Math.min(S.length-1, s)); render(); }
+$('prev').addEventListener('click', ()=>go(step-1));
+$('next').addEventListener('click', ()=>go(step+1));
+$('scrub').addEventListener('input', e=>go(+e.target.value));
+$('play').addEventListener('click', ()=>{ if (timer){ clearInterval(timer); timer=null; $('play').textContent='Play'; return; } $('play').textContent='Pause'; timer = setInterval(()=>{ const S = steps(T.benches[bench]); if (step>=S.length-1){ clearInterval(timer); timer=null; $('play').textContent='Play'; return; } go(step+1); }, 2600); });
+document.addEventListener('keydown', e=>{ if (e.key==='ArrowRight') go(step+1); if (e.key==='ArrowLeft') go(step-1); });
+document.querySelectorAll('.bench button').forEach(b=>b.addEventListener('click', ()=>{ document.querySelectorAll('.bench button').forEach(x=>x.setAttribute('aria-pressed', x===b?'true':'false')); bench = b.dataset.bench; step = Math.min(step, steps(T.benches[bench]).length-1); render(); }));
+window.addEventListener('scroll', hideTip);
+render();
+})();
+</script>

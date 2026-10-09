@@ -1,0 +1,380 @@
+[
+ {
+  "seed": 3,
+  "ref_test": 0.7794,
+  "escrow_per_class": 60,
+  "escrow_n": 2500,
+  "escrow_resolution": 0.007356663645974308,
+  "candidates": {
+   "arbiter_free": {
+    "test_strict": 0.8373,
+    "test_delta": 0.05790000000000006,
+    "old_gate": true,
+    "new_gate": false,
+    "failed": [
+     "territory"
+    ],
+    "certified": false,
+    "uncertified_fraction": 0.1309,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.9588853136237543,
+      "mean_ref": 0.9260872220520602,
+      "floor_new": 0.6811594202898551,
+      "floor_ref": 0.6666666666666666,
+      "val_new": 0.7909836065573771,
+      "val_ref": 0.6762295081967213,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 10000,
+      "outside": 1309,
+      "uncertified_fraction": 0.1309,
+      "passed": false
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 25,
+      "mcnemar_c": 199,
+      "mcnemar_z": 11.625864023190461,
+      "overall_new": 0.8312,
+      "overall_ref": 0.7616,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 54,
+      "worst_class_z": -1.414213562373095,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": true
+     }
+    }
+   },
+   "arbiter_gated": {
+    "test_strict": 0.799,
+    "test_delta": 0.019600000000000062,
+    "old_gate": true,
+    "new_gate": true,
+    "failed": [],
+    "certified": true,
+    "uncertified_fraction": 0.0,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.957843222037799,
+      "mean_ref": 0.9260872220520602,
+      "floor_new": 0.6666666666666666,
+      "floor_ref": 0.6666666666666666,
+      "val_new": 0.7295081967213115,
+      "val_ref": 0.6762295081967213,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 9524,
+      "outside": 0,
+      "uncertified_fraction": 0.0,
+      "passed": true
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 23,
+      "mcnemar_c": 98,
+      "mcnemar_z": 6.818181818181818,
+      "overall_new": 0.7916,
+      "overall_ref": 0.7616,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 43,
+      "worst_class_z": -2.0,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": true
+     }
+    }
+   },
+   "negotiate_market": {
+    "test_strict": 0.7796,
+    "test_delta": 0.00019999999999997797,
+    "old_gate": true,
+    "new_gate": true,
+    "failed": [],
+    "certified": true,
+    "uncertified_fraction": 0.0,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.9258355601337316,
+      "mean_ref": 0.9260872220520602,
+      "floor_new": 0.6666666666666666,
+      "floor_ref": 0.6666666666666666,
+      "val_new": 0.6721311475409836,
+      "val_ref": 0.6762295081967213,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 9891,
+      "outside": 0,
+      "uncertified_fraction": 0.0,
+      "passed": true
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 3,
+      "mcnemar_c": 2,
+      "mcnemar_z": -0.4472135954999579,
+      "overall_new": 0.7612,
+      "overall_ref": 0.7616,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 5,
+      "worst_class_z": -1.0,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": true
+     }
+    }
+   },
+   "negotiate_oracle": {
+    "test_strict": 0.7733,
+    "test_delta": -0.006099999999999994,
+    "old_gate": true,
+    "new_gate": false,
+    "failed": [
+     "escrow"
+    ],
+    "certified": true,
+    "uncertified_fraction": 0.0,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.9277651128095564,
+      "mean_ref": 0.9260872220520602,
+      "floor_new": 0.6666666666666666,
+      "floor_ref": 0.6666666666666666,
+      "val_new": 0.6721311475409836,
+      "val_ref": 0.6762295081967213,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 9884,
+      "outside": 0,
+      "uncertified_fraction": 0.0,
+      "passed": true
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 24,
+      "mcnemar_c": 8,
+      "mcnemar_z": -2.82842712474619,
+      "overall_new": 0.7552,
+      "overall_ref": 0.7616,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 96,
+      "worst_class_z": -2.0,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": false
+     }
+    }
+   }
+  }
+ },
+ {
+  "seed": 4,
+  "ref_test": 0.7772,
+  "escrow_per_class": 60,
+  "escrow_n": 2500,
+  "escrow_resolution": 0.007356663645974308,
+  "candidates": {
+   "arbiter_free": {
+    "test_strict": 0.8382,
+    "test_delta": 0.06099999999999994,
+    "old_gate": true,
+    "new_gate": false,
+    "failed": [
+     "territory"
+    ],
+    "certified": false,
+    "uncertified_fraction": 0.1339,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.9649127035865734,
+      "mean_ref": 0.9343992388742328,
+      "floor_new": 0.75,
+      "floor_ref": 0.7464788732394366,
+      "val_new": 0.8502024291497976,
+      "val_ref": 0.7773279352226721,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 10000,
+      "outside": 1339,
+      "uncertified_fraction": 0.1339,
+      "passed": false
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 48,
+      "mcnemar_c": 177,
+      "mcnemar_z": 8.6,
+      "overall_new": 0.8288,
+      "overall_ref": 0.7772,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 33,
+      "worst_class_z": -2.0,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": true
+     }
+    }
+   },
+   "arbiter_gated": {
+    "test_strict": 0.8005,
+    "test_delta": 0.023299999999999987,
+    "old_gate": true,
+    "new_gate": true,
+    "failed": [],
+    "certified": true,
+    "uncertified_fraction": 0.0,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.9640901283257959,
+      "mean_ref": 0.9343992388742328,
+      "floor_new": 0.7380952380952381,
+      "floor_ref": 0.7464788732394366,
+      "val_new": 0.8137651821862348,
+      "val_ref": 0.7773279352226721,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 9548,
+      "outside": 0,
+      "uncertified_fraction": 0.0,
+      "passed": true
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 36,
+      "mcnemar_c": 80,
+      "mcnemar_z": 4.085297439895141,
+      "overall_new": 0.7948,
+      "overall_ref": 0.7772,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 11,
+      "worst_class_z": -2.0,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": true
+     }
+    }
+   },
+   "negotiate_market": {
+    "test_strict": 0.7768,
+    "test_delta": -0.00039999999999995595,
+    "old_gate": true,
+    "new_gate": true,
+    "failed": [],
+    "certified": true,
+    "uncertified_fraction": 0.0,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.9343992388742328,
+      "mean_ref": 0.9343992388742328,
+      "floor_new": 0.7464788732394366,
+      "floor_ref": 0.7464788732394366,
+      "val_new": 0.7732793522267206,
+      "val_ref": 0.7773279352226721,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 9861,
+      "outside": 0,
+      "uncertified_fraction": 0.0,
+      "passed": true
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 2,
+      "mcnemar_c": 1,
+      "mcnemar_z": -0.5773502691896258,
+      "overall_new": 0.7768,
+      "overall_ref": 0.7772,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 26,
+      "worst_class_z": -1.0,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": true
+     }
+    }
+   },
+   "negotiate_oracle": {
+    "test_strict": 0.7745,
+    "test_delta": -0.0027000000000000357,
+    "old_gate": true,
+    "new_gate": false,
+    "failed": [
+     "escrow"
+    ],
+    "certified": true,
+    "uncertified_fraction": 0.0,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.935878681270299,
+      "mean_ref": 0.9343992388742328,
+      "floor_new": 0.7464788732394366,
+      "floor_ref": 0.7464788732394366,
+      "val_new": 0.7651821862348178,
+      "val_ref": 0.7773279352226721,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 9854,
+      "outside": 0,
+      "uncertified_fraction": 0.0,
+      "passed": true
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 18,
+      "mcnemar_c": 5,
+      "mcnemar_z": -2.710687382741972,
+      "overall_new": 0.772,
+      "overall_ref": 0.7772,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 33,
+      "worst_class_z": -1.7320508075688774,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": false
+     }
+    }
+   }
+  }
+ }
+]

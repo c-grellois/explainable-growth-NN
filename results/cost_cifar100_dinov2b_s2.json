@@ -1,0 +1,61 @@
+{
+ "cache": "cifar100_dinov2b",
+ "seed": 2,
+ "d": 768,
+ "n_classes": 100,
+ "inc": 10,
+ "n_train": 45000,
+ "encoder": {
+  "name": "dinov2b",
+  "params": 86000000,
+  "gmac_per_image": 23.0,
+  "d": 768
+ },
+ "rows": {
+  "protos": {
+   "state_floats": 1922602,
+   "learning_state_floats": 0,
+   "inference_mac": 114432,
+   "update_s_one_task": 3.3405632972717285,
+   "answers_change_under_growth": false
+  },
+  "head_M2000": {
+   "state_floats": 3658600,
+   "learning_state_floats": 4200000,
+   "inference_mac": 1773632,
+   "update_s_one_task": 3.4217612743377686,
+   "update_s_one_task_with_lambda_grid": 21.89927215576172,
+   "answers_change_under_growth": true
+  },
+  "head_M10000": {
+   "state_floats": 10602600,
+   "learning_state_floats": 101000000,
+   "inference_mac": 8717632,
+   "update_s_one_task": 136.56696796417236,
+   "update_s_one_task_with_lambda_grid": 874.0285949707031,
+   "answers_change_under_growth": true
+  },
+  "ranpac_M10000_published": {
+   "state_floats": 8680000,
+   "learning_state_floats": 101000000,
+   "inference_mac": 8680000,
+   "update_s_one_task": null,
+   "answers_change_under_growth": true,
+   "note": "arithmetic from the published configuration; not run"
+  },
+  "cascade": {
+   "state_floats": 4821162,
+   "learning_state_floats": 0,
+   "inference_mac": 5936010,
+   "n_organs": 10,
+   "n_vetoes": 228,
+   "update_s_one_task": null,
+   "answers_change_under_growth": false
+  },
+  "replay_buffer_20_per_class": {
+   "raw_bytes": 301056000,
+   "feature_floats": 1536000,
+   "note": "storage only; the classifier it trains is a 2-layer MLP (see baselines)"
+  }
+ }
+}

@@ -1,0 +1,389 @@
+[
+ {
+  "seed": 2,
+  "cache": "cifar100_vitb",
+  "ood_sets": {
+   "cifar10": 10000
+  },
+  "n_id_test": 10000,
+  "configs": {
+   "cascade": {
+    "id_coverage": 0.9684,
+    "id_strict": 0.654,
+    "id_precision": 0.6753407682775713,
+    "forced_acc": 0.654,
+    "aurc": 0.36724107562378394,
+    "risk_at_own_coverage": 0.3246592317224288,
+    "risk_at_80": 0.325875,
+    "risk_at_90": 0.3224444444444444,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.697390505,
+      "fpr95": 0.6901,
+      "ood_accept_rate": 0.7566
+     }
+    }
+   },
+   "lifecycle": {
+    "id_coverage": 0.9772,
+    "id_strict": 0.7715,
+    "id_precision": 0.7895006139991814,
+    "forced_acc": 0.7715,
+    "aurc": 0.1531067347224279,
+    "risk_at_own_coverage": 0.21049938600081866,
+    "risk_at_80": 0.181,
+    "risk_at_90": 0.19077777777777777,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.77438857,
+      "fpr95": 0.623,
+      "ood_accept_rate": 0.7644
+     }
+    }
+   },
+   "protos": {
+    "id_coverage": 0.9796,
+    "id_strict": 0.8333,
+    "id_precision": 0.8506533278889342,
+    "forced_acc": 0.8429,
+    "aurc": 0.0863940766943464,
+    "risk_at_own_coverage": 0.14934667211106575,
+    "risk_at_80": 0.11225,
+    "risk_at_90": 0.12911111111111112,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.84142366,
+      "fpr95": 0.5843,
+      "ood_accept_rate": 0.7613
+     }
+    }
+   },
+   "head": {
+    "id_coverage": 0.98,
+    "id_strict": 0.8682,
+    "id_precision": 0.8859183673469387,
+    "forced_acc": 0.8794,
+    "aurc": 0.06817216578760597,
+    "risk_at_own_coverage": 0.11408163265306122,
+    "risk_at_80": 0.086,
+    "risk_at_90": 0.09977777777777778,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.8419799,
+      "fpr95": 0.5583,
+      "ood_accept_rate": 0.7318
+     }
+    }
+   }
+  },
+  "baselines": {
+   "ncm_cos": {
+    "forced_acc": 0.8429,
+    "aurc": 0.12602725448266242,
+    "risk_at_80": 0.133625,
+    "risk_at_90": 0.14255555555555555,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.75296884,
+      "fpr95": 0.7356
+     }
+    }
+   },
+   "knn1": {
+    "forced_acc": 0.8429,
+    "aurc": 0.12522829691911017,
+    "risk_at_80": 0.138625,
+    "risk_at_90": 0.14533333333333334,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.7748141,
+      "fpr95": 0.7741
+     }
+    }
+   },
+   "mahalanobis": {
+    "forced_acc": 0.8429,
+    "aurc": 0.14933309908308345,
+    "risk_at_80": 0.14325,
+    "risk_at_90": 0.1491111111111111,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.74361571,
+      "fpr95": 0.801
+     }
+    }
+   },
+   "probe_msp": {
+    "forced_acc": 0.8869,
+    "aurc": 0.017613517138131755,
+    "risk_at_80": 0.031125,
+    "risk_at_90": 0.06344444444444444,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.90302558,
+      "fpr95": 0.4716
+     }
+    }
+   }
+  },
+  "elapsed_s": 14817.709723949432
+ },
+ {
+  "seed": 3,
+  "cache": "cifar100_vitb",
+  "ood_sets": {
+   "cifar10": 10000
+  },
+  "n_id_test": 10000,
+  "configs": {
+   "cascade": {
+    "id_coverage": 0.9819,
+    "id_strict": 0.6794,
+    "id_precision": 0.6919238211630512,
+    "forced_acc": 0.6794,
+    "aurc": 0.3176236058891896,
+    "risk_at_own_coverage": 0.30807617883694877,
+    "risk_at_80": 0.30975,
+    "risk_at_90": 0.30622222222222223,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.68718053,
+      "fpr95": 0.7507,
+      "ood_accept_rate": 0.8559
+     }
+    }
+   },
+   "lifecycle": {
+    "id_coverage": 0.99,
+    "id_strict": 0.7794,
+    "id_precision": 0.7872727272727272,
+    "forced_acc": 0.7794,
+    "aurc": 0.1584278097315136,
+    "risk_at_own_coverage": 0.21272727272727274,
+    "risk_at_80": 0.184125,
+    "risk_at_90": 0.19266666666666668,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.75019457,
+      "fpr95": 0.6694,
+      "ood_accept_rate": 0.8792
+     }
+    }
+   },
+   "protos": {
+    "id_coverage": 0.9837,
+    "id_strict": 0.8366,
+    "id_precision": 0.850462539392091,
+    "forced_acc": 0.8446,
+    "aurc": 0.08714558953824689,
+    "risk_at_own_coverage": 0.14953746060790893,
+    "risk_at_80": 0.11225,
+    "risk_at_90": 0.1288888888888889,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.84179337,
+      "fpr95": 0.5825,
+      "ood_accept_rate": 0.8034
+     }
+    }
+   },
+   "head": {
+    "id_coverage": 0.9823,
+    "id_strict": 0.8685,
+    "id_precision": 0.8841494451796803,
+    "forced_acc": 0.8781,
+    "aurc": 0.06732021941942501,
+    "risk_at_own_coverage": 0.11585055482031965,
+    "risk_at_80": 0.086875,
+    "risk_at_90": 0.09955555555555555,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.8445744,
+      "fpr95": 0.5491,
+      "ood_accept_rate": 0.7516
+     }
+    }
+   }
+  },
+  "baselines": {
+   "ncm_cos": {
+    "forced_acc": 0.8446,
+    "aurc": 0.12411877968193431,
+    "risk_at_80": 0.131875,
+    "risk_at_90": 0.14122222222222222,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.75277617,
+      "fpr95": 0.7365
+     }
+    }
+   },
+   "knn1": {
+    "forced_acc": 0.8446,
+    "aurc": 0.12252233410035133,
+    "risk_at_80": 0.136375,
+    "risk_at_90": 0.1441111111111111,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.77413133,
+      "fpr95": 0.7746
+     }
+    }
+   },
+   "mahalanobis": {
+    "forced_acc": 0.8446,
+    "aurc": 0.14697769576401826,
+    "risk_at_80": 0.14075,
+    "risk_at_90": 0.14722222222222223,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.74428875,
+      "fpr95": 0.8015
+     }
+    }
+   },
+   "probe_msp": {
+    "forced_acc": 0.8863,
+    "aurc": 0.01774019290458207,
+    "risk_at_80": 0.030375,
+    "risk_at_90": 0.06377777777777778,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.90287861,
+      "fpr95": 0.4755
+     }
+    }
+   }
+  },
+  "elapsed_s": 9304.491843938828
+ },
+ {
+  "seed": 4,
+  "cache": "cifar100_vitb",
+  "ood_sets": {
+   "cifar10": 10000
+  },
+  "n_id_test": 10000,
+  "configs": {
+   "cascade": {
+    "id_coverage": 0.9717,
+    "id_strict": 0.6681,
+    "id_precision": 0.6875578882371102,
+    "forced_acc": 0.6681,
+    "aurc": 0.32807184204874285,
+    "risk_at_own_coverage": 0.3124421117628898,
+    "risk_at_80": 0.3065,
+    "risk_at_90": 0.30777777777777776,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.663054435,
+      "fpr95": 0.7528,
+      "ood_accept_rate": 0.8419
+     }
+    }
+   },
+   "lifecycle": {
+    "id_coverage": 0.9861,
+    "id_strict": 0.7772,
+    "id_precision": 0.7881553594970084,
+    "forced_acc": 0.7772,
+    "aurc": 0.14010349077363093,
+    "risk_at_own_coverage": 0.2118446405029916,
+    "risk_at_80": 0.1765,
+    "risk_at_90": 0.18788888888888888,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.75794914,
+      "fpr95": 0.6801,
+      "ood_accept_rate": 0.8664
+     }
+    }
+   },
+   "protos": {
+    "id_coverage": 0.9846,
+    "id_strict": 0.8358,
+    "id_precision": 0.8488726386349786,
+    "forced_acc": 0.8429,
+    "aurc": 0.08657402636387083,
+    "risk_at_own_coverage": 0.15112736136502133,
+    "risk_at_80": 0.11175,
+    "risk_at_90": 0.1288888888888889,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.83977552,
+      "fpr95": 0.5962,
+      "ood_accept_rate": 0.815
+     }
+    }
+   },
+   "head": {
+    "id_coverage": 0.9867,
+    "id_strict": 0.8706,
+    "id_precision": 0.8823350562480997,
+    "forced_acc": 0.8776,
+    "aurc": 0.06890853508388858,
+    "risk_at_own_coverage": 0.11766494375190027,
+    "risk_at_80": 0.086375,
+    "risk_at_90": 0.10055555555555555,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.84348067,
+      "fpr95": 0.554,
+      "ood_accept_rate": 0.7923
+     }
+    }
+   }
+  },
+  "baselines": {
+   "ncm_cos": {
+    "forced_acc": 0.8429,
+    "aurc": 0.12618189445047195,
+    "risk_at_80": 0.133375,
+    "risk_at_90": 0.14322222222222222,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.75274313,
+      "fpr95": 0.7347
+     }
+    }
+   },
+   "knn1": {
+    "forced_acc": 0.8429,
+    "aurc": 0.1268394216353358,
+    "risk_at_80": 0.139125,
+    "risk_at_90": 0.14622222222222223,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.77401219,
+      "fpr95": 0.773
+     }
+    }
+   },
+   "mahalanobis": {
+    "forced_acc": 0.8429,
+    "aurc": 0.1491255219445484,
+    "risk_at_80": 0.1435,
+    "risk_at_90": 0.14888888888888888,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.74359634,
+      "fpr95": 0.8016
+     }
+    }
+   },
+   "probe_msp": {
+    "forced_acc": 0.889,
+    "aurc": 0.017542974459654852,
+    "risk_at_80": 0.030625,
+    "risk_at_90": 0.063,
+    "ood": {
+     "cifar10": {
+      "auroc": 0.90384331,
+      "fpr95": 0.4665
+     }
+    }
+   }
+  },
+  "elapsed_s": 6972.371549844742
+ }
+]

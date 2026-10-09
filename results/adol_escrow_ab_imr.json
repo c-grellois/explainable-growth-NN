@@ -1,0 +1,164 @@
+[
+ {
+  "tag": "imr_vitb",
+  "seed": 2,
+  "grown_test_strict": 0.2791666666666667,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.44416666666666665,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "escrow refused: 1 class(es) below the hard floor",
+   "refused_by": "escrow",
+   "test_strict_after": 0.2791666666666667,
+   "escrow": {
+    "n_classes": 119,
+    "n_samples": 2400,
+    "mcnemar_z": 18.070158058105026,
+    "overall_new": 0.4558333333333333,
+    "overall_ref": 0.2891666666666667,
+    "flagged_classes": [],
+    "hard_floor_classes": [
+     113
+    ],
+    "worst_class": 113,
+    "worst_class_z": -1.7320508075688774,
+    "passed": false
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.44416666666666665,
+   "escrow": {
+    "n_classes": 119,
+    "n_samples": 2400,
+    "mcnemar_z": 18.070158058105026,
+    "overall_new": 0.4558333333333333,
+    "overall_ref": 0.2891666666666667,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 113,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": true,
+  "delta_verbatim_minus_old": -0.16499999999999998
+ },
+ {
+  "tag": "imr_vitb",
+  "seed": 3,
+  "grown_test_strict": 0.2755,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.3978333333333333,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "escrow refused: 1 class(es) below the hard floor",
+   "refused_by": "escrow",
+   "test_strict_after": 0.2755,
+   "escrow": {
+    "n_classes": 117,
+    "n_samples": 2400,
+    "mcnemar_z": 14.913931477403134,
+    "overall_new": 0.405,
+    "overall_ref": 0.28791666666666665,
+    "flagged_classes": [],
+    "hard_floor_classes": [
+     27
+    ],
+    "worst_class": 27,
+    "worst_class_z": -2.6457513110645903,
+    "passed": false
+   }
+  },
+  "new": {
+   "accepted": false,
+   "why": "escrow refused: 1 class(es) below the hard floor",
+   "refused_by": "escrow",
+   "test_strict_after": 0.2755,
+   "escrow": {
+    "n_classes": 117,
+    "n_samples": 2400,
+    "mcnemar_z": 14.913931477403134,
+    "overall_new": 0.405,
+    "overall_ref": 0.28791666666666665,
+    "flagged_classes": [],
+    "hard_floor_classes": [
+     27
+    ],
+    "worst_class": 27,
+    "worst_class_z": -2.6457513110645903,
+    "passed": false
+   }
+  },
+  "delta_new_minus_old": -0.1223333333333333,
+  "verdict_changed": true,
+  "verbatim_changed": true,
+  "delta_verbatim_minus_old": -0.1223333333333333
+ },
+ {
+  "tag": "imr_vitb",
+  "seed": 4,
+  "grown_test_strict": 0.2865,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4518333333333333,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4518333333333333,
+   "escrow": {
+    "n_classes": 113,
+    "n_samples": 2400,
+    "mcnemar_z": 18.44293045527836,
+    "overall_new": 0.47625,
+    "overall_ref": 0.30666666666666664,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 104,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4518333333333333,
+   "escrow": {
+    "n_classes": 113,
+    "n_samples": 2400,
+    "mcnemar_z": 18.44293045527836,
+    "overall_new": 0.47625,
+    "overall_ref": 0.30666666666666664,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 104,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ }
+]

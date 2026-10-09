@@ -1,0 +1,172 @@
+[
+ {
+  "seed": 0,
+  "final_forced": 0.552,
+  "events": [
+   {
+    "task": 0
+   },
+   {
+    "task": 1,
+    "predicted_flip_rate": 0.0825,
+    "real_flip_rate": 0.4816,
+    "real_flip_rate_promised": 0.098,
+    "to_right": 781,
+    "to_wrong": 61
+   },
+   {
+    "task": 2,
+    "predicted_flip_rate": 0.05125,
+    "real_flip_rate": 0.3175,
+    "real_flip_rate_promised": 0.082,
+    "to_right": 733,
+    "to_wrong": 93
+   },
+   {
+    "task": 3,
+    "predicted_flip_rate": 0.06833333333333333,
+    "real_flip_rate": 0.2413,
+    "real_flip_rate_promised": 0.09966666666666667,
+    "to_right": 672,
+    "to_wrong": 160
+   },
+   {
+    "task": 4,
+    "predicted_flip_rate": 0.029791666666666668,
+    "real_flip_rate": 0.2123,
+    "real_flip_rate_promised": 0.0675,
+    "to_right": 708,
+    "to_wrong": 135
+   },
+   {
+    "task": 5,
+    "predicted_flip_rate": 0.042833333333333334,
+    "real_flip_rate": 0.1595,
+    "real_flip_rate_promised": 0.0706,
+    "to_right": 628,
+    "to_wrong": 151
+   },
+   {
+    "task": 6,
+    "predicted_flip_rate": 0.029027777777777777,
+    "real_flip_rate": 0.1287,
+    "real_flip_rate_promised": 0.04416666666666667,
+    "to_right": 649,
+    "to_wrong": 100
+   },
+   {
+    "task": 7,
+    "predicted_flip_rate": 0.037976190476190476,
+    "real_flip_rate": 0.1161,
+    "real_flip_rate_promised": 0.047285714285714285,
+    "to_right": 604,
+    "to_wrong": 119
+   },
+   {
+    "task": 8,
+    "predicted_flip_rate": 0.0425,
+    "real_flip_rate": 0.1049,
+    "real_flip_rate_promised": 0.05375,
+    "to_right": 509,
+    "to_wrong": 151
+   },
+   {
+    "task": 9,
+    "predicted_flip_rate": 0.04009259259259259,
+    "real_flip_rate": 0.0984,
+    "real_flip_rate_promised": 0.05,
+    "to_right": 474,
+    "to_wrong": 142
+   }
+  ],
+  "pred_vs_real_corr_promised": 0.8602787333336073,
+  "real_over_pred_ratio": 1.4932099865389645,
+  "total_to_right": 5758,
+  "total_to_wrong": 1112
+ },
+ {
+  "seed": 1,
+  "final_forced": 0.5519,
+  "events": [
+   {
+    "task": 0
+   },
+   {
+    "task": 1,
+    "predicted_flip_rate": 0.10833333333333334,
+    "real_flip_rate": 0.5574,
+    "real_flip_rate_promised": 0.167,
+    "to_right": 781,
+    "to_wrong": 115
+   },
+   {
+    "task": 2,
+    "predicted_flip_rate": 0.07291666666666667,
+    "real_flip_rate": 0.3171,
+    "real_flip_rate_promised": 0.1115,
+    "to_right": 763,
+    "to_wrong": 113
+   },
+   {
+    "task": 3,
+    "predicted_flip_rate": 0.052222222222222225,
+    "real_flip_rate": 0.1903,
+    "real_flip_rate_promised": 0.076,
+    "to_right": 663,
+    "to_wrong": 124
+   },
+   {
+    "task": 4,
+    "predicted_flip_rate": 0.057916666666666665,
+    "real_flip_rate": 0.1976,
+    "real_flip_rate_promised": 0.08525,
+    "to_right": 556,
+    "to_wrong": 131
+   },
+   {
+    "task": 5,
+    "predicted_flip_rate": 0.025166666666666667,
+    "real_flip_rate": 0.1631,
+    "real_flip_rate_promised": 0.0542,
+    "to_right": 718,
+    "to_wrong": 135
+   },
+   {
+    "task": 6,
+    "predicted_flip_rate": 0.029722222222222223,
+    "real_flip_rate": 0.1207,
+    "real_flip_rate_promised": 0.041,
+    "to_right": 608,
+    "to_wrong": 103
+   },
+   {
+    "task": 7,
+    "predicted_flip_rate": 0.04964285714285714,
+    "real_flip_rate": 0.1393,
+    "real_flip_rate_promised": 0.06671428571428571,
+    "to_right": 514,
+    "to_wrong": 140
+   },
+   {
+    "task": 8,
+    "predicted_flip_rate": 0.027916666666666666,
+    "real_flip_rate": 0.1071,
+    "real_flip_rate_promised": 0.0425,
+    "to_right": 581,
+    "to_wrong": 103
+   },
+   {
+    "task": 9,
+    "predicted_flip_rate": 0.029907407407407407,
+    "real_flip_rate": 0.0883,
+    "real_flip_rate_promised": 0.035666666666666666,
+    "to_right": 545,
+    "to_wrong": 111
+   }
+  ],
+  "pred_vs_real_corr_promised": 0.9836844601408785,
+  "real_over_pred_ratio": 1.509985240148179,
+  "total_to_right": 5729,
+  "total_to_wrong": 1075
+ }
+]

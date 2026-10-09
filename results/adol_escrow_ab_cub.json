@@ -1,0 +1,98 @@
+[
+ {
+  "tag": "cub_vitb_p1s2",
+  "seed": 2,
+  "grown_test_strict": 0.6365564037319763,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.804919423240034,
+   "escrow": null
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.804919423240034,
+   "escrow": {
+    "n_classes": 4,
+    "n_samples": 943,
+    "mcnemar_z": 10.480447462085046,
+    "overall_new": 0.8398727465535525,
+    "overall_ref": 0.6903499469777307,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false
+ },
+ {
+  "tag": "cub_vitb_p1s3",
+  "seed": 3,
+  "grown_test_strict": 0.6361323155216285,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.77735368956743,
+   "escrow": null
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.77735368956743,
+   "escrow": {
+    "n_classes": 1,
+    "n_samples": 943,
+    "mcnemar_z": 9.45491136062149,
+    "overall_new": 0.7953340402969247,
+    "overall_ref": 0.6638388123011665,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false
+ },
+ {
+  "tag": "cub_vitb_p1s4",
+  "seed": 4,
+  "grown_test_strict": 0.6157760814249363,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.6391009329940628,
+   "escrow": null
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.6391009329940628,
+   "escrow": {
+    "n_classes": 2,
+    "n_samples": 943,
+    "mcnemar_z": 3.779644730092272,
+    "overall_new": 0.6765641569459173,
+    "overall_ref": 0.6553552492046659,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false
+ }
+]

@@ -1,0 +1,40 @@
+{
+ "digits": [
+  {
+   "seed": 2,
+   "cascade": 0.8997772828507795,
+   "raw": {
+    "market_strict": 0.44320712694877507,
+    "market_forced": 0.44320712694877507,
+    "market_coverage": 1.0,
+    "reserve": 0.2,
+    "pool_brier": 0.516,
+    "win_share": [
+     310,
+     80,
+     15,
+     20,
+     24
+    ]
+   },
+   "raw_pool": {
+    "market_strict": 0.8396436525612472,
+    "market_forced": 0.9510022271714922,
+    "market_coverage": 0.8507795100222717,
+    "reserve": 0.2,
+    "pool_brier": 0.004111444098933133,
+    "win_share": [
+     93,
+     92,
+     91,
+     91,
+     82
+    ],
+    "arbiter_strict": 0.955456570155902
+   },
+   "consolidated": null,
+   "consolidated_pool": null,
+   "C_accepted": false
+  }
+ ]
+}

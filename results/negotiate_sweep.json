@@ -1,0 +1,806 @@
+{
+ "digits": [
+  {
+   "seed": 0,
+   "cascade": 0.8285077951002228,
+   "cascade_coverage": 0.8641425389755011,
+   "arms": {
+    "market@0.02": {
+     "arm": "market",
+     "self_loss": 0.02,
+     "strict": 0.8285077951002228,
+     "coverage": 0.8641425389755011,
+     "precision": 0.9587628865979382,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.8656782897919015,
+      "ref_mean": 0.8656782897919015,
+      "new_floor": 0.5,
+      "ref_floor": 0.5,
+      "val_new": 0.47368421052631576,
+      "val_ref": 0.47368421052631576
+     },
+     "delta": 0.0,
+     "ceded_total": 180,
+     "vetoes_added": 0,
+     "moved": 0,
+     "moved_to_right": 0,
+     "moved_to_wrong": 0,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 7,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 78,
+       "vetoes": 0
+      },
+      {
+       "organ": 2,
+       "ceded": 90,
+       "vetoes": 0
+      },
+      {
+       "organ": 3,
+       "ceded": 3,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 2,
+       "vetoes": 0
+      }
+     ]
+    },
+    "market@0.1": {
+     "arm": "market",
+     "self_loss": 0.1,
+     "strict": 0.8396436525612472,
+     "coverage": 0.8574610244988864,
+     "precision": 0.9792207792207792,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.8660122742750623,
+      "ref_mean": 0.8656782897919015,
+      "new_floor": 0.5303030303030303,
+      "ref_floor": 0.5,
+      "val_new": 0.5263157894736842,
+      "val_ref": 0.47368421052631576
+     },
+     "delta": 0.011135857461024412,
+     "ceded_total": 180,
+     "vetoes_added": 3,
+     "moved": 10,
+     "moved_to_right": 6,
+     "moved_to_wrong": 1,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 7,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 78,
+       "vetoes": 2
+      },
+      {
+       "organ": 2,
+       "ceded": 90,
+       "vetoes": 1
+      },
+      {
+       "organ": 3,
+       "ceded": 3,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 2,
+       "vetoes": 0
+      }
+     ]
+    },
+    "market@0.3": {
+     "arm": "market",
+     "self_loss": 0.3,
+     "strict": 0.8396436525612472,
+     "coverage": 0.8574610244988864,
+     "precision": 0.9792207792207792,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.8660122742750623,
+      "ref_mean": 0.8656782897919015,
+      "new_floor": 0.5303030303030303,
+      "ref_floor": 0.5,
+      "val_new": 0.5263157894736842,
+      "val_ref": 0.47368421052631576
+     },
+     "delta": 0.011135857461024412,
+     "ceded_total": 180,
+     "vetoes_added": 3,
+     "moved": 10,
+     "moved_to_right": 6,
+     "moved_to_wrong": 1,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 7,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 78,
+       "vetoes": 2
+      },
+      {
+       "organ": 2,
+       "ceded": 90,
+       "vetoes": 1
+      },
+      {
+       "organ": 3,
+       "ceded": 3,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 2,
+       "vetoes": 0
+      }
+     ]
+    },
+    "market@1.0": {
+     "arm": "market",
+     "self_loss": 1.0,
+     "strict": 0.8396436525612472,
+     "coverage": 0.8574610244988864,
+     "precision": 0.9792207792207792,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.8660122742750623,
+      "ref_mean": 0.8656782897919015,
+      "new_floor": 0.5303030303030303,
+      "ref_floor": 0.5,
+      "val_new": 0.5263157894736842,
+      "val_ref": 0.47368421052631576
+     },
+     "delta": 0.011135857461024412,
+     "ceded_total": 180,
+     "vetoes_added": 3,
+     "moved": 10,
+     "moved_to_right": 6,
+     "moved_to_wrong": 1,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 7,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 78,
+       "vetoes": 2
+      },
+      {
+       "organ": 2,
+       "ceded": 90,
+       "vetoes": 1
+      },
+      {
+       "organ": 3,
+       "ceded": 3,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 2,
+       "vetoes": 0
+      }
+     ]
+    },
+    "oracle@0.02": {
+     "arm": "oracle",
+     "self_loss": 0.02,
+     "strict": 0.8285077951002228,
+     "coverage": 0.8641425389755011,
+     "precision": 0.9587628865979382,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.8656782897919015,
+      "ref_mean": 0.8656782897919015,
+      "new_floor": 0.5,
+      "ref_floor": 0.5,
+      "val_new": 0.47368421052631576,
+      "val_ref": 0.47368421052631576
+     },
+     "delta": 0.0,
+     "ceded_total": 218,
+     "vetoes_added": 0,
+     "moved": 0,
+     "moved_to_right": 0,
+     "moved_to_wrong": 0,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 9,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 80,
+       "vetoes": 0
+      },
+      {
+       "organ": 2,
+       "ceded": 105,
+       "vetoes": 0
+      },
+      {
+       "organ": 3,
+       "ceded": 8,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 16,
+       "vetoes": 0
+      }
+     ]
+    },
+    "oracle@0.1": {
+     "arm": "oracle",
+     "self_loss": 0.1,
+     "strict": 0.8396436525612472,
+     "coverage": 0.8552338530066815,
+     "precision": 0.9817708333333334,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.8628653603370733,
+      "ref_mean": 0.8656782897919015,
+      "new_floor": 0.5303030303030303,
+      "ref_floor": 0.5,
+      "val_new": 0.5263157894736842,
+      "val_ref": 0.47368421052631576
+     },
+     "delta": 0.011135857461024412,
+     "ceded_total": 218,
+     "vetoes_added": 4,
+     "moved": 11,
+     "moved_to_right": 6,
+     "moved_to_wrong": 1,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 9,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 80,
+       "vetoes": 2
+      },
+      {
+       "organ": 2,
+       "ceded": 105,
+       "vetoes": 1
+      },
+      {
+       "organ": 3,
+       "ceded": 8,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 16,
+       "vetoes": 1
+      }
+     ]
+    },
+    "oracle@0.3": {
+     "arm": "oracle",
+     "self_loss": 0.3,
+     "strict": 0.8396436525612472,
+     "coverage": 0.8552338530066815,
+     "precision": 0.9817708333333334,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.8628653603370733,
+      "ref_mean": 0.8656782897919015,
+      "new_floor": 0.5303030303030303,
+      "ref_floor": 0.5,
+      "val_new": 0.5263157894736842,
+      "val_ref": 0.47368421052631576
+     },
+     "delta": 0.011135857461024412,
+     "ceded_total": 218,
+     "vetoes_added": 4,
+     "moved": 11,
+     "moved_to_right": 6,
+     "moved_to_wrong": 1,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 9,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 80,
+       "vetoes": 2
+      },
+      {
+       "organ": 2,
+       "ceded": 105,
+       "vetoes": 1
+      },
+      {
+       "organ": 3,
+       "ceded": 8,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 16,
+       "vetoes": 1
+      }
+     ]
+    },
+    "oracle@1.0": {
+     "arm": "oracle",
+     "self_loss": 1.0,
+     "strict": 0.8396436525612472,
+     "coverage": 0.8552338530066815,
+     "precision": 0.9817708333333334,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.8628653603370733,
+      "ref_mean": 0.8656782897919015,
+      "new_floor": 0.5303030303030303,
+      "ref_floor": 0.5,
+      "val_new": 0.5263157894736842,
+      "val_ref": 0.47368421052631576
+     },
+     "delta": 0.011135857461024412,
+     "ceded_total": 218,
+     "vetoes_added": 4,
+     "moved": 11,
+     "moved_to_right": 6,
+     "moved_to_wrong": 1,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 9,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 80,
+       "vetoes": 2
+      },
+      {
+       "organ": 2,
+       "ceded": 105,
+       "vetoes": 1
+      },
+      {
+       "organ": 3,
+       "ceded": 8,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 16,
+       "vetoes": 1
+      }
+     ]
+    }
+   },
+   "free_arbiter": 0.9665924276169265,
+   "gated_arbiter": 0.844097995545657
+  },
+  {
+   "seed": 1,
+   "cascade": 0.8752783964365256,
+   "cascade_coverage": 0.9398663697104677,
+   "arms": {
+    "market@0.02": {
+     "arm": "market",
+     "self_loss": 0.02,
+     "strict": 0.8752783964365256,
+     "coverage": 0.9398663697104677,
+     "precision": 0.9312796208530806,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.8925041587174045,
+      "ref_mean": 0.8925041587174045,
+      "new_floor": 0.7295918367346939,
+      "ref_floor": 0.7295918367346939,
+      "val_new": 0.9117647058823529,
+      "val_ref": 0.9117647058823529
+     },
+     "delta": 0.0,
+     "ceded_total": 387,
+     "vetoes_added": 0,
+     "moved": 0,
+     "moved_to_right": 0,
+     "moved_to_wrong": 0,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 231,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 56,
+       "vetoes": 0
+      },
+      {
+       "organ": 2,
+       "ceded": 89,
+       "vetoes": 0
+      },
+      {
+       "organ": 3,
+       "ceded": 8,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 3,
+       "vetoes": 0
+      }
+     ]
+    },
+    "market@0.1": {
+     "arm": "market",
+     "self_loss": 0.1,
+     "strict": 0.8819599109131403,
+     "coverage": 0.9287305122494433,
+     "precision": 0.9496402877697842,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.917805821401279,
+      "ref_mean": 0.8925041587174045,
+      "new_floor": 0.8540540540540541,
+      "ref_floor": 0.7295918367346939,
+      "val_new": 0.9117647058823529,
+      "val_ref": 0.9117647058823529
+     },
+     "delta": 0.006681514476614692,
+     "ceded_total": 387,
+     "vetoes_added": 5,
+     "moved": 16,
+     "moved_to_right": 8,
+     "moved_to_wrong": 5,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 231,
+       "vetoes": 2
+      },
+      {
+       "organ": 1,
+       "ceded": 56,
+       "vetoes": 1
+      },
+      {
+       "organ": 2,
+       "ceded": 89,
+       "vetoes": 2
+      },
+      {
+       "organ": 3,
+       "ceded": 8,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 3,
+       "vetoes": 0
+      }
+     ]
+    },
+    "market@0.3": {
+     "arm": "market",
+     "self_loss": 0.3,
+     "strict": 0.8819599109131403,
+     "coverage": 0.9287305122494433,
+     "precision": 0.9496402877697842,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.917805821401279,
+      "ref_mean": 0.8925041587174045,
+      "new_floor": 0.8540540540540541,
+      "ref_floor": 0.7295918367346939,
+      "val_new": 0.9117647058823529,
+      "val_ref": 0.9117647058823529
+     },
+     "delta": 0.006681514476614692,
+     "ceded_total": 387,
+     "vetoes_added": 5,
+     "moved": 16,
+     "moved_to_right": 8,
+     "moved_to_wrong": 5,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 231,
+       "vetoes": 2
+      },
+      {
+       "organ": 1,
+       "ceded": 56,
+       "vetoes": 1
+      },
+      {
+       "organ": 2,
+       "ceded": 89,
+       "vetoes": 2
+      },
+      {
+       "organ": 3,
+       "ceded": 8,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 3,
+       "vetoes": 0
+      }
+     ]
+    },
+    "market@1.0": {
+     "arm": "market",
+     "self_loss": 1.0,
+     "strict": 0.8819599109131403,
+     "coverage": 0.9287305122494433,
+     "precision": 0.9496402877697842,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.917805821401279,
+      "ref_mean": 0.8925041587174045,
+      "new_floor": 0.8540540540540541,
+      "ref_floor": 0.7295918367346939,
+      "val_new": 0.9117647058823529,
+      "val_ref": 0.9117647058823529
+     },
+     "delta": 0.006681514476614692,
+     "ceded_total": 387,
+     "vetoes_added": 5,
+     "moved": 16,
+     "moved_to_right": 8,
+     "moved_to_wrong": 5,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 231,
+       "vetoes": 2
+      },
+      {
+       "organ": 1,
+       "ceded": 56,
+       "vetoes": 1
+      },
+      {
+       "organ": 2,
+       "ceded": 89,
+       "vetoes": 2
+      },
+      {
+       "organ": 3,
+       "ceded": 8,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 3,
+       "vetoes": 0
+      }
+     ]
+    },
+    "oracle@0.02": {
+     "arm": "oracle",
+     "self_loss": 0.02,
+     "strict": 0.8752783964365256,
+     "coverage": 0.9398663697104677,
+     "precision": 0.9312796208530806,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.8925041587174045,
+      "ref_mean": 0.8925041587174045,
+      "new_floor": 0.7295918367346939,
+      "ref_floor": 0.7295918367346939,
+      "val_new": 0.9117647058823529,
+      "val_ref": 0.9117647058823529
+     },
+     "delta": 0.0,
+     "ceded_total": 514,
+     "vetoes_added": 0,
+     "moved": 0,
+     "moved_to_right": 0,
+     "moved_to_wrong": 0,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 254,
+       "vetoes": 0
+      },
+      {
+       "organ": 1,
+       "ceded": 64,
+       "vetoes": 0
+      },
+      {
+       "organ": 2,
+       "ceded": 133,
+       "vetoes": 0
+      },
+      {
+       "organ": 3,
+       "ceded": 11,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 52,
+       "vetoes": 0
+      }
+     ]
+    },
+    "oracle@0.1": {
+     "arm": "oracle",
+     "self_loss": 0.1,
+     "strict": 0.8864142538975501,
+     "coverage": 0.9242761692650334,
+     "precision": 0.9590361445783132,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.9138045618449603,
+      "ref_mean": 0.8925041587174045,
+      "new_floor": 0.8540540540540541,
+      "ref_floor": 0.7295918367346939,
+      "val_new": 0.9117647058823529,
+      "val_ref": 0.9117647058823529
+     },
+     "delta": 0.011135857461024523,
+     "ceded_total": 514,
+     "vetoes_added": 6,
+     "moved": 17,
+     "moved_to_right": 9,
+     "moved_to_wrong": 4,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 254,
+       "vetoes": 2
+      },
+      {
+       "organ": 1,
+       "ceded": 64,
+       "vetoes": 1
+      },
+      {
+       "organ": 2,
+       "ceded": 133,
+       "vetoes": 2
+      },
+      {
+       "organ": 3,
+       "ceded": 11,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 52,
+       "vetoes": 1
+      }
+     ]
+    },
+    "oracle@0.3": {
+     "arm": "oracle",
+     "self_loss": 0.3,
+     "strict": 0.8864142538975501,
+     "coverage": 0.9242761692650334,
+     "precision": 0.9590361445783132,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.9138045618449603,
+      "ref_mean": 0.8925041587174045,
+      "new_floor": 0.8540540540540541,
+      "ref_floor": 0.7295918367346939,
+      "val_new": 0.9117647058823529,
+      "val_ref": 0.9117647058823529
+     },
+     "delta": 0.011135857461024523,
+     "ceded_total": 514,
+     "vetoes_added": 6,
+     "moved": 17,
+     "moved_to_right": 9,
+     "moved_to_wrong": 4,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 254,
+       "vetoes": 2
+      },
+      {
+       "organ": 1,
+       "ceded": 64,
+       "vetoes": 1
+      },
+      {
+       "organ": 2,
+       "ceded": 133,
+       "vetoes": 2
+      },
+      {
+       "organ": 3,
+       "ceded": 11,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 52,
+       "vetoes": 1
+      }
+     ]
+    },
+    "oracle@1.0": {
+     "arm": "oracle",
+     "self_loss": 1.0,
+     "strict": 0.8864142538975501,
+     "coverage": 0.9242761692650334,
+     "precision": 0.9590361445783132,
+     "gate": {
+      "accepted": true,
+      "new_mean": 0.9138045618449603,
+      "ref_mean": 0.8925041587174045,
+      "new_floor": 0.8540540540540541,
+      "ref_floor": 0.7295918367346939,
+      "val_new": 0.9117647058823529,
+      "val_ref": 0.9117647058823529
+     },
+     "delta": 0.011135857461024523,
+     "ceded_total": 514,
+     "vetoes_added": 6,
+     "moved": 17,
+     "moved_to_right": 9,
+     "moved_to_wrong": 4,
+     "log": [
+      {
+       "organ": 0,
+       "ceded": 254,
+       "vetoes": 2
+      },
+      {
+       "organ": 1,
+       "ceded": 64,
+       "vetoes": 1
+      },
+      {
+       "organ": 2,
+       "ceded": 133,
+       "vetoes": 2
+      },
+      {
+       "organ": 3,
+       "ceded": 11,
+       "vetoes": 0
+      },
+      {
+       "organ": 4,
+       "ceded": 52,
+       "vetoes": 1
+      }
+     ]
+    }
+   },
+   "free_arbiter": 0.955456570155902,
+   "gated_arbiter": 0.8997772828507795
+  }
+ ]
+}

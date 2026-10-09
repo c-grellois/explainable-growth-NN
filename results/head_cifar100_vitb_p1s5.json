@@ -1,0 +1,146 @@
+[
+ {
+  "seed": 5,
+  "cache": "cifar100_vitb_p1s5",
+  "M": 2000,
+  "n_classes": 100,
+  "inc": 10,
+  "lambda": 0.1,
+  "forced": 0.9054,
+  "strict": 0.8965,
+  "coverage": 0.9834,
+  "precision": 0.9116331096196868,
+  "tau": 0.00014594977217019522,
+  "rho_in": 1.439820973933563,
+  "strict_margin_only": 0.9054,
+  "answer_flips_under_growth": 720,
+  "n_test": 10000,
+  "head_params": 1736000,
+  "gram_floats": 4000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 1000.0,
+    "forced_seen": 0.994
+   },
+   {
+    "task": 1,
+    "lambda": 0.01,
+    "forced_seen": 0.9845
+   },
+   {
+    "task": 2,
+    "lambda": 0.1,
+    "forced_seen": 0.9636666666666667
+   },
+   {
+    "task": 3,
+    "lambda": 0.1,
+    "forced_seen": 0.95075
+   },
+   {
+    "task": 4,
+    "lambda": 1.0,
+    "forced_seen": 0.944
+   },
+   {
+    "task": 5,
+    "lambda": 0.01,
+    "forced_seen": 0.936
+   },
+   {
+    "task": 6,
+    "lambda": 1.0,
+    "forced_seen": 0.9251428571428572
+   },
+   {
+    "task": 7,
+    "lambda": 1.0,
+    "forced_seen": 0.910625
+   },
+   {
+    "task": 8,
+    "lambda": 1.0,
+    "forced_seen": 0.9091111111111111
+   },
+   {
+    "task": 9,
+    "lambda": 0.1,
+    "forced_seen": 0.9054
+   }
+  ],
+  "elapsed_s": 45.6366446018219
+ },
+ {
+  "seed": 5,
+  "cache": "cifar100_vitb_p1s5",
+  "M": 10000,
+  "n_classes": 100,
+  "inc": 10,
+  "lambda": 10.0,
+  "forced": 0.9118,
+  "strict": 0.9038,
+  "coverage": 0.9858,
+  "precision": 0.9168188273483465,
+  "tau": 8.677047221955503e-05,
+  "rho_in": 1.4440465693508993,
+  "strict_margin_only": 0.9118,
+  "answer_flips_under_growth": 737,
+  "n_test": 10000,
+  "head_params": 8680000,
+  "gram_floats": 100000000,
+  "curve": [
+   {
+    "task": 0,
+    "lambda": 1.0,
+    "forced_seen": 0.994
+   },
+   {
+    "task": 1,
+    "lambda": 1.0,
+    "forced_seen": 0.9845
+   },
+   {
+    "task": 2,
+    "lambda": 1.0,
+    "forced_seen": 0.964
+   },
+   {
+    "task": 3,
+    "lambda": 1.0,
+    "forced_seen": 0.95375
+   },
+   {
+    "task": 4,
+    "lambda": 1.0,
+    "forced_seen": 0.9482
+   },
+   {
+    "task": 5,
+    "lambda": 1.0,
+    "forced_seen": 0.94
+   },
+   {
+    "task": 6,
+    "lambda": 1.0,
+    "forced_seen": 0.927
+   },
+   {
+    "task": 7,
+    "lambda": 1.0,
+    "forced_seen": 0.913375
+   },
+   {
+    "task": 8,
+    "lambda": 1.0,
+    "forced_seen": 0.9127777777777778
+   },
+   {
+    "task": 9,
+    "lambda": 10.0,
+    "forced_seen": 0.9118
+   }
+  ],
+  "elapsed_s": 371.2707006931305
+ }
+]

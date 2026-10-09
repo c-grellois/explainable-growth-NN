@@ -1,0 +1,3275 @@
+[
+ {
+  "tag": "cub_vitb1k",
+  "seed": 2,
+  "grown_test_strict": 0.5398642917726887,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8329092451229856,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8329092451229856,
+   "escrow": {
+    "n_classes": 4,
+    "n_samples": 943,
+    "mcnemar_z": 16.191561588267717,
+    "overall_new": 0.8610816542948038,
+    "overall_ref": 0.5577942735949099,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8329092451229856,
+   "escrow": {
+    "n_classes": 4,
+    "n_samples": 943,
+    "mcnemar_z": 16.191561588267717,
+    "overall_new": 0.8610816542948038,
+    "overall_ref": 0.5577942735949099,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "cub_vitb1k",
+  "seed": 3,
+  "grown_test_strict": 0.5937234944868532,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.820186598812553,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.820186598812553,
+   "escrow": {
+    "n_classes": 1,
+    "n_samples": 943,
+    "mcnemar_z": 13.984685501341406,
+    "overall_new": 0.8335100742311771,
+    "overall_ref": 0.5980911983032874,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.820186598812553,
+   "escrow": {
+    "n_classes": 1,
+    "n_samples": 943,
+    "mcnemar_z": 13.984685501341406,
+    "overall_new": 0.8335100742311771,
+    "overall_ref": 0.5980911983032874,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "cub_vitb1k",
+  "seed": 4,
+  "grown_test_strict": 0.5716709075487701,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.813401187446989,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.813401187446989,
+   "escrow": {
+    "n_classes": 2,
+    "n_samples": 943,
+    "mcnemar_z": 11.953397882202054,
+    "overall_new": 0.7974549310710498,
+    "overall_ref": 0.5938494167550371,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.813401187446989,
+   "escrow": {
+    "n_classes": 2,
+    "n_samples": 943,
+    "mcnemar_z": 11.953397882202054,
+    "overall_new": 0.7974549310710498,
+    "overall_ref": 0.5938494167550371,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "cub_vitb",
+  "seed": 2,
+  "grown_test_strict": 0.5127226463104325,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8435114503816794,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8435114503816794,
+   "escrow": {
+    "n_classes": 4,
+    "n_samples": 943,
+    "mcnemar_z": 16.866538540084598,
+    "overall_new": 0.8504772004241782,
+    "overall_ref": 0.5270413573700954,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8435114503816794,
+   "escrow": {
+    "n_classes": 4,
+    "n_samples": 943,
+    "mcnemar_z": 16.866538540084598,
+    "overall_new": 0.8504772004241782,
+    "overall_ref": 0.5270413573700954,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "cub_vitb",
+  "seed": 3,
+  "grown_test_strict": 0.49321458863443596,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8091603053435115,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8091603053435115,
+   "escrow": {
+    "n_classes": 1,
+    "n_samples": 943,
+    "mcnemar_z": 16.343865859077287,
+    "overall_new": 0.8271474019088016,
+    "overall_ref": 0.513255567338282,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8091603053435115,
+   "escrow": {
+    "n_classes": 1,
+    "n_samples": 943,
+    "mcnemar_z": 16.343865859077287,
+    "overall_new": 0.8271474019088016,
+    "overall_ref": 0.513255567338282,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "cub_vitb",
+  "seed": 4,
+  "grown_test_strict": 0.5318066157760815,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.813401187446989,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.813401187446989,
+   "escrow": {
+    "n_classes": 2,
+    "n_samples": 943,
+    "mcnemar_z": 14.647058823529411,
+    "overall_new": 0.7889713679745494,
+    "overall_ref": 0.5249204665959704,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.813401187446989,
+   "escrow": {
+    "n_classes": 2,
+    "n_samples": 943,
+    "mcnemar_z": 14.647058823529411,
+    "overall_new": 0.7889713679745494,
+    "overall_ref": 0.5249204665959704,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "cub_vitb_p1s2",
+  "seed": 2,
+  "grown_test_strict": 0.6365564037319763,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.804919423240034,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.804919423240034,
+   "escrow": {
+    "n_classes": 4,
+    "n_samples": 943,
+    "mcnemar_z": 10.480447462085046,
+    "overall_new": 0.8398727465535525,
+    "overall_ref": 0.6903499469777307,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.804919423240034,
+   "escrow": {
+    "n_classes": 4,
+    "n_samples": 943,
+    "mcnemar_z": 10.480447462085046,
+    "overall_new": 0.8398727465535525,
+    "overall_ref": 0.6903499469777307,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "cub_vitb_p1s3",
+  "seed": 3,
+  "grown_test_strict": 0.6361323155216285,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.77735368956743,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.77735368956743,
+   "escrow": {
+    "n_classes": 1,
+    "n_samples": 943,
+    "mcnemar_z": 9.45491136062149,
+    "overall_new": 0.7953340402969247,
+    "overall_ref": 0.6638388123011665,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.77735368956743,
+   "escrow": {
+    "n_classes": 1,
+    "n_samples": 943,
+    "mcnemar_z": 9.45491136062149,
+    "overall_new": 0.7953340402969247,
+    "overall_ref": 0.6638388123011665,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "cub_vitb_p1s4",
+  "seed": 4,
+  "grown_test_strict": 0.6157760814249363,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.6391009329940628,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.6391009329940628,
+   "escrow": {
+    "n_classes": 2,
+    "n_samples": 943,
+    "mcnemar_z": 3.779644730092272,
+    "overall_new": 0.6765641569459173,
+    "overall_ref": 0.6553552492046659,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.6391009329940628,
+   "escrow": {
+    "n_classes": 2,
+    "n_samples": 943,
+    "mcnemar_z": 3.779644730092272,
+    "overall_new": 0.6765641569459173,
+    "overall_ref": 0.6553552492046659,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "dinov2b",
+  "seed": 2,
+  "grown_test_strict": 0.8135,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8644,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8644,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 9.261263000607002,
+    "overall_new": 0.8686,
+    "overall_ref": 0.8262,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 76,
+    "worst_class_z": -2.4494897427831783,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8644,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 9.261263000607002,
+    "overall_new": 0.8686,
+    "overall_ref": 0.8262,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 76,
+    "worst_class_z": -2.4494897427831783,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "dinov2b",
+  "seed": 3,
+  "grown_test_strict": 0.8164,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8647,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8647,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 8.882714038831384,
+    "overall_new": 0.868,
+    "overall_ref": 0.8254,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 35,
+    "worst_class_z": -3.162277660168379,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8647,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 8.882714038831384,
+    "overall_new": 0.868,
+    "overall_ref": 0.8254,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 35,
+    "worst_class_z": -3.162277660168379,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "dinov2b",
+  "seed": 4,
+  "grown_test_strict": 0.8187,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8668,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8668,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 8.140059175477884,
+    "overall_new": 0.8654,
+    "overall_ref": 0.8266,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 11,
+    "worst_class_z": -3.05085107923876,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8668,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 8.140059175477884,
+    "overall_new": 0.8654,
+    "overall_ref": 0.8266,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 11,
+    "worst_class_z": -3.05085107923876,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "ima_vitb1k",
+  "seed": 2,
+  "grown_test_strict": 0.1250822909809085,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5668202764976958,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5668202764976958,
+   "escrow": {
+    "n_classes": 7,
+    "n_samples": 598,
+    "mcnemar_z": 15.769059269358774,
+    "overall_new": 0.5819397993311036,
+    "overall_ref": 0.13210702341137123,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 20,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5668202764976958,
+   "escrow": {
+    "n_classes": 7,
+    "n_samples": 598,
+    "mcnemar_z": 15.769059269358774,
+    "overall_new": 0.5819397993311036,
+    "overall_ref": 0.13210702341137123,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 20,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "ima_vitb1k",
+  "seed": 3,
+  "grown_test_strict": 0.1836734693877551,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5365371955233706,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5365371955233706,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 598,
+    "mcnemar_z": 13.728129459672882,
+    "overall_new": 0.5585284280936454,
+    "overall_ref": 0.20735785953177258,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5365371955233706,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 598,
+    "mcnemar_z": 13.728129459672882,
+    "overall_new": 0.5585284280936454,
+    "overall_ref": 0.20735785953177258,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "ima_vitb1k",
+  "seed": 4,
+  "grown_test_strict": 0.17577353522053982,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5615536537195523,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5615536537195523,
+   "escrow": {
+    "n_classes": 12,
+    "n_samples": 598,
+    "mcnemar_z": 14.522845570970617,
+    "overall_new": 0.5919732441471572,
+    "overall_ref": 0.205685618729097,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 186,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5615536537195523,
+   "escrow": {
+    "n_classes": 12,
+    "n_samples": 598,
+    "mcnemar_z": 14.522845570970617,
+    "overall_new": 0.5919732441471572,
+    "overall_ref": 0.205685618729097,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 186,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "ima_vitb",
+  "seed": 2,
+  "grown_test_strict": 0.10138248847926268,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4522712310730744,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4522712310730744,
+   "escrow": {
+    "n_classes": 7,
+    "n_samples": 598,
+    "mcnemar_z": 13.644769089372828,
+    "overall_new": 0.45484949832775917,
+    "overall_ref": 0.11872909698996656,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4522712310730744,
+   "escrow": {
+    "n_classes": 7,
+    "n_samples": 598,
+    "mcnemar_z": 13.644769089372828,
+    "overall_new": 0.45484949832775917,
+    "overall_ref": 0.11872909698996656,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "ima_vitb",
+  "seed": 3,
+  "grown_test_strict": 0.10599078341013825,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4660961158657011,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4660961158657011,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 598,
+    "mcnemar_z": 14.193395953322193,
+    "overall_new": 0.4765886287625418,
+    "overall_ref": 0.12374581939799331,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4660961158657011,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 598,
+    "mcnemar_z": 14.193395953322193,
+    "overall_new": 0.4765886287625418,
+    "overall_ref": 0.12374581939799331,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "ima_vitb",
+  "seed": 4,
+  "grown_test_strict": 0.1184990125082291,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4305464121132324,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4305464121132324,
+   "escrow": {
+    "n_classes": 10,
+    "n_samples": 598,
+    "mcnemar_z": 12.640683733323195,
+    "overall_new": 0.4297658862876254,
+    "overall_ref": 0.14381270903010032,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 10,
+    "worst_class_z": -1.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4305464121132324,
+   "escrow": {
+    "n_classes": 10,
+    "n_samples": 598,
+    "mcnemar_z": 12.640683733323195,
+    "overall_new": 0.4297658862876254,
+    "overall_ref": 0.14381270903010032,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 10,
+    "worst_class_z": -1.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "ima_vitb_p1s2",
+  "seed": 2,
+  "grown_test_strict": 0.1468071099407505,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4937458854509546,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4937458854509546,
+   "escrow": {
+    "n_classes": 7,
+    "n_samples": 598,
+    "mcnemar_z": 13.880441875771343,
+    "overall_new": 0.49331103678929766,
+    "overall_ref": 0.15217391304347827,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4937458854509546,
+   "escrow": {
+    "n_classes": 7,
+    "n_samples": 598,
+    "mcnemar_z": 13.880441875771343,
+    "overall_new": 0.49331103678929766,
+    "overall_ref": 0.15217391304347827,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "ima_vitb_p1s3",
+  "seed": 3,
+  "grown_test_strict": 0.15668202764976957,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4509545753785385,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4509545753785385,
+   "escrow": {
+    "n_classes": 2,
+    "n_samples": 598,
+    "mcnemar_z": 12.318357661793677,
+    "overall_new": 0.44648829431438125,
+    "overall_ref": 0.16555183946488294,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4509545753785385,
+   "escrow": {
+    "n_classes": 2,
+    "n_samples": 598,
+    "mcnemar_z": 12.318357661793677,
+    "overall_new": 0.44648829431438125,
+    "overall_ref": 0.16555183946488294,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "ima_vitb_p1s4",
+  "seed": 4,
+  "grown_test_strict": 0.23963133640552994,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5839368005266623,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5839368005266623,
+   "escrow": {
+    "n_classes": 12,
+    "n_samples": 598,
+    "mcnemar_z": 13.312026354469873,
+    "overall_new": 0.5869565217391305,
+    "overall_ref": 0.25752508361204013,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5839368005266623,
+   "escrow": {
+    "n_classes": 12,
+    "n_samples": 598,
+    "mcnemar_z": 13.312026354469873,
+    "overall_new": 0.5869565217391305,
+    "overall_ref": 0.25752508361204013,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "imr_vitb1k",
+  "seed": 2,
+  "grown_test_strict": 0.37433333333333335,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5066666666666667,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5066666666666667,
+   "escrow": {
+    "n_classes": 119,
+    "n_samples": 2400,
+    "mcnemar_z": 16.64829951608425,
+    "overall_new": 0.5170833333333333,
+    "overall_ref": 0.3745833333333333,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 8,
+    "worst_class_z": -1.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5066666666666667,
+   "escrow": {
+    "n_classes": 119,
+    "n_samples": 2400,
+    "mcnemar_z": 16.64829951608425,
+    "overall_new": 0.5170833333333333,
+    "overall_ref": 0.3745833333333333,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 8,
+    "worst_class_z": -1.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "imr_vitb1k",
+  "seed": 3,
+  "grown_test_strict": 0.3591666666666667,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4513333333333333,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4513333333333333,
+   "escrow": {
+    "n_classes": 117,
+    "n_samples": 2400,
+    "mcnemar_z": 12.981711085024019,
+    "overall_new": 0.46125,
+    "overall_ref": 0.37041666666666667,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 128,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4513333333333333,
+   "escrow": {
+    "n_classes": 117,
+    "n_samples": 2400,
+    "mcnemar_z": 12.981711085024019,
+    "overall_new": 0.46125,
+    "overall_ref": 0.37041666666666667,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 128,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "imr_vitb1k",
+  "seed": 4,
+  "grown_test_strict": 0.3895,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5051666666666667,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5051666666666667,
+   "escrow": {
+    "n_classes": 113,
+    "n_samples": 2400,
+    "mcnemar_z": 14.244581710534996,
+    "overall_new": 0.5108333333333334,
+    "overall_ref": 0.39666666666666667,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 128,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5051666666666667,
+   "escrow": {
+    "n_classes": 113,
+    "n_samples": 2400,
+    "mcnemar_z": 14.244581710534996,
+    "overall_new": 0.5108333333333334,
+    "overall_ref": 0.39666666666666667,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 128,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "imr_vitb",
+  "seed": 2,
+  "grown_test_strict": 0.2791666666666667,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.44416666666666665,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "escrow refused: 1 class(es) below the hard floor",
+   "refused_by": "escrow",
+   "test_strict_after": 0.2791666666666667,
+   "escrow": {
+    "n_classes": 119,
+    "n_samples": 2400,
+    "mcnemar_z": 18.070158058105026,
+    "overall_new": 0.4558333333333333,
+    "overall_ref": 0.2891666666666667,
+    "flagged_classes": [],
+    "hard_floor_classes": [
+     113
+    ],
+    "worst_class": 113,
+    "worst_class_z": -1.7320508075688774,
+    "passed": false
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.44416666666666665,
+   "escrow": {
+    "n_classes": 119,
+    "n_samples": 2400,
+    "mcnemar_z": 18.070158058105026,
+    "overall_new": 0.4558333333333333,
+    "overall_ref": 0.2891666666666667,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 113,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": true,
+  "delta_verbatim_minus_old": -0.16499999999999998
+ },
+ {
+  "tag": "imr_vitb",
+  "seed": 3,
+  "grown_test_strict": 0.2755,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.3978333333333333,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "escrow refused: 1 class(es) below the hard floor",
+   "refused_by": "escrow",
+   "test_strict_after": 0.2755,
+   "escrow": {
+    "n_classes": 117,
+    "n_samples": 2400,
+    "mcnemar_z": 14.913931477403134,
+    "overall_new": 0.405,
+    "overall_ref": 0.28791666666666665,
+    "flagged_classes": [],
+    "hard_floor_classes": [
+     27
+    ],
+    "worst_class": 27,
+    "worst_class_z": -2.6457513110645903,
+    "passed": false
+   }
+  },
+  "new": {
+   "accepted": false,
+   "why": "escrow refused: 1 class(es) below the hard floor",
+   "refused_by": "escrow",
+   "test_strict_after": 0.2755,
+   "escrow": {
+    "n_classes": 117,
+    "n_samples": 2400,
+    "mcnemar_z": 14.913931477403134,
+    "overall_new": 0.405,
+    "overall_ref": 0.28791666666666665,
+    "flagged_classes": [],
+    "hard_floor_classes": [
+     27
+    ],
+    "worst_class": 27,
+    "worst_class_z": -2.6457513110645903,
+    "passed": false
+   }
+  },
+  "delta_new_minus_old": -0.1223333333333333,
+  "verdict_changed": true,
+  "verbatim_changed": true,
+  "delta_verbatim_minus_old": -0.1223333333333333
+ },
+ {
+  "tag": "imr_vitb",
+  "seed": 4,
+  "grown_test_strict": 0.2865,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4518333333333333,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4518333333333333,
+   "escrow": {
+    "n_classes": 113,
+    "n_samples": 2400,
+    "mcnemar_z": 18.44293045527836,
+    "overall_new": 0.47625,
+    "overall_ref": 0.30666666666666664,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 104,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4518333333333333,
+   "escrow": {
+    "n_classes": 113,
+    "n_samples": 2400,
+    "mcnemar_z": 18.44293045527836,
+    "overall_new": 0.47625,
+    "overall_ref": 0.30666666666666664,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 104,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "imr_vitb_p1s2",
+  "seed": 2,
+  "grown_test_strict": 0.4648333333333333,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5813333333333334,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5813333333333334,
+   "escrow": {
+    "n_classes": 119,
+    "n_samples": 2400,
+    "mcnemar_z": 14.350338093223815,
+    "overall_new": 0.5879166666666666,
+    "overall_ref": 0.47541666666666665,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 186,
+    "worst_class_z": -1.6329931618554523,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5813333333333334,
+   "escrow": {
+    "n_classes": 119,
+    "n_samples": 2400,
+    "mcnemar_z": 14.350338093223815,
+    "overall_new": 0.5879166666666666,
+    "overall_ref": 0.47541666666666665,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 186,
+    "worst_class_z": -1.6329931618554523,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "imr_vitb_p1s3",
+  "seed": 3,
+  "grown_test_strict": 0.49966666666666665,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.573,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "escrow refused: 2 class(es) below the hard floor",
+   "refused_by": "escrow",
+   "test_strict_after": 0.49966666666666665,
+   "escrow": {
+    "n_classes": 117,
+    "n_samples": 2400,
+    "mcnemar_z": 9.55335892064496,
+    "overall_new": 0.5583333333333333,
+    "overall_ref": 0.49666666666666665,
+    "flagged_classes": [],
+    "hard_floor_classes": [
+     45,
+     113
+    ],
+    "worst_class": 26,
+    "worst_class_z": -1.7320508075688774,
+    "passed": false
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.573,
+   "escrow": {
+    "n_classes": 117,
+    "n_samples": 2400,
+    "mcnemar_z": 9.55335892064496,
+    "overall_new": 0.5583333333333333,
+    "overall_ref": 0.49666666666666665,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 26,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": true,
+  "delta_verbatim_minus_old": -0.0733333333333333
+ },
+ {
+  "tag": "imr_vitb_p1s4",
+  "seed": 4,
+  "grown_test_strict": 0.4771666666666667,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5456666666666666,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5456666666666666,
+   "escrow": {
+    "n_classes": 113,
+    "n_samples": 2400,
+    "mcnemar_z": 10.22204461340447,
+    "overall_new": 0.56375,
+    "overall_ref": 0.5029166666666667,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 75,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.5456666666666666,
+   "escrow": {
+    "n_classes": 113,
+    "n_samples": 2400,
+    "mcnemar_z": 10.22204461340447,
+    "overall_new": 0.56375,
+    "overall_ref": 0.5029166666666667,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 75,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "obj_vitb",
+  "seed": 2,
+  "grown_test_strict": 0.2487929993964997,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.39348219674109836,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.39348219674109836,
+   "escrow": {
+    "n_classes": 166,
+    "n_samples": 2650,
+    "mcnemar_z": 18.89822365046136,
+    "overall_new": 0.3988679245283019,
+    "overall_ref": 0.2479245283018868,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 21,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.39348219674109836,
+   "escrow": {
+    "n_classes": 166,
+    "n_samples": 2650,
+    "mcnemar_z": 18.89822365046136,
+    "overall_new": 0.3988679245283019,
+    "overall_ref": 0.2479245283018868,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 21,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "obj_vitb",
+  "seed": 3,
+  "grown_test_strict": 0.2812311406155703,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.42214846107423054,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.42214846107423054,
+   "escrow": {
+    "n_classes": 158,
+    "n_samples": 2650,
+    "mcnemar_z": 17.665235143853913,
+    "overall_new": 0.4139622641509434,
+    "overall_ref": 0.27849056603773586,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 196,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.42214846107423054,
+   "escrow": {
+    "n_classes": 158,
+    "n_samples": 2650,
+    "mcnemar_z": 17.665235143853913,
+    "overall_new": 0.4139622641509434,
+    "overall_ref": 0.27849056603773586,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 196,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "obj_vitb",
+  "seed": 4,
+  "grown_test_strict": 0.23415811707905854,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.38367531683765843,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.38367531683765843,
+   "escrow": {
+    "n_classes": 152,
+    "n_samples": 2650,
+    "mcnemar_z": 18.882352534855244,
+    "overall_new": 0.3849056603773585,
+    "overall_ref": 0.23358490566037735,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 14,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.38367531683765843,
+   "escrow": {
+    "n_classes": 152,
+    "n_samples": 2650,
+    "mcnemar_z": 18.882352534855244,
+    "overall_new": 0.3849056603773585,
+    "overall_ref": 0.23358490566037735,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 14,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "obj_vitb_p1s2",
+  "seed": 2,
+  "grown_test_strict": 0.3903138201569101,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4304465902232951,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4304465902232951,
+   "escrow": {
+    "n_classes": 166,
+    "n_samples": 2650,
+    "mcnemar_z": 8.537655782769662,
+    "overall_new": 0.4320754716981132,
+    "overall_ref": 0.3905660377358491,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 20,
+    "worst_class_z": -1.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.4304465902232951,
+   "escrow": {
+    "n_classes": 166,
+    "n_samples": 2650,
+    "mcnemar_z": 8.537655782769662,
+    "overall_new": 0.4320754716981132,
+    "overall_ref": 0.3905660377358491,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 20,
+    "worst_class_z": -1.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "obj_vitb_p1s3",
+  "seed": 3,
+  "grown_test_strict": 0.4108328304164152,
+  "old": {
+   "accepted": false,
+   "why": "mean regressed: 0.588 vs ref 0.629",
+   "refused_by": null,
+   "test_strict_after": 0.4108328304164152,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "mean regressed: 0.588 vs ref 0.629",
+   "refused_by": null,
+   "test_strict_after": 0.4108328304164152,
+   "escrow": null
+  },
+  "new": {
+   "accepted": false,
+   "why": "mean regressed: 0.588 vs ref 0.629",
+   "refused_by": null,
+   "test_strict_after": 0.4108328304164152,
+   "escrow": null
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "obj_vitb_p1s4",
+  "seed": 4,
+  "grown_test_strict": 0.39091732045866023,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.44613759806879905,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.44613759806879905,
+   "escrow": {
+    "n_classes": 152,
+    "n_samples": 2650,
+    "mcnemar_z": 8.945474016302551,
+    "overall_new": 0.44528301886792454,
+    "overall_ref": 0.3992452830188679,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 5,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.44613759806879905,
+   "escrow": {
+    "n_classes": 152,
+    "n_samples": 2650,
+    "mcnemar_z": 8.945474016302551,
+    "overall_new": 0.44528301886792454,
+    "overall_ref": 0.3992452830188679,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 5,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "omni_vitb",
+  "seed": 2,
+  "grown_test_strict": 0.6162071846282373,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.689891395154553,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.689891395154553,
+   "escrow": {
+    "n_classes": 300,
+    "n_samples": 8969,
+    "mcnemar_z": 20.10202116088956,
+    "overall_new": 0.6831307838109042,
+    "overall_ref": 0.6104359460363474,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 52,
+    "worst_class_z": -2.82842712474619,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.689891395154553,
+   "escrow": {
+    "n_classes": 300,
+    "n_samples": 8969,
+    "mcnemar_z": 20.10202116088956,
+    "overall_new": 0.6831307838109042,
+    "overall_ref": 0.6104359460363474,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 52,
+    "worst_class_z": -2.82842712474619,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "omni_vitb",
+  "seed": 3,
+  "grown_test_strict": 0.6033416875522138,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.6908939014202172,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.6908939014202172,
+   "escrow": {
+    "n_classes": 300,
+    "n_samples": 8969,
+    "mcnemar_z": 22.09201305898169,
+    "overall_new": 0.6961757163563385,
+    "overall_ref": 0.6136693053852157,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 34,
+    "worst_class_z": -2.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.6908939014202172,
+   "escrow": {
+    "n_classes": 300,
+    "n_samples": 8969,
+    "mcnemar_z": 22.09201305898169,
+    "overall_new": 0.6961757163563385,
+    "overall_ref": 0.6136693053852157,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 34,
+    "worst_class_z": -2.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "omni_vitb",
+  "seed": 4,
+  "grown_test_strict": 0.6252297410192147,
+  "old": {
+   "accepted": false,
+   "why": "mean regressed: 0.776 vs ref 0.827",
+   "refused_by": null,
+   "test_strict_after": 0.6252297410192147,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "mean regressed: 0.776 vs ref 0.827",
+   "refused_by": null,
+   "test_strict_after": 0.6252297410192147,
+   "escrow": null
+  },
+  "new": {
+   "accepted": false,
+   "why": "mean regressed: 0.776 vs ref 0.827",
+   "refused_by": null,
+   "test_strict_after": 0.6252297410192147,
+   "escrow": null
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "omni_vitb_p1s2",
+  "seed": 2,
+  "grown_test_strict": 0.6569757727652464,
+  "old": {
+   "accepted": false,
+   "why": "mean regressed: 0.764 vs ref 0.831",
+   "refused_by": null,
+   "test_strict_after": 0.6569757727652464,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "mean regressed: 0.764 vs ref 0.831",
+   "refused_by": null,
+   "test_strict_after": 0.6569757727652464,
+   "escrow": null
+  },
+  "new": {
+   "accepted": false,
+   "why": "mean regressed: 0.764 vs ref 0.831",
+   "refused_by": null,
+   "test_strict_after": 0.6569757727652464,
+   "escrow": null
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "omni_vitb_p1s3",
+  "seed": 3,
+  "grown_test_strict": 0.6571428571428571,
+  "old": {
+   "accepted": false,
+   "why": "mean regressed: 0.766 vs ref 0.821",
+   "refused_by": null,
+   "test_strict_after": 0.6571428571428571,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "mean regressed: 0.766 vs ref 0.821",
+   "refused_by": null,
+   "test_strict_after": 0.6571428571428571,
+   "escrow": null
+  },
+  "new": {
+   "accepted": false,
+   "why": "mean regressed: 0.766 vs ref 0.821",
+   "refused_by": null,
+   "test_strict_after": 0.6571428571428571,
+   "escrow": null
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "omni_vitb_p1s4",
+  "seed": 4,
+  "grown_test_strict": 0.6543024227234754,
+  "old": {
+   "accepted": false,
+   "why": "mean regressed: 0.764 vs ref 0.838",
+   "refused_by": null,
+   "test_strict_after": 0.6543024227234754,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "mean regressed: 0.764 vs ref 0.838",
+   "refused_by": null,
+   "test_strict_after": 0.6543024227234754,
+   "escrow": null
+  },
+  "new": {
+   "accepted": false,
+   "why": "mean regressed: 0.764 vs ref 0.838",
+   "refused_by": null,
+   "test_strict_after": 0.6543024227234754,
+   "escrow": null
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "r18",
+  "seed": 0,
+  "grown_test_strict": 0.3964,
+  "old": {
+   "accepted": false,
+   "why": "mean regressed: 0.645 vs ref 0.707",
+   "refused_by": null,
+   "test_strict_after": 0.3964,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "mean regressed: 0.645 vs ref 0.707",
+   "refused_by": null,
+   "test_strict_after": 0.3964,
+   "escrow": null
+  },
+  "new": {
+   "accepted": false,
+   "why": "mean regressed: 0.645 vs ref 0.707",
+   "refused_by": null,
+   "test_strict_after": 0.3964,
+   "escrow": null
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "r18",
+  "seed": 1,
+  "grown_test_strict": 0.3883,
+  "old": {
+   "accepted": false,
+   "why": "mean regressed: 0.640 vs ref 0.712",
+   "refused_by": null,
+   "test_strict_after": 0.3883,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "mean regressed: 0.640 vs ref 0.712",
+   "refused_by": null,
+   "test_strict_after": 0.3883,
+   "escrow": null
+  },
+  "new": {
+   "accepted": false,
+   "why": "mean regressed: 0.640 vs ref 0.712",
+   "refused_by": null,
+   "test_strict_after": 0.3883,
+   "escrow": null
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "r18",
+  "seed": 2,
+  "grown_test_strict": 0.3886,
+  "old": {
+   "accepted": false,
+   "why": "mean regressed: 0.645 vs ref 0.726",
+   "refused_by": null,
+   "test_strict_after": 0.3886,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "mean regressed: 0.645 vs ref 0.726",
+   "refused_by": null,
+   "test_strict_after": 0.3886,
+   "escrow": null
+  },
+  "new": {
+   "accepted": false,
+   "why": "mean regressed: 0.645 vs ref 0.726",
+   "refused_by": null,
+   "test_strict_after": 0.3886,
+   "escrow": null
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "r18",
+  "seed": 3,
+  "grown_test_strict": 0.4029,
+  "old": {
+   "accepted": false,
+   "why": "mean regressed: 0.635 vs ref 0.734",
+   "refused_by": null,
+   "test_strict_after": 0.4029,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "mean regressed: 0.635 vs ref 0.734",
+   "refused_by": null,
+   "test_strict_after": 0.4029,
+   "escrow": null
+  },
+  "new": {
+   "accepted": false,
+   "why": "mean regressed: 0.635 vs ref 0.734",
+   "refused_by": null,
+   "test_strict_after": 0.4029,
+   "escrow": null
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "r18",
+  "seed": 4,
+  "grown_test_strict": 0.3934,
+  "old": {
+   "accepted": false,
+   "why": "mean regressed: 0.644 vs ref 0.733",
+   "refused_by": null,
+   "test_strict_after": 0.3934,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": false,
+   "why": "mean regressed: 0.644 vs ref 0.733",
+   "refused_by": null,
+   "test_strict_after": 0.3934,
+   "escrow": null
+  },
+  "new": {
+   "accepted": false,
+   "why": "mean regressed: 0.644 vs ref 0.733",
+   "refused_by": null,
+   "test_strict_after": 0.3934,
+   "escrow": null
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb",
+  "seed": 0,
+  "grown_test_strict": 0.6405,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7653,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7653,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 15.720655630504563,
+    "overall_new": 0.7744,
+    "overall_ref": 0.6416,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 11,
+    "worst_class_z": -2.23606797749979,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7653,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 15.720655630504563,
+    "overall_new": 0.7744,
+    "overall_ref": 0.6416,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 11,
+    "worst_class_z": -2.23606797749979,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb",
+  "seed": 1,
+  "grown_test_strict": 0.6801,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7856,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7856,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 12.129495506681739,
+    "overall_new": 0.778,
+    "overall_ref": 0.6848,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 35,
+    "worst_class_z": -2.23606797749979,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7856,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 12.129495506681739,
+    "overall_new": 0.778,
+    "overall_ref": 0.6848,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 35,
+    "worst_class_z": -2.23606797749979,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb",
+  "seed": 2,
+  "grown_test_strict": 0.654,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7715,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7715,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 11.242491584220847,
+    "overall_new": 0.774,
+    "overall_ref": 0.6868,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 35,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7715,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 11.242491584220847,
+    "overall_new": 0.774,
+    "overall_ref": 0.6868,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 35,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb",
+  "seed": 3,
+  "grown_test_strict": 0.6794,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7794,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7794,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 11.708667566160694,
+    "overall_new": 0.7616,
+    "overall_ref": 0.672,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 13,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7794,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 11.708667566160694,
+    "overall_new": 0.7616,
+    "overall_ref": 0.672,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 13,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb",
+  "seed": 4,
+  "grown_test_strict": 0.6681,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7772,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7772,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 14.590975009372674,
+    "overall_new": 0.7772,
+    "overall_ref": 0.6596,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 77,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.7772,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 14.590975009372674,
+    "overall_new": 0.7772,
+    "overall_ref": 0.6596,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 77,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb_full",
+  "seed": 2,
+  "grown_test_strict": 0.6943,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.822,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.822,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 20.484539028090957,
+    "overall_new": 0.821,
+    "overall_ref": 0.6936,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 35,
+    "worst_class_z": -1.889822365046136,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.822,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 20.484539028090957,
+    "overall_new": 0.821,
+    "overall_ref": 0.6936,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 35,
+    "worst_class_z": -1.889822365046136,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb_full",
+  "seed": 3,
+  "grown_test_strict": 0.7154,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8263,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8263,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 17.38465810559873,
+    "overall_new": 0.8236,
+    "overall_ref": 0.7152,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 88,
+    "worst_class_z": -2.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8263,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 17.38465810559873,
+    "overall_new": 0.8236,
+    "overall_ref": 0.7152,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 88,
+    "worst_class_z": -2.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb_full",
+  "seed": 4,
+  "grown_test_strict": 0.7029,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8261,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8261,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 19.030275623838413,
+    "overall_new": 0.8284,
+    "overall_ref": 0.7098,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 47,
+    "worst_class_z": -2.3570226039551585,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8261,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 19.030275623838413,
+    "overall_new": 0.8284,
+    "overall_ref": 0.7098,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 47,
+    "worst_class_z": -2.3570226039551585,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb_p1s2",
+  "seed": 2,
+  "grown_test_strict": 0.814,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8575,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8575,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 8.009085749662976,
+    "overall_new": 0.8646,
+    "overall_ref": 0.831,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 47,
+    "worst_class_z": -2.1105794120443453,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8575,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 8.009085749662976,
+    "overall_new": 0.8646,
+    "overall_ref": 0.831,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 47,
+    "worst_class_z": -2.1105794120443453,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb_p1s3",
+  "seed": 3,
+  "grown_test_strict": 0.8049,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8437,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8437,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 8.131727983645296,
+    "overall_new": 0.8484,
+    "overall_ref": 0.8116,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 47,
+    "worst_class_z": -2.6726124191242437,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8437,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 8.131727983645296,
+    "overall_new": 0.8484,
+    "overall_ref": 0.8116,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 47,
+    "worst_class_z": -2.6726124191242437,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitb_p1s4",
+  "seed": 4,
+  "grown_test_strict": 0.8194,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8591,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8591,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 8.277215972207037,
+    "overall_new": 0.8646,
+    "overall_ref": 0.8296,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 47,
+    "worst_class_z": -2.3094010767585034,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8591,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 8.277215972207037,
+    "overall_new": 0.8646,
+    "overall_ref": 0.8296,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 47,
+    "worst_class_z": -2.3094010767585034,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitl",
+  "seed": 2,
+  "grown_test_strict": 0.728,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8575,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8575,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 21.468601772564636,
+    "overall_new": 0.8518,
+    "overall_ref": 0.721,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 36,
+    "worst_class_z": -1.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8575,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 21.468601772564636,
+    "overall_new": 0.8518,
+    "overall_ref": 0.721,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 36,
+    "worst_class_z": -1.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitl",
+  "seed": 3,
+  "grown_test_strict": 0.7305,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8613,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8613,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 19.766639633934126,
+    "overall_new": 0.8624,
+    "overall_ref": 0.741,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 28,
+    "worst_class_z": -1.6329931618554523,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8613,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 19.766639633934126,
+    "overall_new": 0.8624,
+    "overall_ref": 0.741,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 28,
+    "worst_class_z": -1.6329931618554523,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vitl",
+  "seed": 4,
+  "grown_test_strict": 0.7231,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.862,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.862,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 22.221421717935435,
+    "overall_new": 0.8652,
+    "overall_ref": 0.7248,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 47,
+    "worst_class_z": -2.1105794120443453,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.862,
+   "escrow": {
+    "n_classes": 100,
+    "n_samples": 5000,
+    "mcnemar_z": 22.221421717935435,
+    "overall_new": 0.8652,
+    "overall_ref": 0.7248,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 47,
+    "worst_class_z": -2.1105794120443453,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vtab_vitb",
+  "seed": 2,
+  "grown_test_strict": 0.5247708550875971,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8871098735352129,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8871098735352129,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 7.826237921249263,
+    "overall_new": 0.8938547486033519,
+    "overall_ref": 0.5027932960893855,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8871098735352129,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 7.826237921249263,
+    "overall_new": 0.8938547486033519,
+    "overall_ref": 0.5027932960893855,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vtab_vitb",
+  "seed": 3,
+  "grown_test_strict": 0.5283675600417682,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8894303283443555,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8894303283443555,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 7.841756862140748,
+    "overall_new": 0.8994413407821229,
+    "overall_ref": 0.5251396648044693,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8894303283443555,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 7.841756862140748,
+    "overall_new": 0.8994413407821229,
+    "overall_ref": 0.5251396648044693,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vtab_vitb",
+  "seed": 4,
+  "grown_test_strict": 0.5160691495533124,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8821208956955563,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8821208956955563,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 7.518604376126322,
+    "overall_new": 0.88268156424581,
+    "overall_ref": 0.5363128491620112,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8821208956955563,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 7.518604376126322,
+    "overall_new": 0.88268156424581,
+    "overall_ref": 0.5363128491620112,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vtab_vitb_p1s2",
+  "seed": 2,
+  "grown_test_strict": 0.5790694976215338,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8853695324283559,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8853695324283559,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 7.6723441570920725,
+    "overall_new": 0.9162011173184358,
+    "overall_ref": 0.547486033519553,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8853695324283559,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 7.6723441570920725,
+    "overall_new": 0.9162011173184358,
+    "overall_ref": 0.547486033519553,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vtab_vitb_p1s3",
+  "seed": 3,
+  "grown_test_strict": 0.6028541594152453,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8822369184360135,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8822369184360135,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 6.639634460022018,
+    "overall_new": 0.9106145251396648,
+    "overall_ref": 0.6256983240223464,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 32,
+    "worst_class_z": -0.5773502691896258,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8822369184360135,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 6.639634460022018,
+    "overall_new": 0.9106145251396648,
+    "overall_ref": 0.6256983240223464,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": 32,
+    "worst_class_z": -0.5773502691896258,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ },
+ {
+  "tag": "vtab_vitb_p1s4",
+  "seed": 4,
+  "grown_test_strict": 0.5552848358278223,
+  "old": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8798004408864137,
+   "escrow": null
+  },
+  "verbatim": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8798004408864137,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 7.778174593052023,
+    "overall_new": 0.8659217877094972,
+    "overall_ref": 0.4972067039106145,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "new": {
+   "accepted": true,
+   "why": null,
+   "refused_by": null,
+   "test_strict_after": 0.8798004408864137,
+   "escrow": {
+    "n_classes": 5,
+    "n_samples": 179,
+    "mcnemar_z": 7.778174593052023,
+    "overall_new": 0.8659217877094972,
+    "overall_ref": 0.4972067039106145,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "worst_class": null,
+    "worst_class_z": 0.0,
+    "passed": true
+   }
+  },
+  "delta_new_minus_old": 0.0,
+  "verdict_changed": false,
+  "verbatim_changed": false,
+  "delta_verbatim_minus_old": 0.0
+ }
+]

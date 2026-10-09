@@ -1,0 +1,454 @@
+{
+ "ptm_banking77_mpnet": [
+  {
+   "seed": 2,
+   "growth": 0.7613636363636364,
+   "order_policy": "random",
+   "tasks": [
+    [
+     3,
+     12,
+     45,
+     55,
+     63,
+     65,
+     69
+    ],
+    [
+     2,
+     9,
+     17,
+     21,
+     57,
+     62,
+     67
+    ],
+    [
+     11,
+     13,
+     35,
+     36,
+     52,
+     60,
+     68
+    ],
+    [
+     4,
+     16,
+     22,
+     46,
+     47,
+     61,
+     74
+    ],
+    [
+     1,
+     27,
+     34,
+     38,
+     43,
+     49,
+     66
+    ],
+    [
+     8,
+     14,
+     25,
+     28,
+     51,
+     70,
+     72
+    ],
+    [
+     10,
+     19,
+     31,
+     37,
+     42,
+     54,
+     73
+    ],
+    [
+     7,
+     15,
+     29,
+     32,
+     39,
+     53,
+     59
+    ],
+    [
+     0,
+     5,
+     18,
+     26,
+     40,
+     71,
+     75
+    ],
+    [
+     6,
+     20,
+     23,
+     24,
+     30,
+     44,
+     76
+    ],
+    [
+     33,
+     41,
+     48,
+     50,
+     56,
+     58,
+     64
+    ]
+   ],
+   "inc": 7,
+   "n_tasks": 11,
+   "growth_coverage": 0.9659090909090909,
+   "n_organs": 11,
+   "vetoes_total": 148,
+   "adol_accepted": true,
+   "adol_refused_by": null,
+   "adol_escrow": {
+    "n_classes": 54,
+    "n_samples": 1000,
+    "mcnemar_z": 2.9398736610366685,
+    "overall_new": 0.813,
+    "overall_ref": 0.791,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "near_floor_classes": [],
+    "hard_floor_min_lost": 5,
+    "worst_class": 4,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   },
+   "adolescence": 0.7915584415584416,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 3.1075943842694236,
+   "repaired_failed": [],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.888961038961039,
+   "gate": {
+    "syn_mean": 0.9775733517712687,
+    "syn_mean_ref": 0.932054902105982,
+    "syn_floor": 0.8225806451612904,
+    "syn_floor_ref": 0.6440677966101694,
+    "val_new": 0.6962025316455697,
+    "val_ref": 0.759493670886076,
+    "fidelity_auroc": 0.5864691255698301,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.8211038961038961,
+   "pfc": 0.7915584415584416
+  },
+  {
+   "seed": 3,
+   "growth": 0.7519480519480519,
+   "order_policy": "random",
+   "tasks": [
+    [
+     22,
+     28,
+     37,
+     46,
+     50,
+     52,
+     63
+    ],
+    [
+     14,
+     21,
+     26,
+     32,
+     47,
+     61,
+     64
+    ],
+    [
+     35,
+     36,
+     38,
+     53,
+     56,
+     68,
+     76
+    ],
+    [
+     3,
+     12,
+     19,
+     30,
+     39,
+     40,
+     70
+    ],
+    [
+     7,
+     13,
+     23,
+     34,
+     43,
+     66,
+     72
+    ],
+    [
+     6,
+     9,
+     10,
+     24,
+     44,
+     54,
+     71
+    ],
+    [
+     1,
+     31,
+     33,
+     51,
+     62,
+     74,
+     75
+    ],
+    [
+     8,
+     17,
+     20,
+     25,
+     58,
+     60,
+     69
+    ],
+    [
+     0,
+     2,
+     11,
+     27,
+     45,
+     65,
+     73
+    ],
+    [
+     16,
+     18,
+     41,
+     49,
+     55,
+     57,
+     59
+    ],
+    [
+     4,
+     5,
+     15,
+     29,
+     42,
+     48,
+     67
+    ]
+   ],
+   "inc": 7,
+   "n_tasks": 11,
+   "growth_coverage": 0.9477272727272728,
+   "n_organs": 11,
+   "vetoes_total": 178,
+   "adol_accepted": true,
+   "adol_refused_by": null,
+   "adol_escrow": {
+    "n_classes": 54,
+    "n_samples": 1000,
+    "mcnemar_z": 2.142857142857143,
+    "overall_new": 0.789,
+    "overall_ref": 0.774,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "near_floor_classes": [],
+    "hard_floor_min_lost": 5,
+    "worst_class": 4,
+    "worst_class_z": -1.414213562373095,
+    "passed": true
+   },
+   "adolescence": 0.7857142857142857,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 1.6059101370939322,
+   "repaired_failed": [],
+   "pfc_accepted": true,
+   "pfc_free_test": 0.8853896103896104,
+   "gate": {
+    "syn_mean": 0.9711904515591129,
+    "syn_mean_ref": 0.9333868405466332,
+    "syn_floor": 0.6666666666666666,
+    "syn_floor_ref": 0.6333333333333333,
+    "val_new": 0.6842105263157895,
+    "val_ref": 0.6736842105263158,
+    "fidelity_auroc": 0.5581371654796329,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.8201298701298702,
+   "pfc": 0.8201298701298702
+  },
+  {
+   "seed": 4,
+   "growth": 0.7503246753246753,
+   "order_policy": "random",
+   "tasks": [
+    [
+     10,
+     19,
+     22,
+     59,
+     63,
+     70,
+     74
+    ],
+    [
+     0,
+     7,
+     8,
+     28,
+     43,
+     67,
+     71
+    ],
+    [
+     2,
+     11,
+     24,
+     40,
+     46,
+     49,
+     61
+    ],
+    [
+     13,
+     30,
+     45,
+     55,
+     65,
+     73,
+     76
+    ],
+    [
+     27,
+     34,
+     35,
+     47,
+     50,
+     68,
+     75
+    ],
+    [
+     1,
+     5,
+     21,
+     41,
+     57,
+     62,
+     64
+    ],
+    [
+     9,
+     20,
+     23,
+     53,
+     54,
+     60,
+     69
+    ],
+    [
+     6,
+     16,
+     32,
+     36,
+     37,
+     38,
+     66
+    ],
+    [
+     14,
+     15,
+     17,
+     18,
+     31,
+     39,
+     52
+    ],
+    [
+     3,
+     4,
+     26,
+     29,
+     33,
+     42,
+     48
+    ],
+    [
+     12,
+     25,
+     44,
+     51,
+     56,
+     58,
+     72
+    ]
+   ],
+   "inc": 7,
+   "n_tasks": 11,
+   "growth_coverage": 0.9633116883116883,
+   "n_organs": 11,
+   "vetoes_total": 185,
+   "adol_accepted": true,
+   "adol_refused_by": null,
+   "adol_escrow": {
+    "n_classes": 56,
+    "n_samples": 1000,
+    "mcnemar_z": 4.714045207910317,
+    "overall_new": 0.785,
+    "overall_ref": 0.745,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "near_floor_classes": [],
+    "hard_floor_min_lost": 5,
+    "worst_class": 76,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   },
+   "adolescence": 0.7941558441558442,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 3.794733192202055,
+   "repaired_failed": [],
+   "pfc_accepted": true,
+   "pfc_free_test": 0.8941558441558441,
+   "gate": {
+    "syn_mean": 0.9771000578913708,
+    "syn_mean_ref": 0.9310294052165584,
+    "syn_floor": 0.5432098765432098,
+    "syn_floor_ref": 0.5925925925925926,
+    "val_new": 0.8705882352941177,
+    "val_ref": 0.7294117647058823,
+    "fidelity_auroc": 0.6039011110062003,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.8298701298701299,
+   "pfc": 0.8298701298701299
+  }
+ ]
+}

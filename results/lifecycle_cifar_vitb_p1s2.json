@@ -1,0 +1,158 @@
+{
+ "cifar_vitb_p1s2": [
+  {
+   "seed": 2,
+   "growth": 0.814,
+   "order_policy": "random",
+   "tasks": [
+    [
+     9,
+     12,
+     36,
+     44,
+     49,
+     53,
+     55,
+     62,
+     69,
+     94
+    ],
+    [
+     3,
+     17,
+     32,
+     34,
+     35,
+     38,
+     52,
+     63,
+     81,
+     87
+    ],
+    [
+     2,
+     4,
+     21,
+     46,
+     72,
+     76,
+     80,
+     83,
+     84,
+     85
+    ],
+    [
+     11,
+     13,
+     16,
+     22,
+     43,
+     59,
+     71,
+     73,
+     86,
+     91
+    ],
+    [
+     1,
+     19,
+     27,
+     45,
+     47,
+     60,
+     61,
+     66,
+     93,
+     96
+    ],
+    [
+     8,
+     10,
+     14,
+     25,
+     28,
+     57,
+     65,
+     67,
+     78,
+     95
+    ],
+    [
+     7,
+     15,
+     31,
+     37,
+     39,
+     42,
+     51,
+     54,
+     74,
+     92
+    ],
+    [
+     0,
+     5,
+     6,
+     18,
+     23,
+     26,
+     29,
+     40,
+     90,
+     98
+    ],
+    [
+     20,
+     24,
+     30,
+     33,
+     68,
+     70,
+     79,
+     82,
+     88,
+     99
+    ],
+    [
+     41,
+     48,
+     50,
+     56,
+     58,
+     64,
+     75,
+     77,
+     89,
+     97
+    ]
+   ],
+   "growth_coverage": 0.9728,
+   "n_organs": 10,
+   "vetoes_total": 242,
+   "adol_accepted": true,
+   "adolescence": 0.8575,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 3.2863353450309964,
+   "repaired_failed": [],
+   "pfc_accepted": true,
+   "pfc_free_test": 0.8815,
+   "gate": {
+    "syn_mean": 0.9753300066840306,
+    "syn_mean_ref": 0.9595603432547832,
+    "syn_floor": 0.8043478260869565,
+    "syn_floor_ref": 0.7547169811320755,
+    "val_new": 0.8984674329501916,
+    "val_ref": 0.8984674329501916,
+    "fidelity_auroc": 0.48176555084148176,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.863,
+   "pfc": 0.863
+  }
+ ]
+}

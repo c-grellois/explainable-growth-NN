@@ -1,0 +1,191 @@
+[
+ {
+  "seed": 2,
+  "ref_test": 0.7715,
+  "escrow_per_class": 60,
+  "escrow_n": 2500,
+  "escrow_resolution": 0.007356663645974308,
+  "candidates": {
+   "arbiter_free": {
+    "test_strict": 0.8343,
+    "test_delta": 0.06280000000000008,
+    "old_gate": true,
+    "new_gate": false,
+    "failed": [
+     "territory"
+    ],
+    "certified": false,
+    "uncertified_fraction": 0.16,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.9636313864099383,
+      "mean_ref": 0.9404706355283418,
+      "floor_new": 0.8607594936708861,
+      "floor_ref": 0.7647058823529411,
+      "val_new": 0.8671875,
+      "val_ref": 0.80859375,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 10000,
+      "outside": 1600,
+      "uncertified_fraction": 0.16,
+      "passed": false
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 33,
+      "mcnemar_c": 180,
+      "mcnemar_z": 10.072274034464716,
+      "overall_new": 0.8328,
+      "overall_ref": 0.774,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 5,
+      "worst_class_z": -1.0,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": true
+     }
+    }
+   },
+   "arbiter_gated": {
+    "test_strict": 0.7956,
+    "test_delta": 0.02410000000000001,
+    "old_gate": true,
+    "new_gate": true,
+    "failed": [],
+    "certified": true,
+    "uncertified_fraction": 0.0,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.9633372925599147,
+      "mean_ref": 0.9404706355283418,
+      "floor_new": 0.8607594936708861,
+      "floor_ref": 0.7647058823529411,
+      "val_new": 0.8203125,
+      "val_ref": 0.80859375,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 9584,
+      "outside": 0,
+      "uncertified_fraction": 0.0,
+      "passed": true
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 20,
+      "mcnemar_c": 86,
+      "mcnemar_z": 6.410486691557943,
+      "overall_new": 0.8004,
+      "overall_ref": 0.774,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 3,
+      "worst_class_z": -1.0,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": true
+     }
+    }
+   },
+   "negotiate_market": {
+    "test_strict": 0.7713,
+    "test_delta": -0.00019999999999997797,
+    "old_gate": true,
+    "new_gate": true,
+    "failed": [],
+    "certified": true,
+    "uncertified_fraction": 0.0,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.9404706355283418,
+      "mean_ref": 0.9404706355283418,
+      "floor_new": 0.7647058823529411,
+      "floor_ref": 0.7647058823529411,
+      "val_new": 0.8046875,
+      "val_ref": 0.80859375,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 9764,
+      "outside": 0,
+      "uncertified_fraction": 0.0,
+      "passed": true
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 1,
+      "mcnemar_c": 0,
+      "mcnemar_z": -1.0,
+      "overall_new": 0.7736,
+      "overall_ref": 0.774,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 58,
+      "worst_class_z": -1.0,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": true
+     }
+    }
+   },
+   "negotiate_oracle": {
+    "test_strict": 0.7667,
+    "test_delta": -0.0047999999999999154,
+    "old_gate": true,
+    "new_gate": false,
+    "failed": [
+     "escrow"
+    ],
+    "certified": true,
+    "uncertified_fraction": 0.0,
+    "checks": {
+     "contract": {
+      "name": "contract",
+      "mean_new": 0.9424231790610332,
+      "mean_ref": 0.9404706355283418,
+      "floor_new": 0.788235294117647,
+      "floor_ref": 0.7647058823529411,
+      "val_new": 0.80859375,
+      "val_ref": 0.80859375,
+      "passed": true
+     },
+     "territory": {
+      "name": "territory",
+      "answers": 9768,
+      "outside": 0,
+      "uncertified_fraction": 0.0,
+      "passed": true
+     },
+     "escrow": {
+      "name": "escrow",
+      "n_classes": 100,
+      "n_samples": 2500,
+      "mcnemar_b": 21,
+      "mcnemar_c": 11,
+      "mcnemar_z": -1.7677669529663687,
+      "overall_new": 0.77,
+      "overall_ref": 0.774,
+      "flagged_classes": [],
+      "hard_floor_classes": [],
+      "worst_class": 27,
+      "worst_class_z": -1.7320508075688774,
+      "z_crit_per_class": 4.679854258770293,
+      "passed": false
+     }
+    }
+   }
+  }
+ }
+]

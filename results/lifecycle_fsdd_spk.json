@@ -1,0 +1,89 @@
+{
+ "fsdd_spk": [
+  {
+   "seed": 2,
+   "growth": 0.244,
+   "adol_accepted": true,
+   "adolescence": 0.244,
+   "arbiter_kind": "gated",
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -1.6269784336399213,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.462,
+   "gate": {
+    "syn_mean": 0.9360104315602816,
+    "syn_mean_ref": 0.8290968480778295,
+    "syn_floor": 0.7985074626865671,
+    "syn_floor_ref": 0.7854077253218884,
+    "val_new": 0.53,
+    "val_ref": 0.39,
+    "fidelity_auroc": 0.2421,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.09,
+   "pfc": 0.244
+  },
+  {
+   "seed": 3,
+   "growth": 0.35,
+   "adol_accepted": false,
+   "adolescence": 0.35,
+   "arbiter_kind": "gated",
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 4.913538149119954,
+   "repaired_failed": [],
+   "pfc_accepted": true,
+   "pfc_free_test": 0.336,
+   "gate": {
+    "syn_mean": 0.8790391851834626,
+    "syn_mean_ref": 0.8336403049853509,
+    "syn_floor": 0.7712177121771218,
+    "syn_floor_ref": 0.7268722466960352,
+    "val_new": 0.54,
+    "val_ref": 0.36,
+    "fidelity_auroc": 0.26135,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.288,
+   "pfc": 0.288
+  },
+  {
+   "seed": 4,
+   "growth": 0.452,
+   "adol_accepted": false,
+   "adolescence": 0.452,
+   "arbiter_kind": "gated",
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -1.5215349135496974,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.374,
+   "gate": {
+    "syn_mean": 0.9253974431652388,
+    "syn_mean_ref": 0.8404200987202086,
+    "syn_floor": 0.8091603053435115,
+    "syn_floor_ref": 0.743801652892562,
+    "val_new": 0.64,
+    "val_ref": 0.52,
+    "fidelity_auroc": 0.3243,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.374,
+   "pfc": 0.452
+  }
+ ]
+}

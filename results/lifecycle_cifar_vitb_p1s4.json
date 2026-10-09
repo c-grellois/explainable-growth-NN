@@ -1,0 +1,158 @@
+{
+ "cifar_vitb_p1s4": [
+  {
+   "seed": 4,
+   "growth": 0.8194,
+   "order_policy": "random",
+   "tasks": [
+    [
+     9,
+     10,
+     47,
+     63,
+     66,
+     68,
+     72,
+     81,
+     88,
+     94
+    ],
+    [
+     8,
+     24,
+     43,
+     50,
+     65,
+     77,
+     78,
+     79,
+     83,
+     97
+    ],
+    [
+     0,
+     6,
+     19,
+     34,
+     42,
+     45,
+     61,
+     69,
+     75,
+     93
+    ],
+    [
+     2,
+     7,
+     22,
+     53,
+     55,
+     62,
+     76,
+     86,
+     89,
+     96
+    ],
+    [
+     11,
+     13,
+     20,
+     28,
+     30,
+     31,
+     35,
+     38,
+     67,
+     71
+    ],
+    [
+     27,
+     36,
+     59,
+     60,
+     64,
+     73,
+     74,
+     90,
+     98,
+     99
+    ],
+    [
+     1,
+     5,
+     21,
+     40,
+     41,
+     46,
+     54,
+     80,
+     84,
+     85
+    ],
+    [
+     14,
+     16,
+     23,
+     32,
+     37,
+     49,
+     57,
+     87,
+     91,
+     92
+    ],
+    [
+     3,
+     15,
+     17,
+     18,
+     29,
+     33,
+     39,
+     48,
+     52,
+     82
+    ],
+    [
+     4,
+     12,
+     25,
+     26,
+     44,
+     51,
+     56,
+     58,
+     70,
+     95
+    ]
+   ],
+   "growth_coverage": 0.9805,
+   "n_organs": 10,
+   "vetoes_total": 232,
+   "adol_accepted": true,
+   "adolescence": 0.8591,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 3.132221385983247,
+   "repaired_failed": [],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.8861,
+   "gate": {
+    "syn_mean": 0.9724439037635588,
+    "syn_mean_ref": 0.9631702525983076,
+    "syn_floor": 0.75,
+    "syn_floor_ref": 0.7,
+    "val_new": 0.839924670433145,
+    "val_ref": 0.8436911487758946,
+    "fidelity_auroc": 0.4785457211009836,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.8653,
+   "pfc": 0.8591
+  }
+ ]
+}

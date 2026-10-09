@@ -1,0 +1,140 @@
+[
+ {
+  "seed": 3,
+  "schedule": "mid",
+  "when": [
+   5
+  ],
+  "final": {
+   "strict": 0.7029,
+   "forced": 0.7037,
+   "coverage": 0.9884,
+   "precision": 0.7111493322541481,
+   "mean_radius": 0.025223650756947172
+  },
+  "growth_flips": 0,
+  "vetoes_total": 232,
+  "consolidations": [
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.7828,
+    "strict_after": 0.857,
+    "params_C": 38400,
+    "organs_after": 6
+   }
+  ],
+  "n_accepted": 1,
+  "share_C": 0.4108,
+  "n_organs": 11,
+  "n_params": 2177920,
+  "curve": [
+   {
+    "task": 1,
+    "strict_seen": 0.967,
+    "coverage_seen": 0.992,
+    "organs": 1,
+    "fa": null
+   },
+   {
+    "task": 2,
+    "strict_seen": 0.8905,
+    "coverage_seen": 0.981,
+    "organs": 2,
+    "fa": [
+     0.6967799642218246,
+     0.08586762075134168
+    ]
+   },
+   {
+    "task": 3,
+    "strict_seen": 0.814,
+    "coverage_seen": 0.951,
+    "organs": 3,
+    "fa": [
+     0.7802829354553492,
+     0.09239610963748895
+    ]
+   },
+   {
+    "task": 4,
+    "strict_seen": 0.8075,
+    "coverage_seen": 0.978,
+    "organs": 4,
+    "fa": [
+     0.5920704845814978,
+     0.0947136563876652
+    ]
+   },
+   {
+    "task": 5,
+    "strict_seen": 0.7828,
+    "coverage_seen": 0.9948,
+    "organs": 5,
+    "fa": [
+     0.8692375886524822,
+     0.1768617021276596
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.7828,
+     "strict_after": 0.857,
+     "params_C": 38400,
+     "organs_after": 6
+    }
+   },
+   {
+    "task": 6,
+    "strict_seen": 0.8253333333333334,
+    "coverage_seen": 0.9911666666666666,
+    "organs": 7,
+    "fa": [
+     0.9729009329187028,
+     0.16481563749444691
+    ]
+   },
+   {
+    "task": 7,
+    "strict_seen": 0.7911428571428571,
+    "coverage_seen": 0.9944285714285714,
+    "organs": 8,
+    "fa": [
+     0.9361223571749887,
+     0.20827710301394511
+    ]
+   },
+   {
+    "task": 8,
+    "strict_seen": 0.753125,
+    "coverage_seen": 0.995125,
+    "organs": 9,
+    "fa": [
+     0.9652840396753832,
+     0.36880072137060416
+    ]
+   },
+   {
+    "task": 9,
+    "strict_seen": 0.7281111111111112,
+    "coverage_seen": 0.9962222222222222,
+    "organs": 10,
+    "fa": [
+     0.8947368421052632,
+     0.3414418398938523
+    ]
+   },
+   {
+    "task": 10,
+    "strict_seen": 0.7029,
+    "coverage_seen": 0.9884,
+    "organs": 11,
+    "fa": [
+     0.9463652482269503,
+     0.3346631205673759
+    ]
+   }
+  ],
+  "elapsed_s": 3403.8771312236786
+ }
+]

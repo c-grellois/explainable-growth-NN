@@ -1,0 +1,208 @@
+[
+ {
+  "seed": 4,
+  "schedule": "every2",
+  "when": [
+   2,
+   4,
+   6,
+   8,
+   10
+  ],
+  "final": {
+   "strict": 0.7881,
+   "forced": 0.7888,
+   "coverage": 0.9892,
+   "precision": 0.7967044076021027,
+   "mean_radius": 0.07583775345740691
+  },
+  "growth_flips": 0,
+  "vetoes_total": 0,
+  "consolidations": [
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.882,
+    "strict_after": 0.92,
+    "params_C": 15360,
+    "organs_after": 3
+   },
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.8315,
+    "strict_after": 0.8815,
+    "params_C": 30720,
+    "organs_after": 6
+   },
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.7763333333333333,
+    "strict_after": 0.8243333333333334,
+    "params_C": 46080,
+    "organs_after": 9
+   },
+   {
+    "accepted": false,
+    "why": "worst class regressed: 0.615 vs ref 0.750",
+    "strict_before": 0.769125,
+    "strict_after": 0.769125,
+    "params_C": 61440,
+    "organs_after": 11
+   },
+   {
+    "accepted": true,
+    "why": null,
+    "strict_before": 0.7268,
+    "strict_after": 0.7881,
+    "params_C": 76800,
+    "organs_after": 14
+   }
+  ],
+  "n_accepted": 4,
+  "share_C": 0.7678,
+  "n_organs": 14,
+  "n_params": 2308480,
+  "curve": [
+   {
+    "task": 1,
+    "strict_seen": 0.942,
+    "coverage_seen": 0.979,
+    "organs": 1,
+    "fa": null
+   },
+   {
+    "task": 2,
+    "strict_seen": 0.882,
+    "coverage_seen": 0.9795,
+    "organs": 2,
+    "fa": [
+     0.7384751773049646,
+     0.030141843971631204
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.882,
+     "strict_after": 0.92,
+     "params_C": 15360,
+     "organs_after": 3
+    }
+   },
+   {
+    "task": 3,
+    "strict_seen": 0.8573333333333333,
+    "coverage_seen": 0.9856666666666667,
+    "organs": 4,
+    "fa": [
+     0.7724844167408726,
+     0.1402493321460374
+    ]
+   },
+   {
+    "task": 4,
+    "strict_seen": 0.8315,
+    "coverage_seen": 0.99125,
+    "organs": 5,
+    "fa": [
+     0.7563701385784533,
+     0.13232007152436298
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.8315,
+     "strict_after": 0.8815,
+     "params_C": 30720,
+     "organs_after": 6
+    }
+   },
+   {
+    "task": 5,
+    "strict_seen": 0.8258,
+    "coverage_seen": 0.983,
+    "organs": 7,
+    "fa": [
+     0.9103878733838608,
+     0.1707534551939367
+    ]
+   },
+   {
+    "task": 6,
+    "strict_seen": 0.7763333333333333,
+    "coverage_seen": 0.9946666666666667,
+    "organs": 8,
+    "fa": [
+     0.9269588313413014,
+     0.26073483842408146
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.7763333333333333,
+     "strict_after": 0.8243333333333334,
+     "params_C": 46080,
+     "organs_after": 9
+    }
+   },
+   {
+    "task": 7,
+    "strict_seen": 0.7947142857142857,
+    "coverage_seen": 0.9862857142857143,
+    "organs": 10,
+    "fa": [
+     0.9515770768547313,
+     0.17814304753442914
+    ]
+   },
+   {
+    "task": 8,
+    "strict_seen": 0.769125,
+    "coverage_seen": 0.99025,
+    "organs": 11,
+    "fa": [
+     0.8785046728971962,
+     0.22474410324877614
+    ],
+    "consolidation": {
+     "accepted": false,
+     "why": "worst class regressed: 0.615 vs ref 0.750",
+     "strict_before": 0.769125,
+     "strict_after": 0.769125,
+     "params_C": 61440,
+     "organs_after": 11
+    }
+   },
+   {
+    "task": 9,
+    "strict_seen": 0.747,
+    "coverage_seen": 0.9773333333333334,
+    "organs": 12,
+    "fa": [
+     0.9053333333333333,
+     0.268
+    ]
+   },
+   {
+    "task": 10,
+    "strict_seen": 0.7268,
+    "coverage_seen": 0.982,
+    "organs": 13,
+    "fa": [
+     0.8788282290279628,
+     0.2924988903683977
+    ],
+    "consolidation": {
+     "accepted": true,
+     "why": null,
+     "strict_before": 0.7268,
+     "strict_after": 0.7881,
+     "params_C": 76800,
+     "organs_after": 14
+    }
+   }
+  ],
+  "elapsed_s": 4945.534880161285
+ }
+]

@@ -1,0 +1,947 @@
+[
+ {
+  "benchmark": "mnist",
+  "seed": 2,
+  "n_tasks": 5,
+  "n_train": 44625,
+  "n_test": 17500,
+  "in_dim": 784,
+  "config": {
+   "hidden": [
+    256
+   ],
+   "feat": 32,
+   "cap": 2.5,
+   "epochs": 25,
+   "p_target": 0.97,
+   "prox": "pca",
+   "q_cov_in": 0.99
+  },
+  "grown": {
+   "scores": {
+    "strict": 0.8916571428571428,
+    "forced": 0.8922857142857142,
+    "coverage": 0.9844,
+    "precision": 0.9057874267138794,
+    "mean_radius": 0.043874716183942127
+   },
+   "size": {
+    "n_organs": 5,
+    "input_units": 784,
+    "trunk_units": 1440,
+    "trunk_connections": 1044480,
+    "trunk_biases": 1440,
+    "veto_nets": 23,
+    "veto_units": 2967,
+    "veto_connections": 73600,
+    "veto_biases": 2967,
+    "neurons_total": 5191,
+    "connections_total": 1118080,
+    "learned_parameters": 1122487,
+    "contract_floats": 196595,
+    "stored_numbers_total": 1319082,
+    "per_organ": [
+     {
+      "classes": [
+       0,
+       1
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 6,
+       "units": 774,
+       "weights": 19200,
+       "biases": 774
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       2,
+       3
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 7,
+       "units": 903,
+       "weights": 22400,
+       "biases": 903
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       4,
+       5
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 6,
+       "units": 774,
+       "weights": 19200,
+       "biases": 774
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       6,
+       7
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 3,
+       "units": 387,
+       "weights": 9600,
+       "biases": 387
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       8,
+       9
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 1,
+       "units": 129,
+       "weights": 3200,
+       "biases": 129
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     }
+    ]
+   },
+   "growth_flips": {
+    "total": 0,
+    "per_step": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "steps_checked": 4
+   }
+  },
+  "consolidated": {
+   "accepted": false,
+   "why": "mean regressed: 0.757 vs ref 0.905",
+   "scores": {
+    "strict": 0.8916571428571428,
+    "forced": 0.8922857142857142,
+    "coverage": 0.9844,
+    "precision": 0.9057874267138794,
+    "mean_radius": 0.043874716183942127
+   },
+   "size": {
+    "n_organs": 5,
+    "input_units": 784,
+    "trunk_units": 1440,
+    "trunk_connections": 1044480,
+    "trunk_biases": 1440,
+    "veto_nets": 23,
+    "veto_units": 2967,
+    "veto_connections": 73600,
+    "veto_biases": 2967,
+    "neurons_total": 5191,
+    "connections_total": 1118080,
+    "learned_parameters": 1122487,
+    "contract_floats": 196595,
+    "stored_numbers_total": 1319082,
+    "per_organ": [
+     {
+      "classes": [
+       0,
+       1
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 6,
+       "units": 774,
+       "weights": 19200,
+       "biases": 774
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       2,
+       3
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 7,
+       "units": 903,
+       "weights": 22400,
+       "biases": 903
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       4,
+       5
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 6,
+       "units": 774,
+       "weights": 19200,
+       "biases": 774
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       6,
+       7
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 3,
+       "units": 387,
+       "weights": 9600,
+       "biases": 387
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       8,
+       9
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 1,
+       "units": 129,
+       "weights": 3200,
+       "biases": 129
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     }
+    ]
+   }
+  },
+  "baseline_mlp": {
+   "dims": [
+    784,
+    256,
+    10
+   ],
+   "neurons": 1050,
+   "connections": 203264
+  },
+  "elapsed_s": 136.23142671585083
+ },
+ {
+  "benchmark": "mnist",
+  "seed": 3,
+  "n_tasks": 5,
+  "n_train": 44625,
+  "n_test": 17500,
+  "in_dim": 784,
+  "config": {
+   "hidden": [
+    256
+   ],
+   "feat": 32,
+   "cap": 2.5,
+   "epochs": 25,
+   "p_target": 0.97,
+   "prox": "pca",
+   "q_cov_in": 0.99
+  },
+  "grown": {
+   "scores": {
+    "strict": 0.8946857142857143,
+    "forced": 0.8962857142857142,
+    "coverage": 0.9866857142857143,
+    "precision": 0.906758556784618,
+    "mean_radius": 0.04632448321622011
+   },
+   "size": {
+    "n_organs": 5,
+    "input_units": 784,
+    "trunk_units": 1440,
+    "trunk_connections": 1044480,
+    "trunk_biases": 1440,
+    "veto_nets": 22,
+    "veto_units": 2838,
+    "veto_connections": 70400,
+    "veto_biases": 2838,
+    "neurons_total": 5062,
+    "connections_total": 1114880,
+    "learned_parameters": 1119158,
+    "contract_floats": 196595,
+    "stored_numbers_total": 1315753,
+    "per_organ": [
+     {
+      "classes": [
+       0,
+       1
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 7,
+       "units": 903,
+       "weights": 22400,
+       "biases": 903
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       2,
+       3
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 7,
+       "units": 903,
+       "weights": 22400,
+       "biases": 903
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       4,
+       5
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 5,
+       "units": 645,
+       "weights": 16000,
+       "biases": 645
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       6,
+       7
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 2,
+       "units": 258,
+       "weights": 6400,
+       "biases": 258
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       8,
+       9
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 1,
+       "units": 129,
+       "weights": 3200,
+       "biases": 129
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     }
+    ]
+   },
+   "growth_flips": {
+    "total": 0,
+    "per_step": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "steps_checked": 4
+   }
+  },
+  "consolidated": {
+   "accepted": false,
+   "why": "mean regressed: 0.758 vs ref 0.900",
+   "scores": {
+    "strict": 0.8946857142857143,
+    "forced": 0.8962857142857142,
+    "coverage": 0.9866857142857143,
+    "precision": 0.906758556784618,
+    "mean_radius": 0.04632448321622011
+   },
+   "size": {
+    "n_organs": 5,
+    "input_units": 784,
+    "trunk_units": 1440,
+    "trunk_connections": 1044480,
+    "trunk_biases": 1440,
+    "veto_nets": 22,
+    "veto_units": 2838,
+    "veto_connections": 70400,
+    "veto_biases": 2838,
+    "neurons_total": 5062,
+    "connections_total": 1114880,
+    "learned_parameters": 1119158,
+    "contract_floats": 196595,
+    "stored_numbers_total": 1315753,
+    "per_organ": [
+     {
+      "classes": [
+       0,
+       1
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 7,
+       "units": 903,
+       "weights": 22400,
+       "biases": 903
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       2,
+       3
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 7,
+       "units": 903,
+       "weights": 22400,
+       "biases": 903
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       4,
+       5
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 5,
+       "units": 645,
+       "weights": 16000,
+       "biases": 645
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       6,
+       7
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 2,
+       "units": 258,
+       "weights": 6400,
+       "biases": 258
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       8,
+       9
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 1,
+       "units": 129,
+       "weights": 3200,
+       "biases": 129
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     }
+    ]
+   }
+  },
+  "baseline_mlp": {
+   "dims": [
+    784,
+    256,
+    10
+   ],
+   "neurons": 1050,
+   "connections": 203264
+  },
+  "elapsed_s": 125.2196729183197
+ },
+ {
+  "benchmark": "mnist",
+  "seed": 4,
+  "n_tasks": 5,
+  "n_train": 44625,
+  "n_test": 17500,
+  "in_dim": 784,
+  "config": {
+   "hidden": [
+    256
+   ],
+   "feat": 32,
+   "cap": 2.5,
+   "epochs": 25,
+   "p_target": 0.97,
+   "prox": "pca",
+   "q_cov_in": 0.99
+  },
+  "grown": {
+   "scores": {
+    "strict": 0.8925714285714286,
+    "forced": 0.8931428571428571,
+    "coverage": 0.9850285714285715,
+    "precision": 0.9061376029701822,
+    "mean_radius": 0.046188909217269876
+   },
+   "size": {
+    "n_organs": 5,
+    "input_units": 784,
+    "trunk_units": 1440,
+    "trunk_connections": 1044480,
+    "trunk_biases": 1440,
+    "veto_nets": 23,
+    "veto_units": 2967,
+    "veto_connections": 73600,
+    "veto_biases": 2967,
+    "neurons_total": 5191,
+    "connections_total": 1118080,
+    "learned_parameters": 1122487,
+    "contract_floats": 196595,
+    "stored_numbers_total": 1319082,
+    "per_organ": [
+     {
+      "classes": [
+       0,
+       1
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 7,
+       "units": 903,
+       "weights": 22400,
+       "biases": 903
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       2,
+       3
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 7,
+       "units": 903,
+       "weights": 22400,
+       "biases": 903
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       4,
+       5
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 6,
+       "units": 774,
+       "weights": 19200,
+       "biases": 774
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       6,
+       7
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 2,
+       "units": 258,
+       "weights": 6400,
+       "biases": 258
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       8,
+       9
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 1,
+       "units": 129,
+       "weights": 3200,
+       "biases": 129
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     }
+    ]
+   },
+   "growth_flips": {
+    "total": 0,
+    "per_step": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "steps_checked": 4
+   }
+  },
+  "consolidated": {
+   "accepted": false,
+   "why": "mean regressed: 0.753 vs ref 0.898",
+   "scores": {
+    "strict": 0.8925714285714286,
+    "forced": 0.8931428571428571,
+    "coverage": 0.9850285714285715,
+    "precision": 0.9061376029701822,
+    "mean_radius": 0.046188909217269876
+   },
+   "size": {
+    "n_organs": 5,
+    "input_units": 784,
+    "trunk_units": 1440,
+    "trunk_connections": 1044480,
+    "trunk_biases": 1440,
+    "veto_nets": 23,
+    "veto_units": 2967,
+    "veto_connections": 73600,
+    "veto_biases": 2967,
+    "neurons_total": 5191,
+    "connections_total": 1118080,
+    "learned_parameters": 1122487,
+    "contract_floats": 196595,
+    "stored_numbers_total": 1319082,
+    "per_organ": [
+     {
+      "classes": [
+       0,
+       1
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 7,
+       "units": 903,
+       "weights": 22400,
+       "biases": 903
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       2,
+       3
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 7,
+       "units": 903,
+       "weights": 22400,
+       "biases": 903
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       4,
+       5
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 6,
+       "units": 774,
+       "weights": 19200,
+       "biases": 774
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       6,
+       7
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 2,
+       "units": 258,
+       "weights": 6400,
+       "biases": 258
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     },
+     {
+      "classes": [
+       8,
+       9
+      ],
+      "trunk": {
+       "in_dim": 784,
+       "units": 288,
+       "weights": 208896,
+       "biases": 288
+      },
+      "vetoes": {
+       "nets": 1,
+       "units": 129,
+       "weights": 3200,
+       "biases": 129
+      },
+      "anchor_floats": 64,
+      "territory_floats": 39252,
+      "threshold_floats": 3,
+      "contract_floats": 39319
+     }
+    ]
+   }
+  },
+  "baseline_mlp": {
+   "dims": [
+    784,
+    256,
+    10
+   ],
+   "neurons": 1050,
+   "connections": 203264
+  },
+  "elapsed_s": 124.0295958518982
+ }
+]

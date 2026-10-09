@@ -1,0 +1,90 @@
+{
+ "ptm_imr_vitb": [
+  {
+   "seed": 2,
+   "growth": 0.2791666666666667,
+   "adol_accepted": true,
+   "adolescence": 0.44416666666666665,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 0.457495710997814,
+   "repaired_failed": [],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.48183333333333334,
+   "gate": {
+    "syn_mean": 0.7167777291577997,
+    "syn_mean_ref": 0.7099508129240655,
+    "syn_floor": 0.14285714285714285,
+    "syn_floor_ref": 0.14285714285714285,
+    "val_new": 0.4075471698113208,
+    "val_ref": 0.39622641509433965,
+    "fidelity_auroc": 0.5748784691627589,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.4415,
+   "pfc": 0.44416666666666665
+  },
+  {
+   "seed": 3,
+   "growth": 0.2755,
+   "adol_accepted": true,
+   "adolescence": 0.3978333333333333,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -0.5773502691896257,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.515,
+   "gate": {
+    "syn_mean": 0.7241513253012118,
+    "syn_mean_ref": 0.7160512578780398,
+    "syn_floor": 0.14814814814814814,
+    "syn_floor_ref": 0.18518518518518517,
+    "val_new": 0.4026548672566372,
+    "val_ref": 0.4778761061946903,
+    "fidelity_auroc": 0.5062171679270334,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.3978333333333333,
+   "pfc": 0.3978333333333333
+  },
+  {
+   "seed": 4,
+   "growth": 0.2865,
+   "adol_accepted": true,
+   "adolescence": 0.4518333333333333,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": -1.3127849234810511,
+   "repaired_failed": [],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.48,
+   "gate": {
+    "syn_mean": 0.7263166025023843,
+    "syn_mean_ref": 0.7188676871772222,
+    "syn_floor": 0.18181818181818182,
+    "syn_floor_ref": 0.18181818181818182,
+    "val_new": 0.4190871369294606,
+    "val_ref": 0.43568464730290457,
+    "fidelity_auroc": 0.5794575116430121,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.44966666666666666,
+   "pfc": 0.4518333333333333
+  }
+ ]
+}

@@ -1,0 +1,676 @@
+{
+ "digits": [
+  {
+   "seed": 2,
+   "growth": 0.8418708240534521,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     1,
+     8
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     0,
+     7
+    ]
+   ],
+   "growth_coverage": 0.8975501113585747,
+   "n_organs": 5,
+   "vetoes_total": 10,
+   "adol_accepted": true,
+   "adolescence": 0.8619153674832962,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 1.3416407864998738,
+   "repaired_failed": [],
+   "pfc_accepted": true,
+   "pfc_free_test": 0.9398663697104677,
+   "gate": {
+    "syn_mean": 0.9654971981533642,
+    "syn_mean_ref": 0.9524224727747809,
+    "syn_floor": 0.8371040723981901,
+    "syn_floor_ref": 0.8371040723981901,
+    "val_new": 0.9777777777777777,
+    "val_ref": 0.9777777777777777,
+    "fidelity_auroc": 0.9139588100686499,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.89086859688196,
+   "pfc": 0.89086859688196
+  },
+  {
+   "seed": 3,
+   "growth": 0.8752783964365256,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     0,
+     6
+    ]
+   ],
+   "growth_coverage": 0.9443207126948775,
+   "n_organs": 5,
+   "vetoes_total": 6,
+   "adol_accepted": false,
+   "adolescence": 0.8752783964365256,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 3.464101615137755,
+   "repaired_failed": [],
+   "pfc_accepted": true,
+   "pfc_free_test": 0.9487750556792873,
+   "gate": {
+    "syn_mean": 0.9739882294167392,
+    "syn_mean_ref": 0.9263071555634989,
+    "syn_floor": 0.909433962264151,
+    "syn_floor_ref": 0.8656716417910447,
+    "val_new": 0.9772727272727273,
+    "val_ref": 0.7727272727272727,
+    "fidelity_auroc": 0.9395814913056293,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.9086859688195991,
+   "pfc": 0.9086859688195991
+  },
+  {
+   "seed": 4,
+   "growth": 0.8574610244988864,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     1,
+     8
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     0,
+     7
+    ]
+   ],
+   "growth_coverage": 0.9354120267260579,
+   "n_organs": 5,
+   "vetoes_total": 8,
+   "adol_accepted": true,
+   "adolescence": 0.9220489977728286,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 1.1338934190276817,
+   "repaired_failed": [],
+   "pfc_accepted": true,
+   "pfc_free_test": 0.9732739420935412,
+   "gate": {
+    "syn_mean": 0.9827727919167784,
+    "syn_mean_ref": 0.9718169237652378,
+    "syn_floor": 0.92578125,
+    "syn_floor_ref": 0.91796875,
+    "val_new": 0.95,
+    "val_ref": 0.95,
+    "fidelity_auroc": 0.9399446175147109,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.9354120267260579,
+   "pfc": 0.9354120267260579
+  }
+ ],
+ "mnist": [
+  {
+   "seed": 2,
+   "growth": 0.8813142857142857,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     5,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "growth_coverage": 0.9765714285714285,
+   "n_organs": 5,
+   "vetoes_total": 20,
+   "adol_accepted": false,
+   "adolescence": 0.8813142857142857,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -3.6167777207178604,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.9051428571428571,
+   "gate": {
+    "syn_mean": 0.9238592650124909,
+    "syn_mean_ref": 0.9075569144677631,
+    "syn_floor": 0.8326530612244898,
+    "syn_floor_ref": 0.8326530612244898,
+    "val_new": 0.9493444576877235,
+    "val_ref": 0.9678188319427891,
+    "fidelity_auroc": 0.9999999553125152,
+    "at_risk": true
+   },
+   "pfc_candidate_test": 0.8782285714285715,
+   "pfc": 0.8813142857142857
+  },
+  {
+   "seed": 3,
+   "growth": 0.8852571428571429,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     5,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "growth_coverage": 0.9817142857142858,
+   "n_organs": 5,
+   "vetoes_total": 22,
+   "adol_accepted": false,
+   "adolescence": 0.8852571428571429,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -6.1739490651303175,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.8973714285714286,
+   "gate": {
+    "syn_mean": 0.9113722056608159,
+    "syn_mean_ref": 0.8956818292898587,
+    "syn_floor": 0.7472924187725631,
+    "syn_floor_ref": 0.7472924187725631,
+    "val_new": 0.926799758015729,
+    "val_ref": 0.969147005444646,
+    "fidelity_auroc": 0.9999999095959881,
+    "at_risk": true
+   },
+   "pfc_candidate_test": 0.8759428571428571,
+   "pfc": 0.8852571428571429
+  },
+  {
+   "seed": 4,
+   "growth": 0.8847428571428572,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     5,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "growth_coverage": 0.976,
+   "n_organs": 5,
+   "vetoes_total": 21,
+   "adol_accepted": false,
+   "adolescence": 0.8847428571428572,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -4.131182235954578,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.8981714285714286,
+   "gate": {
+    "syn_mean": 0.9280980326865679,
+    "syn_mean_ref": 0.9147037647263895,
+    "syn_floor": 0.852017937219731,
+    "syn_floor_ref": 0.8599221789883269,
+    "val_new": 0.9253380364491476,
+    "val_ref": 0.9729570840681951,
+    "fidelity_auroc": 1.0,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.8787428571428572,
+   "pfc": 0.8847428571428572
+  }
+ ],
+ "kmnist": [
+  {
+   "seed": 2,
+   "growth": 0.8041714285714285,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     2,
+     8
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     0,
+     7
+    ]
+   ],
+   "growth_coverage": 0.9907428571428571,
+   "n_organs": 5,
+   "vetoes_total": 21,
+   "adol_accepted": false,
+   "adolescence": 0.8041714285714285,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": 1.9471695340449418,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.8194285714285714,
+   "gate": {
+    "syn_mean": 0.8666159667165839,
+    "syn_mean_ref": 0.843588578945077,
+    "syn_floor": 0.7124463519313304,
+    "syn_floor_ref": 0.6866952789699571,
+    "val_new": 0.8886792452830189,
+    "val_ref": 0.8911949685534591,
+    "fidelity_auroc": 0.9994334718399621,
+    "at_risk": true
+   },
+   "pfc_candidate_test": 0.8116,
+   "pfc": 0.8041714285714285
+  },
+  {
+   "seed": 3,
+   "growth": 0.7976,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     2,
+     8
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     0,
+     7
+    ]
+   ],
+   "growth_coverage": 0.9857714285714285,
+   "n_organs": 5,
+   "vetoes_total": 21,
+   "adol_accepted": false,
+   "adolescence": 0.7976,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": true,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": 4.66172793254531,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.8213714285714285,
+   "gate": {
+    "syn_mean": 0.8625159874089489,
+    "syn_mean_ref": 0.8109612999789275,
+    "syn_floor": 0.6964285714285714,
+    "syn_floor_ref": 0.7155172413793104,
+    "val_new": 0.9186119873817035,
+    "val_ref": 0.8933753943217666,
+    "fidelity_auroc": 0.9992790467432969,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.8088571428571428,
+   "pfc": 0.7976
+  },
+  {
+   "seed": 4,
+   "growth": 0.8050285714285714,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     2,
+     8
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     0,
+     7
+    ]
+   ],
+   "growth_coverage": 0.9861142857142857,
+   "n_organs": 5,
+   "vetoes_total": 21,
+   "adol_accepted": false,
+   "adolescence": 0.8050285714285714,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": 4.291393525902813,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.8278285714285715,
+   "gate": {
+    "syn_mean": 0.8643314916975944,
+    "syn_mean_ref": 0.8211170640110304,
+    "syn_floor": 0.728744939271255,
+    "syn_floor_ref": 0.6586345381526104,
+    "val_new": 0.8822474596533174,
+    "val_ref": 0.8846383741781231,
+    "fidelity_auroc": 0.998918002203647,
+    "at_risk": true
+   },
+   "pfc_candidate_test": 0.8148,
+   "pfc": 0.8050285714285714
+  }
+ ],
+ "fashion": [
+  {
+   "seed": 2,
+   "growth": 0.7590285714285714,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     5,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     1,
+     9
+    ]
+   ],
+   "growth_coverage": 0.9485714285714286,
+   "n_organs": 5,
+   "vetoes_total": 20,
+   "adol_accepted": false,
+   "adolescence": 0.7590285714285714,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -12.591295271431683,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.7523428571428571,
+   "gate": {
+    "syn_mean": 0.7706093838018958,
+    "syn_mean_ref": 0.758011893608549,
+    "syn_floor": 0.5763358778625954,
+    "syn_floor_ref": 0.5531914893617021,
+    "val_new": 0.9534005037783375,
+    "val_ref": 0.964735516372796,
+    "fidelity_auroc": 0.9996557593783464,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.7228571428571429,
+   "pfc": 0.7590285714285714
+  },
+  {
+   "seed": 3,
+   "growth": 0.7419428571428571,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     5,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     1,
+     9
+    ]
+   ],
+   "growth_coverage": 0.9314857142857143,
+   "n_organs": 5,
+   "vetoes_total": 21,
+   "adol_accepted": false,
+   "adolescence": 0.7419428571428571,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -7.199632681172121,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.7568571428571429,
+   "gate": {
+    "syn_mean": 0.8074300568424944,
+    "syn_mean_ref": 0.792868880037645,
+    "syn_floor": 0.0603448275862069,
+    "syn_floor_ref": 0.0603448275862069,
+    "val_new": 0.9548919949174078,
+    "val_ref": 0.9612452350698857,
+    "fidelity_auroc": 0.9997542549022624,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.7298285714285714,
+   "pfc": 0.7419428571428571
+  },
+  {
+   "seed": 4,
+   "growth": 0.7712,
+   "order_policy": "hard",
+   "tasks": [
+    [
+     5,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     0,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     1,
+     9
+    ]
+   ],
+   "growth_coverage": 0.9513142857142857,
+   "n_organs": 5,
+   "vetoes_total": 20,
+   "adol_accepted": false,
+   "adolescence": 0.7712,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -3.9765247395161603,
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.7756,
+   "gate": {
+    "syn_mean": 0.8129695355575212,
+    "syn_mean_ref": 0.7986158182101566,
+    "syn_floor": 0.06882591093117409,
+    "syn_floor_ref": 0.0728744939271255,
+    "val_new": 0.9598765432098766,
+    "val_ref": 0.9666666666666667,
+    "fidelity_auroc": 0.9994242088990892,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.7634285714285715,
+   "pfc": 0.7712
+  }
+ ]
+}

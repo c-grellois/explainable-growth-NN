@@ -1,0 +1,85 @@
+{
+ "cifar_vitb_full": [
+  {
+   "seed": 2,
+   "growth": 0.6943,
+   "adol_accepted": true,
+   "adolescence": 0.822,
+   "arbiter_kind": "gated",
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 1.1748539016153647,
+   "repaired_failed": [],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.8315,
+   "gate": {
+    "syn_mean": 0.9551167382462331,
+    "syn_mean_ref": 0.9314421006773,
+    "syn_floor": 0.8269230769230769,
+    "syn_floor_ref": 0.660377358490566,
+    "val_new": 0.8266932270916335,
+    "val_ref": 0.8426294820717132,
+    "fidelity_auroc": 0.5053591329855411,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.8231,
+   "pfc": 0.822
+  },
+  {
+   "seed": 3,
+   "growth": 0.7154,
+   "adol_accepted": true,
+   "adolescence": 0.8263,
+   "arbiter_kind": "gated",
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 1.1149412193707495,
+   "repaired_failed": [],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.8363,
+   "gate": {
+    "syn_mean": 0.949183338521244,
+    "syn_mean_ref": 0.9289858803083116,
+    "syn_floor": 0.6136363636363636,
+    "syn_floor_ref": 0.6363636363636364,
+    "val_new": 0.7620967741935484,
+    "val_ref": 0.7862903225806451,
+    "fidelity_auroc": 0.5088518120068524,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.8296,
+   "pfc": 0.8263
+  },
+  {
+   "seed": 4,
+   "growth": 0.7029,
+   "adol_accepted": true,
+   "adolescence": 0.8261,
+   "arbiter_kind": "gated",
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": true,
+   "escrow_z": 1.9445436482630056,
+   "repaired_failed": [],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.8397,
+   "gate": {
+    "syn_mean": 0.9490136320230717,
+    "syn_mean_ref": 0.9280343001493645,
+    "syn_floor": 0.675,
+    "syn_floor_ref": 0.675,
+    "val_new": 0.8169014084507042,
+    "val_ref": 0.8370221327967807,
+    "fidelity_auroc": 0.49650796606678854,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.8309,
+   "pfc": 0.8261
+  }
+ ]
+}

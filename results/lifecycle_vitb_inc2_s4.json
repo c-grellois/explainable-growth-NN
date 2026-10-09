@@ -1,0 +1,270 @@
+{
+ "cifar_vitb": [
+  {
+   "seed": 4,
+   "growth": 0.5819,
+   "order_policy": "random",
+   "tasks": [
+    [
+     9,
+     47
+    ],
+    [
+     68,
+     81
+    ],
+    [
+     10,
+     72
+    ],
+    [
+     88,
+     94
+    ],
+    [
+     63,
+     66
+    ],
+    [
+     65,
+     78
+    ],
+    [
+     24,
+     83
+    ],
+    [
+     77,
+     79
+    ],
+    [
+     8,
+     97
+    ],
+    [
+     43,
+     50
+    ],
+    [
+     19,
+     69
+    ],
+    [
+     34,
+     61
+    ],
+    [
+     0,
+     45
+    ],
+    [
+     6,
+     75
+    ],
+    [
+     42,
+     93
+    ],
+    [
+     22,
+     96
+    ],
+    [
+     53,
+     89
+    ],
+    [
+     7,
+     55
+    ],
+    [
+     2,
+     76
+    ],
+    [
+     62,
+     86
+    ],
+    [
+     11,
+     30
+    ],
+    [
+     13,
+     67
+    ],
+    [
+     20,
+     31
+    ],
+    [
+     38,
+     71
+    ],
+    [
+     28,
+     35
+    ],
+    [
+     74,
+     99
+    ],
+    [
+     64,
+     98
+    ],
+    [
+     59,
+     73
+    ],
+    [
+     27,
+     36
+    ],
+    [
+     60,
+     90
+    ],
+    [
+     1,
+     84
+    ],
+    [
+     40,
+     85
+    ],
+    [
+     5,
+     80
+    ],
+    [
+     21,
+     41
+    ],
+    [
+     46,
+     54
+    ],
+    [
+     23,
+     49
+    ],
+    [
+     16,
+     92
+    ],
+    [
+     57,
+     87
+    ],
+    [
+     32,
+     37
+    ],
+    [
+     14,
+     91
+    ],
+    [
+     17,
+     52
+    ],
+    [
+     15,
+     39
+    ],
+    [
+     18,
+     33
+    ],
+    [
+     3,
+     29
+    ],
+    [
+     48,
+     82
+    ],
+    [
+     26,
+     70
+    ],
+    [
+     4,
+     95
+    ],
+    [
+     56,
+     58
+    ],
+    [
+     12,
+     51
+    ],
+    [
+     25,
+     44
+    ]
+   ],
+   "inc": 2,
+   "n_tasks": 50,
+   "growth_coverage": 0.9461,
+   "n_organs": 50,
+   "vetoes_total": 355,
+   "adol_accepted": true,
+   "adol_refused_by": null,
+   "adol_escrow": {
+    "n_classes": 100,
+    "n_samples": 2500,
+    "mcnemar_z": 16.072701771744438,
+    "overall_new": 0.7532,
+    "overall_ref": 0.6216,
+    "flagged_classes": [],
+    "hard_floor_classes": [],
+    "near_floor_classes": [],
+    "hard_floor_min_lost": 5,
+    "worst_class": 2,
+    "worst_class_z": -1.7320508075688774,
+    "passed": true
+   },
+   "adolescence": 0.7446,
+   "arbiter_kind": "gated",
+   "arbiter_classes_unobserved_in_holdout": 0,
+   "pfc_accepted_old": false,
+   "territory_passed": true,
+   "uncertified_fraction": 0.0,
+   "escrow_passed": false,
+   "escrow_z": -1.9295276424754644,
+   "escrow_detail": {
+    "flagged_classes": [],
+    "hard_floor_classes": [
+     71
+    ],
+    "near_floor_classes": [],
+    "worst_class": 71,
+    "worst_class_z": -2.82842712474619,
+    "z_crit_per_class": 4.679854258770293,
+    "overall_new": 0.7444,
+    "overall_ref": 0.7532,
+    "n_samples": 2500
+   },
+   "repaired_failed": [
+    "escrow"
+   ],
+   "pfc_accepted": false,
+   "pfc_free_test": 0.8185,
+   "gate": {
+    "syn_mean": 0.9442358456519878,
+    "syn_mean_ref": 0.9408682981052953,
+    "syn_floor": 0.717391304347826,
+    "syn_floor_ref": 0.717391304347826,
+    "val_new": 0.6078431372549019,
+    "val_ref": 0.6666666666666666,
+    "fidelity_auroc": 0.49410714285714286,
+    "at_risk": false
+   },
+   "pfc_candidate_test": 0.7468,
+   "pfc": 0.7446
+  }
+ ]
+}

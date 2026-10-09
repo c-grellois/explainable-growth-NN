@@ -1,0 +1,128 @@
+[
+ {
+  "seed": 2,
+  "before": {
+   "strict": 0.6816583828342829,
+   "forced": 0.6823857437265123,
+   "coverage": 0.8135531579585404,
+   "precision": 0.8378781105647445,
+   "mean_radius": 0.012401558545756483
+  },
+  "adolescence": {
+   "accepted": false,
+   "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "mode": "protos",
+   "params_C": 976,
+   "classes_dropped_no_pool": [],
+   "classes_anchored_from_holdout": [],
+   "syn_holdout_cov": 0.9796875,
+   "syn_holdout_prec": 0.9100478468899521,
+   "syn_holdout_coverage": 0.9796875,
+   "class_floor": 0.672544080604534,
+   "class_mean": 0.8921311077739821,
+   "classes_observed_in_holdout": 8,
+   "classes_total": 8,
+   "ref_class_floor": 0.0,
+   "ref_class_mean": 0.6506179495454568,
+   "real_val_last_task": {
+    "before": 0.9864364981504316,
+    "after": 0.8335388409371147
+   },
+   "why": "regressed on last task's real val",
+   "refused_by": "last_task_val"
+  }
+ },
+ {
+  "seed": 3,
+  "before": {
+   "strict": 0.8848345253970178,
+   "forced": 0.8868953812583343,
+   "coverage": 0.9866650503091284,
+   "precision": 0.8967932178400295,
+   "mean_radius": 0.1099485092657852
+  },
+  "adolescence": {
+   "accepted": false,
+   "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "mode": "protos",
+   "params_C": 976,
+   "classes_dropped_no_pool": [],
+   "classes_anchored_from_holdout": [],
+   "syn_holdout_cov": 0.9796875,
+   "syn_holdout_prec": 0.9157894736842105,
+   "syn_holdout_coverage": 0.9796875,
+   "class_floor": 0.6424870466321243,
+   "class_mean": 0.8956671318325183,
+   "classes_observed_in_holdout": 8,
+   "classes_total": 8,
+   "ref_class_floor": 0.0,
+   "ref_class_mean": 0.6492648126005325,
+   "real_val_last_task": {
+    "before": 0.9833984375,
+    "after": 0.63671875
+   },
+   "why": "regressed on last task's real val",
+   "refused_by": "last_task_val"
+  }
+ },
+ {
+  "seed": 4,
+  "before": {
+   "strict": 0.7774881803855013,
+   "forced": 0.7774881803855013,
+   "coverage": 0.9030791611104376,
+   "precision": 0.8609302637760924,
+   "mean_radius": 0.07867321409736819
+  },
+  "adolescence": {
+   "accepted": false,
+   "classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "mode": "protos",
+   "params_C": 976,
+   "classes_dropped_no_pool": [],
+   "classes_anchored_from_holdout": [],
+   "syn_holdout_cov": 0.9784375,
+   "syn_holdout_prec": 0.9035451932290003,
+   "syn_holdout_coverage": 0.9784375,
+   "class_floor": 0.5862068965517241,
+   "class_mean": 0.8827287841824158,
+   "classes_observed_in_holdout": 8,
+   "classes_total": 8,
+   "ref_class_floor": 0.0,
+   "ref_class_mean": 0.6080831424885025,
+   "real_val_last_task": {
+    "before": 0.983926521239954,
+    "after": 0.6326061997703789
+   },
+   "why": "regressed on last task's real val",
+   "refused_by": "last_task_val"
+  }
+ }
+]
