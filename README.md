@@ -179,8 +179,4 @@ Code), including the runs on the GPU machine, which a separate assistant session
 executed from the instruction documents kept in [docs/](docs/README.md). Leo
 Dobson contributed the performance work on growth and inference.
 
-**License.** None has been chosen yet, so default copyright applies: all rights
-are reserved by the author for now. Please get in touch before reusing the
-code.
-
-Charles Grellois, University of Sheffield.
+**License.** GNU GPL v3.0
